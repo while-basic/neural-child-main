@@ -3,6 +3,7 @@
 import requests
 import json
 import time
+import re
 from typing import Optional, Dict, Any
 from schemas import MotherResponse
 
@@ -57,14 +58,35 @@ def format_prompt_for_json(schema: Dict) -> str:
     """
 
 def chat_completion(system_prompt, user_prompt, structured_output=False, model="llama2"):
-    """
-    Get a chat completion from the Ollama API
-    """
+    """Get a chat completion from the Ollama API with improved emotional context handling"""
     try:
         # Format the prompt to encourage proper JSON formatting
         if structured_output:
-            system_prompt = system_prompt + "\nYou must respond with a complete, valid JSON object."
-            user_prompt = user_prompt + "\nRespond ONLY with a valid JSON object, nothing else."
+            json_format_prompt = """
+            IMPORTANT: Respond with a valid JSON object containing these fields:
+            {
+                "content": "your response message",
+                "emotion": "primary emotional state",
+                "intention": "your purpose or goal",
+                "developmental_focus": "area of development",
+                "joy": (0.0-1.0),
+                "trust": (0.0-1.0),
+                "fear": (0.0-1.0),
+                "surprise": (0.0-1.0),
+                "reward_score": (0.0-1.0),
+                "success_metric": (0.0-1.0),
+                "complexity_rating": (0.0-1.0),
+                "self_critique_score": (0.0-1.0)
+            }
+            
+            Guidelines:
+            1. All numerical values must be between 0.0 and 1.0
+            2. Emotion should match the emotional values
+            3. Content should be natural and emotionally appropriate
+            4. Include all fields with appropriate values
+            """
+            system_prompt = f"{system_prompt}\n\n{json_format_prompt}"
+            user_prompt = f"{user_prompt}\nRespond with a complete JSON object following the specified format."
         
         # Prepare the request
         url = "http://localhost:11434/api/chat"
@@ -97,31 +119,33 @@ def chat_completion(system_prompt, user_prompt, structured_output=False, model="
             
             if structured_output:
                 try:
-                    # Find the JSON part of the response
-                    start_idx = content.find('{')
-                    end_idx = content.rfind('}') + 1
+                    # Find and clean the JSON part of the response
+                    json_start = content.find('{')
+                    json_end = content.rfind('}') + 1
                     
-                    if start_idx != -1 and end_idx != -1:
-                        json_str = content[start_idx:end_idx]
+                    if json_start != -1 and json_end != -1:
+                        json_str = content[json_start:json_end]
                         
                         # Clean the JSON string
-                        json_str = json_str.replace('\n', ' ')
-                        json_str = json_str.replace('\r', ' ')
-                        json_str = json_str.replace('\\', '\\\\')
-                        json_str = json_str.replace('\\"', '"')
-                        json_str = json_str.replace(',"', ', "')
-                        json_str = json_str.replace('"}', '" }')
-                        json_str = json_str.replace('"{', '{ "')
+                        json_str = re.sub(r'[\n\r\t]', ' ', json_str)
+                        json_str = re.sub(r'\s+', ' ', json_str)
+                        json_str = re.sub(r',\s*}', '}', json_str)
+                        json_str = re.sub(r',\s*]', ']', json_str)
                         
                         # Parse the JSON
-                        return json.loads(json_str)
+                        response_data = json.loads(json_str)
+                        
+                        # Ensure all numerical values are within bounds
+                        for key, value in response_data.items():
+                            if isinstance(value, (int, float)):
+                                response_data[key] = max(0.0, min(1.0, float(value)))
+                        
+                        return response_data
                     else:
                         print("No valid JSON found in response")
-                        print(f"Raw content: {content}")
                         return None
                 except json.JSONDecodeError as e:
-                    print(f"Invalid JSON structure: {str(e)}")
-                    print(f"Attempted to parse: {json_str}")
+                    print(f"JSON parsing error: {str(e)}")
                     return None
             else:
                 return content

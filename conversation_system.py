@@ -110,121 +110,98 @@ class ConversationSystem:
                 model="llama2"  # Explicitly using llama2 for mother
             )
             
-            # Handle string responses
-            if isinstance(response, str):
-                # Clean up the response string
-                response = response.strip()
-                # Remove any leading/trailing text before/after JSON
-                response = response[response.find("{"):response.rfind("}")+1]
-                response = response.replace('\n', ' ')
-                response = response.replace('\\"', '"')
-                response = response.replace("'", "\\'")
-                
-                try:
-                    response = json.loads(response)
-                except json.JSONDecodeError:
-                    # If still can't parse, create a basic response
-                    response = {
-                        'content': "I notice you need my attention, little one.",
-                        'emotion': 'nurturing',
-                        'intention': 'comfort',
-                        'developmental_focus': 'emotional_security'
-                    }
+            # If response is None or invalid, use fallback
+            if response is None or not isinstance(response, dict):
+                response = self._generate_fallback_mother_response()
             
-            if response and isinstance(response, dict):
-                # Get emotional state from LLM if not present
-                if 'emotion' not in response:
-                    emotion_response = chat_completion(
-                        system_prompt="You are a mother. What emotions are you feeling in this response?",
-                        user_prompt=response.get('content', ''),
-                        structured_output=True,
-                        model="llama3"
-                    )
-                    response['emotion'] = emotion_response.get('emotion', 'nurturing')
-                
-                # Ensure first-person perspective
-                content = response.get('content', '')
-                if not any(content.startswith(exp) for exp in self.mother_personality['speaking_style']['expressions']):
+            # Ensure response has required fields
+            if not all(key in response for key in ['content', 'emotion', 'intention', 'developmental_focus']):
+                response = self._generate_fallback_mother_response()
+            
+            # Get content and ensure it's a string
+            content = str(response.get('content', ''))
+            if not content:
+                response = self._generate_fallback_mother_response()
+                content = response['content']
+            
+            # Check for first-person perspective
+            needs_first_person = True
+            
+            # Check if content already starts with first-person expressions
+            for exp in self.mother_personality['speaking_style']['expressions']:
+                if content.startswith(exp):
+                    needs_first_person = False
+                    break
+            
+            if needs_first_person:
+                try:
                     # Get a new first-person version from LLM
+                    first_person_prompt = (
+                        "Convert this mother's response to first person, starting with 'I see', 'I notice', 'I feel', or similar:\n"
+                        f"Original: {content}"
+                    )
                     first_person_response = chat_completion(
-                        system_prompt="Convert this mother's response to first person, starting with 'I see', 'I notice', 'I feel', or similar:",
-                        user_prompt=content,
+                        system_prompt="You are a mother. Convert the response to first person perspective.",
+                        user_prompt=first_person_prompt,
                         structured_output=True,
                         model="llama2"
                     )
-                    content = first_person_response.get('content', content)
-                    if not any(content.startswith(exp) for exp in self.mother_personality['speaking_style']['expressions']):
+                    
+                    if isinstance(first_person_response, dict) and 'content' in first_person_response:
+                        new_content = str(first_person_response.get('content', ''))
+                        if new_content:
+                            # Check if the new content starts with first-person expressions
+                            for exp in self.mother_personality['speaking_style']['expressions']:
+                                if new_content.startswith(exp):
+                                    content = new_content
+                                    needs_first_person = False
+                                    break
+                    
+                    if needs_first_person:
                         content = f"I notice {content}"
-                
-                # Calculate emotional values based on LLM response
-                emotion = response.get('emotion', '').lower()
-                formatted_response = {
-                    'content': content,
-                    'emotion': emotion,
-                    'intention': response.get('intention', 'comfort'),
-                    'developmental_focus': response.get('developmental_focus', 'emotional_security'),
-                    'joy': 0.7 if 'joy' in emotion or 'happy' in emotion or 'excited' in emotion else 0.5,
-                    'trust': 0.8 if 'trust' in emotion or 'nurturing' in emotion or 'loving' in emotion else 0.6,
-                    'fear': 0.6 if 'fear' in emotion or 'worried' in emotion or 'concerned' in emotion else 0.2,
-                    'surprise': 0.6 if 'surprise' in emotion or 'curious' in emotion or 'amazed' in emotion else 0.3
-                }
-                
-                self.conversation_history.append({
-                    'speaker': 'mother',
-                    'response': formatted_response,
-                    'timestamp': datetime.now().isoformat(),
-                    'stage': stage.name
-                })
-                return formatted_response
+                except Exception as e:
+                    self.logger.log_error(e, "Error converting to first person")
+                    content = f"I notice {content}"
+            
+            # Calculate emotional values based on LLM response
+            emotion = str(response.get('emotion', '')).lower()
+            formatted_response = {
+                'content': content,
+                'emotion': emotion,
+                'intention': str(response.get('intention', 'comfort')),
+                'developmental_focus': str(response.get('developmental_focus', 'emotional_security')),
+                'joy': float(response.get('joy', 0.7 if 'joy' in emotion or 'happy' in emotion else 0.5)),
+                'trust': float(response.get('trust', 0.8 if 'trust' in emotion or 'nurturing' in emotion else 0.6)),
+                'fear': float(response.get('fear', 0.6 if 'fear' in emotion or 'worried' in emotion else 0.2)),
+                'surprise': float(response.get('surprise', 0.6 if 'surprise' in emotion or 'curious' in emotion else 0.3))
+            }
+            
+            # Record the interaction
+            self.conversation_history.append({
+                'speaker': 'mother',
+                'response': formatted_response,
+                'timestamp': datetime.now().isoformat(),
+                'stage': stage.name
+            })
+            
+            return formatted_response
                 
         except Exception as e:
             self.logger.log_error(e, "Error generating mother response")
-            # Get emergency response from LLM
-            try:
-                emergency_response = chat_completion(
-                    system_prompt="You are a mother. Generate a caring first-person response for when your child needs comfort:",
-                    user_prompt="Emergency response needed",
-                    structured_output=True,
-                    model="llama3"
-                )
-                if isinstance(emergency_response, dict):
-                    return emergency_response
-            except:
-                # Absolute last resort fallback
-                return {
-                    'content': "I'm right here with you, my little one.",
-                    'emotion': 'nurturing',
-                    'intention': 'comfort',
-                    'developmental_focus': 'emotional_security',
-                    'joy': 0.0,
-                    'trust': 0.0,
-                    'fear': 0.0,
-                    'surprise': 0.0
-                }
+            return self._generate_fallback_mother_response()
 
     def _generate_fallback_mother_response(self):
-        """Generate a fallback response using LLM"""
-        try:
-            response = chat_completion(
-                system_prompt="You are a mother. Generate a caring first-person response for when your child needs comfort:",
-                user_prompt="Provide a gentle, nurturing response",
-                structured_output=True,
-                model="llama3"
-            )
-            if isinstance(response, dict):
-                return response
-        except:
-            # Absolute last resort fallback
-            return {
-                'content': "I'm right here with you, my little one.",
-                'emotion': 'nurturing',
-                'intention': 'comfort',
-                'developmental_focus': 'emotional_security',
-                'joy': 0.5,
-                'trust': 0.7,
-                'fear': 0.2,
-                'surprise': 0.2
-            }
+        """Generate a safe fallback response"""
+        return {
+            'content': "I'm right here with you, my little one. I see you need me.",
+            'emotion': 'nurturing',
+            'intention': 'comfort',
+            'developmental_focus': 'emotional_security',
+            'joy': 0.5,
+            'trust': 0.7,
+            'fear': 0.2,
+            'surprise': 0.2
+        }
             
     def generate_baby_response(self, stage, mother_input, emotional_state, context):
         """Generate baby's response using the baby LLM with proper error handling"""

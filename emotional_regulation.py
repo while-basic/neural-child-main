@@ -74,11 +74,12 @@ class EmotionalState:
             self.primary_emotions[emotion].data = tensor[i]
 
 class EmotionalRegulation(nn.Module):
-    def __init__(self, emotion_dim=4, context_window=5, memory_dim=32):
+    def __init__(self, emotion_dim=4, context_window=5, memory_dim=32, device='cpu'):
         super().__init__()
         self.emotion_dim = emotion_dim
         self.context_window = context_window
         self.memory_dim = memory_dim
+        self.device = device
         
         # Define the missing parameters
         self.trauma_threshold = 1.0
@@ -90,26 +91,40 @@ class EmotionalRegulation(nn.Module):
             num_layers=2,
             batch_first=True,
             dropout=0.1
-        )
+        ).to(device)
         
         self.stability_net = nn.Sequential(
             nn.Linear(emotion_dim * 2 + memory_dim, 256),
             nn.LayerNorm(256),
             nn.GELU(),
             nn.Linear(256, emotion_dim)
-        )
+        ).to(device)
         
         self.memory_gate = nn.Sequential(
             nn.Linear(memory_dim + emotion_dim, 64),
             nn.GELU(),
             nn.Linear(64, emotion_dim),
             nn.Sigmoid()
-        )
+        ).to(device)
         
         self.emotional_history = deque(maxlen=context_window)
-        self.baseline = torch.zeros(emotion_dim, device='cuda')
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.to(self.device)
+        self.baseline = torch.zeros(emotion_dim, device=device)
+        
+    def to(self, device):
+        """Override to method to ensure all components are moved to the same device"""
+        super().to(device)
+        self.device = device
+        self.context_processor.to(device)
+        self.stability_net.to(device)
+        self.memory_gate.to(device)
+        self.baseline = self.baseline.to(device)
+        # Move emotional history to device
+        if self.emotional_history:
+            self.emotional_history = deque(
+                [e.to(device) for e in self.emotional_history],
+                maxlen=self.context_window
+            )
+        return self
         
     def update_baseline(self):
         if self.emotional_history:
@@ -131,24 +146,44 @@ class EmotionalRegulation(nn.Module):
         return torch.sigmoid(deviation * self.resilience)
         
     def regulate(self, emotional_state, stimulus, memory_context=None):
+        emotional_state = emotional_state.to(self.device)
+        if memory_context is not None:
+            memory_context = memory_context.to(self.device)
+            
+        # Ensure minimum emotional values
+        emotional_state = torch.clamp(emotional_state, min=0.1, max=1.0)
+            
         if len(self.emotional_history) >= 2:
             context_tensor = torch.stack(list(self.emotional_history))
             context_output, _ = self.context_processor(context_tensor.unsqueeze(0))
             context_embedding = context_output[0, -1]
         else:
             context_embedding = torch.zeros(self.emotion_dim * 2, device=self.device)
+            
         if memory_context is not None:
             memory_influence = self.memory_gate(torch.cat([memory_context, emotional_state], dim=-1))
             context_embedding = context_embedding * memory_influence
         else:
             memory_influence = None
+            
         combined_input = torch.cat([
             context_embedding,
             memory_context if memory_context is not None else torch.zeros(self.memory_dim, device=self.device)
         ], dim=-1)
+        
         regulated_response = self.stability_net(combined_input)
-        new_state = torch.clamp(regulated_response, 0, 1)
+        
+        # Apply minimum thresholds and smooth regulation
+        base_emotions = torch.tensor([0.2, 0.2, 0.1, 0.1], device=self.device)  # Base levels for joy, trust, fear, surprise
+        regulated_response = torch.max(regulated_response, base_emotions)
+        
+        # Smooth the transition
+        alpha = 0.3  # Smoothing factor
+        new_state = alpha * regulated_response + (1 - alpha) * emotional_state
+        new_state = torch.clamp(new_state, 0.1, 1.0)  # Ensure minimum values
+        
         self.emotional_history.append(emotional_state.detach())
+        
         return {
             'emotional_state': new_state,
             'context_influence': context_embedding,

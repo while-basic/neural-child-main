@@ -23,10 +23,10 @@ class MemoryCluster:
         return time.time() - self.last_accessed
 
 class DifferentiableMemory:
-    def __init__(self, device='cuda'):
+    def __init__(self, device='cpu'):
         self.device = device
         self.experiences = []
-        self.encoder = torch.nn.Linear(768, 256).to(device)  # Embedding size to hidden size
+        self.encoder = torch.nn.Linear(768, 256).to(device)
         self.consolidation_network = torch.nn.Sequential(
             torch.nn.Linear(256, 128),
             torch.nn.ReLU(),
@@ -47,23 +47,52 @@ class DifferentiableMemory:
         if internal_state.dim() == 1:
             internal_state = internal_state.unsqueeze(0)
             
+        # Ensure emotional state is on correct device
+        emotional_state = emotional_state.to(self.device)
+        
         # Store experience
         self.experiences.append({
-            'input': input_tensor.detach(),  # Detach to prevent memory leaks
+            'input': input_tensor.detach(),
             'internal_state': internal_state.detach(),
             'reward': float(reward),
             'timestamp': timestamp,
             'emotional_state': emotional_state.detach()
         })
         
+        # Limit memory size
+        if len(self.experiences) > 1000:
+            self.experiences = self.experiences[-1000:]
+        
     def sample_batch(self, batch_size):
-        """Sample a batch of experiences"""
+        """Sample a batch of experiences with proper device handling"""
         if len(self.experiences) < batch_size:
             return None
             
         # Randomly sample experiences
         batch = random.sample(self.experiences, batch_size)
-        return batch
+        
+        # Prepare tensors for batch processing
+        inputs = []
+        states = []
+        rewards = []
+        emotional_states = []
+        
+        for exp in batch:
+            # Move tensors to correct device
+            inputs.append(exp['input'].to(self.device))
+            states.append(exp['internal_state'].to(self.device))
+            rewards.append(torch.tensor([exp['reward']], device=self.device))
+            emotional_states.append(exp['emotional_state'].to(self.device))
+        
+        # Stack tensors
+        batch_data = {
+            'inputs': torch.cat(inputs, dim=0),
+            'states': torch.cat(states, dim=0),
+            'rewards': torch.stack(rewards),
+            'emotional_states': torch.stack(emotional_states)
+        }
+        
+        return batch_data
         
     def replay_consolidation(self, batch_size=16):
         """Consolidate memories with proper tensor handling"""
@@ -76,49 +105,38 @@ class DifferentiableMemory:
             if batch is None:
                 return 0.0
                 
-            # Process batch
-            inputs = []
-            states = []
-            
-            for exp in batch:
-                input_tensor = exp['input']
-                state_tensor = exp['internal_state']
-                
-                # Ensure proper dimensions
-                if input_tensor.dim() == 1:
-                    input_tensor = input_tensor.unsqueeze(0)
-                if state_tensor.dim() == 1:
-                    state_tensor = state_tensor.unsqueeze(0)
-                    
-                # Encode input
-                encoded = self.encoder(input_tensor)
-                
-                inputs.append(encoded)
-                states.append(state_tensor)
-                
-            # Stack tensors
-            input_tensor = torch.cat(inputs, dim=0)
-            state_tensor = torch.cat(states, dim=0)
+            # Process inputs through encoder
+            encoded = self.encoder(batch['inputs'])
             
             # Consolidate memories
-            consolidated = self.consolidation_network(input_tensor)
+            consolidated = self.consolidation_network(encoded)
             
-            # Calculate loss
-            criterion = torch.nn.MSELoss()
-            loss = criterion(consolidated, state_tensor)
+            # Calculate loss with emotional weighting
+            criterion = torch.nn.MSELoss(reduction='none')
+            base_loss = criterion(consolidated, batch['states'])
+            
+            # Weight loss by emotional significance
+            emotional_intensity = torch.mean(batch['emotional_states'], dim=1)
+            weighted_loss = base_loss * emotional_intensity.unsqueeze(1)
+            
+            # Calculate final loss
+            loss = torch.mean(weighted_loss)
             
             # Update networks
             loss.backward()
             
-            # Clean up old memories if needed
-            if len(self.experiences) > 1000:  # Limit memory size
-                self.experiences = self.experiences[-1000:]
-                
             return loss.item()
             
         except Exception as e:
             print(f"Error in replay_consolidation: {str(e)}")
             return 0.0
+
+    def to(self, device):
+        """Move memory module to specified device"""
+        self.device = device
+        self.encoder = self.encoder.to(device)
+        self.consolidation_network = self.consolidation_network.to(device)
+        return self
 
     def compute_memory_importance(self, memory_embedding: torch.Tensor, 
                                 emotional_state: torch.Tensor) -> float:

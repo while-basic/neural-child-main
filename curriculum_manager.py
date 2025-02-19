@@ -1,7 +1,7 @@
 # curriculum_manager.py
 from enum import Enum
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Optional, Set, Tuple, Any
 import torch
 import numpy as np
 from datetime import datetime, timedelta
@@ -71,6 +71,12 @@ class DevelopmentalSystem:
         self.stage_history = []
         self.regression_count = 0
         self.last_transition = datetime.now()
+        self.stage_metrics_history = []
+        self.transition_thresholds = {
+            'performance': 0.75,
+            'stability': 0.7,
+            'duration': timedelta(days=7)  # Minimum time in stage
+        }
         
     def _initialize_stages(self) -> Dict[DevelopmentalStage, tuple[StageMetrics, StageBehaviors]]:
         """Initialize comprehensive stage definitions with metrics and behaviors"""
@@ -594,7 +600,8 @@ class DevelopmentalSystem:
         
         return stages
     
-    def evaluate_current_stage(self, metrics: Dict[str, float]) -> float:
+    def evaluate_current_stage(self, metrics: Dict[str, float]) -> Dict[str, float]:
+        """Evaluate current stage with comprehensive metrics"""
         current_metrics = self.stage_definitions[self.current_stage][0]
         target_tensor = current_metrics.to_tensor()
         current_tensor = torch.tensor([
@@ -609,37 +616,110 @@ class DevelopmentalSystem:
             metrics.get('motor_skills', 0.0),
             metrics.get('self_awareness', 0.0)
         ])
-        similarity = torch.nn.functional.cosine_similarity(
+        
+        # Calculate various similarity metrics
+        cosine_similarity = torch.nn.functional.cosine_similarity(
             current_tensor.unsqueeze(0),
             target_tensor.unsqueeze(0)
-        )
-        return similarity.item()
+        ).item()
+        
+        # Calculate performance in each area
+        performance_metrics = {
+            'cognitive': np.mean([
+                metrics.get('curiosity', 0.0),
+                metrics.get('abstraction', 0.0),
+                metrics.get('memory', 0.0),
+                metrics.get('problem_solving', 0.0)
+            ]),
+            'emotional': np.mean([
+                metrics.get('emotional_stability', 0.0),
+                metrics.get('self_awareness', 0.0)
+            ]),
+            'social': np.mean([
+                metrics.get('social_awareness', 0.0),
+                metrics.get('language', 0.0)
+            ]),
+            'physical': metrics.get('motor_skills', 0.0),
+            'overall': cosine_similarity
+        }
+        
+        # Store metrics history
+        self.stage_metrics_history.append({
+            'timestamp': datetime.now(),
+            'stage': self.current_stage,
+            'metrics': performance_metrics
+        })
+        
+        return performance_metrics
     
-    def check_regression(self, performance: float) -> bool:
-        if len(self.stage_history) >= 5:
-            recent_performance = np.mean(self.stage_history[-5:])
-            if performance < recent_performance * 0.7:
+    def check_regression(self, performance_metrics: Dict[str, float]) -> Tuple[bool, str]:
+        """Check for regression with detailed analysis"""
+        if len(self.stage_metrics_history) >= 5:
+            recent_metrics = [entry['metrics']['overall'] for entry in self.stage_metrics_history[-5:]]
+            recent_performance = np.mean(recent_metrics)
+            current_performance = performance_metrics['overall']
+            
+            regression_areas = []
+            for area in ['cognitive', 'emotional', 'social', 'physical']:
+                if performance_metrics[area] < recent_performance * 0.7:
+                    regression_areas.append(area)
+            
+            if regression_areas:
                 self.regression_count += 1
-                return True
-        return False
+                return True, f"Regression detected in: {', '.join(regression_areas)}"
+        
+        return False, ""
     
-    def update_stage(self, metrics: Dict[str, float]) -> Optional[str]:
-        performance = self.evaluate_current_stage(metrics)
-        self.stage_history.append(performance)
-        if self.check_regression(performance):
+    def update_stage(self, metrics: Dict[str, float]) -> Optional[Dict[str, Any]]:
+        """Update developmental stage with comprehensive evaluation"""
+        performance_metrics = self.evaluate_current_stage(metrics)
+        is_regressing, regression_details = self.check_regression(performance_metrics)
+        
+        # Check for regression
+        if is_regressing:
             if self.regression_count >= 3:
                 previous_stage = DevelopmentalStage(max(0, self.current_stage.value - 1))
                 self.current_stage = previous_stage
                 self.regression_count = 0
-                return f"Regression detected: Moved back to {previous_stage.name}"
-            return "Warning: Potential regression detected"
-        if performance > 0.85 and (datetime.now() - self.last_transition).days >= 30:
+                return {
+                    'action': 'regression',
+                    'from_stage': self.current_stage.name,
+                    'to_stage': previous_stage.name,
+                    'reason': regression_details,
+                    'metrics': performance_metrics
+                }
+            return {
+                'action': 'warning',
+                'message': regression_details,
+                'metrics': performance_metrics
+            }
+        
+        # Check for progression
+        time_in_stage = datetime.now() - self.last_transition
+        if (performance_metrics['overall'] > self.transition_thresholds['performance'] and
+            performance_metrics['emotional'] > self.transition_thresholds['stability'] and
+            time_in_stage > self.transition_thresholds['duration']):
+            
             if self.current_stage.value < len(DevelopmentalStage) - 1:
-                self.current_stage = DevelopmentalStage(self.current_stage.value + 1)
+                next_stage = DevelopmentalStage(self.current_stage.value + 1)
+                self.current_stage = next_stage
                 self.last_transition = datetime.now()
                 self.regression_count = 0
-                return f"Advanced to {self.current_stage.name}"
-        return None
+                
+                return {
+                    'action': 'progression',
+                    'from_stage': self.current_stage.name,
+                    'to_stage': next_stage.name,
+                    'metrics': performance_metrics,
+                    'time_in_previous_stage': str(time_in_stage)
+                }
+        
+        return {
+            'action': 'maintain',
+            'stage': self.current_stage.name,
+            'metrics': performance_metrics,
+            'time_in_stage': str(time_in_stage)
+        }
     
     def get_stage_requirements(self) -> Dict[str, any]:
         metrics, behaviors = self.stage_definitions[self.current_stage]

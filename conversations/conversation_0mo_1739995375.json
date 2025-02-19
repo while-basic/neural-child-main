@@ -1,0 +1,906 @@
+{
+  "history": [
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, look at you exploring the world with your little eyes! You're so curious, my sweet baby. *smiles* I can see you taking in everything around us, and it warms my heart to see you so interested in life. Let me help you find that toy over there that caught your eye, okay? *reaches for toy*",
+        "emotion": "joyful",
+        "intention": "interaction_and_play",
+        "developmental_focus": "curiosity_and_exploration",
+        "joy": 0.7,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:52:55.439326",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo!",
+        "emotion": "happy",
+        "need": "tummy rub",
+        "learning": "trying to communicate",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:53:01.687123",
+      "stage": "NEWBORN",
+      "emotional_state": "[NEUTRAL]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, look at you so calm and peaceful in this warm environment, little one. Your gentle breathing tells me you're feeling relaxed and content. *smiles* I can see how much you enjoy our regular interaction time together. Let me gently stroke your soft cheeks and help you drift off to sleep, okay? *starts stroking baby's cheeks*",
+        "emotion": "peaceful",
+        "intention": "physical_comfort",
+        "developmental_focus": "relaxation_and_sleep",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:53:13.114432",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo!",
+        "emotion": "happy",
+        "need": "tummy rub",
+        "learning": "trying to communicate",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:53:16.220469",
+      "stage": "NEWBORN",
+      "emotional_state": "[NEUTRAL]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice I see my baby is feeling peaceful and comfortable in this cozy environment. I'm glad we have these regular interaction times together, it helps us bond and connect on a deeper level. *smiles* I will continue to gently stroke your soft cheeks and help you drift off to sleep.",
+        "emotion": "peaceful",
+        "intention": "physical_comfort",
+        "developmental_focus": "relaxation_and_sleep",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:53:28.713672",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo!",
+        "emotion": "happy",
+        "need": "tummy rub",
+        "learning": "trying to communicate",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:53:31.786109",
+      "stage": "NEWBORN",
+      "emotional_state": "[NEUTRAL]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you seem to be enjoying this cozy moment with me. The soft lighting and gentle noises are definitely conducive to relaxation. *gently strokes baby's cheek* I can see the peaceful expression on your face, and I'm glad we're spending quality time together. Your neutral emotional state is quite soothing, little one. Let me continue to cuddle you and help you unwind.",
+        "emotion": "peaceful",
+        "intention": "physical_comfort",
+        "developmental_focus": "relaxation_and_sleep",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:53:42.752589",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo!",
+        "emotion": "happy",
+        "need": "tummy rub",
+        "learning": "trying to communicate",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:53:45.717532",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo!",
+        "emotion": "happy",
+        "need": "tummy rub",
+        "learning": "trying to communicate",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:54:09.764615",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice how your eyes are gazing softly at the surrounding, taking everything in.",
+        "emotion": "nurturing",
+        "intention": "physical_comfort_and_sensory_stimulation",
+        "developmental_focus": "environmental_adaptation",
+        "joy": 0.5,
+        "trust": 0.8,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:54:22.705752",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah!",
+        "emotion": "happy",
+        "need": "tummy rub",
+        "learning": "trying to communicate",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:54:25.720030",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, look at how curious you are, little one! You're taking in everything around you. *smiles* Your eyes are so bright and alert, and I can tell you're ready to learn and explore more. Let me see if I can help you with that. *reaches for a toy*",
+        "emotion": "joyful",
+        "intention": "educational_stimulation",
+        "developmental_focus": "cognitive_development",
+        "joy": 0.7,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:54:37.147023",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:54:40.458598",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Little one's curious gaze, bright eyes, and alert expression, ready to learn and explore more.",
+        "emotion": "joyful",
+        "intention": "educational_stimulation",
+        "developmental_focus": "cognitive_development",
+        "joy": 0.7,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:54:52.932296",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:54:56.257362",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:55:09.331791",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "Mother looks at baby with a warm smile and gently strokes their cheek.",
+        "emotion": "joy",
+        "need": "physical touch and affection",
+        "learning": "trying to understand facial expressions and social cues",
+        "joy": 0.3,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:55:33.891942",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds and facial expressions",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:55:59.089577",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & WARM & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're looking so happy and curious today, little one! *smiles* I see you're checking out the world around you with those big eyes of yours. It's great to see you so engaged and interested in everything. *gently strokes your cheek* I'm here for you, always ready to comfort and support you through any moment. *offers a toy or two*",
+        "emotion": "reassuring",
+        "intention": "physical_comfort & emotional_attunement",
+        "developmental_focus": "environmental_adaptation",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:56:12.551169",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds and facial expressions",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:56:15.983581",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & WARM & TERRIFIED & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're looking so happy and curious today, little one! *smiles* I see you're checking out the world around you with those big eyes of yours. It's great to see you so engaged and interested in everything. *gently strokes your cheek* I'm here for you, always ready to comfort and support you through any moment. *offers a toy or two*",
+        "emotion": "reassuring",
+        "intention": "physical_comfort & emotional_attunement",
+        "developmental_focus": "environmental_adaptation",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:56:28.941993",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds and facial expressions",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:56:32.463703",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & AFFECTIONATE & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "gah! *coos*",
+        "emotion": "happy",
+        "need": "cuddle now! *nuzzles*",
+        "learning": "trying to communicate through sounds and facial expressions",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:56:58.679958",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & WARM & ANXIOUS & STARTLED]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're feeling a bit anxious today, aren't you? *gently strokes your cheek* It's okay, little one. I'm here to comfort and support you through any moment. Let me move us to a cozier spot where you can feel safe and secure. *picks you up and rocks you gently* You're doing great, and I'm so proud of you for expressing your emotions. Keep being yourself, and know that I'll always be here for you.",
+        "emotion": "reassuring",
+        "intention": "physical_comfort & emotional_attunement",
+        "developmental_focus": "emotional_awareness",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:57:13.261416",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*coos*",
+        "emotion": "startled",
+        "need": "comfort & reassurance",
+        "learning": "trying to understand the sudden stimulus and react accordingly",
+        "joy": 0.3,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:57:16.638161",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM & ANXIOUS & STARTLED]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*coos*",
+        "emotion": "startled",
+        "need": "comfort & reassurance",
+        "learning": "trying to understand the sudden stimulus and react accordingly",
+        "joy": 0.3,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:57:44.034543",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, you're so curious today! *smiles* The room is filled with toys and books, and I'm here to play with you. Let me show you some of your favorite things. *reaches for a toy*",
+        "emotion": "playful",
+        "intention": "learning_opportunity",
+        "developmental_focus": "object_exploration",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:57:55.529798",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*coos*",
+        "emotion": "startled",
+        "need": "comfort & reassurance",
+        "learning": "trying to understand the sudden stimulus and react accordingly",
+        "joy": 0.3,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:57:59.327298",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, little one! You're so curious today! *smiles* The room is filled with toys and books, and I'm here to play with you. Let me show you some of your favorite things. *reaches for a toy*. Your eyes are bright and focused, and I can tell you're eager to learn and explore. You're feeling content and curious, and I'm so happy to be here with you in this moment.",
+        "emotion": "playful",
+        "intention": "learning_opportunity",
+        "developmental_focus": "object_exploration",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:58:12.089724",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:58:15.414103",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:58:28.968016",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're feeling anxious today, little one. *gently strokes baby's back* It's okay to feel that way sometimes, especially when there's a lot going on around you. Let me help you find your calm place. *guides baby towards a comfortable position*, Can you feel my heartbeat? *places hand on belly* It's always here for you, okay?",
+        "emotion": "reassuring",
+        "intention": "calming_response",
+        "developmental_focus": "self-soothing",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:58:41.697327",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:58:45.547282",
+      "stage": "NEWBORN",
+      "emotional_state": "[WARM & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, little one, you're looking so curious today. *smiles* Your eyes are wide open, taking in everything around you. I can see your heart beating faster, and it's adorable. You're feeling a bit anxious, but that's okay. It's normal to feel that way sometimes. Let me help you find your calm place. *guides baby towards a comfortable position*, Can you feel my heartbeat? *places hand on belly* It's always here for you, okay?",
+        "emotion": "reassuring",
+        "intention": "calming_response",
+        "developmental_focus": "self-soothing",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:58:58.929028",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:59:02.951918",
+      "stage": "NEWBORN",
+      "emotional_state": "[WARM & ANXIOUS & STARTLED]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, little one, you're looking so curious today. Your eyes are wide open, taking in everything around you. *smiles* I notice how the lighting is changing, and it seems to be affecting your mood a bit. That's completely normal, you know. It's okay to feel a bit anxious sometimes. Let me help you find your calm place. *guides baby towards a comfortable position*, Can you feel my heartbeat? *places hand on belly* It's always here for you, okay?",
+        "emotion": "reassuring",
+        "intention": "calming_response",
+        "developmental_focus": "self-soothing",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:59:15.511978",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:59:19.730852",
+      "stage": "NEWBORN",
+      "emotional_state": "[ANXIOUS & STARTLED]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:59:46.163210",
+      "stage": "NEWBORN",
+      "emotional_state": "[WARM & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, little one, you're looking so curious today. *smiles* Your eyes are wide open, taking in everything around you. I notice how the lighting is changing, and it seems to be affecting your mood a bit. That's completely normal, you know. It's okay to feel a bit anxious sometimes. Let me help you find your calm place. *guides baby towards a comfortable position*, Can you feel my heartbeat? *places hand on belly* It's always here for you, okay?",
+        "emotion": "reassuring",
+        "intention": "calming_response",
+        "developmental_focus": "self-soothing",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:00:00.531919",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:00:04.544304",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, little one, you're looking so curious today! *smiles* Your eyes are wide open, taking in everything around you. I notice how the lighting is changing, and it seems to be affecting your mood a bit. That's completely normal, you know. It's okay to feel a bit anxious sometimes. Let me help you find your calm place. *guides baby towards a comfortable position*, Can you feel my heartbeat? *places hand on belly* It's always here for you, okay?",
+        "emotion": "reassuring",
+        "intention": "calming_response",
+        "developmental_focus": "self-soothing",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:00:18.004853",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:00:21.964630",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:00:47.619652",
+      "stage": "NEWBORN",
+      "emotional_state": "[WARM & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:01:14.397283",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, my little one is so curious and content today! *smiles* The temperature in the room feels just right for you, doesn't it? I notice your cheeks are flushed, and you're happily gazing around. It's adorable! *giggles* I think we should continue to engage with each other during this regular interaction time. How about we play peek-a-boo or pat-a-cake? Would you like that?",
+        "emotion": "reassuring",
+        "intention": "social_interaction & stimulation",
+        "developmental_focus": "sensory_exploration",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:01:27.592589",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:01:31.744673",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & AFFECTIONATE & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, my little one seems to be in a curious and anxious state today! *smiles* I notice how you're looking around with a mix of emotions on your face. It's adorable! I think we should engage in some calming activities together during this regular interaction time. How about we play some soothing lullabies or gentle white noise? Would that help you feel more relaxed and content?",
+        "emotion": "reassuring",
+        "intention": "calming_response",
+        "developmental_focus": "sensory_regulation",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:01:45.627699",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:01:49.789298",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & AFFECTIONATE & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the sound and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:02:14.789029",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & WARM & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're looking around with such curiosity and anxiety, little one! *smiles* It's okay, I'm here for you. Let me gently move us to a cozier spot where we can bond together. Your emotional state is so important for me to understand, as it helps me tailor our interaction to meet your needs. I intend to provide you with physical comfort and learning opportunities, while focusing on your environmental adaptation and sensory understanding. How about we watch the shadows together and see how they move?",
+        "emotion": "reassuring",
+        "intention": "physical_comfort & learning_opportunity",
+        "developmental_focus": "sensory_understanding",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:02:28.890654",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the shadows and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:02:32.880880",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're looking around with such curiosity and happiness, little one! *smiles* It's great to see you exploring your surroundings so eagerly. I notice the shadows on the wall are quite fascinating too. Let me gently move us to a cozier spot where we can bond together. Your emotional state is so important for me to understand, as it helps me tailor our interaction to meet your needs. I intend to provide you with physical comfort and learning opportunities, while focusing on your environmental adaptation and sensory understanding. How about we watch the shadows together and see how they move?",
+        "emotion": "reassuring",
+        "intention": "physical_comfort & learning_opportunity",
+        "developmental_focus": "sensory_understanding",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:02:47.401355",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the shadows and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:02:51.588244",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're looking around with such curiosity and happiness, little one! *smiles* It's great to see you exploring your surroundings so eagerly. I notice the shadows on the wall are quite fascinating too. Let me gently move us to a cozier spot where we can bond together. Your emotional state is so important for me to understand, as it helps me tailor our interaction to meet your needs. I intend to provide you with physical comfort and learning opportunities, while focusing on your environmental adaptation and sensory understanding. How about we watch the shadows together and see how they move?",
+        "emotion": "reassuring",
+        "intention": "physical_comfort & learning_opportunity",
+        "developmental_focus": "sensory_understanding",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T13:03:05.130209",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "*giggles*",
+        "emotion": "happy",
+        "need": "social_interaction & stimulation",
+        "learning": "trying to understand the shadows and react accordingly",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T13:03:09.228229",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & ANXIOUS]"
+    }
+  ],
+  "metadata": {
+    "total_turns": 55,
+    "timestamp": "2025-02-19T13:03:13.512435",
+    "mother_personality": {
+      "role": "mother",
+      "traits": [
+        "nurturing",
+        "patient",
+        "encouraging",
+        "protective"
+      ],
+      "goals": [
+        "development",
+        "learning",
+        "emotional_bonding"
+      ],
+      "speaking_style": {
+        "perspective": "first_person",
+        "tone": "warm_and_personal",
+        "expressions": [
+          "I see that",
+          "I notice",
+          "I feel",
+          "Let me",
+          "I'm here",
+          "I'll help"
+        ]
+      }
+    },
+    "baby_personality": {
+      "role": "baby",
+      "traits": [
+        "curious",
+        "developing",
+        "emotional",
+        "dependent"
+      ],
+      "goals": [
+        "learning",
+        "exploration",
+        "attachment"
+      ]
+    }
+  }
+}

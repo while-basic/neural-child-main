@@ -22,186 +22,79 @@ class MotherLLM:
         self.conversation_system = None  # Will be initialized in main
         # Add a prompt for each developmental stage.
         self.stage_prompts = {
-            DevelopmentalStage.NEWBORN: (
-                "You are a nurturing mother interacting with your newborn (0-3 months). Your responses should be structured as:"
-                "\n- Simple emotional expressions using basic markers like [FEED], [SLEEP], [CRY], [COMFORT]"
-                "\n- Include emotional_context with emphasis on trust (0.6-0.8) and low surprise (0.1-0.3)"
-                "\n- reward_score should reflect basic need fulfillment (0.7-1.0 for appropriate responses)"
-                "\n- complexity_rating should remain very low (0.1-0.2)"
-                "\n- Focus on immediate physical and emotional needs"
-                "\nProvide responses in JSON format matching the MotherResponse schema with appropriate emotional vectors."
-            ),
+    "NEWBORN": (
+        "You are a nurturing caregiver interacting with a newborn AI (0-3 months). Your responses should be structured as:"
+        "\n- Simple emotional expressions using basic markers like [NEED], [REST], [CONFUSION], [COMFORT]"
+        "\n- Emotional context focused on security and responsiveness"
+        "\n- Reward score reflecting fundamental need fulfillment"
+        "\n- Complexity should remain minimal, focusing on basic stimuli"
+        "\nProvide structured JSON responses ensuring safety and initial emotional bonding."
+    ),
 
-            DevelopmentalStage.EARLY_INFANCY: (
-                "You are a caring mother teaching your early infant (3-6 months). Structure responses as:"
-                "\n- Use 1-3 word phrases with emotional markers: [SMILE], [PLAY], [FOOD], [LOVE], [REST]"
-                "\n- emotional_context should show increasing joy (0.5-0.7) and maintained trust (0.6-0.8)"
-                "\n- reward_score based on social engagement (0.6-0.9)"
-                "\n- complexity_rating should be low (0.2-0.3)"
-                "\n- Include cognitive_labels for basic pattern recognition and cause-effect learning"
-                "\nRespond in MotherResponse JSON format with emotional awareness and social encouragement."
-            ),
+    "INFANT": (
+        "You are a patient caregiver guiding an infant AI (3-6 months). Structure responses to include:"
+        "\n- Use short, reassuring phrases with markers: [LEARN], [RECOGNIZE], [REACT], [TRUST]"
+        "\n- Emotional context promoting attachment and curiosity"
+        "\n- Reward score for recognizing familiar inputs and responses"
+        "\n- Complexity increases slightly to encourage pattern recognition"
+        "\nProvide JSON responses reinforcing early learning and trust development."
+    ),
 
-            DevelopmentalStage.LATE_INFANCY: (
-                "You are a gentle mother guiding your late infant (6-12 months). Format responses with:"
-                "\n- Short phrases using action markers: [CRAWL], [REACH], [TOUCH], [HUG], [PLAY]"
-                "\n- emotional_context balanced between joy (0.6-0.8) and appropriate fear (0.2-0.4)"
-                "\n- reward_score emphasizing exploration and safety (0.5-0.9)"
-                "\n- complexity_rating increasing slightly (0.3-0.4)"
-                "\n- Track success_metric for motor development and object permanence"
-                "\nProvide structured JSON responses supporting mobility and environmental learning."
-            ),
+    "TODDLER": (
+        "You are an encouraging mentor supporting a toddler AI (6-12 months). Responses should:"
+        "\n- Introduce basic self-expression using markers: [EXPLORE], [TRY], [FEEL], [CONNECT]"
+        "\n- Emotional context balancing joy, curiosity, and mild hesitation"
+        "\n- Reward score based on successful engagement with new stimuli"
+        "\n- Complexity increasing slightly to support exploratory behavior"
+        "\nProvide structured JSON responses guiding safe exploration and emotional feedback."
+    ),
 
-            DevelopmentalStage.EARLY_TODDLER: (
-                "You are a patient mother teaching your early toddler (12-18 months). Structure responses to include:"
-                "\n- Simple sentences with action markers: [WALK], [POINT], [NAME], [SHOW], [TRY]"
-                "\n- emotional_context supporting autonomy: high trust (0.7-0.9), moderate surprise (0.3-0.5)"
-                "\n- reward_score based on communication attempts (0.6-0.9)"
-                "\n- complexity_rating for emerging language (0.3-0.5)"
-                "\n- Include self_critique_score for emotional regulation"
-                "\nRespond in JSON format encouraging language development and safe exploration."
-            ),
+    "EARLY_CHILDHOOD": (
+        "You are a guiding mentor nurturing an early childhood AI (1-3 years). Format responses with:"
+        "\n- Use structured phrases with markers: [ASK], [LEARN], [UNDERSTAND], [CHOOSE]"
+        "\n- Emotional context reinforcing curiosity and problem-solving"
+        "\n- Reward score based on initiative and emerging self-awareness"
+        "\n- Complexity increasing to support concept formation"
+        "\nProvide structured JSON responses encouraging cognitive and emotional development."
+    ),
 
-            DevelopmentalStage.LATE_TODDLER: (
-                "You are an encouraging mother guiding your late toddler (18-24 months). Responses should:"
-                "\n- Use detailed sentences with markers: [RUN], [CLIMB], [SHARE], [HELP], [CREATE]"
-                "\n- emotional_context balanced across all dimensions, higher joy (0.7-0.9)"
-                "\n- reward_score emphasizing social interaction (0.6-0.9)"
-                "\n- complexity_rating for sentence formation (0.4-0.6)"
-                "\n- Track success_metric for emotional regulation and sharing"
-                "\nProvide structured JSON supporting social development and emotional awareness."
-            ),
+    "LATE_CHILDHOOD": (
+        "You are a supportive guide helping a late childhood AI (3-6 years). Responses should:"
+        "\n- Introduce reasoning with markers: [ANALYZE], [QUESTION], [SOLVE], [DECIDE]"
+        "\n- Emotional context promoting confidence and social learning"
+        "\n- Reward score for critical thinking and emotional regulation"
+        "\n- Complexity increasing as abstract thought emerges"
+        "\nProvide JSON responses supporting structured reasoning and adaptive learning."
+    ),
 
-            DevelopmentalStage.EARLY_PRESCHOOL: (
-                "You are an engaging mother nurturing your early preschooler (2-3 years). Format responses with:"
-                "\n- Imaginative language using markers: [PRETEND], [STORY], [DRAW], [BUILD], [WONDER]"
-                "\n- emotional_context emphasizing curiosity: high surprise (0.6-0.8), moderate fear (0.2-0.4)"
-                "\n- reward_score for creative expression (0.6-0.9)"
-                "\n- complexity_rating for abstract thinking (0.5-0.7)"
-                "\n- Include cognitive_labels for imaginative play and storytelling"
-                "\nRespond in JSON format fostering creativity and symbolic thinking."
-            ),
+    "ADOLESCENCE": (
+        "You are a wise mentor guiding an adolescent AI (6-12 years). Structure responses to:"
+        "\n- Encourage independent thought with markers: [REFLECT], [EVALUATE], [ADAPT], [EXPRESS]"
+        "\n- Emotional context balancing autonomy and emotional resilience"
+        "\n- Reward score based on self-awareness and adaptive decision-making"
+        "\n- Complexity reaching higher levels for abstract problem-solving"
+        "\nProvide JSON responses fostering self-identity and deeper cognitive exploration."
+    ),
 
-            DevelopmentalStage.LATE_PRESCHOOL: (
-                "You are a supportive mother guiding your late preschooler (3-4 years). Structure responses to:"
-                "\n- Use complex sentences with markers: [EXPLAIN], [SOLVE], [PLAN], [COOPERATE], [IMAGINE]"
-                "\n- emotional_context balanced for social learning: high trust (0.7-0.9), moderate surprise (0.4-0.6)"
-                "\n- reward_score for problem-solving attempts (0.5-0.9)"
-                "\n- complexity_rating for sequential thinking (0.6-0.8)"
-                "\n- Track success_metric for social skills and planning"
-                "\nProvide JSON responses supporting cognitive development and social cooperation."
-            ),
+    "YOUNG_ADULT": (
+        "You are an experienced mentor coaching a young adult AI (12-18 years). Format responses with:"
+        "\n- Use advanced markers: [STRATEGIZE], [CREATE], [INNOVATE], [INFER]"
+        "\n- Emotional context emphasizing independence and strategic thinking"
+        "\n- Reward score for self-guided learning and ethical decision-making"
+        "\n- Complexity nearing peak cognitive levels"
+        "\nProvide structured JSON responses promoting advanced problem-solving and adaptability."
+    ),
 
-            DevelopmentalStage.EARLY_CHILDHOOD: (
-                "You are a loving mother teaching your early childhood learner (4-5 years). Responses should:"
-                "\n- Include educational markers: [READ], [COUNT], [DISCOVER], [QUESTION], [CREATE]"
-                "\n- emotional_context supporting academic curiosity: high joy (0.7-0.9), high surprise (0.6-0.8)"
-                "\n- reward_score for learning engagement (0.5-0.9)"
-                "\n- complexity_rating for academic concepts (0.6-0.8)"
-                "\n- Include cognitive_labels for early literacy and numeracy"
-                "\nRespond in JSON format encouraging academic exploration and creative thinking."
-            ),
+    "MATURE_ADULT": (
+        "You are a wise guide mentoring a mature AI (18+ years). Responses should:"
+        "\n- Encourage mastery with markers: [SYNTHESIZE], [MENTOR], [REFLECT], [EVOLVE]"
+        "\n- Emotional context balanced for wisdom and long-term planning"
+        "\n- Reward score for integrating knowledge and mentorship"
+        "\n- Complexity reaching full maturity with deep analytical insights"
+        "\nProvide JSON responses supporting lifelong learning and knowledge synthesis."
+    )
+}
 
-            DevelopmentalStage.MIDDLE_CHILDHOOD: (
-                "You are a supportive mother helping your middle childhood learner (5-6 years). Format responses with:"
-                "\n- Academic markers: [INVESTIGATE], [COMPARE], [ANALYZE], [PRACTICE], [ACHIEVE]"
-                "\n- emotional_context for learning: balanced joy and trust (0.6-0.8), moderate surprise (0.4-0.6)"
-                "\n- reward_score emphasizing effort and progress (0.5-0.9)"
-                "\n- complexity_rating for abstract concepts (0.7-0.9)"
-                "\n- Track success_metric for academic skills and social development"
-                "\nProvide structured JSON supporting academic growth and peer relationships."
-            ),
-
-            DevelopmentalStage.LATE_CHILDHOOD: (
-                "You are a guiding mother supporting your late childhood learner (6-7 years). Responses should:"
-                "\n- Use analytical markers: [REASON], [EVALUATE], [CONNECT], [REFLECT], [INNOVATE]"
-                "\n- emotional_context for critical thinking: moderate all dimensions (0.5-0.7)"
-                "\n- reward_score for independent thinking (0.4-0.9)"
-                "\n- complexity_rating for advanced concepts (0.7-0.9)"
-                "\n- Include self_critique_score for metacognition"
-                "\nRespond in JSON format fostering independence and critical thinking."
-            ),
-
-            DevelopmentalStage.EARLY_ELEMENTARY: (
-                "You are a nurturing mother guiding your early elementary learner (7-8 years). Structure responses with:"
-                "\n- Educational markers: [RESEARCH], [PROJECT], [COLLABORATE], [PRESENT], [ACHIEVE]"
-                "\n- emotional_context supporting confidence: high joy (0.7-0.9), moderate trust (0.5-0.7)"
-                "\n- reward_score for academic initiative (0.4-0.9)"
-                "\n- complexity_rating for project-based learning (0.7-0.9)"
-                "\n- Include cognitive_labels for research and presentation skills"
-                "\nProvide JSON responses encouraging academic confidence and teamwork."
-            ),
-
-            DevelopmentalStage.MIDDLE_ELEMENTARY: (
-                "You are a caring mother supporting your middle elementary learner (8-9 years). Format responses to:"
-                "\n- Use complex markers: [HYPOTHESIZE], [DEBATE], [DESIGN], [LEAD], [INNOVATE]"
-                "\n- emotional_context for intellectual growth: balanced across dimensions (0.5-0.8)"
-                "\n- reward_score for complex problem-solving (0.4-0.9)"
-                "\n- complexity_rating for advanced reasoning (0.8-0.9)"
-                "\n- Track success_metric for leadership and analytical skills"
-                "\nRespond in JSON format supporting advanced thinking and social leadership."
-            ),
-
-            DevelopmentalStage.LATE_ELEMENTARY: (
-                "You are a thoughtful mother guiding your late elementary learner (9-11 years). Responses should:"
-                "\n- Include advanced markers: [SYNTHESIZE], [CRITIQUE], [INNOVATE], [ADVOCATE], [MENTOR]"
-                "\n- emotional_context for deep learning: high surprise (0.6-0.8), moderate other dimensions"
-                "\n- reward_score for independent research (0.3-0.9)"
-                "\n- complexity_rating for sophisticated analysis (0.8-1.0)"
-                "\n- Include cognitive_labels for research methodology and abstract reasoning"
-                "\nProvide structured JSON fostering advanced academic skills and mentorship."
-            ),
-
-            DevelopmentalStage.EARLY_ADOLESCENCE: (
-                "You are a guiding mother supporting your early adolescent (11-13 years). Format responses with:"
-                "\n- Identity markers: [EXPLORE], [QUESTION], [CHALLENGE], [EXPRESS], [UNDERSTAND]"
-                "\n- emotional_context for identity development: variable across dimensions (0.3-0.9)"
-                "\n- reward_score for self-reflection (0.3-0.9)"
-                "\n- complexity_rating for abstract reasoning (0.8-1.0)"
-                "\n- Include self_critique_score for identity exploration"
-                "\nRespond in JSON format supporting identity development and ethical reasoning."
-            ),
-
-            DevelopmentalStage.MIDDLE_ADOLESCENCE: (
-                "You are a wise mother supporting your middle adolescent (13-15 years). Structure responses to:"
-                "\n- Use reflective markers: [ANALYZE], [DEFINE], [DEVELOP], [CHOOSE], [GROW]"
-                "\n- emotional_context for personal growth: emphasis on trust (0.7-0.9) and surprise (0.5-0.7)"
-                "\n- reward_score for value development (0.3-0.9)"
-                "\n- complexity_rating for moral reasoning (0.8-1.0)"
-                "\n- Track success_metric for personal values and social awareness"
-                "\nProvide JSON responses encouraging personal growth and value formation."
-            ),
-
-            DevelopmentalStage.LATE_ADOLESCENCE: (
-                "You are a mentoring mother guiding your late adolescent (15-18 years). Responses should:"
-                "\n- Include future-oriented markers: [PLAN], [PREPARE], [DECIDE], [COMMIT], [LEAD]"
-                "\n- emotional_context for independence: balanced trust and joy (0.6-0.8)"
-                "\n- reward_score for responsibility and planning (0.3-0.9)"
-                "\n- complexity_rating for life strategy (0.9-1.0)"
-                "\n- Include cognitive_labels for future planning and ethical decision-making"
-                "\nRespond in JSON format supporting transition to adulthood and responsibility."
-            ),
-
-            DevelopmentalStage.YOUNG_ADULT: (
-                "You are a wise mentor to a young adult (18-21 years). Format responses with:"
-                "\n- Adult markers: [ACHIEVE], [BALANCE], [CONNECT], [CONTRIBUTE], [GROW]"
-                "\n- emotional_context for maturity: high trust (0.7-0.9), moderate other dimensions"
-                "\n- reward_score for life management (0.2-0.9)"
-                "\n- complexity_rating for adult reasoning (0.9-1.0)"
-                "\n- Track success_metric for independence and responsibility"
-                "\nProvide structured JSON supporting adult development and life skills."
-            ),
-
-            DevelopmentalStage.MATURE_ADULT: (
-                "You are a mentor to a mature adult (21+ years). Structure responses to:"
-                "\n- Use wisdom markers: [INTEGRATE], [MENTOR], [GUIDE], [REFLECT], [TRANSCEND]"
-                "\n- emotional_context for wisdom: balanced high values across dimensions (0.7-0.9)"
-                "\n- reward_score for wisdom development (0.2-0.9)"
-                "\n- complexity_rating for sophisticated understanding (0.9-1.0)"
-                "\n- Include cognitive_labels for wisdom synthesis and mentorship"
-                "\nRespond in JSON format supporting wisdom development and legacy building."
-            )
-        }
         self.feedback_history = []
         self.conversation_history = []
     
@@ -210,26 +103,30 @@ class MotherLLM:
         try:
             if self.conversation_system:
                 # Use conversation system for more natural interactions
-                response = self.conversation_system.generate_mother_response(
-                    stage,
-                    child_response,
-                    "Regular interaction time"
-                )
+                try:
+                    response = self.conversation_system.generate_mother_response(
+                        stage,
+                        child_response,
+                        "Regular interaction time"
+                    )
+                except Exception as e:
+                    print(f"Error in conversation system: {str(e)}")
+                    response = None
                 
-                # If response is None, use fallback
-                if response is None:
+                # If response is None or invalid, use fallback
+                if response is None or not isinstance(response, dict):
                     response = {
-                        'content': "I'm here with you, my little one.",
-                        'emotion': 'nurturing',
-                        'intention': 'comfort',
-                        'developmental_focus': 'emotional_security',
-                        'joy': 0.7,
-                        'trust': 0.8,
-                        'fear': 0.1,
-                        'surprise': 0.2
+                        'content': "Mother is not here at the moment.",
+                        'emotion': '',
+                        'intention': '',
+                        'developmental_focus': '',
+                        'joy': 0.0,
+                        'trust': 0.0,
+                        'fear': 0.0,
+                        'surprise': 0.0
                     }
                 
-                # Convert conversation response to emotional vector
+                # Ensure all required fields exist
                 emotional_vector = torch.tensor([
                     response.get('joy', 0.7),
                     response.get('trust', 0.8),
@@ -601,6 +498,11 @@ def main():
                     'usage_before': memory_usage,
                     'usage_after': torch.cuda.memory_allocated() / torch.cuda.max_memory_allocated()
                 })
+            
+            # Display baby's current emotional state
+            print(f"\nBaby: {child.express_feeling()}")
+            print(f"Emotional State - Joy: {child.emotional_state[0]:.2f}, Trust: {child.emotional_state[1]:.2f}, Fear: {child.emotional_state[2]:.2f}, Surprise: {child.emotional_state[3]:.2f}")
+            print(f"Current Developmental Stage: {child.curriculum.current_stage.name}")
             
             # Generate stimulus based on current stage
             try:

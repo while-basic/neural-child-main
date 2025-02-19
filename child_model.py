@@ -5,9 +5,11 @@ import time
 from emotional_regulation import EmotionalRegulation
 from memory_module import DifferentiableMemory
 from psychological_components import TheoryOfMind, AttachmentSystem, DefenseMechanisms
+from curriculum_manager import DevelopmentalStage, DevelopmentalSystem
 
-class SensoryExperience:
-    def __init__(self, device='cuda'):
+class SensoryExperience(nn.Module):
+    def __init__(self, device='cpu'):
+        super().__init__()
         # Initialize sensory channels with learnable parameters
         self.visual = nn.Parameter(torch.randn(512, device=device))
         self.auditory = nn.Parameter(torch.randn(256, device=device))
@@ -23,6 +25,17 @@ class SensoryExperience:
         
         # Attention weights for each sense
         self.attention = nn.Parameter(torch.ones(4, device=device))
+        
+    def to(self, device):
+        """Override to method to ensure all components are moved to the same device"""
+        super().to(device)
+        self.visual.data = self.visual.data.to(device)
+        self.auditory.data = self.auditory.data.to(device)
+        self.tactile.data = self.tactile.data.to(device)
+        self.proprioceptive.data = self.proprioceptive.data.to(device)
+        self.attention.data = self.attention.data.to(device)
+        self.integration_net.to(device)
+        return self
         
     def process_input(self, stimulus):
         # Get batch size from input
@@ -51,8 +64,9 @@ class SensoryExperience:
         self.attention.data += torch.tanh(feedback) * 0.1
         self.attention.data = torch.clamp(self.attention.data, 0.1, 2.0)
 
-class CoreDrives:
-    def __init__(self, device='cuda'):
+class CoreDrives(nn.Module):
+    def __init__(self, device='cpu'):
+        super().__init__()
         # Basic survival and developmental drives
         self.drives = {
             'curiosity': nn.Parameter(torch.tensor(0.8, device=device)),
@@ -77,6 +91,16 @@ class CoreDrives:
             nn.GELU(),
             nn.Linear(64, total_dims)
         ).to(device)
+    
+    def to(self, device):
+        """Override to method to ensure all components are moved to the same device"""
+        super().to(device)
+        for drive in self.drives.values():
+            drive.data = drive.data.to(device)
+        for trait in self.personality_traits.values():
+            trait.data = trait.data.to(device)
+        self.regulation.to(device)
+        return self
     
     def get_motivation_vector(self):
         drive_values = torch.stack(list(self.drives.values()))
@@ -104,7 +128,11 @@ class DynamicNeuralChild(nn.Module):
     def __init__(self, base_dim=128):
         super().__init__()
         self.base_dim = base_dim
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.device = torch.device('cpu')  # Default to CPU
+        
+        # Initialize developmental stage and system
+        self.stage = DevelopmentalStage.NEWBORN
+        self.developmental_system = DevelopmentalSystem()
         
         # Initialize core components
         self.sensory = SensoryExperience(self.device)
@@ -119,12 +147,14 @@ class DynamicNeuralChild(nn.Module):
         self.emotional_regulation = EmotionalRegulation(
             emotion_dim=4,
             context_window=5,
-            memory_dim=32
-        )
+            memory_dim=32,
+            device=self.device
+        ).to(self.device)
         
         # Memory systems
         self.memory = DifferentiableMemory()
-        self.emotional_state = torch.zeros(4, device=self.device)
+        # Initialize emotional state with base values
+        self.emotional_state = torch.tensor([0.2, 0.2, 0.1, 0.1], device=self.device)  # joy, trust, fear, surprise
         
         # Projection and embedding layers
         self.input_projection = nn.Linear(768, base_dim).to(self.device)
@@ -135,13 +165,12 @@ class DynamicNeuralChild(nn.Module):
         ).to(self.device)
         
         # Core processing layers with psychological integration
-        # FIX: Changed input dimension from (base_dim+256+5+4=393) to base_dim (128)
         self.core_layers = nn.ModuleList([
             nn.Linear(base_dim, base_dim),
             nn.LayerNorm(base_dim),
             nn.GELU(),
             nn.Dropout(0.1)
-        ])
+        ]).to(self.device)
         
         # Update the decision network to match our actual input size (398)
         self.decision_network = nn.Sequential(
@@ -166,30 +195,66 @@ class DynamicNeuralChild(nn.Module):
         # Move everything to device
         self.to(self.device)
 
+    def to(self, device):
+        """Override to method to ensure all components are moved to the same device"""
+        self.device = device
+        super().to(device)
+        self.sensory.to(device)
+        self.drives.to(device)
+        self.theory_of_mind.to(device)
+        self.attachment.to(device)
+        self.defense_mechanisms.to(device)
+        self.emotional_regulation.to(device)
+        self.emotional_state = self.emotional_state.to(device)
+        self.current_beliefs = self.current_beliefs.to(device)
+        self.last_attachment_trust = self.last_attachment_trust.to(device)
+        return self
+
     def update_emotions(self, mother_vector):
+        """Update emotions with proper device handling and smoothing"""
+        mother_vector = mother_vector.to(self.device)
+        
+        # Get attachment state
         attachment_state = self.attachment(mother_vector)
         attachment_influence = attachment_state['trust_level']
+        
+        # Regulate emotions
         regulation_result = self.emotional_regulation.regulate(
             self.emotional_state,
             mother_vector
         )
-        regulated_emotion = regulation_result['emotional_state'] * attachment_influence
+        
+        # Apply attachment influence with smoothing
+        regulated_emotion = regulation_result['emotional_state'] * (0.7 + 0.3 * attachment_influence)
+        
+        # Handle anxiety and defense mechanisms
         anxiety_level = regulated_emotion[2]  # Fear component
         defense_response = self.defense_mechanisms(mother_vector, anxiety_level)
+        
         if defense_response['active_defense'] is not None:
-            regulated_emotion = regulated_emotion * (1 - defense_response['defense_strength'])
-        self.emotional_state = regulated_emotion
+            defense_factor = 1 - (defense_response['defense_strength'] * 0.5)  # Reduce the dampening effect
+            regulated_emotion = regulated_emotion * defense_factor
+        
+        # Ensure minimum values and apply smoothing
+        alpha = 0.3  # Smoothing factor
+        self.emotional_state = alpha * regulated_emotion + (1 - alpha) * self.emotional_state
+        self.emotional_state = torch.clamp(self.emotional_state, min=0.1, max=1.0)
+        
+        # Record experience
         self.memory.record_experience(
-            mother_vector,
-            self.emotional_state.unsqueeze(0),
+            mother_vector.cpu(),
+            self.emotional_state.cpu(),
             regulation_result['context_influence'].mean().item(),
             time.time(),
-            self.emotional_state
+            self.emotional_state.cpu()
         )
+        
+        # Handle trauma
         trauma_info = regulation_result.get('trauma_info', {})
         if trauma_info.get('is_traumatic', False):
             print(f"⚠️ Trauma detected! Intensity: {trauma_info.get('intensity', 0):.2f}")
             self._process_trauma(trauma_info)
+            
         return {
             'regulation_result': regulation_result,
             'attachment_state': attachment_state,
