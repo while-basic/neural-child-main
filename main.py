@@ -15,6 +15,7 @@ import json
 import numpy as np
 from logger import DevelopmentLogger
 from conversation_system import ConversationSystem
+from visualization import EmotionalStateVisualizer, NeuralNetworkVisualizer, plot_learning_metrics, plot_psychological_metrics
 
 class MotherLLM:
     def __init__(self):
@@ -428,6 +429,9 @@ def main():
     # Initialize logger
     logger = DevelopmentLogger()
     
+    # Initialize visualizers
+    emotional_visualizer = EmotionalStateVisualizer()
+    
     # Initialize conversation system
     conversation_system = ConversationSystem(logger)
     
@@ -503,6 +507,9 @@ def main():
             print(f"\nBaby: {child.express_feeling()}")
             print(f"Emotional State - Joy: {child.emotional_state[0]:.2f}, Trust: {child.emotional_state[1]:.2f}, Fear: {child.emotional_state[2]:.2f}, Surprise: {child.emotional_state[3]:.2f}")
             print(f"Current Developmental Stage: {child.curriculum.current_stage.name}")
+            
+            # Update emotional visualization
+            emotional_visualizer.add_emotional_state(child.emotional_state, current_time)
             
             # Generate stimulus based on current stage
             try:
@@ -613,7 +620,7 @@ def main():
                     logger.log_error(e, "Failed in learning step")
                     continue
                 
-                # Periodic saving
+                # Periodic saving and visualization
                 if current_time - last_save_time > 1800:  # Save every 30 minutes
                     save_path = f"checkpoints/digital_child_{child.age()}mo_{int(current_time)}"
                     os.makedirs(save_path, exist_ok=True)
@@ -627,8 +634,26 @@ def main():
                         'timestamp': current_time
                     }, f"{save_path}/model.pth")
                     
+                    # Generate and save visualizations
+                    viz_path = f"{save_path}/visualizations"
+                    os.makedirs(viz_path, exist_ok=True)
+                    
+                    # Save emotional state visualizations
+                    emotional_visualizer.plot_emotional_timeline(f"{viz_path}/emotional_timeline.png")
+                    emotional_visualizer.create_emotional_heatmap(f"{viz_path}/emotional_heatmap.png")
+                    emotional_visualizer.create_3d_emotional_trajectory(f"{viz_path}/emotional_trajectory.html")
+                    
+                    # Save neural network visualizations
+                    network_visualizer = NeuralNetworkVisualizer(child.brain)
+                    network_visualizer.visualize_architecture(save_path=f"{viz_path}/network_architecture")
+                    network_visualizer.plot_weight_distributions(f"{viz_path}/weight_distributions.png")
+                    
+                    # Save learning metrics
+                    plot_learning_metrics(telemetry, f"{viz_path}/learning_metrics.png")
+                    plot_psychological_metrics(telemetry, f"{viz_path}/psychological_metrics.html")
+                    
                     last_save_time = current_time
-                    print(f"\nCheckpoint saved: {save_path}")
+                    print(f"\nCheckpoint and visualizations saved: {save_path}")
                 
                 # Save conversation periodically
                 if current_time - last_conversation_save > 300:  # Every 5 minutes

@@ -1,0 +1,2895 @@
+{
+  "start_time": "2025-02-19T14:34:22.501322",
+  "end_time": "2025-02-19T14:49:20.046579",
+  "history": [
+    {
+      "timestamp": "2025-02-19T14:34:52.639259",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.6538457416915158,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 0.39615372250745473,
+        "emotional_atmosphere": [
+          0.44999998807907104,
+          0.436923086643219,
+          0.20615382492542267,
+          0.2896153926849365
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:35:22.668120",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.6627718979489545,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 0.5949852918921411,
+        "emotional_atmosphere": [
+          0.4049999713897705,
+          0.3799753189086914,
+          0.21204932034015656,
+          0.2805370092391968
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:35:52.696561",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.37822756213853087,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 0.7084535605337003,
+        "emotional_atmosphere": [
+          0.3644999563694,
+          0.33441323041915894,
+          0.20597349107265472,
+          0.26383012533187866
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:36:22.726672",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.5733898883787075,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 0.8804705270473125,
+        "emotional_atmosphere": [
+          0.3280499577522278,
+          0.28950411081314087,
+          0.20831173658370972,
+          0.2546488046646118
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:36:52.765666",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.3880981516392633,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 0.9968999725390916,
+        "emotional_atmosphere": [
+          0.295244961977005,
+          0.25279173254966736,
+          0.20300447940826416,
+          0.24082686007022858
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:37:22.795979",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.4354933877031401,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.2657204568386078,
+          0.21880269050598145,
+          0.20012377202510834,
+          0.22980897128582
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:37:52.830796",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.488021000637513,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.23914840817451477,
+          0.18716199696063995,
+          0.19963222742080688,
+          0.2214687019586563
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:38:22.864905",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.6882815820733386,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.21523356437683105,
+          0.15468016266822815,
+          0.20720025897026062,
+          0.21997027099132538
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:38:52.904443",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.7108332656899563,
+        "duration": 30.0,
+        "description": "Increasing environmental chaos"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.5,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.19371020793914795,
+          0.12499547749757767,
+          0.21491356194019318,
+          0.21929822862148285
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:39:52.977827",
+      "stimulus": {
+        "type": "warm",
+        "intensity": 0.6263916308587889,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.6879174892576366,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.1743391752243042,
+          0.11249592900276184,
+          0.19342219829559326,
+          0.19736839830875397
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:40:23.012072",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.7650311188084999,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.6879174892576366,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.15690524876117706,
+          0.10124633461236954,
+          0.17407996952533722,
+          0.17763155698776245
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:40:53.044082",
+      "stimulus": {
+        "type": "stimulating",
+        "intensity": 0.7969663171407841,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.6879174892576366,
+        "chaos_level": 1.0,
+        "emotional_atmosphere": [
+          0.14121471345424652,
+          0.09112169593572617,
+          0.15667197108268738,
+          0.15986840426921844
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:41:23.085513",
+      "stimulus": {
+        "type": "peaceful",
+        "intensity": 0.7452910816348362,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5,
+        "noise_level": 0.3,
+        "temperature": 0.6879174892576366,
+        "chaos_level": 0.7764126755095492,
+        "emotional_atmosphere": [
+          0.14945197105407715,
+          0.11182116717100143,
+          0.12609894573688507,
+          0.14388155937194824
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:41:53.125112",
+      "stimulus": {
+        "type": "bright",
+        "intensity": 0.32521672211363467,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.3,
+        "temperature": 0.6879174892576366,
+        "chaos_level": 0.7764126755095492,
+        "emotional_atmosphere": [
+          0.14101111888885498,
+          0.10063904523849487,
+          0.1134890466928482,
+          0.13274556398391724
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:42:23.251315",
+      "stimulus": {
+        "type": "chaotic",
+        "intensity": 0.7404985368837921,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.3,
+        "temperature": 0.6879174892576366,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.126910001039505,
+          0.07576516270637512,
+          0.13176007568836212,
+          0.14168596267700195
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:42:53.290607",
+      "stimulus": {
+        "type": "cold",
+        "intensity": 0.35889073332766086,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.3,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.11421899497509003,
+          0.06818864494562149,
+          0.11858406662940979,
+          0.12751735746860504
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:43:23.324314",
+      "stimulus": {
+        "type": "threatening",
+        "intensity": 0.5357563725194104,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.3,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.10279709100723267,
+          0.06136978045105934,
+          0.10672565549612045,
+          0.11476562172174454
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:43:53.366494",
+      "stimulus": {
+        "type": "noisy",
+        "intensity": 0.34368591136212684,
+        "duration": 30.0,
+        "description": "Random environmental change"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.09251737594604492,
+          0.05523280054330826,
+          0.09605308622121811,
+          0.10328906029462814
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:44:53.482427",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.6686794873677061,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.08326563984155655,
+          0.049709517508745193,
+          0.08644777536392212,
+          0.09296014904975891
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:45:23.523570",
+      "stimulus": {
+        "type": "crowded",
+        "intensity": 0.27238951547041645,
+        "duration": 15.0,
+        "description": "Brief social interaction"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.0749390721321106,
+          0.044738564640283585,
+          0.07780299335718155,
+          0.08366413414478302
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:45:53.573148",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.8371373833835957,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.06744516640901566,
+          0.04026470705866814,
+          0.07002269476652145,
+          0.07529772073030472
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:46:23.620956",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.6439045159240797,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.06070064753293991,
+          0.036238234490156174,
+          0.06302042305469513,
+          0.06776794791221619
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6439045159240797,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:46:53.681365",
+      "stimulus": {
+        "type": "crowded",
+        "intensity": 0.25655708747798833,
+        "duration": 15.0,
+        "description": "Brief social interaction"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.0546305812895298,
+          0.03261440992355347,
+          0.0567183792591095,
+          0.06099115312099457
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6439045159240797,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.25655708747798833,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:47:23.725648",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.6283234053128726,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.04916752129793167,
+          0.02935296855866909,
+          0.05104653909802437,
+          0.05489203706383705
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6439045159240797,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.25655708747798833,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6283234053128726,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:47:53.765956",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.8673591408692565,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.044250767678022385,
+          0.026417670771479607,
+          0.04594188556075096,
+          0.049402832984924316
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6439045159240797,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.25655708747798833,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6283234053128726,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8673591408692565,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:48:23.805447",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.7009727993718928,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.039825689047575,
+          0.02377590350806713,
+          0.041347697377204895,
+          0.044462546706199646
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6439045159240797,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.25655708747798833,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6283234053128726,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8673591408692565,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7009727993718928,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-02-19T14:48:53.852468",
+      "stimulus": {
+        "type": "isolated",
+        "intensity": 0.7678070090057816,
+        "duration": 30.0,
+        "description": "Extended period of isolation"
+      },
+      "resulting_state": {
+        "light_level": 0.5975650166340905,
+        "noise_level": 0.40310577340863807,
+        "temperature": 0.5802502692593383,
+        "chaos_level": 0.9985622365746868,
+        "emotional_atmosphere": [
+          0.03584311902523041,
+          0.021398313343524933,
+          0.037212926894426346,
+          0.0400162898004055
+        ],
+        "active_stimuli": [
+          {
+            "type": "chaotic",
+            "intensity": 0.6538457416915158,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6627718979489545,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.37822756213853087,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.5733898883787075,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.3880981516392633,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.4354933877031401,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.488021000637513,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.6882815820733386,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7108332656899563,
+            "duration": 30.0,
+            "description": "Increasing environmental chaos"
+          },
+          {
+            "type": "warm",
+            "intensity": 0.6263916308587889,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7650311188084999,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "stimulating",
+            "intensity": 0.7969663171407841,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "peaceful",
+            "intensity": 0.7452910816348362,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "bright",
+            "intensity": 0.32521672211363467,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "chaotic",
+            "intensity": 0.7404985368837921,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "cold",
+            "intensity": 0.35889073332766086,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "threatening",
+            "intensity": 0.5357563725194104,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "noisy",
+            "intensity": 0.34368591136212684,
+            "duration": 30.0,
+            "description": "Random environmental change"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6686794873677061,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.27238951547041645,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8371373833835957,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6439045159240797,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "crowded",
+            "intensity": 0.25655708747798833,
+            "duration": 15.0,
+            "description": "Brief social interaction"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.6283234053128726,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.8673591408692565,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7009727993718928,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          },
+          {
+            "type": "isolated",
+            "intensity": 0.7678070090057816,
+            "duration": 30.0,
+            "description": "Extended period of isolation"
+          }
+        ]
+      }
+    }
+  ]
+}

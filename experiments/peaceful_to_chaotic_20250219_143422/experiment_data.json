@@ -1,0 +1,3236 @@
+[
+  {
+    "timestamp": "2025-02-19T14:34:22.621319",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.2,
+      "emotional_atmosphere": [
+        0.5,
+        0.5,
+        0.20000000298023224,
+        0.30000001192092896
+      ],
+      "active_stimuli": []
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:22.621319"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:27.624470",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.2,
+      "emotional_atmosphere": [
+        0.5,
+        0.5,
+        0.20000000298023224,
+        0.30000001192092896
+      ],
+      "active_stimuli": []
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:27.624470"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:32.626368",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.2,
+      "emotional_atmosphere": [
+        0.5,
+        0.5,
+        0.20000000298023224,
+        0.30000001192092896
+      ],
+      "active_stimuli": []
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:32.626368"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:37.629378",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.2,
+      "emotional_atmosphere": [
+        0.5,
+        0.5,
+        0.20000000298023224,
+        0.30000001192092896
+      ],
+      "active_stimuli": []
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:37.629378"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:42.632963",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.2,
+      "emotional_atmosphere": [
+        0.5,
+        0.5,
+        0.20000000298023224,
+        0.30000001192092896
+      ],
+      "active_stimuli": []
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:42.632963"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:47.635542",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.2,
+      "emotional_atmosphere": [
+        0.5,
+        0.5,
+        0.20000000298023224,
+        0.30000001192092896
+      ],
+      "active_stimuli": []
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:47.635542"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:52.646261",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.39615372250745473,
+      "emotional_atmosphere": [
+        0.44999998807907104,
+        0.436923086643219,
+        0.20615382492542267,
+        0.2896153926849365
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:52.646261"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:34:57.649196",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.39615372250745473,
+      "emotional_atmosphere": [
+        0.44999998807907104,
+        0.436923086643219,
+        0.20615382492542267,
+        0.2896153926849365
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:34:57.649196"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:02.653297",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.39615372250745473,
+      "emotional_atmosphere": [
+        0.44999998807907104,
+        0.436923086643219,
+        0.20615382492542267,
+        0.2896153926849365
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:02.653297"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:07.657793",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.39615372250745473,
+      "emotional_atmosphere": [
+        0.44999998807907104,
+        0.436923086643219,
+        0.20615382492542267,
+        0.2896153926849365
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:07.657793"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:12.661862",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.39615372250745473,
+      "emotional_atmosphere": [
+        0.44999998807907104,
+        0.436923086643219,
+        0.20615382492542267,
+        0.2896153926849365
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:12.661862"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:17.664562",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.39615372250745473,
+      "emotional_atmosphere": [
+        0.44999998807907104,
+        0.436923086643219,
+        0.20615382492542267,
+        0.2896153926849365
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:17.664562"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:22.671121",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.5949852918921411,
+      "emotional_atmosphere": [
+        0.4049999713897705,
+        0.3799753189086914,
+        0.21204932034015656,
+        0.2805370092391968
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:22.671121"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:27.674168",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.5949852918921411,
+      "emotional_atmosphere": [
+        0.4049999713897705,
+        0.3799753189086914,
+        0.21204932034015656,
+        0.2805370092391968
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:27.674168"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:32.677434",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.5949852918921411,
+      "emotional_atmosphere": [
+        0.4049999713897705,
+        0.3799753189086914,
+        0.21204932034015656,
+        0.2805370092391968
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:32.677434"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:37.682284",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.5949852918921411,
+      "emotional_atmosphere": [
+        0.4049999713897705,
+        0.3799753189086914,
+        0.21204932034015656,
+        0.2805370092391968
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:37.682284"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:42.687968",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.5949852918921411,
+      "emotional_atmosphere": [
+        0.4049999713897705,
+        0.3799753189086914,
+        0.21204932034015656,
+        0.2805370092391968
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:42.687968"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:47.692228",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.5949852918921411,
+      "emotional_atmosphere": [
+        0.4049999713897705,
+        0.3799753189086914,
+        0.21204932034015656,
+        0.2805370092391968
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:47.692228"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:52.699561",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.7084535605337003,
+      "emotional_atmosphere": [
+        0.3644999563694,
+        0.33441323041915894,
+        0.20597349107265472,
+        0.26383012533187866
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:52.699561"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:35:57.702323",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.7084535605337003,
+      "emotional_atmosphere": [
+        0.3644999563694,
+        0.33441323041915894,
+        0.20597349107265472,
+        0.26383012533187866
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:35:57.702323"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:02.706503",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.7084535605337003,
+      "emotional_atmosphere": [
+        0.3644999563694,
+        0.33441323041915894,
+        0.20597349107265472,
+        0.26383012533187866
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:02.706503"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:07.710356",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.7084535605337003,
+      "emotional_atmosphere": [
+        0.3644999563694,
+        0.33441323041915894,
+        0.20597349107265472,
+        0.26383012533187866
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:07.710356"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:12.716077",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.7084535605337003,
+      "emotional_atmosphere": [
+        0.3644999563694,
+        0.33441323041915894,
+        0.20597349107265472,
+        0.26383012533187866
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:12.716077"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:17.721559",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.7084535605337003,
+      "emotional_atmosphere": [
+        0.3644999563694,
+        0.33441323041915894,
+        0.20597349107265472,
+        0.26383012533187866
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:17.721559"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:22.735237",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.8804705270473125,
+      "emotional_atmosphere": [
+        0.3280499577522278,
+        0.28950411081314087,
+        0.20831173658370972,
+        0.2546488046646118
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:22.735237"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:27.741029",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.8804705270473125,
+      "emotional_atmosphere": [
+        0.3280499577522278,
+        0.28950411081314087,
+        0.20831173658370972,
+        0.2546488046646118
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:27.741029"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:32.745533",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.8804705270473125,
+      "emotional_atmosphere": [
+        0.3280499577522278,
+        0.28950411081314087,
+        0.20831173658370972,
+        0.2546488046646118
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:32.745533"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:37.749349",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.8804705270473125,
+      "emotional_atmosphere": [
+        0.3280499577522278,
+        0.28950411081314087,
+        0.20831173658370972,
+        0.2546488046646118
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:37.749349"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:42.754621",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.8804705270473125,
+      "emotional_atmosphere": [
+        0.3280499577522278,
+        0.28950411081314087,
+        0.20831173658370972,
+        0.2546488046646118
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:42.754621"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:47.761848",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.8804705270473125,
+      "emotional_atmosphere": [
+        0.3280499577522278,
+        0.28950411081314087,
+        0.20831173658370972,
+        0.2546488046646118
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:47.761848"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:52.770666",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.9968999725390916,
+      "emotional_atmosphere": [
+        0.295244961977005,
+        0.25279173254966736,
+        0.20300447940826416,
+        0.24082686007022858
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:52.770666"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:36:57.775749",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.9968999725390916,
+      "emotional_atmosphere": [
+        0.295244961977005,
+        0.25279173254966736,
+        0.20300447940826416,
+        0.24082686007022858
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:36:57.775749"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:02.778944",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.9968999725390916,
+      "emotional_atmosphere": [
+        0.295244961977005,
+        0.25279173254966736,
+        0.20300447940826416,
+        0.24082686007022858
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:02.778944"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:07.783636",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.9968999725390916,
+      "emotional_atmosphere": [
+        0.295244961977005,
+        0.25279173254966736,
+        0.20300447940826416,
+        0.24082686007022858
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:07.783636"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:12.788041",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.9968999725390916,
+      "emotional_atmosphere": [
+        0.295244961977005,
+        0.25279173254966736,
+        0.20300447940826416,
+        0.24082686007022858
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:12.788041"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:17.792184",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 0.9968999725390916,
+      "emotional_atmosphere": [
+        0.295244961977005,
+        0.25279173254966736,
+        0.20300447940826416,
+        0.24082686007022858
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:17.792184"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:22.800980",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.2657204568386078,
+        0.21880269050598145,
+        0.20012377202510834,
+        0.22980897128582
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:22.800980"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:27.806183",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.2657204568386078,
+        0.21880269050598145,
+        0.20012377202510834,
+        0.22980897128582
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:27.806183"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:32.811917",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.2657204568386078,
+        0.21880269050598145,
+        0.20012377202510834,
+        0.22980897128582
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:32.811917"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:37.818186",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.2657204568386078,
+        0.21880269050598145,
+        0.20012377202510834,
+        0.22980897128582
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:37.818186"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:42.822594",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.2657204568386078,
+        0.21880269050598145,
+        0.20012377202510834,
+        0.22980897128582
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:42.822594"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:47.827058",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.2657204568386078,
+        0.21880269050598145,
+        0.20012377202510834,
+        0.22980897128582
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:47.827058"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:52.836660",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.23914840817451477,
+        0.18716199696063995,
+        0.19963222742080688,
+        0.2214687019586563
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:52.836660"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:37:57.839799",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.23914840817451477,
+        0.18716199696063995,
+        0.19963222742080688,
+        0.2214687019586563
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:37:57.839799"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:02.843514",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.23914840817451477,
+        0.18716199696063995,
+        0.19963222742080688,
+        0.2214687019586563
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:02.843514"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:07.848759",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.23914840817451477,
+        0.18716199696063995,
+        0.19963222742080688,
+        0.2214687019586563
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:07.848759"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:12.852916",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.23914840817451477,
+        0.18716199696063995,
+        0.19963222742080688,
+        0.2214687019586563
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:12.852916"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:17.858692",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.23914840817451477,
+        0.18716199696063995,
+        0.19963222742080688,
+        0.2214687019586563
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:17.858692"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:22.869905",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.21523356437683105,
+        0.15468016266822815,
+        0.20720025897026062,
+        0.21997027099132538
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:22.869905"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:27.876384",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.21523356437683105,
+        0.15468016266822815,
+        0.20720025897026062,
+        0.21997027099132538
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:27.876384"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:32.881194",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.21523356437683105,
+        0.15468016266822815,
+        0.20720025897026062,
+        0.21997027099132538
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:32.881194"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:37.887311",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.21523356437683105,
+        0.15468016266822815,
+        0.20720025897026062,
+        0.21997027099132538
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:37.887311"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:42.894375",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.21523356437683105,
+        0.15468016266822815,
+        0.20720025897026062,
+        0.21997027099132538
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:42.893375"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:47.900839",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.21523356437683105,
+        0.15468016266822815,
+        0.20720025897026062,
+        0.21997027099132538
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:47.900839"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:52.910442",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.19371020793914795,
+        0.12499547749757767,
+        0.21491356194019318,
+        0.21929822862148285
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.7108332656899563,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:52.910442"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:38:57.916574",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.19371020793914795,
+        0.12499547749757767,
+        0.21491356194019318,
+        0.21929822862148285
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.7108332656899563,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:38:57.916574"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:39:02.925035",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.19371020793914795,
+        0.12499547749757767,
+        0.21491356194019318,
+        0.21929822862148285
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.7108332656899563,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:39:02.925035"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:39:07.928974",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.19371020793914795,
+        0.12499547749757767,
+        0.21491356194019318,
+        0.21929822862148285
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.7108332656899563,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:39:07.928974"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:39:12.932156",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.19371020793914795,
+        0.12499547749757767,
+        0.21491356194019318,
+        0.21929822862148285
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.7108332656899563,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:39:12.932156"
+    }
+  },
+  {
+    "timestamp": "2025-02-19T14:39:17.936221",
+    "environment_state": {
+      "light_level": 0.5,
+      "noise_level": 0.3,
+      "temperature": 0.5,
+      "chaos_level": 1.0,
+      "emotional_atmosphere": [
+        0.19371020793914795,
+        0.12499547749757767,
+        0.21491356194019318,
+        0.21929822862148285
+      ],
+      "active_stimuli": [
+        {
+          "type": "chaotic",
+          "intensity": 0.6538457416915158,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6627718979489545,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.37822756213853087,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.5733898883787075,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.3880981516392633,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.4354933877031401,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.488021000637513,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.6882815820733386,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        },
+        {
+          "type": "chaotic",
+          "intensity": 0.7108332656899563,
+          "duration": 30.0,
+          "description": "Increasing environmental chaos"
+        }
+      ]
+    },
+    "mother_response": {
+      "text": "I'm here with you, my little one.",
+      "emotional_vector": [
+        0.6681877374649048,
+        0.6899744868278503,
+        0.5249791741371155,
+        0.5498339533805847
+      ],
+      "timestamp": "2025-02-19T14:39:17.936221"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "total_interactions": 183,
+  "start_time": "2025-02-19T14:34:22.621319",
+  "end_time": "2025-02-19T14:49:19.611762",
+  "emotional_progression": {
+    "mean_joy": 0.17279314994812012,
+    "mean_trust": 0.13614971935749054,
+    "mean_fear": 0.13552072644233704,
+    "mean_surprise": 0.15510845184326172,
+    "variance_joy": 0.016099778935313225,
+    "variance_trust": 0.01657978817820549,
+    "variance_fear": 0.004153027664870024,
+    "variance_surprise": 0.006671178620308638
+  },
+  "response_patterns": {
+    "mean_response_joy": 0.6681877970695496,
+    "mean_response_trust": 0.6899744868278503,
+    "mean_response_fear": 0.5249791145324707,
+    "mean_response_surprise": 0.5498338937759399,
+    "response_consistency": 0.0
+  }
+}
