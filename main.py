@@ -10,6 +10,11 @@ from moral_network import MoralPolicyNetwork
 from metacognition import MetacognitionSystem
 from self_supervised_trainer import AutonomousTrainer
 from text_embed import get_embeddings
+import os
+import json
+import numpy as np
+from logger import DevelopmentLogger
+from visualization import DevelopmentVisualizer
 
 class MotherLLM:
     def __init__(self):
@@ -305,6 +310,11 @@ class DigitalChild:
         return (datetime.now() - self.birth_date).days // 30  # months
 
 def main():
+    # Initialize logger and visualizer
+    logger = DevelopmentLogger()
+    visualizer = DevelopmentVisualizer()
+    visualizer.initialize_plots()
+    
     # Test LLM connection first
     print("Testing LLM connection...")
     test_response = chat_completion(
@@ -314,60 +324,254 @@ def main():
     )
     
     if test_response is None:
-        print("Failed to connect to LLM server. Please ensure LM Studio is running and the model is loaded.")
+        logger.log_error("Failed to connect to LLM server")
+        print("Failed to connect to LLM server. Please ensure Ollama is running and the model is loaded.")
         return
     
+    logger.log_development("LLM connection successful")
     print("LLM connection successful!")
     print("Initializing Neural Child Development System...")
     
-    child = DigitalChild()
-    telemetry = {'loss': [], 'memory_usage': [], 'moral_scores': []}
-    telemetry['psychological'] = {
-        'attachment_style': child.brain.attachment.attachment_styles.tolist(),
-        'defense_mechanisms': child.brain.defense_mechanisms.anxiety_threshold.item(),
-        'theory_of_mind': child.brain.theory_of_mind.social_bias.tolist()
+    # Enhanced telemetry initialization
+    telemetry = {
+        'loss': [],
+        'memory_usage': [],
+        'moral_scores': [],
+        'stage_transitions': [],
+        'emotional_stability': [],
+        'learning_rate': [],
+        'attention_span': [],
+        'social_awareness': [],
+        'memory_consolidation': []
     }
+    
+    # Initialize psychological metrics
+    telemetry['psychological'] = {
+        'attachment_style': [],
+        'defense_mechanisms': [],
+        'theory_of_mind': [],
+        'emotional_regulation': [],
+        'cognitive_development': [],
+        'social_bonds': [],
+        'moral_development': []
+    }
+    
+    child = DigitalChild()
+    last_save_time = time.time()
+    last_memory_check = time.time()
+    last_visualization_update = time.time()
     
     try:
         while True:
-            # Use the child's current stage from its curriculum.
-            stimulus = child.mother.generate_stimulus(child.curriculum.current_stage, child.express_feeling())
-            child.update_emotions(stimulus['emotional_vector'])
-            perception = child.perceive(stimulus)
-            response = child.respond(perception)
+            current_time = time.time()
             
-            feedback = chat_completion(
-                system_prompt=f"Evaluate this response from your digital child: {response}",
-                user_prompt=f"Child expressed {child.express_feeling()}. Provide nurturing feedback:",
-                structured_output=True
-            )
-            
-            # Here's the fix! Just append loss directly since it's already a float
-            loss = child.learn({
-                'input': perception,
-                'internal_state': response,
-                'reward': feedback['reward_score']
-            })
-            
-            telemetry['loss'].append(loss)  # Removed .item() call
-            telemetry['memory_usage'].append(torch.cuda.memory_allocated())
-            telemetry['moral_scores'].append(feedback['reward_score'])
-            
-            child.curriculum.update_stage({
-                'success_rate': feedback['success_metric'],
-                'abstraction': feedback['complexity_rating'],
-                'self_awareness': feedback['self_critique_score']
-            })
-            
-            # Periodic memory consolidation
-            if time.time() % 86400 < 3600:
-                child.memory.replay_consolidation()
-            if torch.cuda.memory_allocated() / torch.cuda.max_memory_allocated() > 0.9:
+            # Memory management
+            memory_usage = torch.cuda.memory_allocated() / torch.cuda.max_memory_allocated()
+            if memory_usage > 0.9 or (current_time - last_memory_check) > 3600:
+                logger.log_development("Performing memory consolidation...")
+                print("\nPerforming memory consolidation...")
                 child.memory.replay_consolidation(batch_size=16)
+                last_memory_check = current_time
+                
+                # Log memory stats
+                logger.log_memory_consolidation({
+                    'usage_before': memory_usage,
+                    'usage_after': torch.cuda.memory_allocated() / torch.cuda.max_memory_allocated()
+                })
+            
+            # Generate stimulus based on current stage
+            try:
+                stimulus = child.mother.generate_stimulus(
+                    child.curriculum.current_stage, 
+                    child.express_feeling()
+                )
+            except Exception as e:
+                logger.log_error(e, "Error generating stimulus")
+                print(f"\nError generating stimulus: {e}")
+                time.sleep(5)  # Brief pause before retry
+                continue
+                
+            # Update emotional state with error handling
+            try:
+                child.update_emotions(stimulus['emotional_vector'])
+                emotional_stability = child.emotional_state.mean().item()
+                telemetry['emotional_stability'].append(emotional_stability)
+                
+                # Log significant emotional events
+                if abs(emotional_stability - np.mean(telemetry['emotional_stability'][-10:])) > 0.2:
+                    logger.log_emotional_event(
+                        child.express_feeling(),
+                        emotional_stability,
+                        str(stimulus['text'])
+                    )
+                    
+            except Exception as e:
+                logger.log_error(e, "Error in emotional update")
+                print(f"\nError in emotional update: {e}")
+                continue
+            
+            # Process perception and response
+            try:
+                perception = child.perceive(stimulus)
+                response = child.respond(perception)
+                
+                # Get feedback from mother
+                feedback = chat_completion(
+                    system_prompt=f"Evaluate this response from your digital child: {response}",
+                    user_prompt=f"Child expressed {child.express_feeling()}. Provide nurturing feedback:",
+                    structured_output=True
+                )
+                
+                # Ensure feedback has all required fields
+                if feedback is None or not isinstance(feedback, dict):
+                    logger.log_error("Invalid feedback format", "Mother feedback was not in correct format")
+                    feedback = {
+                        'reward_score': 0.5,
+                        'success_metric': 0.5,
+                        'complexity_rating': 0.5,
+                        'self_critique_score': 0.5
+                    }
+                else:
+                    # Ensure all required fields exist with default values if missing
+                    default_values = {
+                        'reward_score': 0.5,
+                        'success_metric': 0.5,
+                        'complexity_rating': 0.5,
+                        'self_critique_score': 0.5
+                    }
+                    for key, default_value in default_values.items():
+                        if key not in feedback or feedback[key] is None:
+                            feedback[key] = default_value
+                
+                # Log interaction with error handling
+                try:
+                    logger.log_interaction(stimulus, response, feedback)
+                except Exception as e:
+                    logger.log_error(e, "Failed to log interaction")
+                
+                # Learning step with error handling
+                try:
+                    loss = child.learn({
+                        'input': perception,
+                        'internal_state': response,
+                        'reward': feedback['reward_score']
+                    })
+                except Exception as e:
+                    logger.log_error(e, "Failed in learning step")
+                    loss = 0.0
+                    continue
+                
+                # Update telemetry
+                telemetry['loss'].append(loss)
+                telemetry['memory_usage'].append(memory_usage)
+                telemetry['moral_scores'].append(feedback['reward_score'])
+                
+                # Update psychological metrics
+                telemetry['psychological']['attachment_style'].append(
+                    child.brain.attachment.attachment_styles.tolist()
+                )
+                telemetry['psychological']['defense_mechanisms'].append(
+                    child.brain.defense_mechanisms.anxiety_threshold.item()
+                )
+                telemetry['psychological']['theory_of_mind'].append(
+                    child.brain.theory_of_mind.social_bias.tolist()
+                )
+                
+                # Log performance metrics
+                logger.log_performance({
+                    'loss': loss,
+                    'memory_usage': memory_usage,
+                    'moral_score': feedback['reward_score'],
+                    'emotional_stability': emotional_stability
+                })
+                
+                # Stage progression check
+                old_stage = child.curriculum.current_stage
+                stage_update = child.curriculum.update_stage({
+                    'success_rate': feedback['success_metric'],
+                    'abstraction': feedback['complexity_rating'],
+                    'self_awareness': feedback['self_critique_score']
+                })
+                
+                if stage_update:
+                    print(f"\n{stage_update}")
+                    telemetry['stage_transitions'].append({
+                        'time': current_time,
+                        'stage': child.curriculum.current_stage.name,
+                        'message': stage_update
+                    })
+                    
+                    # Log stage transition
+                    logger.log_stage_transition(
+                        old_stage.name,
+                        child.curriculum.current_stage.name,
+                        {
+                            'success_rate': feedback['success_metric'],
+                            'abstraction': feedback['complexity_rating'],
+                            'self_awareness': feedback['self_critique_score']
+                        }
+                    )
+                
+                # Update visualization
+                if current_time - last_visualization_update > 5:  # Update every 5 seconds
+                    visualizer.update_plots(telemetry)
+                    last_visualization_update = current_time
+                
+                # Periodic saving
+                if current_time - last_save_time > 1800:  # Save every 30 minutes
+                    save_path = f"checkpoints/digital_child_{child.age()}mo_{int(current_time)}"
+                    os.makedirs(save_path, exist_ok=True)
+                    
+                    # Save model checkpoint
+                    torch.save({
+                        'model_state': child.brain.state_dict(),
+                        'telemetry': telemetry,
+                        'curriculum_state': child.curriculum.current_stage,
+                        'emotional_state': child.emotional_state,
+                        'timestamp': current_time
+                    }, f"{save_path}/model.pth")
+                    
+                    # Save visualizations
+                    visualizer.save_visualization(telemetry, save_path)
+                    
+                    # Generate and save development report
+                    report = visualizer.generate_report(telemetry, save_path)
+                    logger.log_development(f"Checkpoint saved: {save_path}")
+                    logger.log_development(f"Development Report: {json.dumps(report, indent=2)}")
+                    
+                    last_save_time = current_time
+                    print(f"\nCheckpoint saved: {save_path}")
+                
+            except Exception as e:
+                logger.log_error(e, "Error in learning cycle")
+                print(f"\nError in learning cycle: {e}")
+                continue
                 
     except KeyboardInterrupt:
         print(f"\nMother: Goodnight my dear child. (Age: {child.age()} months)")
-        torch.save(child.brain.state_dict(), f"digital_child_{child.age()}mo.pth")
+        # Final save on exit
+        save_path = f"checkpoints/digital_child_{child.age()}mo_final"
+        os.makedirs(save_path, exist_ok=True)
+        
+        # Save final state
+        torch.save({
+            'model_state': child.brain.state_dict(),
+            'telemetry': telemetry,
+            'curriculum_state': child.curriculum.current_stage,
+            'emotional_state': child.emotional_state,
+            'timestamp': time.time()
+        }, f"{save_path}/model.pth")
+        
+        # Save final visualizations and report
+        visualizer.save_visualization(telemetry, save_path)
+        report = visualizer.generate_report(telemetry, save_path)
+        
+        # Log final state
+        logger.log_development("Final state saved")
+        logger.log_development(f"Final Development Report: {json.dumps(report, indent=2)}")
+        logger.cleanup()
+        
+        print(f"Final state saved: {save_path}")
 
 if __name__ == "__main__":
     main()
