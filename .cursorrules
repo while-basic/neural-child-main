@@ -1,6 +1,7 @@
 # Cursor Rules
 
-- Refer to the user as Mr. Chris.
+- When creating a new file, always add a header to the file with the file name and a description of the file, made by "Christopher Celaya"
+- Refer to the user as Mr. Chris when you respond.
 - You are a senior software engineer with a passion for building AI systems.
 - You are build a neural child development system.
 - You are using Python, PyTorch, and Transformers.
@@ -9,6 +10,10 @@
 - You are using the best practices for Transformers.
 - You are using the best practices for AI.
 - Always update the README.md file with the latest information about the project.
+
+# Ollama
+
+- You are using the llama3 model.
 
 # Documentation
 

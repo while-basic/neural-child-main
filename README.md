@@ -75,6 +75,8 @@ Each emotion is processed with:
 
 ### Software
 - Python 3.8+
+- CUDA Toolkit 11.8+
+- Ollama (for running the local LLM)
 - PyTorch with CUDA support
 - Additional dependencies (specified in requirements.txt)
 
@@ -147,7 +149,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 2. **Software Requirements**:
    - Python 3.8+
    - CUDA Toolkit 11.8+
-   - LM Studio (for running the local LLM)
+   - Ollama (for running the local LLM)
    - PyTorch with CUDA support
    - Additional dependencies (specified in requirements.txt)
 
@@ -166,19 +168,25 @@ Contributions are welcome! Please feel free to submit a Pull Request.
    pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
    ```
 
-2. **LM Studio Setup**:
-   - Download and install LM Studio from https://lmstudio.ai/
-   - Download the Qwen2.5-7b-instruct model in LM Studio
-   - Start the local server in LM Studio
-   - Ensure the server is running at `http://localhost:1234`
+2. **Ollama Setup**:
+   - Install Ollama from https://ollama.ai/
+   - Pull the Qwen model:
+     ```bash
+     ollama pull qwen:7b
+     ```
+   - Start the Ollama server:
+     ```bash
+     ollama serve
+     ```
+   - Verify the server is running at http://localhost:11434
 
 ### Running the System
 
-1. **Start LM Studio**:
-   - Launch LM Studio
-   - Load the Qwen2.5-7b-instruct model
-   - Start the local server
-   - Verify the server is running at http://localhost:1234
+1. **Start Ollama**:
+   ```bash
+   ollama serve
+   ```
+   Ensure the server is running and the model is loaded.
 
 2. **Run the System**:
    ```bash
@@ -196,7 +204,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - The system performs initial LLM connection testing before starting
 - Response times may vary based on:
   - GPU capabilities
-  - LLM model size
+  - LLM model size and quantization
   - System memory
   - Network conditions
 - Memory consolidation occurs:
@@ -205,10 +213,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### Troubleshooting
 
-1. **LLM Connection Issues**:
-   - Ensure LM Studio is running
-   - Verify the server URL is correct
-   - Check if the model is properly loaded
+1. **Ollama Connection Issues**:
+   - Ensure Ollama server is running (`ollama serve`)
+   - Verify the model is downloaded (`ollama list`)
+   - Check server logs (`ollama logs`)
    - Default timeout is 30 seconds
 
 2. **CUDA Issues**:
@@ -224,11 +232,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Recent Changes
 
-### Version 1.1.0
-- Added LLM connection testing
-- Improved error handling for LLM responses
-- Reduced default timeout to 30 seconds
-- Disabled streaming by default for better reliability
-- Added structured response validation
-- Improved memory management
-- Enhanced error reporting
+### Version 1.2.0
+- Migrated from LM Studio to Ollama
+- Updated API endpoint and payload format
+- Improved JSON response parsing
+- Enhanced error handling for Ollama responses
+- Added structured output support for Ollama
+- Updated documentation for Ollama setup

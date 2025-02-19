@@ -283,7 +283,7 @@ class DigitalChild:
 
     def perceive(self, stimulus):
         return torch.tensor(
-            get_embeddings(stimulus['text'])[0]['embedding'], 
+            get_embeddings(stimulus['text'])['data'][0]['embedding'], 
             device='cuda'
         ).unsqueeze(0)
         
