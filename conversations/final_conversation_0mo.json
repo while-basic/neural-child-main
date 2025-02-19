@@ -1,0 +1,266 @@
+{
+  "history": [
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, you're looking so calm and peaceful right now, little one. I love how you're gazing up at me with those big, curious eyes. It's such a special moment between us. *smiles*",
+        "emotion": "blissful",
+        "intention": "bonding",
+        "developmental_focus": "attachment",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:35:44.043400",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:35:50.991029",
+      "stage": "NEWBORN",
+      "emotional_state": "[NEUTRAL]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, look at you! You're so little and cute, and your cheeks are so fluffy. I can't resist giving you a big ol' hug and kiss right now. *smiles widely* You make me so happy, little one. I'm so grateful to have you in my life. Your innocence and curiosity bring me joy beyond measure. I want to be here for you always, to support your growth and development. *exhales deeply* Let's enjoy this special time together, shall we?",
+        "emotion": "joyful",
+        "intention": "bonding_and_connection",
+        "developmental_focus": "attachment_and_security",
+        "joy": 0.7,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:36:20.712384",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:36:28.205466",
+      "stage": "NEWBORN",
+      "emotional_state": "[NEUTRAL]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, look at you! *smiles* You're so little and cute, and your cheeks are so fluffy. I can't resist giving you a big ol' hug and kiss right now. *giggles* Your innocence and curiosity bring me so much joy. I'm so grateful to have you in my life, little one. Let's enjoy this special time together, shall we?",
+        "emotion": "joyful",
+        "intention": "bonding_and_connection",
+        "developmental_focus": "attachment_and_security",
+        "joy": 0.7,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:37:03.329694",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:37:11.585798",
+      "stage": "NEWBORN",
+      "emotional_state": "[WARM]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Ah, little one, you're so warm and cozy today. Your glowing cheeks remind me of the sun shining brightly in the sky. *smiles* It's such a joy to see you grow and develop every day. I can sense your curiosity and eagerness to learn, and I'm here to support you every step of the way. Let's enjoy this special time together and make some happy memories, shall we?",
+        "emotion": "joyful",
+        "intention": "bonding_and_connection",
+        "developmental_focus": "attachment_and_security",
+        "joy": 0.7,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:37:46.517556",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:37:51.461582",
+      "stage": "NEWBORN",
+      "emotional_state": "[WARM & CURIOUS]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:38:23.301914",
+      "stage": "NEWBORN",
+      "emotional_state": "[AFFECTIONATE & STARTLED]"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "mother looks at baby with a smile",
+        "emotion": "joyful",
+        "need": "social interaction and bonding",
+        "learning": "facial recognition and communication",
+        "joy": 0.3,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:38:55.004811",
+      "stage": "NEWBORN",
+      "emotional_state": "[AFFECTIONATE & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Oh, you're so cute! I see your little face lighting up with excitement. You're curious about everything around you, aren't you? *smiles* It's okay to be curious, little one. We can explore together. *reaches out for a gentle touch* Let me know if you need anything, okay? *nods*",
+        "emotion": "warm",
+        "intention": "social_interaction",
+        "developmental_focus": "sensory_exploration",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:39:24.005734",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction and bonding",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:39:31.709826",
+      "stage": "NEWBORN",
+      "emotional_state": "[CONTENT & AFFECTIONATE & ANXIOUS & CURIOUS]"
+    },
+    {
+      "speaker": "mother",
+      "response": {
+        "content": "I notice Little one watching lights on ceiling, curious. Smiles, offers exploration and comfort. Reaches out for gentle touch.",
+        "emotion": "warm",
+        "intention": "social_interaction",
+        "developmental_focus": "sensory_exploration",
+        "joy": 0.5,
+        "trust": 0.6,
+        "fear": 0.2,
+        "surprise": 0.3
+      },
+      "timestamp": "2025-02-19T12:40:02.391208",
+      "stage": "NEWBORN"
+    },
+    {
+      "speaker": "baby",
+      "response": {
+        "content": "coo",
+        "emotion": "happy",
+        "need": "social interaction and bonding",
+        "learning": "facial recognition and communication",
+        "joy": 0.5,
+        "trust": 0.4,
+        "fear": 0.1,
+        "surprise": 0.2
+      },
+      "timestamp": "2025-02-19T12:40:10.807269",
+      "stage": "NEWBORN",
+      "emotional_state": "[HAPPY & AFFECTIONATE & ANXIOUS & CURIOUS]"
+    }
+  ],
+  "metadata": {
+    "total_turns": 14,
+    "timestamp": "2025-02-19T12:40:22.321598",
+    "mother_personality": {
+      "role": "mother",
+      "traits": [
+        "nurturing",
+        "patient",
+        "encouraging",
+        "protective"
+      ],
+      "goals": [
+        "development",
+        "learning",
+        "emotional_bonding"
+      ],
+      "speaking_style": {
+        "perspective": "first_person",
+        "tone": "warm_and_personal",
+        "expressions": [
+          "I see that",
+          "I notice",
+          "I feel",
+          "Let me",
+          "I'm here",
+          "I'll help"
+        ]
+      }
+    },
+    "baby_personality": {
+      "role": "baby",
+      "traits": [
+        "curious",
+        "developing",
+        "emotional",
+        "dependent"
+      ],
+      "goals": [
+        "learning",
+        "exploration",
+        "attachment"
+      ]
+    }
+  }
+}

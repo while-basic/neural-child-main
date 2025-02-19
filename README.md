@@ -155,82 +155,57 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### Setup Steps
 
-1. **Environment Setup**:
-   ```bash
-   # Clone the repository
-   git clone [repository-url]
-   cd neural-child
+## Installation
+1. Clone the repository
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Ensure Ollama is running with llama2 and llama3 models
 
-   # Install dependencies
-   pip install -r requirements.txt
+## Recent Test Results
+- Successfully implemented mother-child conversation system
+- Emotional state tracking and regulation functioning
+- Memory consolidation working with proper error handling
+- Developmental stage progression tracking operational
+- Telemetry and visualization systems active
+- Periodic conversation and checkpoint saving implemented
 
-   # Install PyTorch with CUDA support
-   pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
-   ```
+## Known Issues
+- Matrix multiplication errors in learning step (being addressed)
+- Occasional JSON parsing errors in LLM responses
+- Memory usage spikes during extended runs
 
-2. **Ollama Setup**:
-   - Install Ollama from https://ollama.ai/
-   - Pull the Qwen model:
-     ```bash
-     ollama pull qwen:7b
-     ```
-   - Start the Ollama server:
-     ```bash
-     ollama serve
-     ```
-   - Verify the server is running at http://localhost:11434
+## Next Steps
+1. Optimize matrix dimensions in learning module
+2. Enhance JSON response parsing robustness
+3. Implement more sophisticated memory management
+4. Add advanced conversation analysis features
+5. Develop better error recovery mechanisms
 
-### Running the System
+## Directory Structure
+```
+neural-child/
+├── main.py              # Main system controller
+├── conversation_system.py # Mother-child interaction handler
+├── logger.py            # Comprehensive logging system
+├── visualization.py     # Real-time visualization
+├── checkpoints/         # Model checkpoints
+├── conversations/       # Saved conversations
+└── logs/               # System logs
+```
 
-1. **Start Ollama**:
-   ```bash
-   ollama serve
-   ```
-   Ensure the server is running and the model is loaded.
+## Usage
+Run the main script to start the system:
+```bash
+python main.py
+```
 
-2. **Run the System**:
-   ```bash
-   python main.py
-   ```
+## Contributing
+Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
-   The system will:
-   - Test LLM connection
-   - Initialize the Digital Child
-   - Begin the developmental process
-   - Save progress automatically
-
-### Performance Notes
-
-- The system performs initial LLM connection testing before starting
-- Response times may vary based on:
-  - GPU capabilities
-  - LLM model size and quantization
-  - System memory
-  - Network conditions
-- Memory consolidation occurs:
-  - Every 24 hours of runtime
-  - When memory usage exceeds 90%
-
-### Troubleshooting
-
-1. **Ollama Connection Issues**:
-   - Ensure Ollama server is running (`ollama serve`)
-   - Verify the model is downloaded (`ollama list`)
-   - Check server logs (`ollama logs`)
-   - Default timeout is 30 seconds
-
-2. **CUDA Issues**:
-   - Verify CUDA toolkit installation
-   - Ensure PyTorch is installed with CUDA support
-   - Check GPU memory usage
-   - Monitor system resources
-
-3. **Memory Management**:
-   - System automatically manages memory
-   - Consolidation triggers at 90% usage
-   - Batch size adjusts automatically
-
-## Recent Changes
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Version 1.2.0
 - Migrated from LM Studio to Ollama

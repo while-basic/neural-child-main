@@ -2,6 +2,7 @@
 
 import requests
 import json
+import time
 from typing import Optional, Dict, Any
 from schemas import MotherResponse
 
@@ -55,109 +56,79 @@ def format_prompt_for_json(schema: Dict) -> str:
     4. Use proper JSON format with double quotes
     """
 
-def chat_completion(
-    system_prompt: str,
-    user_prompt: str,
-    model: str = "artifish/llama3.2-uncensored",  # DO NOT CHANGE THIS MODEL
-    temperature: float = 0.7,
-    max_tokens: int = -1,
-    stream: bool = False,
-    server_url: str = "http://localhost:11434/api/chat",
-    structured_output: bool = False
-) -> Optional[Dict[str, Any]]:
+def chat_completion(system_prompt, user_prompt, structured_output=False, model="llama2"):
     """
-    Enhanced with automatic structured response handling and Ollama API support
+    Get a chat completion from the Ollama API
     """
     try:
-        # Generate JSON schema if structured output requested
+        # Format the prompt to encourage proper JSON formatting
         if structured_output:
-            json_instructions = format_prompt_for_json(MotherResponse.model_json_schema())
-            system_prompt = f"{system_prompt}\n\n{json_instructions}"
-
-        # Format messages for Ollama
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ]
-
-        # Prepare Ollama-specific payload
-        payload = {
+            system_prompt = system_prompt + "\nYou must respond with a complete, valid JSON object."
+            user_prompt = user_prompt + "\nRespond ONLY with a valid JSON object, nothing else."
+        
+        # Prepare the request
+        url = "http://localhost:11434/api/chat"
+        data = {
             "model": model,
-            "messages": messages,
-            "stream": stream,
-            "options": {
-                "temperature": temperature,
-                "num_predict": max_tokens if max_tokens > 0 else 100
-            }
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            "stream": False
         }
-
-        headers = {"Content-Type": "application/json"}
-
-        response = requests.post(server_url, headers=headers, json=payload, timeout=30)
-        response.raise_for_status()
-        data = response.json()
         
-        if not data or "message" not in data:
-            print("Invalid response format from Ollama server")
-            return DEFAULT_RESPONSE if structured_output else None
-            
-        raw_content = data["message"]["content"]
-        
-        if not raw_content:
-            print("Empty response from Ollama server")
-            return DEFAULT_RESPONSE if structured_output else None
-
-        if structured_output:
+        # Make the request with retry logic
+        max_retries = 3
+        for attempt in range(max_retries):
             try:
-                # Try to extract JSON from the response
-                json_start = raw_content.find('{')
-                json_end = raw_content.rfind('}') + 1
+                response = requests.post(url, json=data)
+                response.raise_for_status()
+                break
+            except requests.exceptions.RequestException as e:
+                if attempt == max_retries - 1:
+                    print(f"Request error: {str(e)}")
+                    return None
+                time.sleep(1)  # Wait before retrying
                 
-                if json_start >= 0 and json_end > json_start:
-                    json_str = raw_content[json_start:json_end]
-                    # Clean up common JSON formatting issues
-                    json_str = json_str.replace("'", '"')  # Replace single quotes with double quotes
-                    json_str = json_str.replace('None', 'null')  # Replace Python None with JSON null
-                    json_str = json_str.replace('True', 'true').replace('False', 'false')  # Fix booleans
+        # Parse the response
+        if response.status_code == 200:
+            result = response.json()
+            content = result.get('message', {}).get('content', '')
+            
+            if structured_output:
+                try:
+                    # Find the JSON part of the response
+                    start_idx = content.find('{')
+                    end_idx = content.rfind('}') + 1
                     
-                    try:
-                        parsed_json = json.loads(json_str)
-                        # Ensure all required fields are present with defaults
-                        for key, value in DEFAULT_RESPONSE.items():
-                            if key not in parsed_json or not isinstance(parsed_json[key], (str, float, int)):
-                                parsed_json[key] = value
-                                print(f"Missing or invalid field '{key}', using default value: {value}")
+                    if start_idx != -1 and end_idx != -1:
+                        json_str = content[start_idx:end_idx]
                         
-                        # Ensure numerical values are within bounds
-                        for key, value in parsed_json.items():
-                            if key != 'content' and isinstance(value, (float, int)):
-                                old_value = value
-                                parsed_json[key] = max(0.0, min(1.0, float(value)))
-                                if old_value != parsed_json[key]:
-                                    print(f"Clamped {key} from {old_value} to {parsed_json[key]}")
+                        # Clean the JSON string
+                        json_str = json_str.replace('\n', ' ')
+                        json_str = json_str.replace('\r', ' ')
+                        json_str = json_str.replace('\\', '\\\\')
+                        json_str = json_str.replace('\\"', '"')
+                        json_str = json_str.replace(',"', ', "')
+                        json_str = json_str.replace('"}', '" }')
+                        json_str = json_str.replace('"{', '{ "')
                         
-                        return parsed_json
-                    except json.JSONDecodeError as e:
-                        print(f"Invalid JSON structure: {str(e)}")
-                        print(f"Attempted to parse: {json_str}")
-                        return DEFAULT_RESPONSE
-                else:
-                    print("No valid JSON found in response")
-                    print(f"Raw content: {raw_content}")
-                    return DEFAULT_RESPONSE
-            except Exception as e:
-                print(f"Error processing structured response: {str(e)}")
-                return DEFAULT_RESPONSE
-                
-        return raw_content
-
-    except requests.exceptions.Timeout:
-        print("Request timed out. Please check if Ollama server is responsive.")
-    except requests.exceptions.ConnectionError:
-        print("Connection error. Please check if Ollama server is running.")
-    except requests.exceptions.RequestException as e:
-        print(f"Request error: {e}")
+                        # Parse the JSON
+                        return json.loads(json_str)
+                    else:
+                        print("No valid JSON found in response")
+                        print(f"Raw content: {content}")
+                        return None
+                except json.JSONDecodeError as e:
+                    print(f"Invalid JSON structure: {str(e)}")
+                    print(f"Attempted to parse: {json_str}")
+                    return None
+            else:
+                return content
+        else:
+            print(f"Error: {response.status_code} - {response.text}")
+            return None
+            
     except Exception as e:
-        print(f"Unexpected error: {e}")
-    
-    return DEFAULT_RESPONSE if structured_output else None
+        print(f"Error in chat_completion: {str(e)}")
+        return None

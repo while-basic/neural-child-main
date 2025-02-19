@@ -6,110 +6,86 @@ import torch.nn as nn
 import time
 
 class AutonomousTrainer:
-    def __init__(self, child_model, memory, moral_net):
-        self.child = child_model
+    def __init__(self, brain, memory, morality, batch_size=32):
+        self.brain = brain
         self.memory = memory
-        self.moral_net = moral_net
-        self.optimizer = torch.optim.AdamW(child_model.parameters(), lr=3e-4)
-        
-    def training_step(self, inputs):
-        """
-        Safe and efficient training step that avoids in-place operations
-        """
-        # Start with a clean slate
+        self.morality = morality
+        self.batch_size = batch_size
+        self.criterion = torch.nn.MSELoss()
+        self.optimizer = torch.optim.Adam(self.brain.parameters(), lr=0.001)
+
+    def training_step(self, input_tensor):
+        """Perform a training step with proper tensor handling"""
         self.optimizer.zero_grad()
         
-        # Make sure inputs are properly cloned and require gradients
-        inputs = inputs.clone().detach().requires_grad_(True)
+        # Ensure input tensor is properly shaped
+        if input_tensor.dim() == 1:
+            input_tensor = input_tensor.unsqueeze(0)
+            
+        # Get prediction from brain
+        prediction = self.brain(input_tensor)
         
-        # Forward pass - create new tensors instead of modifying in-place
-        outputs = self.child(inputs)
-        moral_feedback = self.moral_net(outputs)['moral_score']
+        # Get replay batch from memory
+        replay_batch = self.memory.sample_batch(self.batch_size)
+        if replay_batch is None or len(replay_batch) == 0:
+            return torch.tensor(0.0, device='cuda')
+            
+        # Process replay batch
+        replay_loss = self._process_batch(replay_batch)
         
-        # Safely store experience without affecting gradient computation
-        with torch.no_grad():
-            self.memory.record_experience(
-                inputs.clone(),
-                outputs.clone(),
-                moral_feedback.item(),
-                time.time(),
-                self.child.emotional_state.clone()  # Clone emotional state too!
-            )
+        # Combine losses
+        total_loss = replay_loss
         
-        # Process batch and get loss
-        replay_loss = self._process_batch()
+        # Only backward if we have a valid tensor
+        if isinstance(total_loss, torch.Tensor) and total_loss.requires_grad:
+            total_loss.backward()
+            self.optimizer.step()
+            return total_loss.item()
         
-        # Backward pass
-        replay_loss.backward()
+        return 0.0
         
-        # Clip gradients safely
-        grad_norm = torch.nn.utils.clip_grad_norm_(
-            self.child.parameters(), 
-            max_norm=1.0
-        )
-        
-        # Step optimizer
-        self.optimizer.step()
-        
-        # Safely update beliefs
-        with torch.no_grad():
-            self.child.current_beliefs = outputs.clone().detach()
-        
-        return replay_loss.item()
+    def _process_batch(self, batch):
+        """Process a batch of experiences with proper tensor handling"""
+        try:
+            inputs = []
+            targets = []
+            
+            for experience in batch:
+                if isinstance(experience, dict):
+                    input_data = experience.get('input')
+                    target_data = experience.get('target')
+                    
+                    if isinstance(input_data, torch.Tensor) and isinstance(target_data, torch.Tensor):
+                        # Ensure proper dimensions
+                        if input_data.dim() == 1:
+                            input_data = input_data.unsqueeze(0)
+                        if target_data.dim() == 1:
+                            target_data = target_data.unsqueeze(0)
+                            
+                        inputs.append(input_data)
+                        targets.append(target_data)
+            
+            if not inputs or not targets:
+                return torch.tensor(0.0, device='cuda', requires_grad=True)
+                
+            # Stack tensors
+            input_tensor = torch.cat(inputs, dim=0)
+            target_tensor = torch.cat(targets, dim=0)
+            
+            # Get prediction
+            prediction = self.brain(input_tensor)
+            
+            # Calculate loss
+            loss = self.criterion(prediction, target_tensor)
+            return loss
+            
+        except Exception as e:
+            print(f"Error in _process_batch: {str(e)}")
+            return torch.tensor(0.0, device='cuda', requires_grad=True)
 
-    def _process_batch(self, batch_size=32):
-        """
-        Safe batch processing that avoids in-place operations
-        """
-        samples, indices = self.memory.replay_optimizer.sample_batch(batch_size)
-        if not samples:
-            return torch.tensor(0.0, device=self.child.device)
-        
-        # Safely create tensors
-        inputs = torch.stack([
-            sample[:768].clone().detach().requires_grad_(True) 
-            for sample in samples
-        ]).to(self.child.device)
-        
-        past_states = torch.stack([
-            sample[768:896].clone().detach() 
-            for sample in samples
-        ]).to(self.child.device)
-        
-        rewards = torch.stack([
-            sample[896].clone().detach() 
-            for sample in samples
-        ]).to(self.child.device)
-        
-        # Forward pass
-        current_outputs = self.child(inputs)
-        
-        # Compute losses safely - no in-place operations
-        similarity = nn.CosineSimilarity(dim=-1)(current_outputs, past_states)
-        consistency_loss = torch.ones_like(similarity).mean() - similarity.mean()
-        
-        moral_scores = self.moral_net(current_outputs)['moral_score']
-        moral_loss = nn.MSELoss()(moral_scores.squeeze(), rewards)
-        
-        # Compute EWC loss safely
-        ewc_loss = sum(
-            torch.norm(param, p=2)
-            for name, param in self.child.named_parameters()
-            if param.requires_grad and '_plasticity' in name
-        )
-        
-        # Combine losses without in-place operations
-        total_loss = (
-            0.7 * consistency_loss + 
-            0.3 * moral_loss + 
-            0.1 * ewc_loss
-        )
-        
-        return total_loss
-    
     def _safe_tensor_op(self, tensor, requires_grad=False):
         """Helper method for safe tensor operations"""
         result = tensor.clone().detach()
         if requires_grad:
             result.requires_grad_(True)
-        return result.to(self.child.device)
+        return result.to(self.brain.device)

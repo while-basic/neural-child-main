@@ -14,11 +14,12 @@ import os
 import json
 import numpy as np
 from logger import DevelopmentLogger
-from visualization import DevelopmentVisualizer
+from conversation_system import ConversationSystem
 
 class MotherLLM:
     def __init__(self):
         self.emotional_history = []
+        self.conversation_system = None  # Will be initialized in main
         # Add a prompt for each developmental stage.
         self.stage_prompts = {
             DevelopmentalStage.NEWBORN: (
@@ -205,30 +206,81 @@ class MotherLLM:
         self.conversation_history = []
     
     def generate_stimulus(self, stage, child_response="[EMPTY]"):
-        self.conversation_history.append({"role": "child", "content": child_response})
-        prompt_text = self.stage_prompts.get(stage, self.stage_prompts[DevelopmentalStage.NEWBORN])
-        prompt = prompt_text + f" Conversation history: {self.conversation_history}"
-        response = chat_completion(
-            system_prompt=prompt,
-            user_prompt="Provide nurturing feedback and guidance:",
-            structured_output=True
-        )
-        emotional_vector = torch.tensor([
-            response.get('joy', 0.5),
-            response.get('trust', 0.5),
-            response.get('fear', 0.1),
-            response.get('surprise', 0.3)
-        ], device='cuda')
-        if self.emotional_history:
-            decay = 0.9 ** len(self.emotional_history)
-            emotional_vector += self.emotional_history[-1] * decay
-        self.emotional_history.append(emotional_vector)
-        self.conversation_history.append({"role": "mother", "content": response['content']})
-        self.feedback_history.append(response)
-        return {
-            'text': response['content'],
-            'emotional_vector': torch.sigmoid(emotional_vector)
-        }
+        """Generate a stimulus response with proper error handling"""
+        try:
+            if self.conversation_system:
+                # Use conversation system for more natural interactions
+                response = self.conversation_system.generate_mother_response(
+                    stage,
+                    child_response,
+                    "Regular interaction time"
+                )
+                
+                # If response is None, use fallback
+                if response is None:
+                    response = {
+                        'content': "I'm here with you, my little one.",
+                        'emotion': 'nurturing',
+                        'intention': 'comfort',
+                        'developmental_focus': 'emotional_security',
+                        'joy': 0.7,
+                        'trust': 0.8,
+                        'fear': 0.1,
+                        'surprise': 0.2
+                    }
+                
+                # Convert conversation response to emotional vector
+                emotional_vector = torch.tensor([
+                    response.get('joy', 0.7),
+                    response.get('trust', 0.8),
+                    response.get('fear', 0.1),
+                    response.get('surprise', 0.2)
+                ], device='cuda')
+            else:
+                # Fallback to original behavior
+                self.conversation_history.append({"role": "child", "content": child_response})
+                prompt_text = self.stage_prompts.get(stage, self.stage_prompts[DevelopmentalStage.NEWBORN])
+                response = chat_completion(
+                    system_prompt=prompt_text + f" Conversation history: {self.conversation_history}",
+                    user_prompt="Provide nurturing feedback and guidance:",
+                    structured_output=True
+                )
+                
+                # If response is None, use fallback
+                if response is None:
+                    response = {
+                        'content': "There, there, sweetheart. Mommy's here.",
+                        'joy': 0.7,
+                        'trust': 0.8,
+                        'fear': 0.1,
+                        'surprise': 0.2
+                    }
+                
+                emotional_vector = torch.tensor([
+                    response.get('joy', 0.7),
+                    response.get('trust', 0.8),
+                    response.get('fear', 0.1),
+                    response.get('surprise', 0.2)
+                ], device='cuda')
+
+            if self.emotional_history:
+                decay = 0.9 ** len(self.emotional_history)
+                emotional_vector += self.emotional_history[-1] * decay
+            self.emotional_history.append(emotional_vector)
+            
+            return {
+                'text': response.get('content', "I'm here with you, my little one."),
+                'emotional_vector': torch.sigmoid(emotional_vector)
+            }
+            
+        except Exception as e:
+            print(f"\nError generating stimulus: {str(e)}")
+            # Return safe fallback values
+            fallback_vector = torch.tensor([0.7, 0.8, 0.1, 0.2], device='cuda')
+            return {
+                'text': "I'm here with you, my little one.",
+                'emotional_vector': torch.sigmoid(fallback_vector)
+            }
 
 class DigitalChild:
     def __init__(self):
@@ -241,7 +293,9 @@ class DigitalChild:
         self.mother = MotherLLM()
         self.birth_date = datetime.now()
         self.emotional_state = torch.zeros(4, device='cuda')
-        
+        self.conversation_system = None
+        self.logger = DevelopmentLogger()  # Initialize logger
+    
     def update_emotions(self, mother_vector):
         delta = mother_vector - self.emotional_state
         self.emotional_state += 0.3 * delta + 0.1 * torch.randn_like(delta)
@@ -287,33 +341,198 @@ class DigitalChild:
         return "[" + " & ".join(feelings).upper() + "]"
 
     def perceive(self, stimulus):
-        return torch.tensor(
-            get_embeddings(stimulus['text'])['data'][0]['embedding'], 
-            device='cuda'
-        ).unsqueeze(0)
-        
+        """Convert stimulus into embeddings with proper dimension handling"""
+        try:
+            if isinstance(stimulus, dict) and 'text' in stimulus:
+                text = stimulus['text']
+            else:
+                text = str(stimulus)
+                
+            embeddings = get_embeddings(text)
+            if embeddings and 'data' in embeddings and len(embeddings['data']) > 0:
+                # Get embedding and ensure it's 2D (batch_size x features)
+                embedding = torch.tensor(
+                    embeddings['data'][0]['embedding'], 
+                    device='cuda'
+                )
+                
+                # Ensure 2D tensor shape
+                if embedding.dim() == 1:
+                    embedding = embedding.unsqueeze(0)  # Add batch dimension
+                elif embedding.dim() > 2:
+                    # Flatten extra dimensions while preserving batch size
+                    embedding = embedding.view(1, -1)
+                    
+                return embedding
+            else:
+                # Return zero embedding with correct shape
+                return torch.zeros((1, 384), device='cuda')
+        except Exception as e:
+            self.logger.log_error(f"Error in perceive: {str(e)}")
+            return torch.zeros((1, 384), device='cuda')
+            
     def respond(self, perception):
-        with torch.amp.autocast("cuda"):
-            return self.brain(perception)
+        """Generate response based on perception"""
+        if self.conversation_system:
+            # Use conversation system for more natural responses
+            response = self.conversation_system.generate_baby_response(
+                self.curriculum.current_stage,
+                perception,
+                self.express_feeling(),
+                "Regular interaction time"
+            )
+            return response
+        else:
+            # Fallback to original behavior
+            with torch.amp.autocast("cuda"):
+                return self.brain(perception)
     
     def learn(self, mother_feedback):
-        self.memory.record_experience(
-            mother_feedback['input'],
-            mother_feedback['internal_state'],
-            mother_feedback['reward'],
-            time.time(),
-            self.emotional_state  
-        )
-        return self.trainer.training_step(mother_feedback['input'])
+        """Learn from mother's feedback with proper dimension handling"""
+        try:
+            # Convert response to tensor if needed
+            if isinstance(mother_feedback.get('input'), torch.Tensor):
+                input_tensor = mother_feedback['input']
+            else:
+                input_tensor = self.perceive(mother_feedback.get('input', ''))
+            
+            # Ensure input tensor has correct dimensions (batch_size x features)
+            if input_tensor.dim() == 1:
+                input_tensor = input_tensor.unsqueeze(0)
+            elif input_tensor.dim() > 2:
+                input_tensor = input_tensor.view(1, -1)
+                
+            # Convert internal state to tensor if needed
+            if isinstance(mother_feedback.get('internal_state'), dict):
+                state_dict = mother_feedback['internal_state']
+                internal_state = torch.tensor([
+                    float(state_dict.get('joy', 0.5)),
+                    float(state_dict.get('trust', 0.5)),
+                    float(state_dict.get('fear', 0.1)),
+                    float(state_dict.get('surprise', 0.3))
+                ], device='cuda').unsqueeze(0)
+            else:
+                internal_state = torch.zeros((1, 4), device='cuda')
+            
+            # Log tensor shapes for debugging
+            self.logger.log_development(f"Input tensor shape: {input_tensor.shape}")
+            self.logger.log_development(f"Internal state shape: {internal_state.shape}")
+            
+            # Record experience
+            self.memory.record_experience(
+                input_tensor,
+                internal_state,
+                float(mother_feedback.get('reward', 0.5)),
+                time.time(),
+                self.emotional_state
+            )
+            
+            # Perform training step
+            return self.trainer.training_step(input_tensor)
+            
+        except Exception as e:
+            error_msg = f"Error in learning step: {str(e)}\n"
+            error_msg += f"Input shape: {input_tensor.shape if 'input_tensor' in locals() else 'N/A'}\n"
+            error_msg += f"Internal state shape: {internal_state.shape if 'internal_state' in locals() else 'N/A'}"
+            self.logger.log_error(error_msg)
+            return 0.0
 
     def age(self):
         return (datetime.now() - self.birth_date).days // 30  # months
 
+def handle_llm_response(response, default_values, logger):
+    """Handle LLM response with proper error checking and defaults"""
+    try:
+        if response is None:
+            logger.log_error("Empty response from LLM")
+            return default_values
+            
+        if isinstance(response, str):
+            # Try to parse string response, handling incomplete JSON
+            try:
+                # Clean up the response string
+                response = response.strip()
+                
+                # Fix common JSON formatting issues
+                response = response.replace('\n', ' ')
+                response = response.replace('\\', '\\\\')
+                response = response.replace('"re', '\\"re')
+                response = response.replace('"m', '\\"m')
+                response = response.replace('"s', '\\"s')
+                response = response.replace('"t', '\\"t')
+                
+                # Handle incomplete JSON
+                if response.endswith(','):
+                    response = response[:-1]
+                if not response.endswith('}'):
+                    response = response + '}'
+                if response.count('{') > response.count('}'):
+                    response = response + '}'
+                if '"reward_' in response and not '"reward_score"' in response:
+                    response = response.replace('"reward_', '"reward_score"')
+                    
+                # Try to parse the cleaned JSON
+                response = json.loads(response)
+                
+            except json.JSONDecodeError as e:
+                logger.log_error(f"JSON parsing error: {str(e)}\nAttempted to parse: {response}")
+                # Try to extract values using regex
+                import re
+                extracted_values = {}
+                
+                # Extract content if present
+                content_match = re.search(r'"content":\s*"([^"]+)"', response)
+                if content_match:
+                    extracted_values['content'] = content_match.group(1)
+                
+                # Extract numeric values
+                for key in default_values.keys():
+                    pattern = f'"{key}":\\s*([0-9.]+)'
+                    match = re.search(pattern, response)
+                    if match:
+                        try:
+                            extracted_values[key] = float(match.group(1))
+                        except ValueError:
+                            continue
+                            
+                if extracted_values:
+                    response = {**default_values, **extracted_values}
+                else:
+                    return default_values
+                
+        if not isinstance(response, dict):
+            logger.log_error(f"Invalid response type: {type(response)}")
+            return default_values
+            
+        # Ensure all required fields exist with proper types
+        validated_response = default_values.copy()
+        for key, default_value in default_values.items():
+            if key in response and response[key] is not None:
+                try:
+                    if isinstance(default_value, (int, float)):
+                        value = float(response[key])
+                        # Ensure values are within reasonable bounds
+                        if 0 <= value <= 1:
+                            validated_response[key] = value
+                        else:
+                            validated_response[key] = max(0, min(1, value))
+                    else:
+                        validated_response[key] = str(response[key])
+                except (ValueError, TypeError) as e:
+                    logger.log_error(f"Value conversion error for {key}: {response[key]} - {str(e)}")
+                    
+        return validated_response
+        
+    except Exception as e:
+        logger.log_error(f"Error processing LLM response: {str(e)}")
+        return default_values
+
 def main():
-    # Initialize logger and visualizer
+    # Initialize logger
     logger = DevelopmentLogger()
-    visualizer = DevelopmentVisualizer()
-    visualizer.initialize_plots()
+    
+    # Initialize conversation system
+    conversation_system = ConversationSystem(logger)
     
     # Test LLM connection first
     print("Testing LLM connection...")
@@ -342,7 +561,8 @@ def main():
         'learning_rate': [],
         'attention_span': [],
         'social_awareness': [],
-        'memory_consolidation': []
+        'memory_consolidation': [],
+        'conversation_quality': []
     }
     
     # Initialize psychological metrics
@@ -357,9 +577,12 @@ def main():
     }
     
     child = DigitalChild()
+    child.mother.conversation_system = conversation_system
+    child.conversation_system = conversation_system
+    
     last_save_time = time.time()
     last_memory_check = time.time()
-    last_visualization_update = time.time()
+    last_conversation_save = time.time()
     
     try:
         while True:
@@ -385,10 +608,18 @@ def main():
                     child.curriculum.current_stage, 
                     child.express_feeling()
                 )
+                # Display baby's current emotional state
+                print(f"\nBaby: {child.express_feeling()}")
+                print(f"Emotional State - Joy: {child.emotional_state[0]:.2f}, Trust: {child.emotional_state[1]:.2f}, Fear: {child.emotional_state[2]:.2f}, Surprise: {child.emotional_state[3]:.2f}")
+                
+                # Display mother's response
+                print(f"Mother: {stimulus['text']}")
+                print(f"Mother's Emotions - Joy: {stimulus['emotional_vector'][0]:.2f}, Trust: {stimulus['emotional_vector'][1]:.2f}, Fear: {stimulus['emotional_vector'][2]:.2f}, Surprise: {stimulus['emotional_vector'][3]:.2f}")
+                
             except Exception as e:
                 logger.log_error(e, "Error generating stimulus")
                 print(f"\nError generating stimulus: {e}")
-                time.sleep(5)  # Brief pause before retry
+                time.sleep(5)
                 continue
                 
             # Update emotional state with error handling
@@ -398,12 +629,16 @@ def main():
                 telemetry['emotional_stability'].append(emotional_stability)
                 
                 # Log significant emotional events
-                if abs(emotional_stability - np.mean(telemetry['emotional_stability'][-10:])) > 0.2:
-                    logger.log_emotional_event(
-                        child.express_feeling(),
-                        emotional_stability,
-                        str(stimulus['text'])
-                    )
+                if len(telemetry['emotional_stability']) > 10:
+                    if abs(emotional_stability - sum(telemetry['emotional_stability'][-10:]) / 10) > 0.2:
+                        logger.log_emotional_event(
+                            child.express_feeling(),
+                            emotional_stability,
+                            str(stimulus['text'])
+                        )
+                        print(f"\nSignificant Emotional Change Detected!")
+                        print(f"Baby's New Emotional State: {child.express_feeling()}")
+                        print(f"Emotional Stability: {emotional_stability:.2f}")
                     
             except Exception as e:
                 logger.log_error(e, "Error in emotional update")
@@ -415,39 +650,54 @@ def main():
                 perception = child.perceive(stimulus)
                 response = child.respond(perception)
                 
-                # Get feedback from mother
-                feedback = chat_completion(
-                    system_prompt=f"Evaluate this response from your digital child: {response}",
-                    user_prompt=f"Child expressed {child.express_feeling()}. Provide nurturing feedback:",
-                    structured_output=True
+                # Display baby's response
+                if isinstance(response, dict) and 'content' in response:
+                    print(f"\nBaby: {response['content']}")
+                    print(f"Baby's Response Emotions - Joy: {response.get('joy', 0.5):.2f}, Trust: {response.get('trust', 0.5):.2f}, Fear: {response.get('fear', 0.1):.2f}, Surprise: {response.get('surprise', 0.2):.2f}")
+                else:
+                    print(f"\nBaby: {response}")
+                
+                # Analyze conversation quality
+                interaction_analysis = conversation_system.analyze_interaction(
+                    stimulus,
+                    response
                 )
                 
-                # Ensure feedback has all required fields
-                if feedback is None or not isinstance(feedback, dict):
-                    logger.log_error("Invalid feedback format", "Mother feedback was not in correct format")
-                    feedback = {
-                        'reward_score': 0.5,
-                        'success_metric': 0.5,
-                        'complexity_rating': 0.5,
-                        'self_critique_score': 0.5
-                    }
-                else:
-                    # Ensure all required fields exist with default values if missing
-                    default_values = {
-                        'reward_score': 0.5,
-                        'success_metric': 0.5,
-                        'complexity_rating': 0.5,
-                        'self_critique_score': 0.5
-                    }
-                    for key, default_value in default_values.items():
-                        if key not in feedback or feedback[key] is None:
-                            feedback[key] = default_value
+                # Display interaction quality
+                print(f"Interaction Quality: {interaction_analysis['interaction_quality']:.2f}")
                 
-                # Log interaction with error handling
-                try:
-                    logger.log_interaction(stimulus, response, feedback)
-                except Exception as e:
-                    logger.log_error(e, "Failed to log interaction")
+                telemetry['conversation_quality'].append(interaction_analysis['interaction_quality'])
+                
+                # Update psychological metrics
+                for aspect, score in interaction_analysis['developmental_progress'].items():
+                    if aspect in telemetry['psychological']:
+                        telemetry['psychological'][aspect].append(score)
+                
+                # Handle the feedback response
+                feedback = handle_llm_response(
+                    chat_completion(
+                        system_prompt=f"Evaluate this response from your digital child: {response}",
+                        user_prompt=f"Child expressed {child.express_feeling()}. Provide nurturing feedback:",
+                        structured_output=True
+                    ),
+                    {
+                        'content': "There, there, sweetheart. Mommy's here.",
+                        'reward_score': 0.5,
+                        'success_metric': 0.5,
+                        'complexity_rating': 0.5,
+                        'self_critique_score': 0.5,
+                        'joy': 0.5,
+                        'trust': 0.5,
+                        'fear': 0.1,
+                        'surprise': 0.3
+                    },
+                    logger
+                )
+                
+                # Display mother's feedback
+                print(f"Mother's Feedback: {feedback['content']}")
+                print(f"Feedback Metrics - Reward: {feedback['reward_score']:.2f}, Success: {feedback['success_metric']:.2f}, Complexity: {feedback['complexity_rating']:.2f}")
+                print("-" * 80)
                 
                 # Learning step with error handling
                 try:
@@ -456,66 +706,10 @@ def main():
                         'internal_state': response,
                         'reward': feedback['reward_score']
                     })
+                    telemetry['loss'].append(loss)
                 except Exception as e:
                     logger.log_error(e, "Failed in learning step")
-                    loss = 0.0
                     continue
-                
-                # Update telemetry
-                telemetry['loss'].append(loss)
-                telemetry['memory_usage'].append(memory_usage)
-                telemetry['moral_scores'].append(feedback['reward_score'])
-                
-                # Update psychological metrics
-                telemetry['psychological']['attachment_style'].append(
-                    child.brain.attachment.attachment_styles.tolist()
-                )
-                telemetry['psychological']['defense_mechanisms'].append(
-                    child.brain.defense_mechanisms.anxiety_threshold.item()
-                )
-                telemetry['psychological']['theory_of_mind'].append(
-                    child.brain.theory_of_mind.social_bias.tolist()
-                )
-                
-                # Log performance metrics
-                logger.log_performance({
-                    'loss': loss,
-                    'memory_usage': memory_usage,
-                    'moral_score': feedback['reward_score'],
-                    'emotional_stability': emotional_stability
-                })
-                
-                # Stage progression check
-                old_stage = child.curriculum.current_stage
-                stage_update = child.curriculum.update_stage({
-                    'success_rate': feedback['success_metric'],
-                    'abstraction': feedback['complexity_rating'],
-                    'self_awareness': feedback['self_critique_score']
-                })
-                
-                if stage_update:
-                    print(f"\n{stage_update}")
-                    telemetry['stage_transitions'].append({
-                        'time': current_time,
-                        'stage': child.curriculum.current_stage.name,
-                        'message': stage_update
-                    })
-                    
-                    # Log stage transition
-                    logger.log_stage_transition(
-                        old_stage.name,
-                        child.curriculum.current_stage.name,
-                        {
-                            'success_rate': feedback['success_metric'],
-                            'abstraction': feedback['complexity_rating'],
-                            'self_awareness': feedback['self_critique_score']
-                        }
-                    )
-                
-                # Update visualization
-                if current_time - last_visualization_update > 5:  # Update every 5 seconds
-                    visualizer.update_plots(telemetry)
-                    last_visualization_update = current_time
                 
                 # Periodic saving
                 if current_time - last_save_time > 1800:  # Save every 30 minutes
@@ -531,16 +725,15 @@ def main():
                         'timestamp': current_time
                     }, f"{save_path}/model.pth")
                     
-                    # Save visualizations
-                    visualizer.save_visualization(telemetry, save_path)
-                    
-                    # Generate and save development report
-                    report = visualizer.generate_report(telemetry, save_path)
-                    logger.log_development(f"Checkpoint saved: {save_path}")
-                    logger.log_development(f"Development Report: {json.dumps(report, indent=2)}")
-                    
                     last_save_time = current_time
                     print(f"\nCheckpoint saved: {save_path}")
+                
+                # Save conversation periodically
+                if current_time - last_conversation_save > 300:  # Every 5 minutes
+                    conversation_path = f"conversations/conversation_{child.age()}mo_{int(current_time)}.json"
+                    os.makedirs("conversations", exist_ok=True)
+                    conversation_system.save_conversation(conversation_path)
+                    last_conversation_save = current_time
                 
             except Exception as e:
                 logger.log_error(e, "Error in learning cycle")
@@ -549,6 +742,11 @@ def main():
                 
     except KeyboardInterrupt:
         print(f"\nMother: Goodnight my dear child. (Age: {child.age()} months)")
+        # Save final conversation
+        final_conversation_path = f"conversations/final_conversation_{child.age()}mo.json"
+        os.makedirs("conversations", exist_ok=True)
+        conversation_system.save_conversation(final_conversation_path)
+        
         # Final save on exit
         save_path = f"checkpoints/digital_child_{child.age()}mo_final"
         os.makedirs(save_path, exist_ok=True)
@@ -562,13 +760,8 @@ def main():
             'timestamp': time.time()
         }, f"{save_path}/model.pth")
         
-        # Save final visualizations and report
-        visualizer.save_visualization(telemetry, save_path)
-        report = visualizer.generate_report(telemetry, save_path)
-        
         # Log final state
         logger.log_development("Final state saved")
-        logger.log_development(f"Final Development Report: {json.dumps(report, indent=2)}")
         logger.cleanup()
         
         print(f"Final state saved: {save_path}")
