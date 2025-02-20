@@ -35,6 +35,7 @@ def print_help():
     print("!emotional <memory> - Store an emotional memory")
     print("!stats - Show memory statistics")
     print("!stage <stage_name> - Change developmental stage")
+    print("!network - Generate neural network visualization")
     print("exit/quit/bye - Exit the chat")
     print("\nAvailable Stages:")
     for stage in DevelopmentalStage:
@@ -316,6 +317,67 @@ def main():
                         print(f"Episodic Memories: {stats['episodic_count']}")
                         print(f"Emotional Memories: {stats['emotional_count']}")
                         print(f"Last Consolidated: {stats['last_consolidated']}")
+                    elif user_input.lower() == '!network':
+                        print("\nGenerating neural network visualization...")
+                        if obsidian:
+                            child.export_network_visualization(obsidian.vault_path)
+                            print("✨ Network visualization created in Obsidian vault")
+                            print("Open the Network folder in Obsidian to view the visualization")
+                        else:
+                            print("❌ Obsidian integration not enabled. Please provide an API key.")
+                    else:
+                        try:
+                            print("Processing...", end="\r")
+                            response = ollama_chat.chat(user_input)
+                            print(" " * 20, end="\r")
+                            
+                            if not response:
+                                print("\nNo response received. Please try again.")
+                                continue
+                            
+                            print("\n💭 Child:", response.get("response", "I'm not sure how to respond."))
+                            
+                            emotions = response.get("emotions", {})
+                            if emotions:
+                                print("\n😊 Emotional State:")
+                                for emotion, value in emotions.items():
+                                    bar = "█" * int(value * 10)
+                                    print(f"  {emotion.capitalize():8}: {bar} {value:.2f}")
+                            
+                            learning = response.get("learning", {})
+                            if learning:
+                                new_words = learning.get("new_words", [])
+                                new_concepts = learning.get("concepts", [])
+                                if new_words:
+                                    print("\n📚 New Words:", ", ".join(new_words))
+                                if new_concepts:
+                                    print("🧠 New Concepts:", ", ".join(new_concepts))
+                            
+                            memory = response.get("memory", {})
+                            if memory:
+                                print(f"\n💫 Formed new {memory['type']} memory:")
+                                print(f"  {memory['content']}")
+                                bar = "█" * int(memory['emotional_value'] * 10)
+                                print(f"  Emotional Value: {bar} {memory['emotional_value']:.2f}")
+                            
+                            # Store interaction in Obsidian if available
+                            if obsidian:
+                                obsidian.store_interaction({
+                                    'user_input': user_input,
+                                    'response': response.get('response'),
+                                    'emotions': emotions,
+                                    'learning': learning,
+                                    'memory': memory,
+                                    'stage': child.curriculum.current_stage.name,
+                                    'age_months': child.age(),
+                                    'language_stage': child.language.current_stage.name
+                                })
+                            
+                            print("\n" + "="*80)
+                        except Exception as chat_error:
+                            print(f"\n❌ Error: {str(chat_error)}")
+                            print("Please try again.")
+                            continue
                 else:
                     try:
                         print("Processing...", end="\r")

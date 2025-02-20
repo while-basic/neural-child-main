@@ -5,9 +5,11 @@
 import torch
 import torch.nn as nn
 from enum import Enum, auto
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 from datetime import datetime
 import json
+import networkx as nx
+from pathlib import Path
 from conversation_system import ConversationSystem
 from logger import DevelopmentLogger
 from memory_store import MemoryStore
@@ -23,6 +25,48 @@ class DevelopmentalStage(Enum):
     EARLY_CHILDHOOD = auto() # 3-4 years
     MIDDLE_CHILDHOOD = auto() # 4-5 years
     LATE_CHILDHOOD = auto()  # 5-6 years
+
+class NeuralNetwork(nn.Module):
+    def __init__(self, input_size: int = 256, hidden_sizes: List[int] = [512, 256, 128]):
+        super().__init__()
+        self.layers = nn.ModuleList()
+        
+        # Input layer
+        self.layers.append(nn.Linear(input_size, hidden_sizes[0]))
+        self.layers.append(nn.ReLU())
+        
+        # Hidden layers
+        for i in range(len(hidden_sizes)-1):
+            self.layers.append(nn.Linear(hidden_sizes[i], hidden_sizes[i+1]))
+            self.layers.append(nn.ReLU())
+            
+        # Store layer info for visualization
+        self.layer_info = {
+            'input_size': input_size,
+            'hidden_sizes': hidden_sizes,
+            'connections': self._get_layer_connections()
+        }
+        
+    def forward(self, x):
+        for layer in self.layers:
+            x = layer(x)
+        return x
+        
+    def _get_layer_connections(self) -> List[Dict[str, Any]]:
+        """Get neural network layer connections for visualization."""
+        connections = []
+        sizes = [self.layer_info['input_size']] + self.layer_info['hidden_sizes']
+        
+        for i in range(len(sizes)-1):
+            connections.append({
+                'from_layer': i,
+                'to_layer': i+1,
+                'from_size': sizes[i],
+                'to_size': sizes[i+1],
+                'type': 'feedforward'
+            })
+            
+        return connections
 
 class CurriculumManager:
     def __init__(self):
@@ -78,13 +122,7 @@ class DigitalChild:
         
         # Initialize neural components
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.brain = nn.Sequential(
-            nn.Linear(256, 512),
-            nn.ReLU(),
-            nn.Linear(512, 256),
-            nn.ReLU(),
-            nn.Linear(256, 128)
-        ).to(self.device)
+        self.brain = NeuralNetwork().to(self.device)
         
         # Initialize emotional state: [joy, trust, fear, surprise]
         self.emotional_state = torch.tensor([0.5, 0.5, 0.2, 0.3], device=self.device)
@@ -211,3 +249,151 @@ class DigitalChild:
         self.emotional_state = torch.tensor(state['emotional_state'], device=self.device)
         self.metrics = state['metrics']
         self.development_history = state['development_history']
+
+    def get_network_structure(self) -> Dict[str, Any]:
+        """Get neural network structure for visualization."""
+        return {
+            'brain': {
+                'type': 'feedforward',
+                'layers': self.brain.layer_info,
+                'metrics': {
+                    'learning_rate': self.metrics['learning_rate'],
+                    'memory_retention': self.metrics['memory_retention']
+                }
+            },
+            'language': {
+                'type': 'language_network',
+                'stage': self.language.current_stage.name,
+                'vocabulary_size': len(self.language.vocabulary),
+                'connections': self._get_language_connections()
+            },
+            'emotional': {
+                'type': 'emotional_network',
+                'state': self.emotional_state.cpu().tolist(),
+                'regulation': self.metrics['emotional_regulation']
+            },
+            'development': {
+                'stage': self.curriculum.current_stage.name,
+                'age_months': self.age(),
+                'metrics': self.metrics
+            }
+        }
+        
+    def _get_language_connections(self) -> List[Dict[str, Any]]:
+        """Get language network connections."""
+        connections = []
+        
+        # Add connections between words in the vocabulary
+        for category, words in self.language.vocabulary.items():
+            for word in words:
+                connections.append({
+                    'type': 'vocabulary',
+                    'category': category.name,
+                    'word': word,
+                    'stage': self.language.current_stage.name
+                })
+                
+        return connections
+        
+    def export_network_visualization(self, obsidian_path: Path) -> None:
+        """Export network visualization to Obsidian."""
+        network_dir = obsidian_path / "Network"
+        network_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Create network visualization file
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        network_data = self.get_network_structure()
+        
+        content = f'''# Neural Network Structure: {timestamp}
+
+## Brain Network
+- Type: {network_data['brain']['type']}
+- Input Size: {network_data['brain']['layers']['input_size']}
+- Hidden Layers: {network_data['brain']['layers']['hidden_sizes']}
+- Learning Rate: {network_data['brain']['metrics']['learning_rate']:.2f}
+- Memory Retention: {network_data['brain']['metrics']['memory_retention']:.2f}
+
+### Layer Connections
+```mermaid
+graph TD
+    Input[Input Layer ({network_data['brain']['layers']['input_size']} neurons)]
+'''
+        
+        # Add hidden layers to diagram
+        for i, size in enumerate(network_data['brain']['layers']['hidden_sizes']):
+            content += f"    H{i}[Hidden Layer {i+1} ({size} neurons)]\n"
+            if i == 0:
+                content += f"    Input --> H{i}\n"
+            else:
+                content += f"    H{i-1} --> H{i}\n"
+                
+        content += "```\n\n"
+        
+        # Add language network
+        content += f'''## Language Network
+- Stage: {network_data['language']['stage']}
+- Vocabulary Size: {network_data['language']['vocabulary_size']}
+
+### Word Connections
+```mermaid
+graph LR
+'''
+        
+        # Add word connections
+        for conn in network_data['language']['connections'][:10]:  # Limit to 10 for readability
+            content += f"    {conn['word']}[{conn['word']}] --> {conn['category']}[{conn['category']}]\n"
+            
+        content += "```\n\n"
+        
+        # Add emotional network
+        content += f'''## Emotional Network
+- Current State:
+  - Joy: {network_data['emotional']['state'][0]:.2f}
+  - Trust: {network_data['emotional']['state'][1]:.2f}
+  - Fear: {network_data['emotional']['state'][2]:.2f}
+  - Surprise: {network_data['emotional']['state'][3]:.2f}
+- Regulation: {network_data['emotional']['regulation']:.2f}
+
+### Emotional Connections
+```mermaid
+graph TD
+    Joy[Joy] --> Trust[Trust]
+    Trust --> Fear[Fear]
+    Fear --> Surprise[Surprise]
+    Surprise --> Joy
+```
+
+## Development Status
+- Stage: {network_data['development']['stage']}
+- Age: {network_data['development']['age_months']} months
+- Metrics:
+  - Learning Rate: {network_data['development']['metrics']['learning_rate']:.2f}
+  - Attention Span: {network_data['development']['metrics']['attention_span']:.2f}
+  - Memory Retention: {network_data['development']['metrics']['memory_retention']:.2f}
+  - Social Awareness: {network_data['development']['metrics']['social_awareness']:.2f}
+  - Emotional Regulation: {network_data['development']['metrics']['emotional_regulation']:.2f}
+'''
+        
+        # Write visualization file
+        viz_file = network_dir / f"network_structure_{timestamp}.md"
+        with open(viz_file, 'w', encoding='utf-8') as f:
+            f.write(content)
+            
+        # Update README with link to visualization
+        readme_path = network_dir / "README.md"
+        if not readme_path.exists():
+            readme_content = f'''# Neural Network Visualizations
+
+This directory contains visualizations of the neural child's brain structure and network connections.
+
+## Latest Visualization
+- [[network_structure_{timestamp}|Network Structure {timestamp}]]
+
+## Network Components
+- Brain Network (feedforward neural network)
+- Language Network (vocabulary and concepts)
+- Emotional Network (emotional states and regulation)
+- Development Status (stages and metrics)
+'''
+            with open(readme_path, 'w', encoding='utf-8') as f:
+                f.write(readme_content)
