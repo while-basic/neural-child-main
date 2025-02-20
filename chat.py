@@ -7,6 +7,7 @@ import os
 import time
 import argparse
 from datetime import datetime
+from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from main import DigitalChild, MotherLLM, DevelopmentalStage
 from conversation_system import ConversationSystem
@@ -14,6 +15,7 @@ from logger import DevelopmentLogger
 from memory_store import MemoryStore
 from ollama_chat import OllamaChildChat
 from emotional_regulation import EmotionalState
+from obsidian_connector import ObsidianConnector
 
 def clear_screen():
     pass
@@ -96,6 +98,7 @@ def handle_teach_command(memory_store: MemoryStore, model: SentenceTransformer, 
             child.language.learn_word(word)
             print(f"\n📚 Learned new word/concept: {word}")
             print(f"📖 Definition: {definition}")
+            return {'word': word, 'definition': definition}
         else:
             print("\n❌ Failed to store memory.")
             
@@ -169,6 +172,7 @@ def handle_emotional_command(memory_store: MemoryStore, model: SentenceTransform
             for emotion, value in emotional_state.items():
                 bar = "█" * int(value * 10)
                 print(f"  {emotion.capitalize():8}: {bar} {value:.2f}")
+            return {'emotional_state': emotional_state, 'content': content, 'feeling': child.express_feeling()}
         else:
             print("\n❌ Failed to store emotional memory.")
             
@@ -183,6 +187,10 @@ def main():
                           default='NEWBORN', help='Initial developmental stage')
         parser.add_argument('--progress', type=float, default=0.0,
                           help='Initial progress in the stage (0.0 to 1.0)')
+        parser.add_argument('--obsidian-key', type=str, help='Obsidian API key')
+        parser.add_argument('--obsidian-vault', type=str, default='neural_child',
+                          help='Obsidian vault name')
+        parser.add_argument('--obsidian-path', type=str, help='Path to Obsidian vault')
         args = parser.parse_args()
         
         print("Initializing logger...")
@@ -204,12 +212,27 @@ def main():
         print("Initializing memory store...")
         memory_store = MemoryStore(logger=logger)
         
+        # Initialize Obsidian connector if API key is provided
+        obsidian = None
+        if args.obsidian_key:
+            print("Initializing Obsidian connector...")
+            # Default to current directory
+            default_vault_path = Path.cwd() / "obsidian_vault"
+            vault_path = args.obsidian_path if args.obsidian_path else default_vault_path
+            
+            obsidian = ObsidianConnector(
+                logger=logger,
+                api_key=args.obsidian_key,
+                vault_name=args.obsidian_vault,
+                vault_path=vault_path
+            )
+        
         print("Initializing Ollama chat system...")
         ollama_chat = OllamaChildChat(
             memory_store=memory_store,
             emotional_system=child,
             language_system=child.language,
-            model_name="llama3"
+            model_name="artifish/llama3.2-uncensored"
         )
         
         print("Creating necessary directories...")
@@ -249,13 +272,42 @@ def main():
                     if user_input.lower() == '!help':
                         print_help()
                     elif user_input.lower().startswith('!teach '):
-                        handle_teach_command(memory_store, model, user_input[7:], child)
+                        result = handle_teach_command(memory_store, model, user_input[7:], child)
+                        if obsidian and result:
+                            obsidian.store_language_learning({
+                                'description': f"Learned new word: {result['word']} - {result['definition']}",
+                                'category': 'vocabulary',
+                                'word': result['word'],
+                                'definition': result['definition'],
+                                'stage': child.curriculum.current_stage.name,
+                                'age_months': child.age(),
+                                'language_stage': child.language.current_stage.name
+                            })
                     elif user_input.lower().startswith('!remember '):
                         handle_remember_command(memory_store, model, user_input[10:])
                     elif user_input.lower().startswith('!emotional '):
-                        handle_emotional_command(memory_store, model, user_input[11:], child)
+                        result = handle_emotional_command(memory_store, model, user_input[11:], child)
+                        if obsidian and result:
+                            obsidian.store_emotional_state({
+                                'description': result['content'],
+                                'primary_emotion': result['feeling'],
+                                'emotional_state': result['emotional_state'],
+                                'stage': child.curriculum.current_stage.name,
+                                'age_months': child.age(),
+                                'language_stage': child.language.current_stage.name
+                            })
                     elif user_input.lower().startswith('!stage '):
+                        old_stage = child.curriculum.current_stage.name
                         handle_stage_command(child, user_input[7:])
+                        if obsidian and child.curriculum.current_stage.name != old_stage:
+                            obsidian.store_development({
+                                'description': f"Advanced to stage {child.curriculum.current_stage.name}",
+                                'stage': child.curriculum.current_stage.name,
+                                'previous_stage': old_stage,
+                                'age_months': child.age(),
+                                'language_stage': child.language.current_stage.name,
+                                'metrics': child.metrics
+                            })
                     elif user_input.lower() == '!stats':
                         stats = memory_store.get_memory_stats()
                         print("\nMemory Statistics:")
@@ -298,6 +350,19 @@ def main():
                             print(f"  {memory['content']}")
                             bar = "█" * int(memory['emotional_value'] * 10)
                             print(f"  Emotional Value: {bar} {memory['emotional_value']:.2f}")
+                        
+                        # Store interaction in Obsidian if available
+                        if obsidian:
+                            obsidian.store_interaction({
+                                'user_input': user_input,
+                                'response': response.get('response'),
+                                'emotions': emotions,
+                                'learning': learning,
+                                'memory': memory,
+                                'stage': child.curriculum.current_stage.name,
+                                'age_months': child.age(),
+                                'language_stage': child.language.current_stage.name
+                            })
                         
                         print("\n" + "="*80)
                     except Exception as chat_error:
