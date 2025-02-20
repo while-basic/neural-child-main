@@ -1,5 +1,5 @@
 # language_development.py
-# Description: Language development and learning system for the neural child
+# Description: Language development system for neural child
 # Created by: Christopher Celaya
 
 import torch
@@ -9,20 +9,21 @@ import re
 from collections import defaultdict
 from enum import Enum, auto
 import numpy as np
-from typing import Dict, List, Tuple, Optional, Any
+from typing import Dict, List, Tuple, Optional, Any, Set
 from datetime import datetime
 import spacy
 from transformers import pipeline
 from llm_module import chat_completion
 
 class LanguageStage(Enum):
-    PRELINGUISTIC = auto()  # 0-12 months: Crying, cooing, babbling
-    HOLOPHRASTIC = auto()   # 12-18 months: Single words
-    TELEGRAPHIC = auto()    # 18-24 months: Two-word combinations
-    MULTIWORD = auto()      # 2-3 years: Simple sentences
-    COMPLEX = auto()        # 3+ years: Complex sentences
-    ADVANCED = auto()       # 6+ years: Advanced language skills
-    MASTERY = auto()        # 18+ years: Complete language mastery
+    """Language development stages"""
+    PRELINGUISTIC = auto()  # 0-12 months
+    HOLOPHRASTIC = auto()   # 12-18 months
+    TELEGRAPHIC = auto()    # 18-24 months
+    MULTIWORD = auto()      # 2-3 years
+    COMPLEX = auto()        # 3-5 years
+    ADVANCED = auto()       # 5+ years
+    MASTERY = auto()        # Adult level
 
 class WordCategory(Enum):
     NOUN = auto()
@@ -47,7 +48,21 @@ class LanguageDevelopment(nn.Module):
         # Initialize language development state
         self.current_stage = LanguageStage.PRELINGUISTIC
         self.stage_progress = 0.0
-        self.vocabulary = {category: set() for category in WordCategory}
+        
+        # Initialize vocabulary
+        self.vocabulary: Dict[str, Set[str]] = {
+            'nouns': set(),
+            'verbs': set(),
+            'adjectives': set(),
+            'social': set(),  # Greetings, social phrases
+            'emotions': set() # Emotion words
+        }
+        
+        # Track known words
+        self.known_words: Set[str] = set()
+        
+        # Track word usage frequency
+        self.word_frequency: Dict[str, int] = {}
         
         # Initialize linguistic rules
         self._initialize_linguistic_rules()
@@ -90,7 +105,6 @@ class LanguageDevelopment(nn.Module):
         }
         
         # Word frequency and usage tracking
-        self.word_frequency = defaultdict(int)
         self.word_contexts = defaultdict(list)
         self.recent_utterances = []
         
@@ -110,6 +124,12 @@ class LanguageDevelopment(nn.Module):
         # Learning parameters
         self.learning_rate = 0.1
         self.retention_rate = 0.95
+        
+        # Development tracking
+        self.development_history = []
+        
+        # Initialize basic vocabulary
+        self._initialize_basic_vocabulary()
         
     def initialize_stage_patterns(self):
         """Initialize language patterns for each developmental stage"""
@@ -786,108 +806,113 @@ class LanguageDevelopment(nn.Module):
         """Get the current language development stage name."""
         return self.current_stage.name
 
-    def learn_word(self, word: str):
-        """Learn a new word and add it to vocabulary."""
-        if not word:
-            return
+    def learn_word(self, word: str, category: Optional[str] = None) -> bool:
+        """Learn a new word and optionally categorize it"""
+        word = word.lower().strip()
+        if word in self.known_words:
+            return False
             
-        # Categorize the word
-        category = self._categorize_word(word)
+        self.known_words.add(word)
+        if category and category in self.vocabulary:
+            self.vocabulary[category].add(word)
+            
+        self.word_frequency[word] = 0
+        return True
         
-        # Add to vocabulary if it's new
-        if word.lower() not in self.vocabulary[category]:
-            self.vocabulary[category].add(word.lower())
-            self.word_frequency[word.lower()] = 1
-            
-            # Update metrics
-            self.metrics['vocabulary_size'] = sum(len(words) for words in self.vocabulary.values())
-            self.metrics['grammar_complexity'] = min(1.0, self.metrics['grammar_complexity'] + 0.01)
-            self.metrics['comprehension_level'] = min(1.0, self.metrics['comprehension_level'] + 0.02)
-            self.metrics['expression_level'] = min(1.0, self.metrics['expression_level'] + 0.015)
-            
-            # Progress stage if vocabulary size meets threshold
-            self._check_stage_progression()
-
-    def learn_concept(self, concept: str):
-        """Learn a new concept and its associated words."""
-        if not concept:
-            return
-            
-        # Split concept into words
+    def learn_concept(self, concept: str) -> bool:
+        """Learn a new concept"""
+        concept = concept.lower().strip()
         words = concept.split()
         
-        # Learn each word
+        learned = False
         for word in words:
-            self.learn_word(word)
-            
-        # Additional learning boost for understanding the concept
-        self.metrics['comprehension_level'] = min(1.0, self.metrics['comprehension_level'] + 0.05)
-        self.metrics['expression_level'] = min(1.0, self.metrics['expression_level'] + 0.03)
-        
-        # Store concept in memory
-        concept_key = concept.lower()
-        if concept_key not in self.word_contexts:
-            self.word_contexts[concept_key] = [{
-                'type': 'concept',
-                'related_words': words,
-                'learned_at_stage': self.current_stage.name,
-                'timestamp': datetime.now().isoformat()
-            }]
-
-    def _check_stage_progression(self):
-        """Check and update language development stage based on metrics."""
-        vocab_size = self.metrics['vocabulary_size']
-        
-        # Stage progression thresholds with more granular progression
-        stage_thresholds = {
-            LanguageStage.PRELINGUISTIC: 20,    # Basic sounds and gestures
-            LanguageStage.HOLOPHRASTIC: 50,     # First words
-            LanguageStage.TELEGRAPHIC: 100,     # Two-word combinations
-            LanguageStage.MULTIWORD: 200,       # Simple sentences
-            LanguageStage.COMPLEX: 500,         # Complex sentences
-            LanguageStage.ADVANCED: 1000,       # Advanced language
-            LanguageStage.MASTERY: 2000        # Complete mastery
-        }
-        
-        # Check for stage advancement
-        if self.current_stage in stage_thresholds:
-            threshold = stage_thresholds[self.current_stage]
-            if vocab_size >= threshold:
-                # Find next stage
-                stages = list(LanguageStage)
-                current_idx = stages.index(self.current_stage)
-                if current_idx < len(stages) - 1:
-                    self.current_stage = stages[current_idx + 1]
-                    self.stage_progress = 0.0
-                    print(f"Advanced to language stage: {self.current_stage.name}")
-        
-        # Update stage progress
-        if self.current_stage in stage_thresholds:
-            current_threshold = stage_thresholds[self.current_stage]
-            next_stage_idx = list(LanguageStage).index(self.current_stage) + 1
-            if next_stage_idx < len(LanguageStage):
-                next_stage = list(LanguageStage)[next_stage_idx]
-                next_threshold = stage_thresholds.get(next_stage, current_threshold * 2)
+            if self.learn_word(word):
+                learned = True
                 
-                # Calculate progress between current and next threshold
-                progress = (vocab_size - current_threshold) / (next_threshold - current_threshold)
-                self.stage_progress = max(0.0, min(1.0, progress))
-            else:
-                # At final stage, progress based on continuing vocabulary growth
-                self.stage_progress = min(1.0, vocab_size / (current_threshold * 2))
+        return learned
+        
+    def get_vocabulary_size(self) -> int:
+        """Get total vocabulary size"""
+        return len(self.known_words)
+        
+    def can_understand(self, text: str) -> float:
+        """Calculate how well the current stage can understand the text"""
+        words = text.lower().split()
+        known = sum(1 for word in words if word in self.known_words)
+        return known / len(words) if words else 0.0
+        
+    def can_express(self, text: str) -> bool:
+        """Check if the current stage can express this text"""
+        if self.current_stage == LanguageStage.PRELINGUISTIC:
+            return False
+            
+        words = text.lower().split()
+        if self.current_stage == LanguageStage.HOLOPHRASTIC:
+            return len(words) <= 1
+            
+        if self.current_stage == LanguageStage.TELEGRAPHIC:
+            return len(words) <= 3
+            
+        if self.current_stage == LanguageStage.MULTIWORD:
+            return len(words) <= 5
+            
+        return True
+        
+    def extract_new_words(self, text: str) -> List[str]:
+        """Extract potential new words from text"""
+        # Tokenize and clean text
+        words = text.lower().split()
+        words = [word.strip('.,!?()[]{}":;') for word in words]
+        
+        # Filter out known words and empty strings
+        new_words = []
+        for word in words:
+            if (word and 
+                not any(word in words for words in self.vocabulary.values()) and 
+                word not in self.known_words and
+                len(word) > 1):  # Avoid single characters
+                new_words.append(word)
+        
+        return new_words
+        
+    def update_word_frequency(self, text: str):
+        """Update word usage frequency"""
+        words = text.lower().split()
+        for word in words:
+            if word in self.word_frequency:
+                self.word_frequency[word] += 1
+                
+    def get_most_used_words(self, n: int = 10) -> List[tuple[str, int]]:
+        """Get the most frequently used words"""
+        return sorted(
+            self.word_frequency.items(),
+            key=lambda x: x[1],
+            reverse=True
+        )[:n]
 
-    def get_status(self) -> Dict[str, Any]:
-        """Get current language development status"""
-        return {
-            'stage': self.current_stage.name,
-            'stage_progress': self.stage_progress,
-            'vocabulary_size': sum(len(words) for words in self.vocabulary.values()),
-            'metrics': self.metrics,
-            'capabilities': {
-                'vocabulary_by_category': {
-                    category.name: len(words) 
-                    for category, words in self.vocabulary.items()
-                },
-                'phoneme_mastery': dict(self.phoneme_mastery)
-            }
-        } 
+    def _initialize_basic_vocabulary(self):
+        """Initialize basic vocabulary based on developmental stage"""
+        # Basic social words
+        social_words = ['mama', 'dada', 'hi', 'bye', 'no', 'yes']
+        for word in social_words:
+            self.learn_word(word, 'social')
+            
+        # Basic emotion words
+        emotion_words = ['happy', 'sad', 'love', 'scared']
+        for word in emotion_words:
+            self.learn_word(word, 'emotions')
+            
+        # Basic nouns
+        basic_nouns = ['milk', 'ball', 'toy', 'bed']
+        for word in basic_nouns:
+            self.learn_word(word, 'nouns')
+            
+        # Basic verbs
+        basic_verbs = ['want', 'see', 'go', 'sleep']
+        for word in basic_verbs:
+            self.learn_word(word, 'verbs')
+            
+        # Basic adjectives
+        basic_adjectives = ['big', 'small', 'good', 'bad']
+        for word in basic_adjectives:
+            self.learn_word(word, 'adjectives') 
