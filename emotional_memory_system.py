@@ -153,11 +153,13 @@ class EmotionalMemorySystem:
         """Load and update memory statistics from collections"""
         self.stats = {
             'total_memories': 0,
+            'emotional_memories': 0,
             'positive_memories': 0,
             'negative_memories': 0,
             'neutral_memories': 0,
             'complex_memories': 0,
-            'traumatic_memories': 0
+            'traumatic_memories': 0,
+            'last_consolidated': None
         }
         
         # Update stats from emotional memories
@@ -165,95 +167,93 @@ class EmotionalMemorySystem:
             emotional_memories = self.emotional_collection.get()
             if emotional_memories and 'metadatas' in emotional_memories:
                 self.stats['total_memories'] = len(emotional_memories['metadatas'])
+                self.stats['emotional_memories'] = len(emotional_memories['metadatas'])
                 for metadata in emotional_memories['metadatas']:
-                    if metadata and 'association' in metadata:
-                        assoc_type = metadata['association'].lower()
-                        if 'positive' in assoc_type:
-                            self.stats['positive_memories'] += 1
-                        elif 'negative' in assoc_type:
-                            self.stats['negative_memories'] += 1
-                        elif 'neutral' in assoc_type:
-                            self.stats['neutral_memories'] += 1
-                        elif 'complex' in assoc_type:
-                            self.stats['complex_memories'] += 1
-                        elif 'traumatic' in assoc_type:
+                    if metadata:
+                        # Calculate emotional association
+                        joy = metadata.get('emotional_joy', 0.0)
+                        trust = metadata.get('emotional_trust', 0.0)
+                        fear = metadata.get('emotional_fear', 0.0)
+                        surprise = metadata.get('emotional_surprise', 0.0)
+                        intensity = metadata.get('intensity', 0.0)
+                        
+                        # Determine association type
+                        if fear > 0.7 and intensity > 0.8:
                             self.stats['traumatic_memories'] += 1
+                        elif (joy + trust) / 2 > 0.5 and fear < 0.3:
+                            self.stats['positive_memories'] += 1
+                        elif fear > 0.5:
+                            self.stats['negative_memories'] += 1
+                        elif abs((joy + trust) / 2 - fear) < 0.2:
+                            self.stats['neutral_memories'] += 1
+                        else:
+                            self.stats['complex_memories'] += 1
+                            
         except Exception as e:
             print(f"Warning: Could not load emotional memory stats: {str(e)}")
             
     def store_memory(self, memory: EmotionalMemoryEntry) -> str:
-        """Store an emotional memory with its associated emotional state"""
+        """Store an emotional memory with its associated states"""
         try:
-            # Generate a unique ID for the memory
+            # Generate memory ID
             memory_id = f"em_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{self.stats['total_memories']}"
-            
-            # Calculate emotional association
-            association = self._calculate_emotional_association(memory)
             
             # Get embedding
             embedding = self.sentence_transformer.encode(memory.content)
             
-            # Get brain state from metadata and flatten it
-            brain_state = memory.metadata.get('brain_state', {})
-            
-            # Flatten emotional state into separate metadata fields
-            metadata = {
-                'age_months': memory.metadata.get('age_months', 0),
-                'stage': memory.metadata.get('stage', ''),
-                'feeling': memory.metadata.get('feeling', ''),
-                'language_stage': memory.metadata.get('language_stage', ''),
+            # Flatten emotional and brain states into metadata
+            flattened_metadata = {
+                'type': 'emotional',  # Store type directly in metadata
+                'timestamp': memory.timestamp.isoformat(),
+                'appropriate': True,
+                
+                # Emotional state
                 'emotional_joy': float(memory.emotional_state.get('joy', 0.0)),
                 'emotional_trust': float(memory.emotional_state.get('trust', 0.0)),
                 'emotional_fear': float(memory.emotional_state.get('fear', 0.0)),
                 'emotional_surprise': float(memory.emotional_state.get('surprise', 0.0)),
+                
+                # Memory properties
                 'intensity': float(memory.intensity),
                 'valence': float(memory.valence),
                 'arousal': float(memory.arousal),
-                'association': association.name,
-                'timestamp': memory.timestamp.isoformat(),
-                'appropriate': True,
-                'memory_type': memory.metadata.get('memory_type', 'emotional'),  # Track memory type
-                'brain_arousal': float(brain_state.get('arousal', 0.5)),
-                'brain_attention': float(brain_state.get('attention', 0.5)),
-                'brain_emotional_valence': float(brain_state.get('emotional_valence', 0.0)),
-                'brain_consciousness': float(brain_state.get('consciousness', 1.0)),
-                'brain_stress': float(brain_state.get('stress', 0.2)),
-                'brain_fatigue': float(brain_state.get('fatigue', 0.0))
+                'context': memory.context
             }
             
-            # Store in appropriate collection based on memory type and association
-            memory_type = metadata['memory_type']
-            if memory_type == 'semantic':
-                self.semantic_collection.add(
-                    embeddings=[embedding.tolist()],
-                    documents=[memory.content],
-                    metadatas=[metadata],
-                    ids=[memory_id]
-                )
-            elif memory_type == 'episodic':
-                self.episodic_collection.add(
-                    embeddings=[embedding.tolist()],
-                    documents=[memory.content],
-                    metadatas=[metadata],
-                    ids=[memory_id]
-                )
-            else:  # emotional or default
-                self.emotional_collection.add(
-                    embeddings=[embedding.tolist()],
-                    documents=[memory.content],
-                    metadatas=[metadata],
-                    ids=[memory_id]
-                )
+            # Add additional metadata
+            if memory.metadata:
+                for key, value in memory.metadata.items():
+                    if isinstance(value, (str, int, float, bool)):
+                        flattened_metadata[key] = value
+                    elif isinstance(value, dict):
+                        for subkey, subvalue in value.items():
+                            if isinstance(subvalue, (str, int, float, bool)):
+                                flattened_metadata[f"{key}_{subkey}"] = subvalue
+            
+            # Store in emotional collection
+            self.emotional_collection.add(
+                embeddings=[embedding.tolist()],
+                documents=[memory.content],
+                metadatas=[flattened_metadata],
+                ids=[memory_id]
+            )
             
             # Update statistics
             self.stats['total_memories'] += 1
-            if memory_type == 'semantic':
-                self.stats['semantic_count'] = self.stats.get('semantic_count', 0) + 1
-            elif memory_type == 'episodic':
-                self.stats['episodic_count'] = self.stats.get('episodic_count', 0) + 1
-            elif memory_type == 'emotional':
-                self.stats['emotional_count'] = self.stats.get('emotional_count', 0) + 1
-                self._update_association_stats(association)
+            self.stats['emotional_memories'] += 1
+            
+            # Calculate emotional association
+            association = self._calculate_emotional_association(memory)
+            if association == EmotionalAssociation.POSITIVE:
+                self.stats['positive_memories'] += 1
+            elif association == EmotionalAssociation.NEGATIVE:
+                self.stats['negative_memories'] += 1
+            elif association == EmotionalAssociation.NEUTRAL:
+                self.stats['neutral_memories'] += 1
+            elif association == EmotionalAssociation.COMPLEX:
+                self.stats['complex_memories'] += 1
+            elif association == EmotionalAssociation.TRAUMATIC:
+                self.stats['traumatic_memories'] += 1
             
             # Update last consolidated timestamp
             self.stats['last_consolidated'] = datetime.now().isoformat()
@@ -271,23 +271,20 @@ class EmotionalMemorySystem:
         """Retrieve memories similar to the query, optionally filtered by emotional state"""
         try:
             # Get total count of memories
-            total_memories = self.stats['total_memories']
+            total_memories = self.stats.get('total_memories', 0)
             if total_memories == 0:
                 return []
                 
             # Query emotional memories first
-            emotional_results = self.emotional_collection.query(
-                query_texts=[query],
-                n_results=min(n_results * 2, total_memories),
-                where={"appropriate": True}
-            )
-            
-            # Query episodic memories
-            episodic_results = self.episodic_collection.query(
-                query_texts=[query],
-                n_results=min(n_results, total_memories),
-                where={"appropriate": True}
-            )
+            try:
+                emotional_results = self.emotional_collection.query(
+                    query_texts=[query],
+                    n_results=min(n_results * 2, max(1, total_memories)),
+                    where={"appropriate": True} if total_memories > 0 else None
+                )
+            except Exception as e:
+                print(f"Warning: Error querying emotional memories: {str(e)}")
+                emotional_results = None
             
             # Process results
             memories = []
@@ -305,9 +302,6 @@ class EmotionalMemorySystem:
                         'surprise': metadata.get('emotional_surprise', 0.0)
                     }
                     
-                    # Get brain state from metadata
-                    brain_state = metadata.get('brain_state', {})
-                    
                     # Calculate emotional similarity if emotional_state provided
                     emotional_similarity = 1.0
                     if emotional_state:
@@ -321,50 +315,19 @@ class EmotionalMemorySystem:
                         'metadata': {
                             **metadata,
                             'emotional_state': reconstructed_emotional_state,
-                            'brain_state': brain_state,
                             'type': 'emotional'
                         },
-                        'similarity': emotional_results['distances'][0][i] if 'distances' in emotional_results else None,
-                        'emotional_similarity': emotional_similarity,
-                        'feeling_at_time': metadata.get('feeling', 'Unknown feeling'),
-                        'intensity': metadata.get('intensity', 0.5)
+                        'similarity': emotional_results['distances'][0][i] if 'distances' in emotional_results else 0.5,
+                        'emotional_similarity': emotional_similarity
                     }
                     memories.append(memory)
             
-            # Process episodic memories similarly
-            if episodic_results and 'documents' in episodic_results and len(episodic_results['documents']) > 0:
-                for i, (doc, metadata) in enumerate(zip(episodic_results['documents'][0], episodic_results['metadatas'][0])):
-                    if not self._is_content_appropriate(doc):
-                        continue
-                        
-                    reconstructed_emotional_state = {
-                        'joy': metadata.get('emotional_joy', 0.0),
-                        'trust': metadata.get('emotional_trust', 0.0),
-                        'fear': metadata.get('emotional_fear', 0.0),
-                        'surprise': metadata.get('emotional_surprise', 0.0)
-                    }
-                    
-                    brain_state = metadata.get('brain_state', {})
-                    
-                    memory = {
-                        'content': doc,
-                        'metadata': {
-                            **metadata,
-                            'emotional_state': reconstructed_emotional_state,
-                            'brain_state': brain_state,
-                            'type': 'episodic'
-                        },
-                        'similarity': episodic_results['distances'][0][i] if 'distances' in episodic_results else None,
-                        'feeling_at_time': metadata.get('feeling', 'Unknown feeling'),
-                        'intensity': metadata.get('intensity', 0.5)
-                    }
-                    memories.append(memory)
-            
-            # Sort memories by relevance
-            memories.sort(key=lambda x: (
-                x.get('emotional_similarity', 0.5) * 0.7 +  # Weight emotional similarity more
-                (1 - x.get('similarity', 0.5)) * 0.3  # ChromaDB distances are 0=similar, 1=different
-            ), reverse=True)
+            # Sort memories by combined similarity
+            if memories:
+                memories.sort(key=lambda x: (
+                    x.get('emotional_similarity', 0.5) * 0.7 +  # Weight emotional similarity more
+                    (1 - (x.get('similarity', 0.5) or 0.5)) * 0.3  # ChromaDB distances are 0=similar, 1=different
+                ), reverse=True)
             
             return memories[:n_results]
             
@@ -502,7 +465,11 @@ class EmotionalMemorySystem:
                   for k in ['joy', 'trust', 'fear', 'surprise'])
                   
     def get_memory_stats(self) -> Dict[str, Any]:
-        """Get statistics about stored memories"""
+        """Get current memory statistics"""
+        # Ensure stats are loaded
+        if not hasattr(self, 'stats'):
+            self._load_memory_stats()
+            
         return {
             **self.stats,
             'last_updated': datetime.now().isoformat()

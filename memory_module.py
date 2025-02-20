@@ -4,7 +4,7 @@ from collections import deque
 import random
 import time
 import math
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional, Any
 from replay_system import ReplayOptimizer
 import json
 import os
@@ -317,3 +317,138 @@ class DifferentiableMemory:
         for idx in top_indices:
             retrieved_memories.extend([mem[0] for mem in self.long_term_clusters[idx].memories])
         return retrieved_memories[:top_k]
+
+class MemoryModule(nn.Module):
+    """Neural network module for memory management"""
+    
+    def __init__(self, input_dim: int = 384, hidden_dim: int = 256):
+        super().__init__()
+        
+        self.input_dim = input_dim
+        self.hidden_dim = hidden_dim
+        
+        # Working memory
+        self.working_memory = nn.LSTM(
+            input_size=input_dim,
+            hidden_size=hidden_dim,
+            num_layers=2,
+            dropout=0.1,
+            batch_first=True
+        )
+        
+        # Long-term memory
+        self.long_term_memory = nn.GRU(
+            input_size=hidden_dim,
+            hidden_size=hidden_dim,
+            num_layers=2,
+            dropout=0.1,
+            batch_first=True
+        )
+        
+        # Memory consolidation
+        self.consolidation_network = nn.Sequential(
+            nn.Linear(hidden_dim * 2, hidden_dim),
+            nn.LayerNorm(hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, hidden_dim)
+        )
+        
+        # Memory retrieval
+        self.retrieval_attention = nn.MultiheadAttention(
+            embed_dim=hidden_dim,
+            num_heads=8,
+            dropout=0.1
+        )
+        
+        # Initialize states
+        self.reset_states()
+        
+        # Memory storage
+        self.memory_buffer = []
+        self.memory_timestamps = []
+        
+    def reset_states(self):
+        """Reset memory states"""
+        self.working_memory_state = None
+        self.long_term_state = None
+        
+    def forward(self, 
+                input_data: torch.Tensor,
+                memory_query: Optional[torch.Tensor] = None) -> Dict[str, torch.Tensor]:
+        """Process input through memory systems"""
+        batch_size = input_data.shape[0]
+        device = input_data.device
+        
+        # Process through working memory
+        working_output, self.working_memory_state = self.working_memory(
+            input_data.unsqueeze(1),
+            self.working_memory_state
+        )
+        working_output = working_output.squeeze(1)
+        
+        # Process through long-term memory
+        long_term_output, self.long_term_state = self.long_term_memory(
+            working_output.unsqueeze(1),
+            self.long_term_state
+        )
+        long_term_output = long_term_output.squeeze(1)
+        
+        # Consolidate memories
+        consolidated_memory = self.consolidation_network(
+            torch.cat([working_output, long_term_output], dim=-1)
+        )
+        
+        # Store memory
+        self.store_memory(consolidated_memory)
+        
+        # Retrieve relevant memories
+        if memory_query is None:
+            memory_query = consolidated_memory
+            
+        retrieved_memory = self.retrieve_memories(memory_query)
+        
+        return {
+            'working_memory': working_output,
+            'long_term_memory': long_term_output,
+            'consolidated_memory': consolidated_memory,
+            'retrieved_memory': retrieved_memory
+        }
+        
+    def store_memory(self, memory: torch.Tensor):
+        """Store memory in buffer"""
+        # Convert to CPU for storage
+        memory_cpu = memory.detach().cpu()
+        
+        # Add to buffer with timestamp
+        self.memory_buffer.append(memory_cpu)
+        self.memory_timestamps.append(datetime.now())
+        
+        # Keep only recent memories (last 100)
+        if len(self.memory_buffer) > 100:
+            self.memory_buffer.pop(0)
+            self.memory_timestamps.pop(0)
+            
+    def retrieve_memories(self, query: torch.Tensor) -> torch.Tensor:
+        """Retrieve relevant memories using attention"""
+        if not self.memory_buffer:
+            return query
+            
+        # Stack memories
+        memories = torch.stack(self.memory_buffer).to(query.device)
+        
+        # Apply attention
+        retrieved, _ = self.retrieval_attention(
+            query.unsqueeze(0),
+            memories.unsqueeze(0),
+            memories.unsqueeze(0)
+        )
+        
+        return retrieved.squeeze(0)
+        
+    def get_memory_stats(self) -> Dict[str, Any]:
+        """Get statistics about stored memories"""
+        return {
+            'total_memories': len(self.memory_buffer),
+            'oldest_memory': self.memory_timestamps[0].isoformat() if self.memory_timestamps else None,
+            'newest_memory': self.memory_timestamps[-1].isoformat() if self.memory_timestamps else None
+        }

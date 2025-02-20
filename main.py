@@ -16,6 +16,18 @@ from memory_store import MemoryStore
 from language_development import LanguageDevelopment, LanguageStage
 from emotional_memory_system import EmotionalMemorySystem, EmotionalMemoryEntry, EmotionalAssociation
 from neural_architecture import NeuralArchitecture, BrainState, BrainRegion, CognitiveFunction
+from decision_network import DecisionNetwork
+from ollama_chat import OllamaChat
+from obsidian_api import ObsidianAPI
+from obsidian_visualizer import ObsidianVisualizer
+from emotional_regulation import EmotionalRegulation
+from memory_module import MemoryModule
+from self_supervised_trainer import SelfSupervisedTrainer
+from moral_network import MoralNetwork
+from rag_memory import RAGMemorySystem
+from self_awareness_network import SelfAwarenessNetwork, SelfAwarenessLevel
+
+
 
 class DevelopmentalStage(Enum):
     NEWBORN = auto()         # 0-3 months
@@ -305,16 +317,69 @@ class IntegratedBrain(nn.Module):
         
         # Emotional System - Processes and generates emotions
         self.emotional_system = nn.ModuleDict({
-            'emotion_generator': nn.Sequential(
-                nn.Linear(hidden_dim + 4, hidden_dim),  # Features + current emotions
+            'primary_emotion_generator': nn.Sequential(
+                nn.Linear(hidden_dim + 8, hidden_dim),  # Features + current emotions
                 nn.LayerNorm(hidden_dim),
                 nn.ReLU(),
-                nn.Linear(hidden_dim, 4)  # [joy, trust, fear, surprise]
+                nn.Linear(hidden_dim, 8)  # [joy, trust, fear, surprise, sadness, anger, disgust, anticipation]
+            ),
+            'secondary_emotion_generator': nn.Sequential(
+                nn.Linear(hidden_dim + 8, hidden_dim),
+                nn.LayerNorm(hidden_dim),
+                nn.ReLU(),
+                nn.Linear(hidden_dim, 4)  # [love, guilt, hope, regret]
             ),
             'emotion_modulator': nn.Sequential(
-                nn.Linear(hidden_dim + 4, hidden_dim),
+                nn.Linear(hidden_dim + 12, hidden_dim),  # Features + all emotions
                 nn.LayerNorm(hidden_dim),
                 nn.ReLU()
+            )
+        })
+        
+        # Chat Memory System - Processes and stores chat history
+        self.chat_memory = nn.ModuleDict({
+            'context_processor': nn.LSTM(
+                input_size=hidden_dim,
+                hidden_size=hidden_dim,
+                num_layers=2,
+                batch_first=True,
+                dropout=0.1
+            ),
+            'memory_gate': nn.Sequential(
+                nn.Linear(hidden_dim * 2, hidden_dim),
+                nn.LayerNorm(hidden_dim),
+                nn.ReLU(),
+                nn.Linear(hidden_dim, 1),
+                nn.Sigmoid()
+            ),
+            'emotional_context': nn.Sequential(
+                nn.Linear(hidden_dim + 12, hidden_dim),  # Features + all emotions
+                nn.LayerNorm(hidden_dim),
+                nn.ReLU(),
+                nn.Linear(hidden_dim, hidden_dim)
+            )
+        })
+
+        # Dream Generator - Processes vocabulary and generates dreams
+        self.dream_generator = nn.ModuleDict({
+            'word_processor': nn.LSTM(
+                input_size=384,  # Word embedding dimension
+                hidden_size=hidden_dim,
+                num_layers=2,
+                batch_first=True,
+                dropout=0.1
+            ),
+            'emotional_influence': nn.Sequential(
+                nn.Linear(hidden_dim + 12, hidden_dim),  # Hidden state + all emotions
+                nn.LayerNorm(hidden_dim),
+                nn.ReLU(),
+                nn.Linear(hidden_dim, hidden_dim)
+            ),
+            'dream_decoder': nn.Sequential(
+                nn.Linear(hidden_dim, hidden_dim * 2),
+                nn.LayerNorm(hidden_dim * 2),
+                nn.ReLU(),
+                nn.Linear(hidden_dim * 2, 384)  # Back to word embedding dimension
             )
         })
         
@@ -467,7 +532,7 @@ class IntegratedBrain(nn.Module):
         """Process information through emotional system"""
         # Generate new emotions
         emotion_input = torch.cat([features, current_emotions], dim=-1)
-        new_emotions = torch.sigmoid(self.emotional_system['emotion_generator'](emotion_input))
+        new_emotions = torch.sigmoid(self.emotional_system['primary_emotion_generator'](emotion_input))
         
         # Apply stage-specific modulation
         emotional_mod = self.modulation_factors['emotional']
@@ -617,8 +682,11 @@ class DigitalChild:
         # Initialize integrated brain architecture
         self.brain = IntegratedBrain(input_dim=384, hidden_dim=256, stage=initial_stage).to(self.device)
         
-        # Initialize emotional state: [joy, trust, fear, surprise]
-        self.emotional_state = torch.tensor([0.5, 0.5, 0.2, 0.3], device=self.device)
+        # Initialize self-awareness network
+        self.self_awareness = SelfAwarenessNetwork(hidden_dim=256).to(self.device)  # Fixed initialization
+        
+        # Initialize emotional state: [joy, trust, fear, surprise, sadness, anger, disgust, anticipation]
+        self.emotional_state = torch.tensor([0.5, 0.5, 0.2, 0.3, 0.3, 0.2, 0.2, 0.4], device=self.device)
         
         # Initialize language development
         self.language = LanguageDevelopment(device=self.device)
@@ -669,24 +737,35 @@ class DigitalChild:
         
     def _update_brain_state_from_emotional(self):
         """Update brain state based on emotional state"""
-        joy, trust, fear, surprise = self.emotional_state.cpu().tolist()
+        joy, trust, fear, surprise, sadness, anger, disgust, anticipation = self.emotional_state.cpu().tolist()
         
         # Calculate emotional valence (-1 to 1)
-        valence = (joy + trust - fear - max(0, surprise - 0.5)) / 2
+        # Positive emotions contribute positively, negative emotions contribute negatively
+        valence = (joy + trust + anticipation - fear - sadness - anger - disgust) / 7
         
         # Calculate arousal (0 to 1)
-        arousal = (surprise + fear + joy) / 3
+        # High intensity emotions contribute to arousal
+        arousal = (surprise + fear + anger + anticipation) / 4
         
         # Update brain state
         self.brain.brain_state.emotional_valence = valence
         self.brain.brain_state.arousal = arousal
         
-        # Update neurotransmitters
-        self.brain.brain_state.neurotransmitters['dopamine'] = min(1.0, 0.5 + valence * 0.3)
-        self.brain.brain_state.neurotransmitters['serotonin'] = min(1.0, 0.5 + valence * 0.2)
-        self.brain.brain_state.neurotransmitters['norepinephrine'] = min(1.0, arousal)
-        self.brain.brain_state.neurotransmitters['gaba'] = min(1.0, 1.0 - arousal * 0.5)
-        self.brain.brain_state.neurotransmitters['glutamate'] = min(1.0, arousal)
+        # Update neurotransmitters based on emotional state
+        # Dopamine - reward and pleasure
+        self.brain.brain_state.neurotransmitters['dopamine'] = min(1.0, 0.5 + (joy + anticipation) * 0.25)
+        
+        # Serotonin - mood and social behavior
+        self.brain.brain_state.neurotransmitters['serotonin'] = min(1.0, 0.5 + (trust - sadness) * 0.25)
+        
+        # Norepinephrine - alertness and anxiety
+        self.brain.brain_state.neurotransmitters['norepinephrine'] = min(1.0, (fear + surprise + anger) / 3)
+        
+        # GABA - calming and anxiety reduction
+        self.brain.brain_state.neurotransmitters['gaba'] = min(1.0, 1.0 - (fear + anger) * 0.5)
+        
+        # Glutamate - excitation and learning
+        self.brain.brain_state.neurotransmitters['glutamate'] = min(1.0, (arousal + anticipation) / 2)
         
     def _get_age_range(self, stage: DevelopmentalStage) -> str:
         """Get the age range for a given developmental stage"""
@@ -923,8 +1002,32 @@ class DigitalChild:
             DevelopmentalStage.LATE_TWENTIES: LanguageStage.MASTERY
         }
         
+        # Map developmental stages to self-awareness levels
+        stage_to_self_awareness = {
+            DevelopmentalStage.NEWBORN: SelfAwarenessLevel.PHYSICAL,
+            DevelopmentalStage.INFANT: SelfAwarenessLevel.PHYSICAL,
+            DevelopmentalStage.EARLY_TODDLER: SelfAwarenessLevel.PHYSICAL,
+            DevelopmentalStage.LATE_TODDLER: SelfAwarenessLevel.MIRROR,
+            DevelopmentalStage.EARLY_PRESCHOOL: SelfAwarenessLevel.EMOTIONAL,
+            DevelopmentalStage.LATE_PRESCHOOL: SelfAwarenessLevel.COGNITIVE,
+            DevelopmentalStage.EARLY_CHILDHOOD: SelfAwarenessLevel.METACOGNITIVE,
+            DevelopmentalStage.MIDDLE_CHILDHOOD: SelfAwarenessLevel.SOCIAL,
+            DevelopmentalStage.LATE_CHILDHOOD: SelfAwarenessLevel.SOCIAL,
+            DevelopmentalStage.PRE_ADOLESCENT: SelfAwarenessLevel.ABSTRACT,
+            DevelopmentalStage.EARLY_TEEN: SelfAwarenessLevel.ABSTRACT,
+            DevelopmentalStage.MID_TEEN: SelfAwarenessLevel.ABSTRACT,
+            DevelopmentalStage.LATE_TEEN: SelfAwarenessLevel.ABSTRACT,
+            DevelopmentalStage.YOUNG_ADULT: SelfAwarenessLevel.ABSTRACT,
+            DevelopmentalStage.EARLY_TWENTIES: SelfAwarenessLevel.ABSTRACT,
+            DevelopmentalStage.LATE_TWENTIES: SelfAwarenessLevel.ABSTRACT
+        }
+        
         self.language.current_stage = stage_to_language[stage]
         self.language.stage_progress = progress
+        
+        # Update self-awareness level
+        self.self_awareness.current_level = stage_to_self_awareness[stage]
+        self.self_awareness.level_progress = progress
         
         # Update self-concept for the new stage
         self.self_concept = {

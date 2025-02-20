@@ -1,91 +1,127 @@
 # self_supervised_trainer.py
+# Description: Self-supervised learning trainer for neural child development
+# Created by: Christopher Celaya
 
 import torch
-torch.autograd.set_detect_anomaly(True)
 import torch.nn as nn
-import time
+import torch.nn.functional as F
+from typing import Dict, List, Optional, Any
+from datetime import datetime
 
-class AutonomousTrainer:
-    def __init__(self, brain, memory, morality, batch_size=32):
-        self.brain = brain
-        self.memory = memory
-        self.morality = morality
-        self.batch_size = batch_size
-        self.criterion = torch.nn.MSELoss()
-        self.optimizer = torch.optim.Adam(self.brain.parameters(), lr=0.001)
-
-    def training_step(self, input_tensor):
-        """Perform a training step with proper tensor handling"""
+class SelfSupervisedTrainer:
+    """Trainer for self-supervised learning tasks"""
+    
+    def __init__(self, model: nn.Module, learning_rate: float = 0.001):
+        self.model = model
+        self.optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+        self.training_history = []
+        
+    def create_masked_input(self, input_data: torch.Tensor, mask_prob: float = 0.15) -> Dict[str, torch.Tensor]:
+        """Create masked version of input for self-supervised learning"""
+        mask = torch.rand_like(input_data) < mask_prob
+        masked_input = input_data.clone()
+        masked_input[mask] = 0
+        
+        return {
+            'original': input_data,
+            'masked': masked_input,
+            'mask': mask
+        }
+        
+    def train_step(self, input_data: torch.Tensor) -> Dict[str, float]:
+        """Perform one training step"""
+        self.model.train()
+        
+        # Create masked input
+        masked_data = self.create_masked_input(input_data)
+        
+        # Forward pass
+        outputs = self.model(masked_data['masked'])
+        
+        # Calculate reconstruction loss
+        recon_loss = F.mse_loss(
+            outputs['consolidated_memory'],
+            masked_data['original']
+        )
+        
+        # Calculate contrastive loss if applicable
+        if 'embeddings' in outputs:
+            pos_pairs = outputs['embeddings']
+            neg_pairs = torch.roll(pos_pairs, 1, dims=0)  # Create negative pairs
+            contrastive_loss = F.cosine_embedding_loss(
+                pos_pairs,
+                neg_pairs,
+                torch.ones(pos_pairs.size(0), device=pos_pairs.device)
+            )
+        else:
+            contrastive_loss = torch.tensor(0.0, device=input_data.device)
+            
+        # Total loss
+        total_loss = recon_loss + 0.1 * contrastive_loss
+        
+        # Backward pass
         self.optimizer.zero_grad()
+        total_loss.backward()
+        self.optimizer.step()
         
-        # Ensure input tensor is properly shaped
-        if input_tensor.dim() == 1:
-            input_tensor = input_tensor.unsqueeze(0)
+        # Record metrics
+        metrics = {
+            'total_loss': float(total_loss.item()),
+            'reconstruction_loss': float(recon_loss.item()),
+            'contrastive_loss': float(contrastive_loss.item()),
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        self.training_history.append(metrics)
+        
+        return metrics
+        
+    def evaluate(self, input_data: torch.Tensor) -> Dict[str, float]:
+        """Evaluate model performance"""
+        self.model.eval()
+        
+        with torch.no_grad():
+            # Create masked input
+            masked_data = self.create_masked_input(input_data)
             
-        # Get prediction from brain
-        prediction = self.brain(input_tensor)
-        
-        # Get replay batch from memory
-        replay_batch = self.memory.sample_batch(self.batch_size)
-        if replay_batch is None or len(replay_batch) == 0:
-            return torch.tensor(0.0, device='cuda')
+            # Forward pass
+            outputs = self.model(masked_data['masked'])
             
-        # Process replay batch
-        replay_loss = self._process_batch(replay_batch)
-        
-        # Combine losses
-        total_loss = replay_loss
-        
-        # Only backward if we have a valid tensor
-        if isinstance(total_loss, torch.Tensor) and total_loss.requires_grad:
-            total_loss.backward()
-            self.optimizer.step()
-            return total_loss.item()
-        
-        return 0.0
-        
-    def _process_batch(self, batch):
-        """Process a batch of experiences with proper tensor handling"""
-        try:
-            inputs = []
-            targets = []
+            # Calculate metrics
+            recon_loss = F.mse_loss(
+                outputs['consolidated_memory'],
+                masked_data['original']
+            )
             
-            for experience in batch:
-                if isinstance(experience, dict):
-                    input_data = experience.get('input')
-                    target_data = experience.get('target')
-                    
-                    if isinstance(input_data, torch.Tensor) and isinstance(target_data, torch.Tensor):
-                        # Ensure proper dimensions
-                        if input_data.dim() == 1:
-                            input_data = input_data.unsqueeze(0)
-                        if target_data.dim() == 1:
-                            target_data = target_data.unsqueeze(0)
-                            
-                        inputs.append(input_data)
-                        targets.append(target_data)
-            
-            if not inputs or not targets:
-                return torch.tensor(0.0, device='cuda', requires_grad=True)
+            if 'embeddings' in outputs:
+                pos_pairs = outputs['embeddings']
+                neg_pairs = torch.roll(pos_pairs, 1, dims=0)
+                contrastive_loss = F.cosine_embedding_loss(
+                    pos_pairs,
+                    neg_pairs,
+                    torch.ones(pos_pairs.size(0), device=pos_pairs.device)
+                )
+            else:
+                contrastive_loss = torch.tensor(0.0, device=input_data.device)
                 
-            # Stack tensors
-            input_tensor = torch.cat(inputs, dim=0)
-            target_tensor = torch.cat(targets, dim=0)
+        return {
+            'reconstruction_loss': float(recon_loss.item()),
+            'contrastive_loss': float(contrastive_loss.item())
+        }
+        
+    def get_training_stats(self) -> Dict[str, Any]:
+        """Get training statistics"""
+        if not self.training_history:
+            return {
+                'total_steps': 0,
+                'average_loss': 0.0,
+                'latest_metrics': None
+            }
             
-            # Get prediction
-            prediction = self.brain(input_tensor)
-            
-            # Calculate loss
-            loss = self.criterion(prediction, target_tensor)
-            return loss
-            
-        except Exception as e:
-            print(f"Error in _process_batch: {str(e)}")
-            return torch.tensor(0.0, device='cuda', requires_grad=True)
-
-    def _safe_tensor_op(self, tensor, requires_grad=False):
-        """Helper method for safe tensor operations"""
-        result = tensor.clone().detach()
-        if requires_grad:
-            result.requires_grad_(True)
-        return result.to(self.brain.device)
+        recent_history = self.training_history[-100:]  # Last 100 steps
+        
+        return {
+            'total_steps': len(self.training_history),
+            'average_loss': sum(h['total_loss'] for h in recent_history) / len(recent_history),
+            'latest_metrics': self.training_history[-1]
+        }
