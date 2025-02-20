@@ -1,47 +1,5 @@
 {
   "history": [],
-  "metadata": {
-    "total_turns": 0,
-    "timestamp": "2025-02-19T20:24:08.970322",
-    "mother_personality": {
-      "role": "mother",
-      "traits": [
-        "nurturing",
-        "patient",
-        "encouraging",
-        "protective"
-      ],
-      "goals": [
-        "development",
-        "learning",
-        "emotional_bonding"
-      ],
-      "speaking_style": {
-        "perspective": "first_person",
-        "tone": "warm_and_personal",
-        "expressions": [
-          "I see that",
-          "I notice",
-          "I feel",
-          "Let me",
-          "I'm here",
-          "I'll help"
-        ]
-      }
-    },
-    "baby_personality": {
-      "role": "baby",
-      "traits": [
-        "curious",
-        "developing",
-        "emotional",
-        "dependent"
-      ],
-      "goals": [
-        "learning",
-        "exploration",
-        "attachment"
-      ]
-    }
-  }
+  "context": {},
+  "timestamp": "2025-02-19T23:00:17.864097"
 }

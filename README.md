@@ -1,324 +1,158 @@
 # Neural Child Development System
+Created by: Christopher Celaya
 
-A sophisticated AI system that simulates child development through natural language interactions, emotional learning, and memory formation.
+A sophisticated AI system that simulates child development from newborn to adult stages, incorporating language, vision, and emotional development.
 
 ## Features
 
-- **Ollama-Based Chat Interface**: Natural conversation system using the Llama3 model for realistic child-like responses
-- **Emotional Development**: Dynamic emotional state that evolves through interactions
-- **Memory Formation**: Creates and maintains different types of memories (semantic, episodic, emotional)
-- **Language Learning**: Automatically learns new words and concepts through conversations
-- **Development Tracking**: Monitors and visualizes the child's developmental progress
-- **Curriculum-Based Learning**: Structured development stages based on child psychology
+### Vision Development
+- Stage-appropriate visual processing from newborn to adult
+- Realistic simulation of visual development milestones:
+  - Newborn: Basic light/dark perception, blurry vision
+  - Infant: Developing color vision, face recognition
+  - Toddler: Object recognition, depth perception
+  - Preschool: Complex scene understanding
+  - School Age: Advanced pattern recognition
+  - Adolescent: Abstract visual concepts
+  - Adult: Full visual maturity
+- Uses ResNet50 for object recognition
+- Custom visual attention mechanism
+- Stage-specific image transformations
 
-## Requirements
-
-- Python 3.8+
-- PyTorch
-- Transformers
-- Sentence-Transformers
-- Ollama (with Llama3 model installed)
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/neural-child.git
-cd neural-child
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Install Ollama and download the Llama3 model:
-```bash
-# Install Ollama (visit https://ollama.ai for installation instructions)
-# Pull the Llama3 model
-ollama pull llama3
-```
-
-## Usage
-
-1. Start the chat interface:
-```bash
-python chat.py
-```
-
-2. Available commands:
-- `!help` - Show available commands
-- `!teach <word/concept> : <definition>` - Teach a new word or concept
-- `!remember <query>` - Ask about previously learned memories
-- `!emotional <memory>` - Store an emotional memory
-- `!stats` - Show memory statistics
-- `exit/quit/bye` - Exit the chat
-
-## Development Features
-
-### Chat System
-The neural child uses an advanced chat system powered by Ollama's Llama3 model. Each interaction:
-- Evaluates and updates emotional context
-- Learns new words and concepts automatically
-- Forms memories with emotional values
-- Maintains conversation history for context
-- Retrieves relevant memories for better responses
-
-### Memory System
-- **Semantic Memories**: Stores knowledge about words and concepts
-- **Episodic Memories**: Records experiences and interactions
-- **Emotional Memories**: Captures emotional significance of events
-- **Memory Consolidation**: Periodically processes and organizes memories
+### Language Development
+- Progressive language acquisition
+- Age-appropriate vocabulary and syntax
+- Natural language processing capabilities
+- Conversation management system
 
 ### Emotional Development
 - Dynamic emotional state tracking
-- Emotional response learning
-- Attachment formation
-- Social-emotional development stages
+- Social awareness development
+- Emotional regulation growth
+- Response to visual and verbal stimuli
 
-### Language Development
-- Vocabulary expansion
-- Concept learning
-- Age-appropriate language use
-- Natural language understanding
+### Self-Concept Development
+- Stage-appropriate self-awareness
+- Identity formation
+- Social role understanding
+- Capability awareness
 
-## Project Structure
+## Technical Details
 
+### Dependencies
+- Python 3.8+
+- PyTorch
+- torchvision
+- transformers
+- numpy
+- PIL
+
+### Core Components
+- `DigitalChild`: Main class coordinating development
+- `VisionDevelopment`: Visual processing and perception
+- `LanguageDevelopment`: Language acquisition and processing
+- `ConversationSystem`: Interaction management
+- `DevelopmentLogger`: Progress tracking
+
+### Vision Processing Pipeline
+1. Stage-specific image transformation
+2. Visual attention processing
+3. Object recognition (ResNet50)
+4. Feature extraction and analysis
+5. Developmental metrics update
+
+## Usage
+
+```python
+from digital_child import DigitalChild
+from logger import DevelopmentLogger
+
+# Initialize the system
+logger = DevelopmentLogger()
+child = DigitalChild(logger)
+
+# Process visual input
+import torch
+from PIL import Image
+
+# Load and preprocess image
+image = Image.open('example.jpg')
+image_tensor = transforms.ToTensor()(image).unsqueeze(0)
+
+# Process visual input
+result = child.process_visual_input(image_tensor)
+
+# Get development status
+status = child.get_development_status()
 ```
-neural-child/
-├── chat.py                 # Main chat interface
-├── ollama_chat.py         # Ollama-based chat system
-├── memory_store.py        # Memory management system
-├── language_development.py # Language learning system
-├── emotional_development_system.py # Emotional development
-├── curriculum_manager.py  # Development curriculum
-└── [other modules]...
-```
+
+## Development Stages
+
+### Vision Stages
+1. Newborn (0-2 months)
+   - Basic light/dark perception
+   - Blurry vision
+   - Limited contrast sensitivity
+
+2. Infant (2-6 months)
+   - Developing color vision
+   - Face recognition
+   - Improved visual acuity
+
+3. Early Toddler (6-12 months)
+   - Object recognition
+   - Depth perception
+   - Pattern recognition
+
+4. Late Toddler (12-24 months)
+   - Fine detail perception
+   - Object permanence
+   - Enhanced visual memory
+
+5. Preschool (2-5 years)
+   - Complex scene understanding
+   - Symbol recognition
+   - Visual reasoning
+
+6. School Age (5-12 years)
+   - Advanced pattern recognition
+   - Visual problem solving
+   - Spatial reasoning
+
+7. Adolescent (12+ years)
+   - Abstract visual concepts
+   - Complex pattern analysis
+   - Visual mastery
+
+8. Adult (18+ years)
+   - Full visual maturity
+   - Expert pattern recognition
+   - Advanced visual processing
+
+## Metrics and Monitoring
+
+### Vision Metrics
+- Visual Acuity
+- Color Perception
+- Depth Perception
+- Pattern Recognition
+- Object Permanence
+- Visual Memory
+- Attention Span
+
+### Development Tracking
+- Stage progression
+- Skill acquisition
+- Performance metrics
+- Learning trajectory
 
 ## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please read our contributing guidelines for details on our code of conduct and the process for submitting pull requests.
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-
-- Ollama team for the Llama3 model
-- PyTorch team
-- Hugging Face Transformers team
-- SentenceTransformers team
-
-## Overview
-
-The Neural Child Development System implements a novel approach to AI by simulating human psychological development from infancy to maturity. The system consists of two main components:
-
-1. **Digital Child**: An AI agent that develops through various psychological stages
-2. **Mother LLM**: A nurturing AI system that provides stimuli and guidance for development
-
-## Core Components
-
-### Digital Child Architecture
-
-- **Dynamic Neural Child Brain**: Core neural network for processing and learning
-- **Differentiable Memory**: Advanced memory system for experience storage and retrieval
-- **Moral Policy Network**: System for ethical decision making
-- **Metacognition System**: Self-awareness and reflection capabilities
-- **Developmental System**: Manages progression through developmental stages
-- **Autonomous Trainer**: Handles learning and adaptation
-
-### Mother LLM Features
-
-- Stage-specific prompting system
-- Emotional vector generation
-- Conversation history tracking
-- Structured feedback generation
-- Developmental guidance
-
-## Developmental Stages
-
-The system implements a comprehensive stage-based development model:
-
-1. Newborn (0-3 months)
-2. Early Infancy (3-6 months)
-3. Late Infancy (6-12 months)
-4. Early Toddler (12-18 months)
-5. Late Toddler (18-24 months)
-6. Early Preschool (2-3 years)
-7. Late Preschool (3-4 years)
-8. Early Childhood (4-5 years)
-9. Middle Childhood (5-6 years)
-10. Late Childhood (6-7 years)
-11. Early Elementary (7-8 years)
-12. Middle Elementary (8-9 years)
-13. Late Elementary (9-11 years)
-14. Early Adolescence (11-13 years)
-15. Middle Adolescence (13-15 years)
-16. Late Adolescence (15-18 years)
-17. Young Adult (18-21 years)
-18. Mature Adult (21+ years)
-
-## Emotional Processing
-
-The system implements a 4-dimensional emotional state vector:
-- Joy
-- Trust
-- Fear
-- Surprise
-
-Each emotion is processed with:
-- Dynamic updating based on mother's input
-- Random variation for natural development
-- Emotional state expression
-- Memory integration
-
-## Technical Requirements
-
-### Hardware
-- CUDA-capable GPU
-- Minimum 16GB RAM
-- SSD Storage
-- Multi-core processor
-
-### Software
-- Python 3.8+
-- CUDA Toolkit 11.8+
-- Ollama (for running the local LLM)
-- PyTorch with CUDA support
-- Additional dependencies (specified in requirements.txt)
-
-## Usage
-
-1. Initialize the system:
-```python
-from main import DigitalChild
-
-child = DigitalChild()
-```
-
-2. The system will automatically:
-- Generate appropriate stimuli through the Mother LLM
-- Process child responses
-- Update emotional states
-- Facilitate learning and development
-- Save progress periodically
-
-## Development State
-
-The system automatically tracks:
-- Learning loss
-- Memory usage
-- Moral scores
-- Psychological metrics:
-  - Attachment styles
-  - Defense mechanisms
-  - Theory of mind development
-
-## Saving and Loading
-
-The system automatically saves the child's state when interrupted:
-```python
-torch.save(child.brain.state_dict(), f"digital_child_{child.age()}mo.pth")
-```
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@software{neural_child_development,
-  title = {Neural Child Development System},
-  year = {2024},
-  author = {[Author Name]},
-  url = {[Repository URL]},
-  note = {An AI system implementing psychological development and emotional intelligence}
-}
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Build Instructions
-
-### Prerequisites
-
-1. **Hardware Requirements**:
-   - CUDA-capable GPU
-   - Minimum 16GB RAM
-   - SSD Storage
-   - Multi-core processor
-
-2. **Software Requirements**:
-   - Python 3.8+
-   - CUDA Toolkit 11.8+
-   - Ollama (for running the local LLM)
-   - PyTorch with CUDA support
-   - Additional dependencies (specified in requirements.txt)
-
-### Setup Steps
-
-## Installation
-1. Clone the repository
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3. Ensure Ollama is running with llama2 and llama3 models
-
-## Recent Test Results
-- Successfully implemented mother-child conversation system
-- Emotional state tracking and regulation functioning
-- Memory consolidation working with proper error handling
-- Developmental stage progression tracking operational
-- Telemetry and visualization systems active
-- Periodic conversation and checkpoint saving implemented
-
-## Known Issues
-- Matrix multiplication errors in learning step (being addressed)
-- Occasional JSON parsing errors in LLM responses
-- Memory usage spikes during extended runs
-
-## Next Steps
-1. Optimize matrix dimensions in learning module
-2. Enhance JSON response parsing robustness
-3. Implement more sophisticated memory management
-4. Add advanced conversation analysis features
-5. Develop better error recovery mechanisms
-
-## Directory Structure
-```
-neural-child/
-├── main.py              # Main system controller
-├── conversation_system.py # Mother-child interaction handler
-├── logger.py            # Comprehensive logging system
-├── visualization.py     # Real-time visualization
-├── checkpoints/         # Model checkpoints
-├── conversations/       # Saved conversations
-└── logs/               # System logs
-```
-
-## Usage
-Run the main script to start the system:
-```bash
-python main.py
-```
-
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-### Version 1.2.0
-- Migrated from LM Studio to Ollama
-- Updated API endpoint and payload format
-- Improved JSON response parsing
-- Enhanced error handling for Ollama responses
-- Added structured output support for Ollama
-- Updated documentation for Ollama setup
+- PyTorch team for the deep learning framework
+- torchvision for ResNet50 implementation
+- Child development research community for developmental stage insights

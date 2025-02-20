@@ -1,0 +1,26 @@
+Gradio interface for interacting with @main.py
+
+- Development Status Tab
+- Shows current age, stage, and progress
+- Displays all development metrics
+- Includes a refresh button to update status
+- 
+- Emotional State Tab
+- Interactive radar plot showing emotional dimensions
+- Real-time updates of emotional state
+- Visual representation of Joy, Trust, Fear, and Surprise
+- 
+- Conversation Tab
+- Text input for interacting with the child
+- Displays conversation history with emotional states
+- Shows the last 5 exchanges for context
+- 
+- Neural Network Tab
+- Visual representation of the neural network structure
+- Shows layer connections and sizes
+- Interactive network visualization
+- 
+- Development Controls Tab
+- Dropdown to select development stage
+- Slider to adjust stage progress
+- Button to update development settings

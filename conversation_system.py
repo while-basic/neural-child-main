@@ -15,6 +15,56 @@ class ConversationSystem:
         self.conversation_history = []
         self.current_context = {}
         self.last_response = None
+        self.self_concept = None  # Will be updated when stage changes
+        
+    def update_self_concept(self, self_concept: Dict[str, Any]):
+        """Update the self-concept based on developmental stage."""
+        self.self_concept = self_concept
+        self.current_context.update({
+            'self_concept': self_concept,
+            'age_range': self_concept['age_range'],
+            'identity': self_concept['identity'],
+            'capabilities': self_concept['capabilities']
+        })
+        
+    def get_age_appropriate_response(self, content: str) -> str:
+        """Generate age-appropriate response based on self-concept."""
+        if not self.self_concept:
+            return content
+            
+        identity = self.self_concept['identity']
+        capabilities = self.self_concept['capabilities']
+        
+        # Modify response based on self-reference and awareness level
+        self_reference = identity['self_reference']
+        awareness = identity['awareness_level']
+        
+        if 'how old are you' in content.lower():
+            if awareness in ['minimal', 'basic', 'emerging']:
+                return f"I'm a {self_reference}!"
+            elif awareness in ['developing', 'basic self-aware']:
+                return f"I'm a {self_reference}, {self.self_concept['age_range']} old!"
+            elif 'self-aware' in awareness:
+                return f"I'm {self.self_concept['age_range']} old"
+            else:
+                return f"I'm {self.self_concept['age_range']} old"
+                
+        if 'what do you do' in content.lower():
+            if awareness in ['minimal', 'basic', 'emerging']:
+                return f"I play!"
+            elif awareness in ['developing', 'basic self-aware']:
+                interests = capabilities['interests'][:2]
+                return f"I like {' and '.join(interests)}!"
+            elif 'self-aware' in awareness:
+                role = identity['social_role']
+                interests = capabilities['interests'][:2]
+                return f"I'm a {role}, I enjoy {' and '.join(interests)}"
+            else:
+                role = identity['social_role']
+                interests = capabilities['interests']
+                return f"I'm a {role}. I'm interested in {', '.join(interests[:-1])} and {interests[-1]}"
+        
+        return content
         
     def process_mother_response(self, response: str, emotional_state: torch.Tensor) -> Dict:
         """Process mother's response and update emotional state."""
@@ -24,7 +74,8 @@ class ConversationSystem:
                 'role': 'mother',
                 'content': response,
                 'emotional_state': emotional_state.cpu().tolist(),
-                'timestamp': datetime.now().isoformat()
+                'timestamp': datetime.now().isoformat(),
+                'self_concept': self.self_concept
             }
             self.logger.log_interaction(interaction)
             
@@ -57,12 +108,16 @@ class ConversationSystem:
     def process_child_response(self, response: str, emotional_state: torch.Tensor) -> Dict:
         """Process child's response and update conversation history."""
         try:
+            # Modify response based on developmental stage
+            age_appropriate_response = self.get_age_appropriate_response(response)
+            
             # Log the interaction
             interaction = {
                 'role': 'child',
-                'content': response,
+                'content': age_appropriate_response,
                 'emotional_state': emotional_state.cpu().tolist(),
-                'timestamp': datetime.now().isoformat()
+                'timestamp': datetime.now().isoformat(),
+                'self_concept': self.self_concept
             }
             self.logger.log_interaction(interaction)
             
@@ -71,15 +126,15 @@ class ConversationSystem:
             
             # Update context
             self.current_context.update({
-                'last_child_response': response,
+                'last_child_response': age_appropriate_response,
                 'last_emotional_state': emotional_state.cpu().tolist()
             })
             
-            self.last_response = response
+            self.last_response = age_appropriate_response
             
             return {
                 'success': True,
-                'response': response,
+                'response': age_appropriate_response,
                 'emotional_state': emotional_state.cpu().tolist()
             }
             
@@ -112,6 +167,7 @@ class ConversationSystem:
             data = {
                 'history': self.conversation_history,
                 'context': self.current_context,
+                'self_concept': self.self_concept,
                 'timestamp': datetime.now().isoformat()
             }
             with open(filepath, 'w') as f:
@@ -129,6 +185,7 @@ class ConversationSystem:
                 data = json.load(f)
             self.conversation_history = data.get('history', [])
             self.current_context = data.get('context', {})
+            self.self_concept = data.get('self_concept', None)
         except Exception as e:
             self.logger.log_error(str(e), {
                 'method': 'load_conversation',
@@ -149,7 +206,8 @@ class ConversationSystem:
                 'mother_responses': 0,
                 'child_responses': 0,
                 'average_emotional_state': None,
-                'conversation_duration': 0
+                'conversation_duration': 0,
+                'current_self_concept': None
             }
         
         try:
@@ -182,7 +240,8 @@ class ConversationSystem:
                 'mother_responses': mother_responses,
                 'child_responses': child_responses,
                 'average_emotional_state': average_emotional_state,
-                'conversation_duration': duration
+                'conversation_duration': duration,
+                'current_self_concept': self.self_concept
             }
             
         except Exception as e:

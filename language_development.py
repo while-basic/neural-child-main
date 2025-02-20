@@ -21,6 +21,8 @@ class LanguageStage(Enum):
     TELEGRAPHIC = auto()    # 18-24 months: Two-word combinations
     MULTIWORD = auto()      # 2-3 years: Simple sentences
     COMPLEX = auto()        # 3+ years: Complex sentences
+    ADVANCED = auto()       # 6+ years: Advanced language skills
+    MASTERY = auto()        # 18+ years: Complete language mastery
 
 class WordCategory(Enum):
     NOUN = auto()
@@ -33,14 +35,14 @@ class WordCategory(Enum):
     INTERJECTION = auto()
 
 class LanguageDevelopment(nn.Module):
-    def __init__(self, device='cuda'):
+    def __init__(self, device='cpu'):
         """Initialize the language development system"""
         super().__init__()
         self.device = device
         
         # Initialize NLP components first
         self.nlp = spacy.load('en_core_web_sm')
-        self.sentiment_analyzer = pipeline("sentiment-analysis", device=0 if device == 'cuda' else -1)
+        self.sentiment_analyzer = pipeline("sentiment-analysis", device=-1)  # Use CPU
         
         # Initialize language development state
         self.current_stage = LanguageStage.PRELINGUISTIC
@@ -56,7 +58,11 @@ class LanguageDevelopment(nn.Module):
             LanguageStage.HOLOPHRASTIC: ["MAMA!", "DADA!", "BALL!", "UP!", "NO!"],
             LanguageStage.TELEGRAPHIC: ["WANT MILK", "MORE PLAY", "BIG BALL", "DADDY GO"],
             LanguageStage.MULTIWORD: ["I WANT MILK", "PLAY WITH ME", "MOMMY READ BOOK"],
-            LanguageStage.COMPLEX: ["Can I have milk please?", "I want to play with my toys."]
+            LanguageStage.COMPLEX: ["Can I have milk please?", "I want to play with my toys."],
+            LanguageStage.ADVANCED: ["I would appreciate if you could help me with this task.", 
+                                   "The metaphorical implications of this story are fascinating."],
+            LanguageStage.MASTERY: ["The intricate interplay between syntax and semantics reveals deeper linguistic patterns.",
+                                   "Let's analyze the sociolinguistic implications of this discourse."]
         }
         
         # Initialize word emotions
@@ -131,6 +137,25 @@ class LanguageDevelopment(nn.Module):
                 'sentence_types': ['compound', 'complex'],
                 'tenses': ['present', 'past', 'future'],
                 'modalities': ['can', 'should', 'might']
+            },
+            LanguageStage.ADVANCED: {
+                'sentence_types': ['compound', 'complex', 'compound-complex'],
+                'tenses': ['present', 'past', 'future', 'perfect', 'progressive'],
+                'modalities': ['can', 'should', 'might', 'must', 'would', 'could'],
+                'rhetoric': ['metaphor', 'simile', 'personification'],
+                'discourse': ['argumentation', 'exposition', 'narrative'],
+                'registers': ['formal', 'informal', 'academic', 'colloquial']
+            },
+            LanguageStage.MASTERY: {
+                'sentence_types': ['all'],
+                'tenses': ['all'],
+                'modalities': ['all'],
+                'rhetoric': ['all'],
+                'discourse': ['all'],
+                'registers': ['all'],
+                'metalinguistic': ['language analysis', 'linguistic theory'],
+                'creativity': ['neologisms', 'wordplay', 'poetry'],
+                'expertise': ['technical', 'academic', 'professional']
             }
         }
     
@@ -381,7 +406,7 @@ class LanguageDevelopment(nn.Module):
             else:
                 return np.random.choice(patterns)
         
-        else:  # COMPLEX stage
+        elif self.current_stage == LanguageStage.COMPLEX:
             if is_positive and (joy > 0.6 or trust > 0.6):
                 return "I'm feeling very happy!"
             elif fear > 0.6:
@@ -390,6 +415,66 @@ class LanguageDevelopment(nn.Module):
                 return "Can we play together?"
             else:
                 return np.random.choice(patterns)
+                
+        elif self.current_stage == LanguageStage.ADVANCED:
+            # Advanced stage responses based on context
+            context_responses = {
+                'philosophy': [
+                    "The philosophical implications of that perspective are fascinating.",
+                    "Let's explore the ethical dimensions of this concept.",
+                    "This raises interesting questions about consciousness and reality."
+                ],
+                'research': [
+                    "The methodology should account for potential confounding variables.",
+                    "We should consider incorporating longitudinal data analysis.",
+                    "The findings suggest a significant correlation between variables."
+                ],
+                'presentation': [
+                    "Let me articulate the key points of this analysis.",
+                    "The data demonstrates a clear trend in our observations.",
+                    "We can visualize these results through various analytical frameworks."
+                ],
+                'literature': [
+                    "The author's use of metaphor creates a compelling narrative.",
+                    "The thematic elements reflect deeper societal issues.",
+                    "This passage exemplifies the writer's distinctive style."
+                ]
+            }
+            
+            # Match context to appropriate response category
+            for key, responses in context_responses.items():
+                if key in context.lower():
+                    return np.random.choice(responses)
+            
+            return np.random.choice(self.utterance_patterns[LanguageStage.ADVANCED])
+            
+        else:  # MASTERY stage
+            # Mastery stage responses with high sophistication
+            context_responses = {
+                'philosophy': [
+                    "The intersection of epistemology and cognitive science reveals fascinating insights into the nature of consciousness and human understanding.",
+                    "We might consider how this philosophical framework aligns with contemporary theories of mind and artificial intelligence."
+                ],
+                'research': [
+                    "The meta-analysis reveals significant heterogeneity in effect sizes across studies, suggesting underlying moderator variables.",
+                    "By implementing a mixed-methods approach, we can triangulate our findings and strengthen the validity of our conclusions."
+                ],
+                'presentation': [
+                    "The empirical evidence supports our theoretical model, though we should acknowledge potential limitations in ecological validity.",
+                    "Let's examine the implications of these findings through both quantitative and qualitative analytical lenses."
+                ],
+                'literature': [
+                    "The author's intricate weaving of postmodern themes with classical narrative structures creates a compelling dialectic.",
+                    "The text's intertextual references and metalinguistic elements contribute to its rich interpretative possibilities."
+                ]
+            }
+            
+            # Match context to appropriate response category
+            for key, responses in context_responses.items():
+                if key in context.lower():
+                    return np.random.choice(responses)
+            
+            return np.random.choice(self.utterance_patterns[LanguageStage.MASTERY])
     
     def _generate_prelinguistic(self) -> str:
         """Generate prelinguistic sounds (crying, cooing, babbling)"""
@@ -716,44 +801,93 @@ class LanguageDevelopment(nn.Module):
             
             # Update metrics
             self.metrics['vocabulary_size'] = sum(len(words) for words in self.vocabulary.values())
+            self.metrics['grammar_complexity'] = min(1.0, self.metrics['grammar_complexity'] + 0.01)
+            self.metrics['comprehension_level'] = min(1.0, self.metrics['comprehension_level'] + 0.02)
+            self.metrics['expression_level'] = min(1.0, self.metrics['expression_level'] + 0.015)
             
             # Progress stage if vocabulary size meets threshold
             self._check_stage_progression()
 
     def learn_concept(self, concept: str):
-        """Learn a new concept."""
-        # For now, we'll treat concepts as compound words/phrases
+        """Learn a new concept and its associated words."""
+        if not concept:
+            return
+            
+        # Split concept into words
         words = concept.split()
+        
+        # Learn each word
         for word in words:
             self.learn_word(word)
+            
+        # Additional learning boost for understanding the concept
+        self.metrics['comprehension_level'] = min(1.0, self.metrics['comprehension_level'] + 0.05)
+        self.metrics['expression_level'] = min(1.0, self.metrics['expression_level'] + 0.03)
+        
+        # Store concept in memory
+        concept_key = concept.lower()
+        if concept_key not in self.word_contexts:
+            self.word_contexts[concept_key] = [{
+                'type': 'concept',
+                'related_words': words,
+                'learned_at_stage': self.current_stage.name,
+                'timestamp': datetime.now().isoformat()
+            }]
 
     def _check_stage_progression(self):
         """Check and update language development stage based on metrics."""
         vocab_size = self.metrics['vocabulary_size']
         
-        # Stage progression thresholds
-        if self.current_stage == LanguageStage.PRELINGUISTIC and vocab_size >= 10:
-            self.current_stage = LanguageStage.HOLOPHRASTIC
-            self.stage_progress = 0.0
-        elif self.current_stage == LanguageStage.HOLOPHRASTIC and vocab_size >= 50:
-            self.current_stage = LanguageStage.TELEGRAPHIC
-            self.stage_progress = 0.0
-        elif self.current_stage == LanguageStage.TELEGRAPHIC and vocab_size >= 100:
-            self.current_stage = LanguageStage.MULTIWORD
-            self.stage_progress = 0.0
-        elif self.current_stage == LanguageStage.MULTIWORD and vocab_size >= 200:
-            self.current_stage = LanguageStage.COMPLEX
-            self.stage_progress = 0.0
-        
-        # Update stage progress
-        stage_ranges = {
-            LanguageStage.PRELINGUISTIC: (0, 10),
-            LanguageStage.HOLOPHRASTIC: (10, 50),
-            LanguageStage.TELEGRAPHIC: (50, 100),
-            LanguageStage.MULTIWORD: (100, 200),
-            LanguageStage.COMPLEX: (200, 500)
+        # Stage progression thresholds with more granular progression
+        stage_thresholds = {
+            LanguageStage.PRELINGUISTIC: 20,    # Basic sounds and gestures
+            LanguageStage.HOLOPHRASTIC: 50,     # First words
+            LanguageStage.TELEGRAPHIC: 100,     # Two-word combinations
+            LanguageStage.MULTIWORD: 200,       # Simple sentences
+            LanguageStage.COMPLEX: 500,         # Complex sentences
+            LanguageStage.ADVANCED: 1000,       # Advanced language
+            LanguageStage.MASTERY: 2000        # Complete mastery
         }
         
-        current_range = stage_ranges[self.current_stage]
-        self.stage_progress = (vocab_size - current_range[0]) / (current_range[1] - current_range[0])
-        self.stage_progress = min(max(self.stage_progress, 0.0), 1.0) 
+        # Check for stage advancement
+        if self.current_stage in stage_thresholds:
+            threshold = stage_thresholds[self.current_stage]
+            if vocab_size >= threshold:
+                # Find next stage
+                stages = list(LanguageStage)
+                current_idx = stages.index(self.current_stage)
+                if current_idx < len(stages) - 1:
+                    self.current_stage = stages[current_idx + 1]
+                    self.stage_progress = 0.0
+                    print(f"Advanced to language stage: {self.current_stage.name}")
+        
+        # Update stage progress
+        if self.current_stage in stage_thresholds:
+            current_threshold = stage_thresholds[self.current_stage]
+            next_stage_idx = list(LanguageStage).index(self.current_stage) + 1
+            if next_stage_idx < len(LanguageStage):
+                next_stage = list(LanguageStage)[next_stage_idx]
+                next_threshold = stage_thresholds.get(next_stage, current_threshold * 2)
+                
+                # Calculate progress between current and next threshold
+                progress = (vocab_size - current_threshold) / (next_threshold - current_threshold)
+                self.stage_progress = max(0.0, min(1.0, progress))
+            else:
+                # At final stage, progress based on continuing vocabulary growth
+                self.stage_progress = min(1.0, vocab_size / (current_threshold * 2))
+
+    def get_status(self) -> Dict[str, Any]:
+        """Get current language development status"""
+        return {
+            'stage': self.current_stage.name,
+            'stage_progress': self.stage_progress,
+            'vocabulary_size': sum(len(words) for words in self.vocabulary.values()),
+            'metrics': self.metrics,
+            'capabilities': {
+                'vocabulary_by_category': {
+                    category.name: len(words) 
+                    for category, words in self.vocabulary.items()
+                },
+                'phoneme_mastery': dict(self.phoneme_mastery)
+            }
+        } 
