@@ -35,7 +35,8 @@ class ObsidianConnector:
                 "Emotional_States",
                 "Development",
                 "Language_Learning",
-                "Interactions"
+                "Interactions",
+                "Network"
             ]
             
             for folder in folders:
@@ -46,12 +47,28 @@ class ObsidianConnector:
             obsidian_dir = self.vault_path / ".obsidian"
             obsidian_dir.mkdir(parents=True, exist_ok=True)
             
-            # Create a basic Obsidian config
+            # Create a basic Obsidian config with graph settings
             config = {
                 "basePath": str(self.vault_path),
                 "useMarkdownLinks": True,
                 "newLinkFormat": "relative",
-                "attachmentFolderPath": "attachments"
+                "attachmentFolderPath": "attachments",
+                "graph": {
+                    "zoomLevel": 1.0,
+                    "showTags": True,
+                    "showAttachments": False,
+                    "hideUnresolved": False,
+                    "showOrphans": True,
+                    "showArrow": True,
+                    "textFadeMultiplier": 0,
+                    "nodeSizeMultiplier": 1,
+                    "lineSizeMultiplier": 1,
+                    "centerStrength": 0.518713248970312,
+                    "repelStrength": 10,
+                    "linkStrength": 1,
+                    "linkDistance": 250,
+                    "scale": 1
+                }
             }
             
             config_path = obsidian_dir / "config"
@@ -62,11 +79,12 @@ class ObsidianConnector:
             readme_content = f'''# Neural Child Development Vault
 
 This vault contains the development records of a neural child, including:
-- Memories
-- Emotional States
-- Development Progress
-- Language Learning
-- Interactions
+- [[Memories/README|Memories]]
+- [[Emotional_States/README|Emotional States]]
+- [[Development/README|Development Progress]]
+- [[Language_Learning/README|Language Learning]]
+- [[Interactions/README|Interactions]]
+- [[Network/README|Neural Network]]
 
 Created by the Neural Child Development System
 Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
@@ -74,6 +92,9 @@ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
             readme_path = self.vault_path / "README.md"
             with open(readme_path, 'w', encoding='utf-8') as f:
                 f.write(readme_content)
+                
+            # Create README files for each section
+            self._create_section_readmes()
                 
             self.logger.log_milestone(f"Initialized Obsidian vault at {self.vault_path}")
             
@@ -84,13 +105,113 @@ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
             })
             raise
             
+    def _create_section_readmes(self):
+        """Create README files for each section with network visualization info."""
+        sections = {
+            "Memories": "Contains episodic, semantic, and emotional memories formed by the neural child.",
+            "Emotional_States": "Tracks emotional development and state changes over time.",
+            "Development": "Records developmental milestones and stage progression.",
+            "Language_Learning": "Documents vocabulary acquisition and language development.",
+            "Interactions": "Stores conversation history and interaction patterns.",
+            "Network": "Visualizes neural connections and relationship graphs."
+        }
+        
+        for folder, description in sections.items():
+            content = f'''# {folder}
+
+{description}
+
+## Network Visualization
+This section is connected to:
+{self._get_section_connections(folder)}
+
+## Recent Updates
+```dataview
+TABLE created as "Time", tags as "Tags"
+FROM "#{folder.lower()}"
+SORT created DESC
+LIMIT 5
+```
+
+## Network Graph
+```dataview
+TABLE WITHOUT ID
+  file.link as "Entry",
+  tags as "Tags",
+  created as "Time"
+FROM "#{folder.lower()}"
+SORT created DESC
+```
+'''
+            readme_path = self.vault_path / folder / "README.md"
+            with open(readme_path, 'w', encoding='utf-8') as f:
+                f.write(content)
+                
+    def _get_section_connections(self, section: str) -> str:
+        """Get connection descriptions for a section."""
+        connections = {
+            "Memories": [
+                "- [[Emotional_States/README|Emotional States]] - Memories have associated emotional context",
+                "- [[Language_Learning/README|Language Learning]] - Semantic memories store learned concepts",
+                "- [[Interactions/README|Interactions]] - Memories form during interactions"
+            ],
+            "Emotional_States": [
+                "- [[Memories/README|Memories]] - Emotions influence memory formation",
+                "- [[Development/README|Development]] - Emotional growth tracks development",
+                "- [[Interactions/README|Interactions]] - Emotional responses to interactions"
+            ],
+            "Development": [
+                "- [[Language_Learning/README|Language Learning]] - Language development stages",
+                "- [[Emotional_States/README|Emotional States]] - Emotional development tracking",
+                "- [[Network/README|Neural Network]] - Development affects network structure"
+            ],
+            "Language_Learning": [
+                "- [[Memories/README|Memories]] - Words and concepts stored as memories",
+                "- [[Development/README|Development]] - Language stages follow development",
+                "- [[Interactions/README|Interactions]] - Learning through conversation"
+            ],
+            "Interactions": [
+                "- [[Memories/README|Memories]] - Interactions create memories",
+                "- [[Emotional_States/README|Emotional States]] - Emotional responses",
+                "- [[Language_Learning/README|Language Learning]] - Learning from interaction"
+            ],
+            "Network": [
+                "- [[Development/README|Development]] - Network structure evolution",
+                "- [[Memories/README|Memories]] - Memory connection patterns",
+                "- [[Language_Learning/README|Language Learning]] - Language network formation"
+            ]
+        }
+        return "\n".join(connections.get(section, []))
+    
     def _write_markdown_file(self, folder: str, filename: str, frontmatter: Dict[str, Any], content: str):
-        """Write a markdown file with YAML frontmatter."""
+        """Write a markdown file with YAML frontmatter and network connections."""
         try:
             folder_path = self.vault_path / folder
             folder_path.mkdir(parents=True, exist_ok=True)
             
             file_path = folder_path / f"{filename}.md"
+            
+            # Add network metadata to frontmatter
+            frontmatter.update({
+                "connections": self._get_entry_connections(folder, frontmatter),
+                "graph": {
+                    "color": self._get_node_color(folder),
+                    "size": self._get_node_size(frontmatter)
+                }
+            })
+            
+            # Add network visualization section to content
+            content += "\n\n## Connections\n"
+            content += self._format_connections(frontmatter["connections"])
+            
+            # Add dataview queries
+            content += "\n\n## Related Entries\n"
+            content += "```dataview\n"
+            content += "TABLE WITHOUT ID file.link as Entry, type as Type, tags as Tags\n"
+            content += f'FROM #{folder.lower()} and !"{file_path.name}"\n'
+            content += "WHERE contains(connections, this.file.name)\n"
+            content += "SORT created DESC\n"
+            content += "```\n"
             
             # Combine frontmatter and content
             file_content = "---\n"
@@ -110,7 +231,64 @@ Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
                 'file_path': str(file_path)
             })
             raise
+            
+    def _get_entry_connections(self, folder: str, frontmatter: Dict[str, Any]) -> List[str]:
+        """Get list of connected entries based on entry type and metadata."""
+        connections = []
+        entry_type = frontmatter.get("type", "")
+        
+        if entry_type == "language_learning":
+            # Connect to development stage entries
+            connections.append(f"[[Development/README|Current Stage: {frontmatter.get('stage', 'UNKNOWN')}]]")
+            
+        elif entry_type == "emotional_state":
+            # Connect to related emotional memories
+            connections.append("[[Memories/README|Related Emotional Memories]]")
+            
+        elif entry_type == "development":
+            # Connect to previous stage
+            prev_stage = frontmatter.get("previous_stage")
+            if prev_stage:
+                connections.append(f"[[Development/README|Previous Stage: {prev_stage}]]")
+                
+        elif entry_type == "interaction":
+            # Connect to emotional state and learning
+            if "emotions" in frontmatter:
+                connections.append("[[Emotional_States/README|Emotional Response]]")
+            if "learning" in frontmatter:
+                connections.append("[[Language_Learning/README|Learning Outcomes]]")
+                
+        # Add connection to network visualization
+        connections.append("[[Network/README|Neural Network]]")
+        
+        return connections
     
+    def _get_node_color(self, folder: str) -> str:
+        """Get node color for graph visualization."""
+        colors = {
+            "Memories": "#ff6b6b",  # Red
+            "Emotional_States": "#4ecdc4",  # Teal
+            "Development": "#95a5a6",  # Gray
+            "Language_Learning": "#f1c40f",  # Yellow
+            "Interactions": "#3498db",  # Blue
+            "Network": "#2ecc71"  # Green
+        }
+        return colors.get(folder, "#bdc3c7")  # Default to light gray
+    
+    def _get_node_size(self, frontmatter: Dict[str, Any]) -> float:
+        """Get node size based on entry importance."""
+        if "emotional_value" in frontmatter:
+            return 1.0 + float(frontmatter["emotional_value"])
+        elif "stage" in frontmatter:
+            return 2.0  # Development entries are larger
+        return 1.0  # Default size
+    
+    def _format_connections(self, connections: List[str]) -> str:
+        """Format connections list as markdown."""
+        if not connections:
+            return "No direct connections."
+        return "\n".join([f"- {conn}" for conn in connections])
+
     def store_memory(self, memory_data: Dict[str, Any]):
         """Store a memory in the vault."""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
