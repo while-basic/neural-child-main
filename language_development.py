@@ -13,6 +13,7 @@ from typing import Dict, List, Tuple, Optional, Any
 from datetime import datetime
 import spacy
 from transformers import pipeline
+from llm_module import chat_completion
 
 class LanguageStage(Enum):
     PRELINGUISTIC = auto()  # 0-12 months: Crying, cooing, babbling
@@ -216,11 +217,59 @@ class LanguageDevelopment(nn.Module):
     def learn_from_interaction(self, utterance: str, emotional_state: torch.Tensor, 
                              developmental_stage: str) -> Dict[str, Any]:
         """Learn from an interaction, updating language stage and vocabulary"""
-        # Tokenize and process utterance
+        # First, use spaCy for basic tokenization and POS tagging
         doc = self.nlp(utterance)
         new_words = set()
         
-        # Learn new words and their categories
+        # Use Ollama to enrich understanding
+        enrichment_prompt = f"""
+        Analyze this utterance for vocabulary learning: "{utterance}"
+        Identify:
+        1. Core words and their categories (noun, verb, etc.)
+        2. Related words that could be learned
+        3. Simple definitions suitable for a child
+        4. Example usage in simple sentences
+        
+        Respond in JSON format with these fields.
+        """
+        
+        try:
+            enriched_data = chat_completion(
+                system_prompt="You are a language development expert helping a child learn new words.",
+                user_prompt=enrichment_prompt,
+                structured_output=True
+            )
+            
+            if enriched_data and isinstance(enriched_data, dict):
+                # Process core words
+                if 'core_words' in enriched_data:
+                    for word_info in enriched_data['core_words']:
+                        word = word_info.get('word', '').lower()
+                        category = self._map_category(word_info.get('category', ''))
+                        if word and category and word not in self.vocabulary[category]:
+                            self.vocabulary[category].add(word)
+                            new_words.add(word)
+                            
+                            # Store definition and examples if available
+                            if 'definition' in word_info:
+                                self.word_contexts[word].append({
+                                    'definition': word_info['definition'],
+                                    'examples': word_info.get('examples', [])
+                                })
+                
+                # Process related words
+                if 'related_words' in enriched_data:
+                    for word_info in enriched_data['related_words']:
+                        word = word_info.get('word', '').lower()
+                        category = self._map_category(word_info.get('category', ''))
+                        if word and category and word not in self.vocabulary[category]:
+                            self.vocabulary[category].add(word)
+                            new_words.add(word)
+        
+        except Exception as e:
+            print(f"Error in Ollama enrichment: {str(e)}")
+        
+        # Continue with spaCy processing for words that might have been missed
         for token in doc:
             if not token.is_punct and not token.is_space:
                 word = token.text.lower()
@@ -265,6 +314,20 @@ class LanguageDevelopment(nn.Module):
                 'adjectives': len(self.vocabulary[WordCategory.ADJECTIVE])
             }
         }
+    
+    def _map_category(self, category_str: str) -> Optional[WordCategory]:
+        """Map string category to WordCategory enum"""
+        category_map = {
+            'noun': WordCategory.NOUN,
+            'verb': WordCategory.VERB,
+            'adjective': WordCategory.ADJECTIVE,
+            'adverb': WordCategory.ADVERB,
+            'pronoun': WordCategory.PRONOUN,
+            'preposition': WordCategory.PREPOSITION,
+            'article': WordCategory.ARTICLE,
+            'interjection': WordCategory.INTERJECTION
+        }
+        return category_map.get(category_str.lower())
     
     def generate_utterance(self, context: str, emotional_state: torch.Tensor) -> str:
         """Generate an age-appropriate utterance based on context and emotional state"""
@@ -513,3 +576,184 @@ class LanguageDevelopment(nn.Module):
                          for category, words in state['vocabulary'].items()}
         self.metrics = state['metrics']
         self.phoneme_mastery = state['phoneme_mastery'] 
+
+    def enrich_vocabulary(self, word_limit: int = 10) -> Dict[str, Any]:
+        """Periodically enrich vocabulary with related words using Ollama"""
+        # Select a sample of known words to expand upon
+        known_words = []
+        for category, words in self.vocabulary.items():
+            known_words.extend(list(words))
+        
+        if not known_words:
+            return {'new_words': [], 'enrichment_success': False}
+        
+        # Select random words to enrich, limited by word_limit
+        sample_size = min(word_limit, len(known_words))
+        sample_words = np.random.choice(known_words, size=sample_size, replace=False)
+        
+        enrichment_prompt = f"""
+        For each of these words, suggest related words that a child might learn:
+        {', '.join(sample_words)}
+        
+        For each word provide:
+        1. Related words (synonyms, antonyms, associated words)
+        2. Simple child-friendly definitions
+        3. Example sentences using the word
+        4. Word category (noun, verb, etc.)
+        
+        Respond in JSON format.
+        """
+        
+        try:
+            enriched_data = chat_completion(
+                system_prompt="You are a language development expert helping expand a child's vocabulary.",
+                user_prompt=enrichment_prompt,
+                structured_output=True
+            )
+            
+            new_words = set()
+            if enriched_data and isinstance(enriched_data, dict):
+                for word_data in enriched_data.get('enriched_words', []):
+                    # Process related words
+                    for related in word_data.get('related_words', []):
+                        word = related.get('word', '').lower()
+                        category = self._map_category(related.get('category', ''))
+                        if word and category and word not in self.vocabulary[category]:
+                            self.vocabulary[category].add(word)
+                            new_words.add(word)
+                            
+                            # Store context information
+                            if 'definition' in related:
+                                self.word_contexts[word].append({
+                                    'definition': related['definition'],
+                                    'examples': related.get('examples', []),
+                                    'learned_from': word_data.get('source_word', '')
+                                })
+            
+            return {
+                'new_words': list(new_words),
+                'enrichment_success': True,
+                'words_added': len(new_words)
+            }
+            
+        except Exception as e:
+            print(f"Error in vocabulary enrichment: {str(e)}")
+            return {
+                'new_words': [],
+                'enrichment_success': False,
+                'error': str(e)
+            }
+
+    def identify_new_words(self, text: str) -> List[str]:
+        """Identify potential new words from the input text."""
+        # Process text with spaCy
+        doc = self.nlp(text)
+        new_words = []
+        
+        # Check each token
+        for token in doc:
+            # Skip punctuation and whitespace
+            if token.is_punct or token.is_space:
+                continue
+                
+            word = token.text.lower()
+            # Check if word is in any category's vocabulary
+            is_known = any(word in vocab for vocab in self.vocabulary.values())
+            
+            if not is_known:
+                # Get word category
+                category = self._categorize_word(word)
+                if category:
+                    new_words.append(word)
+        
+        return new_words
+
+    def identify_new_concepts(self, text: str) -> List[str]:
+        """Identify potential new concepts from the input text."""
+        # Use Ollama to identify concepts
+        concept_prompt = f"""
+        Analyze this text for key concepts a child might learn: "{text}"
+        Identify simple concepts that are:
+        1. Age-appropriate for the current stage: {self.current_stage.name}
+        2. Not too complex
+        3. Related to basic understanding
+        
+        Format response as a JSON list of concept strings.
+        """
+        
+        try:
+            response = chat_completion(
+                system_prompt="You are a child development expert identifying learning concepts.",
+                user_prompt=concept_prompt,
+                structured_output=True
+            )
+            
+            if isinstance(response, dict) and "concepts" in response:
+                return response["concepts"]
+            
+            return []
+            
+        except Exception as e:
+            print(f"Error identifying concepts: {str(e)}")
+            return []
+
+    def get_current_stage(self) -> str:
+        """Get the current language development stage name."""
+        return self.current_stage.name
+
+    def learn_word(self, word: str):
+        """Learn a new word and add it to vocabulary."""
+        if not word:
+            return
+            
+        # Categorize the word
+        category = self._categorize_word(word)
+        
+        # Add to vocabulary if it's new
+        if word.lower() not in self.vocabulary[category]:
+            self.vocabulary[category].add(word.lower())
+            self.word_frequency[word.lower()] = 1
+            
+            # Update metrics
+            self.metrics['vocabulary_size'] = sum(len(words) for words in self.vocabulary.values())
+            
+            # Progress stage if vocabulary size meets threshold
+            self._check_stage_progression()
+
+    def learn_concept(self, concept: str):
+        """Learn a new concept."""
+        # For now, we'll treat concepts as compound words/phrases
+        words = concept.split()
+        for word in words:
+            self.learn_word(word)
+
+    def _check_stage_progression(self):
+        """Check and update language development stage based on metrics."""
+        vocab_size = self.metrics['vocabulary_size']
+        
+        # Stage progression thresholds
+        if self.current_stage == LanguageStage.PRELINGUISTIC and vocab_size >= 10:
+            self.current_stage = LanguageStage.HOLOPHRASTIC
+            self.stage_progress = 0.0
+        elif self.current_stage == LanguageStage.HOLOPHRASTIC and vocab_size >= 50:
+            self.current_stage = LanguageStage.TELEGRAPHIC
+            self.stage_progress = 0.0
+        elif self.current_stage == LanguageStage.TELEGRAPHIC and vocab_size >= 100:
+            self.current_stage = LanguageStage.MULTIWORD
+            self.stage_progress = 0.0
+        elif self.current_stage == LanguageStage.MULTIWORD and vocab_size >= 200:
+            self.current_stage = LanguageStage.COMPLEX
+            self.stage_progress = 0.0
+        
+        # Update stage progress
+        stage_ranges = {
+            LanguageStage.PRELINGUISTIC: (0, 10),
+            LanguageStage.HOLOPHRASTIC: (10, 50),
+            LanguageStage.TELEGRAPHIC: (50, 100),
+            LanguageStage.MULTIWORD: (100, 200),
+            LanguageStage.COMPLEX: (200, 500)
+        }
+        
+        current_range = stage_ranges[self.current_stage]
+        self.stage_progress = (vocab_size - current_range[0]) / (current_range[1] - current_range[0])
+        self.stage_progress = min(max(self.stage_progress, 0.0), 1.0) 

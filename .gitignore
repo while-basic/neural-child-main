@@ -19,6 +19,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Checkpoints and logs
 checkpoints/
@@ -31,6 +32,8 @@ logs/
 env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 
 # IDE
 .idea/
@@ -40,4 +43,9 @@ ENV/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+memories/
+conversations/
+
+# Additional files
+*.json 

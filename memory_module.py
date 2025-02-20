@@ -6,6 +6,11 @@ import time
 import math
 from typing import Dict, List, Tuple
 from replay_system import ReplayOptimizer
+import json
+import os
+from datetime import datetime
+from collections import defaultdict
+import numpy as np
 
 class MemoryCluster:
     """Represents a cluster of related memories"""
@@ -21,6 +26,117 @@ class MemoryCluster:
         
     def get_age(self) -> float:
         return time.time() - self.last_accessed
+
+class MemoryStore:
+    def __init__(self, persist_directory="memories"):
+        self.persist_directory = persist_directory
+        self.memories = {
+            'semantic': [],
+            'episodic': [],
+            'emotional': []
+        }
+        self.memory_index = defaultdict(list)
+        os.makedirs(persist_directory, exist_ok=True)
+        self.load_memories()
+    
+    def store_semantic_memory(self, content, embedding, metadata=None):
+        """Store a semantic memory with its embedding"""
+        memory = {
+            'id': len(self.memories['semantic']),
+            'content': content,
+            'embedding': embedding,
+            'type': 'semantic',
+            'timestamp': datetime.now().isoformat(),
+            'metadata': metadata or {}
+        }
+        self.memories['semantic'].append(memory)
+        self._update_index(memory)
+        self._save_memories()
+        return memory['id']
+    
+    def store_episodic_memory(self, content, embedding, metadata=None):
+        """Store an episodic memory with its embedding"""
+        memory = {
+            'id': len(self.memories['episodic']),
+            'content': content,
+            'embedding': embedding,
+            'type': 'episodic',
+            'timestamp': datetime.now().isoformat(),
+            'metadata': metadata or {}
+        }
+        self.memories['episodic'].append(memory)
+        self._update_index(memory)
+        self._save_memories()
+        return memory['id']
+    
+    def store_emotional_memory(self, content, embedding, emotional_state, metadata=None):
+        """Store an emotional memory with its embedding and emotional state"""
+        memory = {
+            'id': len(self.memories['emotional']),
+            'content': content,
+            'embedding': embedding,
+            'type': 'emotional',
+            'emotional_state': emotional_state,
+            'timestamp': datetime.now().isoformat(),
+            'metadata': metadata or {}
+        }
+        self.memories['emotional'].append(memory)
+        self._update_index(memory)
+        self._save_memories()
+        return memory['id']
+    
+    def query_memories(self, query_embedding, n_results=3, memory_type=None):
+        """Query memories using cosine similarity"""
+        query_embedding = np.array(query_embedding)
+        results = []
+        
+        # Determine which memory types to search
+        memory_types = [memory_type] if memory_type else self.memories.keys()
+        
+        for mem_type in memory_types:
+            for memory in self.memories[mem_type]:
+                memory_embedding = np.array(memory['embedding'])
+                similarity = np.dot(query_embedding, memory_embedding) / (
+                    np.linalg.norm(query_embedding) * np.linalg.norm(memory_embedding)
+                )
+                results.append((similarity, memory))
+        
+        # Sort by similarity and return top n results
+        results.sort(key=lambda x: x[0], reverse=True)
+        return [memory for _, memory in results[:n_results]]
+    
+    def get_memory_stats(self):
+        """Get statistics about stored memories"""
+        return {
+            'total_memories': sum(len(memories) for memories in self.memories.values()),
+            'semantic_count': len(self.memories['semantic']),
+            'episodic_count': len(self.memories['episodic']),
+            'emotional_count': len(self.memories['emotional'])
+        }
+    
+    def _update_index(self, memory):
+        """Update the memory index for faster retrieval"""
+        if 'metadata' in memory:
+            for key, value in memory['metadata'].items():
+                self.memory_index[f"{key}:{value}"].append(memory)
+    
+    def _save_memories(self):
+        """Save memories to disk"""
+        for memory_type, memories in self.memories.items():
+            filename = os.path.join(self.persist_directory, f"{memory_type}_memories.json")
+            with open(filename, 'w') as f:
+                json.dump(memories, f, indent=2)
+    
+    def load_memories(self):
+        """Load memories from disk"""
+        for memory_type in self.memories.keys():
+            filename = os.path.join(self.persist_directory, f"{memory_type}_memories.json")
+            if os.path.exists(filename):
+                with open(filename, 'r') as f:
+                    self.memories[memory_type] = json.load(f)
+                # Rebuild index
+                for memory in self.memories[memory_type]:
+                    self._update_index(memory)
 
 class DifferentiableMemory:
     def __init__(self, device='cpu'):
