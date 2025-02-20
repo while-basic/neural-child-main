@@ -17,7 +17,7 @@ class OllamaChildChat:
         memory_store: MemoryStore,
         emotional_system,  # This will be the DigitalChild instance
         language_system: LanguageDevelopment,
-        model_name: str = "llama3"
+        model_name: str = "artifish/llama3.2-uncensored"
     ):
         self.memory_store = memory_store
         self.emotional_system = emotional_system

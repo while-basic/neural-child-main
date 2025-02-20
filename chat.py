@@ -62,6 +62,119 @@ def handle_stage_command(child, content):
     except Exception as e:
         print(f"\nError changing stage: {str(e)}")
 
+def handle_teach_command(memory_store: MemoryStore, model: SentenceTransformer, content: str, child: DigitalChild):
+    """Handle the teach command to store semantic memories."""
+    try:
+        # Parse content
+        if ':' not in content:
+            print("\nPlease use format: !teach <word/concept> : <definition>")
+            return
+            
+        word, definition = [x.strip() for x in content.split(':', 1)]
+        if not word or not definition:
+            print("\nBoth word/concept and definition are required.")
+            return
+        
+        # Create embedding
+        text = f"{word} - {definition}"
+        embedding = model.encode(text, convert_to_tensor=True).cpu().tolist()
+        
+        # Store semantic memory
+        memory_id = memory_store.store_semantic_memory(
+            content=text,
+            embedding=embedding,
+            metadata={
+                'word': word,
+                'definition': definition,
+                'age_months': child.age(),
+                'stage': child.curriculum.current_stage.name
+            }
+        )
+        
+        if memory_id:
+            # Learn the word
+            child.language.learn_word(word)
+            print(f"\n📚 Learned new word/concept: {word}")
+            print(f"📖 Definition: {definition}")
+        else:
+            print("\n❌ Failed to store memory.")
+            
+    except Exception as e:
+        print(f"\n❌ Error teaching word/concept: {str(e)}")
+
+def handle_remember_command(memory_store: MemoryStore, model: SentenceTransformer, query: str):
+    """Handle the remember command to retrieve memories."""
+    try:
+        if not query:
+            print("\nPlease provide a query to search memories.")
+            return
+            
+        # Get similar memories
+        memories = memory_store.retrieve_similar_memories(query)
+        
+        if not memories:
+            print("\nNo relevant memories found.")
+            return
+            
+        print("\n💭 Found memories:")
+        for i, memory in enumerate(memories, 1):
+            print(f"\n{i}. {memory['content']}")
+            if 'metadata' in memory:
+                metadata = memory['metadata']
+                if 'type' in metadata:
+                    print(f"   Type: {metadata['type'].capitalize()}")
+                if 'timestamp' in metadata:
+                    print(f"   When: {metadata['timestamp']}")
+                if 'stage' in metadata:
+                    print(f"   Stage: {metadata['stage']}")
+                
+    except Exception as e:
+        print(f"\n❌ Error retrieving memories: {str(e)}")
+
+def handle_emotional_command(memory_store: MemoryStore, model: SentenceTransformer, content: str, child: DigitalChild):
+    """Handle the emotional command to store emotional memories."""
+    try:
+        if not content:
+            print("\nPlease provide content for the emotional memory.")
+            return
+            
+        # Create embedding
+        embedding = model.encode(content, convert_to_tensor=True).cpu().tolist()
+        
+        # Get current emotional state
+        emotional_state = {
+            'joy': float(child.emotional_state[0]),
+            'trust': float(child.emotional_state[1]),
+            'fear': float(child.emotional_state[2]),
+            'surprise': float(child.emotional_state[3])
+        }
+        
+        # Store emotional memory
+        memory_id = memory_store.store_emotional_memory(
+            content=content,
+            embedding=embedding,
+            emotional_state=emotional_state,
+            metadata={
+                'age_months': child.age(),
+                'stage': child.curriculum.current_stage.name,
+                'feeling': child.express_feeling()
+            }
+        )
+        
+        if memory_id:
+            print(f"\n💫 Stored emotional memory:")
+            print(f"Content: {content}")
+            print(f"Feeling: {child.express_feeling()}")
+            print("Emotional State:")
+            for emotion, value in emotional_state.items():
+                bar = "█" * int(value * 10)
+                print(f"  {emotion.capitalize():8}: {bar} {value:.2f}")
+        else:
+            print("\n❌ Failed to store emotional memory.")
+            
+    except Exception as e:
+        print(f"\n❌ Error storing emotional memory: {str(e)}")
+
 def main():
     try:
         # Parse command line arguments
@@ -89,7 +202,7 @@ def main():
         child.conversation_system = conversation_system
         
         print("Initializing memory store...")
-        memory_store = MemoryStore(persist_directory="memories")
+        memory_store = MemoryStore(logger=logger)
         
         print("Initializing Ollama chat system...")
         ollama_chat = OllamaChildChat(

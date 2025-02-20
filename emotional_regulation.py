@@ -1,8 +1,13 @@
 # emotional_regulation.py
+# Description: Emotional regulation system for neural child development
+# Created by: Christopher Celaya
 
 import torch
 import torch.nn as nn
 from collections import deque
+from typing import Dict, List, Optional, Any, Tuple
+from datetime import datetime
+from logger import DevelopmentLogger
 
 class EmotionalState:
     def __init__(self, device='cuda'):
@@ -189,3 +194,245 @@ class EmotionalRegulation(nn.Module):
             'context_influence': context_embedding,
             'memory_influence': memory_influence
         }
+
+class EmotionalRegulation:
+    def __init__(self, logger: DevelopmentLogger):
+        """Initialize the emotional regulation system."""
+        self.logger = logger
+        self.emotional_state = torch.zeros(4)  # [joy, trust, fear, surprise]
+        self.baseline_state = torch.tensor([0.5, 0.5, 0.2, 0.3])  # Default balanced state
+        self.regulation_history = []
+        self.emotional_memory = []
+        
+    def update_emotional_state(self, stimulus: torch.Tensor, intensity: float = 1.0) -> Dict:
+        """Update emotional state based on new stimulus."""
+        try:
+            # Apply stimulus with intensity scaling
+            impact = stimulus * intensity
+            
+            # Calculate emotional response with decay
+            decay = 0.9  # Emotional decay factor
+            self.emotional_state = (
+                self.emotional_state * decay + impact * (1 - decay)
+            )
+            
+            # Normalize emotional state
+            self.emotional_state = torch.clamp(
+                self.emotional_state,
+                min=0.0,
+                max=1.0
+            )
+            
+            # Log the update
+            self.logger.log_emotional_update({
+                'stimulus': stimulus.cpu().tolist(),
+                'intensity': intensity,
+                'resulting_state': self.emotional_state.cpu().tolist()
+            })
+            
+            # Store in history
+            self.regulation_history.append({
+                'timestamp': datetime.now().isoformat(),
+                'stimulus': stimulus.cpu().tolist(),
+                'intensity': intensity,
+                'state': self.emotional_state.cpu().tolist()
+            })
+            
+            return {
+                'success': True,
+                'emotional_state': self.emotional_state.cpu().tolist(),
+                'intensity': intensity
+            }
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'update_emotional_state',
+                'stimulus': stimulus.cpu().tolist() if stimulus is not None else None,
+                'intensity': intensity
+            })
+            return {
+                'success': False,
+                'error': str(e)
+            }
+    
+    def regulate_emotion(self, target_state: Optional[torch.Tensor] = None) -> Dict:
+        """Attempt to regulate current emotional state towards target or baseline."""
+        try:
+            if target_state is None:
+                target_state = self.baseline_state
+                
+            # Calculate regulation vector
+            regulation = target_state - self.emotional_state
+            
+            # Apply gradual regulation
+            regulation_rate = 0.2
+            self.emotional_state = self.emotional_state + regulation * regulation_rate
+            
+            # Normalize emotional state
+            self.emotional_state = torch.clamp(
+                self.emotional_state,
+                min=0.0,
+                max=1.0
+            )
+            
+            # Log regulation attempt
+            self.logger.log_emotional_regulation({
+                'target_state': target_state.cpu().tolist(),
+                'regulation_applied': regulation.cpu().tolist(),
+                'resulting_state': self.emotional_state.cpu().tolist()
+            })
+            
+            return {
+                'success': True,
+                'emotional_state': self.emotional_state.cpu().tolist(),
+                'regulation_applied': regulation.cpu().tolist()
+            }
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'regulate_emotion',
+                'target_state': target_state.cpu().tolist() if target_state is not None else None
+            })
+            return {
+                'success': False,
+                'error': str(e)
+            }
+    
+    def process_emotional_event(self, event: Dict[str, Any]) -> Dict:
+        """Process an emotional event and update state accordingly."""
+        try:
+            # Extract event details
+            intensity = event.get('intensity', 1.0)
+            valence = event.get('valence', 0.0)  # -1 to 1
+            arousal = event.get('arousal', 0.0)  # 0 to 1
+            
+            # Convert valence and arousal to emotional components
+            stimulus = torch.tensor([
+                max(0, valence),  # joy
+                max(0, valence) * 0.8,  # trust
+                max(0, -valence) * arousal,  # fear
+                arousal * 0.5  # surprise
+            ])
+            
+            # Update emotional state
+            result = self.update_emotional_state(stimulus, intensity)
+            
+            # Store event in emotional memory
+            self.emotional_memory.append({
+                'timestamp': datetime.now().isoformat(),
+                'event': event,
+                'response': result
+            })
+            
+            return result
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'process_emotional_event',
+                'event': event
+            })
+            return {
+                'success': False,
+                'error': str(e)
+            }
+    
+    def get_emotional_state(self) -> torch.Tensor:
+        """Get current emotional state."""
+        return self.emotional_state.clone()
+    
+    def get_regulation_history(self) -> List[Dict]:
+        """Get history of emotional regulation attempts."""
+        return self.regulation_history
+    
+    def get_emotional_stability(self) -> float:
+        """Calculate emotional stability based on recent history."""
+        try:
+            if len(self.regulation_history) < 2:
+                return 1.0
+                
+            # Get recent states
+            recent_states = [
+                torch.tensor(entry['state'])
+                for entry in self.regulation_history[-10:]
+            ]
+            
+            # Calculate stability as inverse of state variance
+            state_tensor = torch.stack(recent_states)
+            variance = torch.var(state_tensor, dim=0).mean().item()
+            stability = 1.0 / (1.0 + variance)
+            
+            return stability
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'get_emotional_stability'
+            })
+            return 0.0
+    
+    def analyze_emotional_patterns(self) -> Dict[str, Any]:
+        """Analyze patterns in emotional regulation history."""
+        try:
+            if not self.regulation_history:
+                return {
+                    'average_state': None,
+                    'stability': 1.0,
+                    'dominant_emotion': None,
+                    'regulation_effectiveness': None
+                }
+            
+            # Calculate average emotional state
+            states = [
+                torch.tensor(entry['state'])
+                for entry in self.regulation_history
+            ]
+            average_state = torch.stack(states).mean(dim=0)
+            
+            # Calculate stability
+            stability = self.get_emotional_stability()
+            
+            # Identify dominant emotion
+            emotion_labels = ['joy', 'trust', 'fear', 'surprise']
+            dominant_idx = torch.argmax(average_state).item()
+            dominant_emotion = emotion_labels[dominant_idx]
+            
+            # Calculate regulation effectiveness
+            if len(states) >= 2:
+                state_changes = torch.stack([
+                    states[i] - states[i-1]
+                    for i in range(1, len(states))
+                ])
+                effectiveness = torch.mean(torch.abs(state_changes)).item()
+            else:
+                effectiveness = None
+            
+            return {
+                'average_state': average_state.cpu().tolist(),
+                'stability': stability,
+                'dominant_emotion': dominant_emotion,
+                'regulation_effectiveness': effectiveness
+            }
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'analyze_emotional_patterns'
+            })
+            return {
+                'error': str(e)
+            }
+    
+    def reset_emotional_state(self):
+        """Reset emotional state to baseline."""
+        self.emotional_state = self.baseline_state.clone()
+        
+    def set_baseline_state(self, new_baseline: torch.Tensor):
+        """Set a new baseline emotional state."""
+        self.baseline_state = torch.clamp(new_baseline, min=0.0, max=1.0)
+        
+    def get_emotional_memory(self) -> List[Dict]:
+        """Get emotional memory history."""
+        return self.emotional_memory
+        
+    def clear_history(self):
+        """Clear regulation history and emotional memory."""
+        self.regulation_history = []
+        self.emotional_memory = []

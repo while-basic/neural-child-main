@@ -318,7 +318,7 @@ def main():
             memory_store=memory_store,
             emotional_system=child,
             language_system=child.language,
-            model_name="llama3"
+            model_name="artifish/llama3.2-uncensored"
         )
         
         print("Creating necessary directories...")

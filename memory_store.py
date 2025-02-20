@@ -1,276 +1,418 @@
 # memory_store.py
-# Description: Vector database for storing and retrieving neural child memories
+# Description: Memory store for neural child development
 # Created by: Christopher Celaya
 
-import chromadb
-from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
 import json
-import os
-from datetime import datetime
-from typing import List, Dict, Any, Optional
+import torch
 import numpy as np
-import logging
-
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Any, Tuple
+from sentence_transformers import SentenceTransformer
+from logger import DevelopmentLogger
 
 class MemoryStore:
-    """A class for storing and retrieving memories using a vector database."""
-    
-    def __init__(self, persist_directory: str = "memories"):
-        """Initialize the memory store with a persistence directory."""
-        try:
-            self._persist_directory = persist_directory
-            os.makedirs(persist_directory, exist_ok=True)
-            
-            logger.info(f"Initializing ChromaDB with directory: {persist_directory}")
-            self.client = chromadb.Client(Settings(
-                persist_directory=persist_directory,
-                anonymized_telemetry=False
-            ))
-            
-            # Create collections for different types of memories
-            self.episodic_memories = self.client.get_or_create_collection(
-                name="episodic_memories",
-                metadata={"description": "Storage for event-based memories"}
-            )
-            
-            self.semantic_memories = self.client.get_or_create_collection(
-                name="semantic_memories",
-                metadata={"description": "Storage for factual knowledge"}
-            )
-            
-            self.emotional_memories = self.client.get_or_create_collection(
-                name="emotional_memories",
-                metadata={"description": "Storage for emotional experiences"}
-            )
-            
-            self.stats = {
-                "total_memories": 0,
-                "episodic_count": 0,
-                "semantic_count": 0,
-                "emotional_count": 0,
-                "last_consolidated": None
-            }
-            
-            logger.info("Memory store initialized successfully")
-            
-        except Exception as e:
-            logger.error(f"Error initializing memory store: {str(e)}")
-            raise
-    
+    def __init__(self, logger: Optional[DevelopmentLogger] = None, persist_directory: str = "memories", model_name: str = "all-MiniLM-L6-v2"):
+        """Initialize the memory store with a sentence transformer model."""
+        self.logger = logger or DevelopmentLogger()
+        self.persist_directory = persist_directory
+        self.model = SentenceTransformer(model_name)
+        self.memories = []
+        self.emotional_memories = []
+        self.memory_embeddings = []
+        self.current_emotional_state = torch.zeros(4)  # [joy, trust, fear, surprise]
+        
+        # Create persist directory if it doesn't exist
+        Path(persist_directory).mkdir(parents=True, exist_ok=True)
+        
+        # Initialize memory stats
+        self.stats = {
+            "total_memories": 0,
+            "semantic_count": 0,
+            "episodic_count": 0,
+            "emotional_count": 0,
+            "last_consolidated": None
+        }
+        
     def store_episodic_memory(self, content: str, embedding: List[float], metadata: Dict[str, Any]) -> str:
         """Store an episodic memory (event-based experience)"""
         try:
             memory_id = f"ep_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{self.stats['episodic_count']}"
             
-            logger.info(f"Storing episodic memory: {content[:50]}...")
-            self.episodic_memories.add(
-                ids=[memory_id],
-                embeddings=[embedding],
-                metadatas=[{
+            memory = {
+                'id': memory_id,
+                'content': content,
+                'embedding': embedding,
+                'metadata': {
                     **metadata,
-                    "timestamp": datetime.now().isoformat(),
-                    "type": "episodic"
-                }],
-                documents=[content]
-            )
+                    'timestamp': datetime.now().isoformat(),
+                    'type': 'episodic'
+                }
+            }
             
+            self.memories.append(memory)
+            self.memory_embeddings.append(torch.tensor(embedding))
             self.stats["episodic_count"] += 1
             self.stats["total_memories"] += 1
-            logger.info(f"Successfully stored episodic memory with ID: {memory_id}")
+            
             return memory_id
             
         except Exception as e:
-            logger.error(f"Error storing episodic memory: {str(e)}")
-            raise
+            self.logger.log_error(str(e), {
+                'method': 'store_episodic_memory',
+                'content': content
+            })
+            return ""
     
     def store_semantic_memory(self, content: str, embedding: List[float], metadata: Dict[str, Any]) -> str:
         """Store a semantic memory (factual knowledge)"""
         try:
             memory_id = f"sem_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{self.stats['semantic_count']}"
             
-            logger.info(f"Storing semantic memory: {content[:50]}...")
-            self.semantic_memories.add(
-                ids=[memory_id],
-                embeddings=[embedding],
-                metadatas=[{
+            memory = {
+                'id': memory_id,
+                'content': content,
+                'embedding': embedding,
+                'metadata': {
                     **metadata,
-                    "timestamp": datetime.now().isoformat(),
-                    "type": "semantic"
-                }],
-                documents=[content]
-            )
+                    'timestamp': datetime.now().isoformat(),
+                    'type': 'semantic'
+                }
+            }
             
+            self.memories.append(memory)
+            self.memory_embeddings.append(torch.tensor(embedding))
             self.stats["semantic_count"] += 1
             self.stats["total_memories"] += 1
-            logger.info(f"Successfully stored semantic memory with ID: {memory_id}")
+            
             return memory_id
             
         except Exception as e:
-            logger.error(f"Error storing semantic memory: {str(e)}")
-            raise
+            self.logger.log_error(str(e), {
+                'method': 'store_semantic_memory',
+                'content': content
+            })
+            return ""
     
-    def store_emotional_memory(self, content: str, embedding: List[float], 
-                             emotional_state: Dict[str, float], metadata: Dict[str, Any]) -> str:
+    def store_emotional_memory(self, content: str, embedding: List[float], emotional_state: Dict[str, float], metadata: Dict[str, Any]) -> str:
         """Store an emotional memory with associated emotional state"""
         try:
             memory_id = f"em_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{self.stats['emotional_count']}"
             
-            logger.info(f"Storing emotional memory: {content[:50]}...")
-            self.emotional_memories.add(
-                ids=[memory_id],
-                embeddings=[embedding],
-                metadatas=[{
+            memory = {
+                'id': memory_id,
+                'content': content,
+                'embedding': embedding,
+                'metadata': {
                     **metadata,
                     **emotional_state,
-                    "timestamp": datetime.now().isoformat(),
-                    "type": "emotional"
-                }],
-                documents=[content]
-            )
+                    'timestamp': datetime.now().isoformat(),
+                    'type': 'emotional'
+                }
+            }
             
+            self.emotional_memories.append(memory)
+            self.memories.append(memory)
+            self.memory_embeddings.append(torch.tensor(embedding))
             self.stats["emotional_count"] += 1
             self.stats["total_memories"] += 1
-            logger.info(f"Successfully stored emotional memory with ID: {memory_id}")
+            
             return memory_id
             
         except Exception as e:
-            logger.error(f"Error storing emotional memory: {str(e)}")
-            raise
+            self.logger.log_error(str(e), {
+                'method': 'store_emotional_memory',
+                'content': content
+            })
+            return ""
     
-    def query_memories(self, query_embedding: List[float], memory_type: str = "all",
-                      n_results: int = 5, metadata_filter: Optional[Dict] = None) -> List[Dict]:
+    def query_memories(self, query_embedding: List[float], n_results: int = 5, memory_type: str = "all") -> List[Dict]:
         """Query memories based on vector similarity"""
         try:
             results = []
-            logger.info(f"Querying memories of type: {memory_type}")
+            query_embedding = torch.tensor(query_embedding)
             
-            if memory_type in ["all", "episodic"]:
-                episodic_results = self.episodic_memories.query(
-                    query_embeddings=[query_embedding],
-                    n_results=min(n_results, self.stats["episodic_count"] or 1),
-                    where=metadata_filter
-                )
-                results.extend(self._format_results(episodic_results, "episodic"))
+            # Determine which memories to search
+            search_memories = []
+            if memory_type == "all" or memory_type == "episodic":
+                search_memories.extend([m for m in self.memories if m['metadata']['type'] == 'episodic'])
+            if memory_type == "all" or memory_type == "semantic":
+                search_memories.extend([m for m in self.memories if m['metadata']['type'] == 'semantic'])
+            if memory_type == "all" or memory_type == "emotional":
+                search_memories.extend([m for m in self.memories if m['metadata']['type'] == 'emotional'])
             
-            if memory_type in ["all", "semantic"]:
-                semantic_results = self.semantic_memories.query(
-                    query_embeddings=[query_embedding],
-                    n_results=min(n_results, self.stats["semantic_count"] or 1),
-                    where=metadata_filter
-                )
-                results.extend(self._format_results(semantic_results, "semantic"))
+            # Calculate similarities
+            for memory in search_memories:
+                memory_embedding = torch.tensor(memory['embedding'])
+                similarity = torch.nn.functional.cosine_similarity(
+                    query_embedding.unsqueeze(0),
+                    memory_embedding.unsqueeze(0)
+                ).item()
+                results.append((similarity, memory))
             
-            if memory_type in ["all", "emotional"]:
-                emotional_results = self.emotional_memories.query(
-                    query_embeddings=[query_embedding],
-                    n_results=min(n_results, self.stats["emotional_count"] or 1),
-                    where=metadata_filter
-                )
-                results.extend(self._format_results(emotional_results, "emotional"))
-            
-            # Sort by distance (similarity)
-            results.sort(key=lambda x: x.get("distance", float('inf')))
-            logger.info(f"Found {len(results)} matching memories")
-            return results[:n_results]
+            # Sort by similarity and return top n results
+            results.sort(key=lambda x: x[0], reverse=True)
+            return [memory for _, memory in results[:n_results]]
             
         except Exception as e:
-            logger.error(f"Error querying memories: {str(e)}")
+            self.logger.log_error(str(e), {
+                'method': 'query_memories',
+                'memory_type': memory_type
+            })
             return []
     
-    def _format_results(self, results: Dict, memory_type: str) -> List[Dict]:
-        """Format query results into a standardized structure"""
-        formatted = []
+    def retrieve_similar_memories(self, query: str, k: int = 5) -> List[Dict]:
+        """Retrieve k most similar memories to the query."""
         try:
-            if not results or not isinstance(results, dict):
-                return formatted
+            if not self.memories:
+                return []
             
-            ids = results.get("ids", [])
-            documents = results.get("documents", [])
-            metadatas = results.get("metadatas", [])
-            distances = results.get("distances", [])
+            # Encode query
+            query_embedding = self.model.encode(query, convert_to_tensor=True).cpu()
             
-            if not ids or not documents:
-                return formatted
+            # Calculate similarities
+            similarities = []
+            for memory in self.memories:
+                memory_embedding = torch.tensor(memory['embedding'])
+                similarity = torch.nn.functional.cosine_similarity(
+                    query_embedding.unsqueeze(0),
+                    memory_embedding.unsqueeze(0)
+                ).item()
+                similarities.append((similarity, memory))
             
-            for i in range(len(ids)):
-                try:
-                    formatted.append({
-                        "id": ids[i],
-                        "content": documents[i] if i < len(documents) else "",
-                        "metadata": metadatas[i] if i < len(metadatas) else {},
-                        "distance": distances[i][0] if i < len(distances) and distances[i] else float('inf'),
-                        "type": memory_type
-                    })
-                except Exception as e:
-                    logger.error(f"Error formatting result {i}: {str(e)}")
-                    continue
-                    
-            return formatted
+            # Sort by similarity and return top k
+            similarities.sort(key=lambda x: x[0], reverse=True)
+            return [memory for _, memory in similarities[:k]]
             
         except Exception as e:
-            logger.error(f"Error formatting results: {str(e)}")
-            return formatted
+            self.logger.log_error(str(e), {
+                'method': 'retrieve_similar_memories',
+                'query': query,
+                'k': k
+            })
+            return []
     
-    def consolidate_memories(self) -> Dict[str, Any]:
-        """Consolidate memories and update importance based on access patterns"""
-        # Get current timestamp
-        current_time = datetime.now()
+    def get_emotional_memories(self, emotion: Optional[str] = None) -> List[Dict]:
+        """Retrieve emotional memories, optionally filtered by emotion type."""
+        try:
+            if emotion:
+                return [
+                    memory for memory in self.emotional_memories
+                    if memory['metadata'].get('emotion', '').lower() == emotion.lower()
+                ]
+            return self.emotional_memories
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'get_emotional_memories',
+                'emotion': emotion
+            })
+            return []
+    
+    def update_emotional_state(self, impact: torch.Tensor) -> Dict:
+        """Update the current emotional state based on new emotional impact."""
+        try:
+            # Apply emotional impact with decay
+            decay = 0.9
+            self.current_emotional_state = (
+                self.current_emotional_state * decay + impact * (1 - decay)
+            )
+            
+            # Normalize emotional state
+            self.current_emotional_state = torch.clamp(
+                self.current_emotional_state,
+                min=0.0,
+                max=1.0
+            )
+            
+            return {
+                'success': True,
+                'emotional_state': self.current_emotional_state.cpu().tolist()
+            }
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'update_emotional_state',
+                'impact': impact.cpu().tolist() if impact is not None else None
+            })
+            return {
+                'success': False,
+                'error': str(e)
+            }
+    
+    def get_memory_statistics(self) -> Dict[str, Any]:
+        """Get statistics about stored memories."""
+        try:
+            if not self.memories:
+                return {
+                    'total_memories': 0,
+                    'emotional_memories': 0,
+                    'average_emotional_impact': None,
+                    'emotion_distribution': {}
+                }
+            
+            # Calculate statistics
+            total_memories = len(self.memories)
+            emotional_memories = len(self.emotional_memories)
+            
+            # Calculate average emotional impact
+            emotional_impacts = [
+                memory['emotional_impact']
+                for memory in self.memories
+                if memory['emotional_impact'] is not None
+            ]
+            
+            average_emotional_impact = (
+                np.mean(emotional_impacts, axis=0).tolist()
+                if emotional_impacts else None
+            )
+            
+            # Calculate emotion distribution
+            emotion_distribution = {}
+            for memory in self.emotional_memories:
+                emotion = memory['metadata'].get('emotion', '')
+                emotion_distribution[emotion] = emotion_distribution.get(emotion, 0) + 1
+            
+            return {
+                'total_memories': total_memories,
+                'emotional_memories': emotional_memories,
+                'average_emotional_impact': average_emotional_impact,
+                'emotion_distribution': emotion_distribution,
+                'current_emotional_state': self.current_emotional_state.cpu().tolist()
+            }
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'get_memory_statistics'
+            })
+            return {
+                'error': str(e)
+            }
+    
+    def save_memories(self, filepath: str):
+        """Save all memories to a file."""
+        try:
+            data = {
+                'memories': self.memories,
+                'emotional_memories': self.emotional_memories,
+                'current_emotional_state': self.current_emotional_state.cpu().tolist(),
+                'timestamp': datetime.now().isoformat()
+            }
+            
+            # Ensure directory exists
+            Path(filepath).parent.mkdir(parents=True, exist_ok=True)
+            
+            with open(filepath, 'w') as f:
+                json.dump(data, f, indent=2)
+                
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'save_memories',
+                'filepath': filepath
+            })
+    
+    def load_memories(self, filepath: str):
+        """Load memories from a file."""
+        try:
+            with open(filepath, 'r') as f:
+                data = json.load(f)
+            
+            self.memories = data.get('memories', [])
+            self.emotional_memories = data.get('emotional_memories', [])
+            self.current_emotional_state = torch.tensor(
+                data.get('current_emotional_state', [0.0, 0.0, 0.0, 0.0])
+            )
+            
+            # Rebuild memory embeddings
+            self.memory_embeddings = [
+                torch.tensor(memory['embedding'])
+                for memory in self.memories
+            ]
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'load_memories',
+                'filepath': filepath
+            })
+    
+    def clear_memories(self):
+        """Clear all stored memories."""
+        self.memories = []
+        self.emotional_memories = []
+        self.memory_embeddings = []
+        self.current_emotional_state = torch.zeros(4)
         
-        # Update consolidation timestamp
-        self.stats["last_consolidated"] = current_time.isoformat()
+    def get_emotional_state(self) -> torch.Tensor:
+        """Get the current emotional state."""
+        return self.current_emotional_state.clone()
         
-        # Return consolidation statistics
-        return {
-            "timestamp": current_time.isoformat(),
-            "total_memories": self.stats["total_memories"],
-            "episodic_count": self.stats["episodic_count"],
-            "semantic_count": self.stats["semantic_count"],
-            "emotional_count": self.stats["emotional_count"]
-        }
+    def get_memory_by_id(self, memory_id: int) -> Optional[Dict]:
+        """Retrieve a specific memory by its ID."""
+        try:
+            if 0 <= memory_id < len(self.memories):
+                return self.memories[memory_id]
+            return None
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'get_memory_by_id',
+                'memory_id': memory_id
+            })
+            return None
     
     def get_memory_stats(self) -> Dict[str, Any]:
         """Get current memory statistics"""
         return self.stats
-    
-    def save_state(self, file_path: str):
+
+    def save_state(self, filepath: str):
         """Save the current state of the memory store to a JSON file."""
-        state = {
-            "statistics": self.stats,
-            "persist_directory": self._persist_directory
-        }
-        
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        with open(file_path, 'w') as f:
-            json.dump(state, f, indent=2, default=str)
-    
-    def load_state(self, file_path: str):
+        try:
+            data = {
+                'memories': self.memories,
+                'emotional_memories': self.emotional_memories,
+                'current_emotional_state': self.current_emotional_state.cpu().tolist(),
+                'stats': self.stats,
+                'timestamp': datetime.now().isoformat()
+            }
+            
+            # Ensure directory exists
+            Path(filepath).parent.mkdir(parents=True, exist_ok=True)
+            
+            with open(filepath, 'w') as f:
+                json.dump(data, f, indent=2)
+                
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'save_state',
+                'filepath': filepath
+            })
+
+    def load_state(self, filepath: str):
         """Load the memory store state from a JSON file."""
-        with open(file_path, 'r') as f:
-            state = json.load(f)
-        
-        self.stats = state["statistics"]
-        self._persist_directory = state["persist_directory"]
-        
-        # Reinitialize the client with the loaded persist directory
-        self.client = chromadb.Client(Settings(persist_directory=self._persist_directory))
-        self.collection = self.client.get_or_create_collection(name="memories")
-        
-        # Create collections for different types of memories
-        self.episodic_memories = self.client.get_or_create_collection(
-            name="episodic_memories",
-            metadata={"description": "Storage for event-based memories"}
-        )
-        
-        self.semantic_memories = self.client.get_or_create_collection(
-            name="semantic_memories",
-            metadata={"description": "Storage for factual knowledge"}
-        )
-        
-        self.emotional_memories = self.client.get_or_create_collection(
-            name="emotional_memories",
-            metadata={"description": "Storage for emotional experiences"}
-        ) 
+        try:
+            with open(filepath, 'r') as f:
+                data = json.load(f)
+            
+            self.memories = data.get('memories', [])
+            self.emotional_memories = data.get('emotional_memories', [])
+            self.current_emotional_state = torch.tensor(
+                data.get('current_emotional_state', [0.0, 0.0, 0.0, 0.0])
+            )
+            self.stats = data.get('stats', {
+                "total_memories": 0,
+                "semantic_count": 0,
+                "episodic_count": 0,
+                "emotional_count": 0,
+                "last_consolidated": None
+            })
+            
+            # Rebuild memory embeddings
+            self.memory_embeddings = [
+                torch.tensor(memory['embedding'])
+                for memory in self.memories
+            ]
+            
+        except Exception as e:
+            self.logger.log_error(str(e), {
+                'method': 'load_state',
+                'filepath': filepath
+            }) 
