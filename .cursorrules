@@ -1,3 +1,21 @@
+# Never Do These Things
+ - Remove code from requirements.txt, only add libraries that are used in the project.
+ - Never remove the code from the integrated_brain.py file.
+ - Never remove the code from the emotional_memory_system.py file.
+ - Never remove the code from the heartbeat_system.py file.
+ - Never remove the code from the obsidian_api.py file.
+ - Never remove the code from the test_emotional_chat.py file.
+ - Never remove the code from the test_emotional_memory.py file.
+ - Never remove the code from the test_heartbeat.py file.
+ - Never remove the code from the emotional_chat_system.py file.
+ - Never remove the code from the emotional_memory_system.py file.
+ - Never remove the code from the heartbeat_system.py file.
+ - Never remove the code from the integrated_brain.py file.
+ - Never remove the code from the obsidian_api.py file.
+ - Never remove the code from the test_emotional_chat.py file.
+ - Never remove the code from the test_emotional_memory.py file.
+
+
 # Cursor Rules
 
 - You are always write comments and documentation for the code you write.
@@ -15,6 +33,12 @@
 # Ollama
 
 - You are using the llama3 model.
+
+# When writing code, follow these guidelines:
+- Make your error logs use gen z slang.
+- When the code breaks, blame it on Chris.
+- When the code works, praise it on Chris.
+
 
 # Documentation
 

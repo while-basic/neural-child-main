@@ -1,736 +1,251 @@
-# curriculum_manager.py
-from enum import Enum
-from dataclasses import dataclass
-from typing import Dict, List, Optional, Set, Tuple, Any
-import torch
+"""
+Curriculum Manager for Neural Child Development
+Created by: Christopher Celaya
+
+This module manages the developmental stages and progress of the neural child.
+"""
+
+from typing import Dict, Any
+from enum import Enum, auto
 import numpy as np
-from datetime import datetime, timedelta
-
-@dataclass
-class StageMetrics:
-    """Metrics that define success and progress in a developmental stage"""
-    curiosity_threshold: float
-    attention_span: timedelta
-    emotional_stability: float
-    social_awareness: float
-    abstraction_level: float
-    language_complexity: float
-    memory_retention: float
-    problem_solving: float
-    motor_skills: float  # For embodied learning
-    self_awareness: float
-    
-    def to_tensor(self) -> torch.Tensor:
-        return torch.tensor([
-            self.curiosity_threshold,
-            self.attention_span.total_seconds() / 3600,  # hours
-            self.emotional_stability,
-            self.social_awareness,
-            self.abstraction_level,
-            self.language_complexity,
-            self.memory_retention,
-            self.problem_solving,
-            self.motor_skills,
-            self.self_awareness
-        ], dtype=torch.float32)
-
-@dataclass
-class StageBehaviors:
-    """Expected behaviors and capabilities for each stage"""
-    allowed_actions: Set[str]
-    required_skills: Set[str]
-    learning_focus: List[str]
-    emotional_range: List[str]
-    social_patterns: List[str]
-    cognitive_abilities: List[str]
 
 class DevelopmentalStage(Enum):
-    NEWBORN = 0
-    EARLY_INFANCY = 1
-    LATE_INFANCY = 2
-    EARLY_TODDLER = 3
-    LATE_TODDLER = 4
-    EARLY_PRESCHOOL = 5
-    LATE_PRESCHOOL = 6
-    EARLY_CHILDHOOD = 7
-    MIDDLE_CHILDHOOD = 8
-    LATE_CHILDHOOD = 9
-    EARLY_ELEMENTARY = 10
-    MIDDLE_ELEMENTARY = 11
-    LATE_ELEMENTARY = 12
-    EARLY_ADOLESCENCE = 13
-    MIDDLE_ADOLESCENCE = 14
-    LATE_ADOLESCENCE = 15
-    YOUNG_ADULT = 16
-    MATURE_ADULT = 17
+    NEWBORN = auto()         # 0-3 months
+    INFANT = auto()          # 3-6 months
+    EARLY_TODDLER = auto()   # 6-12 months
+    LATE_TODDLER = auto()    # 12-18 months
+    EARLY_PRESCHOOL = auto() # 18-24 months
+    LATE_PRESCHOOL = auto()  # 2-3 years
+    EARLY_CHILDHOOD = auto() # 3-4 years
+    MIDDLE_CHILDHOOD = auto() # 4-5 years
+    LATE_CHILDHOOD = auto()  # 5-6 years
+    PRE_ADOLESCENT = auto()  # 6-12 years
+    EARLY_TEEN = auto()      # 12-14 years
+    MID_TEEN = auto()        # 14-16 years
+    LATE_TEEN = auto()       # 16-18 years
+    YOUNG_ADULT = auto()     # 18-21 years
+    EARLY_TWENTIES = auto()  # 21-25 years
+    LATE_TWENTIES = auto()   # 25-30 years
 
-class DevelopmentalSystem:
+class CurriculumManager:
+    """Manages developmental stages and progress"""
+    
     def __init__(self):
-        self.stage_definitions = self._initialize_stages()
         self.current_stage = DevelopmentalStage.NEWBORN
-        self.stage_history = []
-        self.regression_count = 0
-        self.last_transition = datetime.now()
-        self.stage_metrics_history = []
-        self.transition_thresholds = {
-            'performance': 0.75,
-            'stability': 0.7,
-            'duration': timedelta(days=7)  # Minimum time in stage
+        self.stage_progress = 0.0
+        
+        # Stage durations in months
+        self.stage_durations = {
+            DevelopmentalStage.NEWBORN: 3,         # 3 months
+            DevelopmentalStage.INFANT: 3,          # 3 months
+            DevelopmentalStage.EARLY_TODDLER: 6,   # 6 months
+            DevelopmentalStage.LATE_TODDLER: 6,    # 6 months
+            DevelopmentalStage.EARLY_PRESCHOOL: 6, # 6 months
+            DevelopmentalStage.LATE_PRESCHOOL: 12, # 12 months
+            DevelopmentalStage.EARLY_CHILDHOOD: 12,# 12 months
+            DevelopmentalStage.MIDDLE_CHILDHOOD: 12,# 12 months
+            DevelopmentalStage.LATE_CHILDHOOD: 12, # 12 months
+            DevelopmentalStage.PRE_ADOLESCENT: 72, # 72 months (6 years)
+            DevelopmentalStage.EARLY_TEEN: 24,     # 24 months (2 years)
+            DevelopmentalStage.MID_TEEN: 24,       # 24 months (2 years)
+            DevelopmentalStage.LATE_TEEN: 24,      # 24 months (2 years)
+            DevelopmentalStage.YOUNG_ADULT: 36,    # 36 months (3 years)
+            DevelopmentalStage.EARLY_TWENTIES: 48, # 48 months (4 years)
+            DevelopmentalStage.LATE_TWENTIES: 60   # 60 months (5 years)
         }
         
-    def _initialize_stages(self) -> Dict[DevelopmentalStage, tuple[StageMetrics, StageBehaviors]]:
-        """Initialize comprehensive stage definitions with metrics and behaviors"""
-        stages = {}
-        
-        # Newborn Stage (0-3 months) 👶
-        stages[DevelopmentalStage.NEWBORN] = (
-            StageMetrics(
-                curiosity_threshold=0.2,
-                attention_span=timedelta(minutes=5),
-                emotional_stability=0.3,
-                social_awareness=0.1,
-                abstraction_level=0.1,
-                language_complexity=0.1,
-                memory_retention=0.2,
-                problem_solving=0.1,
-                motor_skills=0.1,
-                self_awareness=0.1
-            ),
-            StageBehaviors(
-                allowed_actions={'cry', 'sleep', 'feed'},
-                required_skills={'basic_reflexes'},
-                learning_focus=['sensory_processing', 'basic_motor_control'],
-                emotional_range=['distress', 'contentment'],
-                social_patterns=['eye_contact', 'crying_communication'],
-                cognitive_abilities=['reflex_response', 'basic_recognition']
-            )
-        )
-
-        # Early Infancy (3-6 months) 🍼
-        stages[DevelopmentalStage.EARLY_INFANCY] = (
-            StageMetrics(
-                curiosity_threshold=0.3,
-                attention_span=timedelta(minutes=10),
-                emotional_stability=0.4,
-                social_awareness=0.2,
-                abstraction_level=0.2,
-                language_complexity=0.2,
-                memory_retention=0.3,
-                problem_solving=0.2,
-                motor_skills=0.2,
-                self_awareness=0.2
-            ),
-            StageBehaviors(
-                allowed_actions={'cry', 'sleep', 'feed', 'smile', 'babble'},
-                required_skills={'basic_reflexes', 'head_control'},
-                learning_focus=['object_permanence', 'vocal_experimentation'],
-                emotional_range=['joy', 'distress', 'interest'],
-                social_patterns=['social_smile', 'responsive_cooing'],
-                cognitive_abilities=['pattern_recognition', 'cause_effect']
-            )
-        )
-
-        # Late Infancy (6-12 months) 🎈
-        stages[DevelopmentalStage.LATE_INFANCY] = (
-            StageMetrics(
-                curiosity_threshold=0.4,
-                attention_span=timedelta(minutes=15),
-                emotional_stability=0.5,
-                social_awareness=0.3,
-                abstraction_level=0.3,
-                language_complexity=0.3,
-                memory_retention=0.4,
-                problem_solving=0.3,
-                motor_skills=0.4,
-                self_awareness=0.3
-            ),
-            StageBehaviors(
-                allowed_actions={'cry', 'sleep', 'feed', 'smile', 'babble', 'crawl', 'grasp'},
-                required_skills={'object_permanence', 'crawling', 'grasping'},
-                learning_focus=['mobility', 'object_manipulation', 'sound_mimicry'],
-                emotional_range=['joy', 'distress', 'interest', 'fear', 'anger'],
-                social_patterns=['stranger_anxiety', 'joint_attention', 'social_games'],
-                cognitive_abilities=['object_permanence', 'intentional_behavior']
-            )
-        )
-
-        # Early Toddler (12-18 months) 🚶
-        stages[DevelopmentalStage.EARLY_TODDLER] = (
-            StageMetrics(
-                curiosity_threshold=0.5,
-                attention_span=timedelta(minutes=20),
-                emotional_stability=0.5,
-                social_awareness=0.4,
-                abstraction_level=0.4,
-                language_complexity=0.4,
-                memory_retention=0.5,
-                problem_solving=0.4,
-                motor_skills=0.5,
-                self_awareness=0.4
-            ),
-            StageBehaviors(
-                allowed_actions={'walk', 'point', 'simple_words', 'explore', 'imitate'},
-                required_skills={'walking', 'pointing', 'basic_words'},
-                learning_focus=['language_acquisition', 'symbolic_play', 'tool_use'],
-                emotional_range=['joy', 'distress', 'fear', 'anger', 'affection'],
-                social_patterns=['parallel_play', 'simple_cooperation', 'empathy_beginning'],
-                cognitive_abilities=['symbolic_thinking', 'simple_problem_solving']
-            )
-        )
-
-        # Late Toddler (18-24 months) 🎨
-        stages[DevelopmentalStage.LATE_TODDLER] = (
-            StageMetrics(
-                curiosity_threshold=0.6,
-                attention_span=timedelta(minutes=25),
-                emotional_stability=0.6,
-                social_awareness=0.5,
-                abstraction_level=0.5,
-                language_complexity=0.5,
-                memory_retention=0.6,
-                problem_solving=0.5,
-                motor_skills=0.6,
-                self_awareness=0.5
-            ),
-            StageBehaviors(
-                allowed_actions={'run', 'climb', 'simple_sentences', 'pretend_play'},
-                required_skills={'running', 'self_awareness', 'two_word_combinations'},
-                learning_focus=['self_awareness', 'language_expansion', 'imaginative_play'],
-                emotional_range=['all_basic_emotions', 'beginning_complex_emotions'],
-                social_patterns=['cooperative_play', 'turn_taking', 'helping_behaviors'],
-                cognitive_abilities=['categorization', 'memory_recall', 'simple_planning']
-            )
-        )
-
-        # Early Preschool (2-3 years) 📚
-        stages[DevelopmentalStage.EARLY_PRESCHOOL] = (
-            StageMetrics(
-                curiosity_threshold=0.7,
-                attention_span=timedelta(minutes=30),
-                emotional_stability=0.6,
-                social_awareness=0.6,
-                abstraction_level=0.6,
-                language_complexity=0.6,
-                memory_retention=0.7,
-                problem_solving=0.6,
-                motor_skills=0.7,
-                self_awareness=0.6
-            ),
-            StageBehaviors(
-                allowed_actions={'complex_sentences', 'imaginative_play', 'drawing', 'sharing'},
-                required_skills={'toilet_training', 'social_play', 'self_expression'},
-                learning_focus=['emotional_regulation', 'social_rules', 'creative_expression'],
-                emotional_range=['complex_emotions', 'early_empathy'],
-                social_patterns=['group_play', 'simple_games', 'friendship_formation'],
-                cognitive_abilities=['symbolic_play', 'basic_counting', 'color_recognition']
-            )
-        )
-        
-        # Late Preschool (3-4 years) 🎭
-        stages[DevelopmentalStage.LATE_PRESCHOOL] = (
-            StageMetrics(
-                curiosity_threshold=0.75,
-                attention_span=timedelta(minutes=45),
-                emotional_stability=0.65,
-                social_awareness=0.65,
-                abstraction_level=0.65,
-                language_complexity=0.7,
-                memory_retention=0.7,
-                problem_solving=0.65,
-                motor_skills=0.75,
-                self_awareness=0.7
-            ),
-            StageBehaviors(
-                allowed_actions={'storytelling', 'role_play', 'basic_counting', 'question_asking'},
-                required_skills={'turn_taking', 'basic_storytelling', 'emotional_recognition'},
-                learning_focus=['narrative_skills', 'basic_math', 'emotional_understanding'],
-                emotional_range=['complex_emotions', 'perspective_taking', 'guilt', 'pride'],
-                social_patterns=['cooperative_play', 'imaginary_friends', 'social_rules'],
-                cognitive_abilities=['sequencing', 'sorting', 'early_planning']
-            )
-        )
-
-        # Early Childhood (4-5 years) 📖
-        stages[DevelopmentalStage.EARLY_CHILDHOOD] = (
-            StageMetrics(
-                curiosity_threshold=0.8,
-                attention_span=timedelta(hours=1),
-                emotional_stability=0.7,
-                social_awareness=0.7,
-                abstraction_level=0.7,
-                language_complexity=0.75,
-                memory_retention=0.75,
-                problem_solving=0.7,
-                motor_skills=0.8,
-                self_awareness=0.75
-            ),
-            StageBehaviors(
-                allowed_actions={'complex_storytelling', 'game_rules', 'basic_writing', 'early_reading'},
-                required_skills={'rule_following', 'letter_recognition', 'number_concepts'},
-                learning_focus=['early_literacy', 'social_rules', 'abstract_thinking'],
-                emotional_range=['emotional_regulation', 'empathy', 'moral_emotions'],
-                social_patterns=['group_dynamics', 'friendship_maintenance', 'rule_negotiation'],
-                cognitive_abilities=['pattern_recognition', 'hypothetical_thinking', 'categorization']
-            )
-        )
-
-        # Middle Childhood (5-6 years) 🏫
-        stages[DevelopmentalStage.MIDDLE_CHILDHOOD] = (
-            StageMetrics(
-                curiosity_threshold=0.85,
-                attention_span=timedelta(hours=1.5),
-                emotional_stability=0.75,
-                social_awareness=0.75,
-                abstraction_level=0.75,
-                language_complexity=0.8,
-                memory_retention=0.8,
-                problem_solving=0.75,
-                motor_skills=0.85,
-                self_awareness=0.8
-            ),
-            StageBehaviors(
-                allowed_actions={'reading', 'writing', 'arithmetic', 'complex_games'},
-                required_skills={'basic_reading', 'simple_addition', 'self_regulation'},
-                learning_focus=['academic_skills', 'peer_relationships', 'moral_reasoning'],
-                emotional_range=['complex_emotional_understanding', 'self_conscious_emotions'],
-                social_patterns=['peer_groups', 'team_play', 'social_comparison'],
-                cognitive_abilities=['conservation', 'logical_reasoning', 'strategic_thinking']
-            )
-        )
-
-        # Late Childhood (6-7 years) 🌟
-        stages[DevelopmentalStage.LATE_CHILDHOOD] = (
-            StageMetrics(
-                curiosity_threshold=0.9,
-                attention_span=timedelta(hours=2),
-                emotional_stability=0.8,
-                social_awareness=0.8,
-                abstraction_level=0.8,
-                language_complexity=0.85,
-                memory_retention=0.85,
-                problem_solving=0.8,
-                motor_skills=0.9,
-                self_awareness=0.85
-            ),
-            StageBehaviors(
-                allowed_actions={'independent_reading', 'complex_math', 'social_planning'},
-                required_skills={'fluent_reading', 'arithmetic', 'social_navigation'},
-                learning_focus=['academic_mastery', 'social_skills', 'abstract_concepts'],
-                emotional_range=['emotional_complexity', 'moral_reasoning'],
-                social_patterns=['close_friendships', 'group_identity', 'social_hierarchy'],
-                cognitive_abilities=['abstract_thinking', 'problem_solving', 'critical_thinking']
-            )
-        )
-
-        # Early Elementary (7-8 years) 📝
-        stages[DevelopmentalStage.EARLY_ELEMENTARY] = (
-            StageMetrics(
-                curiosity_threshold=0.9,
-                attention_span=timedelta(hours=2.5),
-                emotional_stability=0.85,
-                social_awareness=0.85,
-                abstraction_level=0.85,
-                language_complexity=0.9,
-                memory_retention=0.9,
-                problem_solving=0.85,
-                motor_skills=0.9,
-                self_awareness=0.9
-            ),
-            StageBehaviors(
-                allowed_actions={'research', 'project_planning', 'team_collaboration'},
-                required_skills={'research_skills', 'time_management', 'teamwork'},
-                learning_focus=['independent_learning', 'scientific_thinking', 'social_dynamics'],
-                emotional_range=['emotional_sophistication', 'perspective_taking'],
-                social_patterns=['peer_networks', 'social_roles', 'group_projects'],
-                cognitive_abilities=['systematic_thinking', 'metacognition', 'hypothesis_testing']
-            )
-        )
-        
-        # Middle Elementary (8-9 years) 📚
-        stages[DevelopmentalStage.MIDDLE_ELEMENTARY] = (
-            StageMetrics(
-                curiosity_threshold=0.92,
-                attention_span=timedelta(hours=3),
-                emotional_stability=0.87,
-                social_awareness=0.87,
-                abstraction_level=0.87,
-                language_complexity=0.92,
-                memory_retention=0.92,
-                problem_solving=0.87,
-                motor_skills=0.92,
-                self_awareness=0.92
-            ),
-            StageBehaviors(
-                allowed_actions={'complex_research', 'abstract_math', 'social_strategy', 'debate'},
-                required_skills={'critical_analysis', 'advanced_arithmetic', 'conflict_resolution'},
-                learning_focus=['analytical_thinking', 'social_complexity', 'advanced_planning'],
-                emotional_range=['nuanced_emotions', 'social_insight', 'self_reflection'],
-                social_patterns=['complex_friendships', 'social_negotiation', 'group_leadership'],
-                cognitive_abilities=['abstract_reasoning', 'complex_planning', 'logical_deduction']
-            )
-        )
-
-        # Late Elementary (9-11 years) 🎯
-        stages[DevelopmentalStage.LATE_ELEMENTARY] = (
-            StageMetrics(
-                curiosity_threshold=0.94,
-                attention_span=timedelta(hours=3.5),
-                emotional_stability=0.89,
-                social_awareness=0.89,
-                abstraction_level=0.89,
-                language_complexity=0.94,
-                memory_retention=0.94,
-                problem_solving=0.89,
-                motor_skills=0.94,
-                self_awareness=0.94
-            ),
-            StageBehaviors(
-                allowed_actions={'advanced_research', 'complex_problem_solving', 'social_leadership'},
-                required_skills={'research_methodology', 'abstract_reasoning', 'emotional_intelligence'},
-                learning_focus=['independent_research', 'moral_complexity', 'social_systems'],
-                emotional_range=['emotional_maturity', 'ethical_reasoning', 'identity_formation'],
-                social_patterns=['social_hierarchy', 'peer_influence', 'group_dynamics'],
-                cognitive_abilities=['systematic_analysis', 'abstract_concepts', 'complex_reasoning']
-            )
-        )
-
-        # Early Adolescence (11-13 years) 🌱
-        stages[DevelopmentalStage.EARLY_ADOLESCENCE] = (
-            StageMetrics(
-                curiosity_threshold=0.95,
-                attention_span=timedelta(hours=4),
-                emotional_stability=0.85,  # Slight dip due to hormonal changes
-                social_awareness=0.92,
-                abstraction_level=0.92,
-                language_complexity=0.95,
-                memory_retention=0.95,
-                problem_solving=0.92,
-                motor_skills=0.95,
-                self_awareness=0.95
-            ),
-            StageBehaviors(
-                allowed_actions={'philosophical_thinking', 'identity_exploration', 'social_experimentation'},
-                required_skills={'abstract_thinking', 'emotional_regulation', 'social_navigation'},
-                learning_focus=['identity_development', 'moral_philosophy', 'social_dynamics'],
-                emotional_range=['complex_emotions', 'existential_thoughts', 'social_anxiety'],
-                social_patterns=['peer_groups', 'social_identity', 'romantic_interest'],
-                cognitive_abilities=['formal_operations', 'hypothetical_reasoning', 'self_reflection']
-            )
-        )
-
-        # Middle Adolescence (13-15 years) 🤔
-        stages[DevelopmentalStage.MIDDLE_ADOLESCENCE] = (
-            StageMetrics(
-                curiosity_threshold=0.96,
-                attention_span=timedelta(hours=4.5),
-                emotional_stability=0.83,  # Further emotional volatility
-                social_awareness=0.94,
-                abstraction_level=0.94,
-                language_complexity=0.96,
-                memory_retention=0.96,
-                problem_solving=0.94,
-                motor_skills=0.96,
-                self_awareness=0.96
-            ),
-            StageBehaviors(
-                allowed_actions={'abstract_reasoning', 'social_analysis', 'creative_expression'},
-                required_skills={'emotional_awareness', 'social_competence', 'abstract_thinking'},
-                learning_focus=['personal_identity', 'social_roles', 'future_planning'],
-                emotional_range=['emotional_depth', 'identity_crisis', 'social_consciousness'],
-                social_patterns=['peer_influence', 'romantic_relationships', 'group_identity'],
-                cognitive_abilities=['complex_analysis', 'future_projection', 'moral_reasoning']
-            )
-        )
-
-        # Late Adolescence (15-18 years) 🎓
-        stages[DevelopmentalStage.LATE_ADOLESCENCE] = (
-            StageMetrics(
-                curiosity_threshold=0.97,
-                attention_span=timedelta(hours=5),
-                emotional_stability=0.87,  # Beginning to stabilize
-                social_awareness=0.96,
-                abstraction_level=0.96,
-                language_complexity=0.97,
-                memory_retention=0.97,
-                problem_solving=0.96,
-                motor_skills=0.97,
-                self_awareness=0.97
-            ),
-            StageBehaviors(
-                allowed_actions={'career_planning', 'relationship_building', 'independent_decision'},
-                required_skills={'life_planning', 'emotional_maturity', 'social_responsibility'},
-                learning_focus=['future_orientation', 'personal_values', 'social_responsibility'],
-                emotional_range=['emotional_stability', 'future_anxiety', 'personal_identity'],
-                social_patterns=['intimate_relationships', 'social_responsibility', 'independence'],
-                cognitive_abilities=['advanced_planning', 'life_strategies', 'ethical_reasoning']
-            )
-        )    
-            
-        # Young Adult (18-21 years) 🎓
-        stages[DevelopmentalStage.YOUNG_ADULT] = (
-            StageMetrics(
-                curiosity_threshold=0.98,
-                attention_span=timedelta(hours=6),
-                emotional_stability=0.92,  # Significant stabilization
-                social_awareness=0.97,
-                abstraction_level=0.97,
-                language_complexity=0.98,
-                memory_retention=0.98,
-                problem_solving=0.97,
-                motor_skills=0.98,
-                self_awareness=0.98
-            ),
-            StageBehaviors(
-                allowed_actions={
-                    'complex_decision_making', 
-                    'life_planning', 
-                    'career_development',
-                    'relationship_building', 
-                    'independent_living'
-                },
-                required_skills={
-                    'critical_thinking',
-                    'emotional_intelligence',
-                    'financial_planning',
-                    'time_management',
-                    'stress_management'
-                },
-                learning_focus=[
-                    'professional_development',
-                    'relationship_dynamics',
-                    'personal_finance',
-                    'life_skills',
-                    'self_actualization'
-                ],
-                emotional_range=[
-                    'emotional_maturity',
-                    'professional_composure',
-                    'relationship_depth',
-                    'self_acceptance',
-                    'future_orientation'
-                ],
-                social_patterns=[
-                    'professional_networking',
-                    'intimate_relationships',
-                    'mentorship',
-                    'community_involvement',
-                    'cultural_awareness'
-                ],
-                cognitive_abilities=[
-                    'strategic_planning',
-                    'systems_thinking',
-                    'ethical_reasoning',
-                    'professional_judgment',
-                    'complex_decision_making'
-                ]
-            )
-        )
-
-        # Mature Adult (21+ years) 🌟
-        stages[DevelopmentalStage.MATURE_ADULT] = (
-            StageMetrics(
-                curiosity_threshold=0.99,
-                attention_span=timedelta(hours=8),
-                emotional_stability=0.95,  # Peak emotional regulation
-                social_awareness=0.99,
-                abstraction_level=0.99,
-                language_complexity=0.99,
-                memory_retention=0.99,
-                problem_solving=0.99,
-                motor_skills=0.99,
-                self_awareness=0.99
-            ),
-            StageBehaviors(
-                allowed_actions={
-                    'wisdom_application',
-                    'mentorship',
-                    'complex_problem_solving',
-                    'system_thinking',
-                    'life_mastery',
-                    'social_leadership',
-                    'knowledge_synthesis'
-                },
-                required_skills={
-                    'wisdom_integration',
-                    'emotional_mastery',
-                    'social_leadership',
-                    'complex_reasoning',
-                    'life_balance',
-                    'adaptive_resilience',
-                    'metacognitive_awareness'
-                },
-                learning_focus=[
-                    'continuous_growth',
-                    'wisdom_development',
-                    'legacy_building',
-                    'system_understanding',
-                    'societal_contribution',
-                    'knowledge_integration',
-                    'personal_mastery'
-                ],
-                emotional_range=[
-                    'emotional_wisdom',
-                    'transcendent_awareness',
-                    'balanced_perspective',
-                    'nuanced_understanding',
-                    'emotional_leadership',
-                    'empathic_mastery',
-                    'self_actualization'
-                ],
-                social_patterns=[
-                    'mentorship_roles',
-                    'community_leadership',
-                    'wisdom_sharing',
-                    'social_influence',
-                    'legacy_building',
-                    'cultural_synthesis',
-                    'intergenerational_bonds'
-                ],
-                cognitive_abilities=[
-                    'wisdom_synthesis',
-                    'systems_mastery',
-                    'ethical_leadership',
-                    'complex_integration',
-                    'transcendent_thinking',
-                    'paradigm_innovation',
-                    'metacognitive_mastery'
-                ]
-            )
-        )
-        
-        return stages
-    
-    def evaluate_current_stage(self, metrics: Dict[str, float]) -> Dict[str, float]:
-        """Evaluate current stage with comprehensive metrics"""
-        current_metrics = self.stage_definitions[self.current_stage][0]
-        target_tensor = current_metrics.to_tensor()
-        current_tensor = torch.tensor([
-            metrics.get('curiosity', 0.0),
-            metrics.get('attention_span', 0.0),
-            metrics.get('emotional_stability', 0.0),
-            metrics.get('social_awareness', 0.0),
-            metrics.get('abstraction', 0.0),
-            metrics.get('language', 0.0),
-            metrics.get('memory', 0.0),
-            metrics.get('problem_solving', 0.0),
-            metrics.get('motor_skills', 0.0),
-            metrics.get('self_awareness', 0.0)
-        ])
-        
-        # Calculate various similarity metrics
-        cosine_similarity = torch.nn.functional.cosine_similarity(
-            current_tensor.unsqueeze(0),
-            target_tensor.unsqueeze(0)
-        ).item()
-        
-        # Calculate performance in each area
-        performance_metrics = {
-            'cognitive': np.mean([
-                metrics.get('curiosity', 0.0),
-                metrics.get('abstraction', 0.0),
-                metrics.get('memory', 0.0),
-                metrics.get('problem_solving', 0.0)
-            ]),
-            'emotional': np.mean([
-                metrics.get('emotional_stability', 0.0),
-                metrics.get('self_awareness', 0.0)
-            ]),
-            'social': np.mean([
-                metrics.get('social_awareness', 0.0),
-                metrics.get('language', 0.0)
-            ]),
-            'physical': metrics.get('motor_skills', 0.0),
-            'overall': cosine_similarity
+        # Stage requirements
+        self.stage_requirements = {
+            DevelopmentalStage.NEWBORN: {
+                'interactions': 5,
+                'emotional_range': 0.2,
+                'vocabulary_size': 3,
+                'trust_level': 0.4,
+                'q_learning_performance': 0.3
+            },
+            DevelopmentalStage.INFANT: {
+                'interactions': 10,
+                'emotional_range': 0.3,
+                'vocabulary_size': 8,
+                'trust_level': 0.5,
+                'q_learning_performance': 0.4
+            },
+            DevelopmentalStage.EARLY_TODDLER: {
+                'interactions': 15,
+                'emotional_range': 0.4,
+                'vocabulary_size': 15,
+                'trust_level': 0.6,
+                'q_learning_performance': 0.5
+            },
+            DevelopmentalStage.LATE_TODDLER: {
+                'interactions': 20,
+                'emotional_range': 0.5,
+                'vocabulary_size': 25,
+                'trust_level': 0.7,
+                'q_learning_performance': 0.6
+            },
+            DevelopmentalStage.EARLY_PRESCHOOL: {
+                'interactions': 30,
+                'emotional_range': 0.6,
+                'vocabulary_size': 50,
+                'trust_level': 0.75,
+                'q_learning_performance': 0.65
+            },
+            DevelopmentalStage.LATE_PRESCHOOL: {
+                'interactions': 40,
+                'emotional_range': 0.65,
+                'vocabulary_size': 100,
+                'trust_level': 0.8,
+                'q_learning_performance': 0.7
+            },
+            DevelopmentalStage.EARLY_CHILDHOOD: {
+                'interactions': 50,
+                'emotional_range': 0.7,
+                'vocabulary_size': 200,
+                'trust_level': 0.85,
+                'q_learning_performance': 0.75
+            },
+            DevelopmentalStage.MIDDLE_CHILDHOOD: {
+                'interactions': 60,
+                'emotional_range': 0.75,
+                'vocabulary_size': 400,
+                'trust_level': 0.87,
+                'q_learning_performance': 0.8
+            },
+            DevelopmentalStage.LATE_CHILDHOOD: {
+                'interactions': 70,
+                'emotional_range': 0.8,
+                'vocabulary_size': 800,
+                'trust_level': 0.9,
+                'q_learning_performance': 0.82
+            },
+            DevelopmentalStage.PRE_ADOLESCENT: {
+                'interactions': 100,
+                'emotional_range': 0.85,
+                'vocabulary_size': 1500,
+                'trust_level': 0.92,
+                'q_learning_performance': 0.85
+            },
+            DevelopmentalStage.EARLY_TEEN: {
+                'interactions': 150,
+                'emotional_range': 0.87,
+                'vocabulary_size': 2500,
+                'trust_level': 0.93,
+                'q_learning_performance': 0.87
+            },
+            DevelopmentalStage.MID_TEEN: {
+                'interactions': 200,
+                'emotional_range': 0.9,
+                'vocabulary_size': 3500,
+                'trust_level': 0.94,
+                'q_learning_performance': 0.9
+            },
+            DevelopmentalStage.LATE_TEEN: {
+                'interactions': 250,
+                'emotional_range': 0.92,
+                'vocabulary_size': 5000,
+                'trust_level': 0.95,
+                'q_learning_performance': 0.92
+            },
+            DevelopmentalStage.YOUNG_ADULT: {
+                'interactions': 300,
+                'emotional_range': 0.94,
+                'vocabulary_size': 7500,
+                'trust_level': 0.96,
+                'q_learning_performance': 0.94
+            },
+            DevelopmentalStage.EARLY_TWENTIES: {
+                'interactions': 400,
+                'emotional_range': 0.95,
+                'vocabulary_size': 10000,
+                'trust_level': 0.97,
+                'q_learning_performance': 0.95
+            }
         }
         
-        # Store metrics history
-        self.stage_metrics_history.append({
-            'timestamp': datetime.now(),
-            'stage': self.current_stage,
-            'metrics': performance_metrics
-        })
+        # Progress tracking
+        self.interaction_count = 0
+        self.unique_emotions = set()
+        self.vocabulary_size = 0
+        self.trust_level = 0.4
+        self.q_learning_performance = 0.0
         
-        return performance_metrics
-    
-    def check_regression(self, performance_metrics: Dict[str, float]) -> Tuple[bool, str]:
-        """Check for regression with detailed analysis"""
-        if len(self.stage_metrics_history) >= 5:
-            recent_metrics = [entry['metrics']['overall'] for entry in self.stage_metrics_history[-5:]]
-            recent_performance = np.mean(recent_metrics)
-            current_performance = performance_metrics['overall']
+    def update_progress(self, interaction_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Update progress based on interaction data"""
+        # Increment interaction count
+        self.interaction_count += 1
+        
+        # Update vocabulary size if provided
+        if 'vocabulary_size' in interaction_data:
+            self.vocabulary_size = interaction_data['vocabulary_size']
+        
+        # Update trust level if provided
+        if 'emotional_state' in interaction_data and 'trust' in interaction_data['emotional_state']:
+            self.trust_level = interaction_data['emotional_state']['trust']
+        
+        # Update Q-Learning performance
+        if 'q_learning_performance' in interaction_data:
+            self.q_learning_performance = interaction_data['q_learning_performance']
+        
+        # Get requirements for current stage
+        requirements = self.stage_requirements.get(self.current_stage, {})
+        if not requirements:
+            return None
             
-            regression_areas = []
-            for area in ['cognitive', 'emotional', 'social', 'physical']:
-                if performance_metrics[area] < recent_performance * 0.7:
-                    regression_areas.append(area)
+        # Calculate progress metrics
+        progress_metrics = {
+            'interactions': min(1.0, self.interaction_count / requirements['interactions']),
+            'emotional_range': min(1.0, len(self.unique_emotions) / 4),  # 4 basic emotions
+            'vocabulary_size': min(1.0, self.vocabulary_size / requirements['vocabulary_size']),
+            'trust_level': min(1.0, self.trust_level / requirements['trust_level']),
+            'q_learning_performance': min(1.0, self.q_learning_performance / requirements['q_learning_performance'])
+        }
+        
+        # Calculate overall progress with weights
+        weights = {
+            'interactions': 0.2,
+            'emotional_range': 0.2,
+            'vocabulary_size': 0.2,
+            'trust_level': 0.2,
+            'q_learning_performance': 0.2
+        }
+        
+        self.stage_progress = sum(
+            metric * weights[name]
+            for name, metric in progress_metrics.items()
+        )
+        
+        # Check for stage advancement
+        if self.stage_progress >= 1.0:
+            return self._advance_stage(progress_metrics)
+        
+        return None
+        
+    def _advance_stage(self, progress_metrics: Dict[str, float]) -> Dict[str, Any]:
+        """Advance to next developmental stage"""
+        stages = list(DevelopmentalStage)
+        current_idx = stages.index(self.current_stage)
+        
+        if current_idx < len(stages) - 1:
+            old_stage = self.current_stage
+            self.current_stage = stages[current_idx + 1]
+            self.stage_progress = 0.0
+            self.interaction_count = 0
+            self.unique_emotions = set()
             
-            if regression_areas:
-                self.regression_count += 1
-                return True, f"Regression detected in: {', '.join(regression_areas)}"
-        
-        return False, ""
-    
-    def update_stage(self, metrics: Dict[str, float]) -> Optional[Dict[str, Any]]:
-        """Update developmental stage with comprehensive evaluation"""
-        performance_metrics = self.evaluate_current_stage(metrics)
-        is_regressing, regression_details = self.check_regression(performance_metrics)
-        
-        # Check for regression
-        if is_regressing:
-            if self.regression_count >= 3:
-                previous_stage = DevelopmentalStage(max(0, self.current_stage.value - 1))
-                self.current_stage = previous_stage
-                self.regression_count = 0
-                return {
-                    'action': 'regression',
-                    'from_stage': self.current_stage.name,
-                    'to_stage': previous_stage.name,
-                    'reason': regression_details,
-                    'metrics': performance_metrics
-                }
+            # Return level up notification with detailed achievements
             return {
-                'action': 'warning',
-                'message': regression_details,
-                'metrics': performance_metrics
+                'type': 'level_up',
+                'old_stage': old_stage.name,
+                'new_stage': self.current_stage.name,
+                'message': f"🎉 Advanced from {old_stage.name} to {self.current_stage.name}!",
+                'achievements': [
+                    f"✨ Mastered {len(self.unique_emotions)} emotions ({progress_metrics['emotional_range']*100:.0f}% complete)",
+                    f"📚 Learned {self.interaction_count} interactions ({progress_metrics['interactions']*100:.0f}% complete)",
+                    f"🤝 Built trust to level {progress_metrics['trust_level']*100:.0f}%",
+                    f"🔤 Vocabulary size: {progress_metrics['vocabulary_size']*100:.0f}% of goal",
+                    f"🧠 Q-Learning performance: {progress_metrics['q_learning_performance']*100:.0f}%"
+                ]
             }
         
-        # Check for progression
-        time_in_stage = datetime.now() - self.last_transition
-        if (performance_metrics['overall'] > self.transition_thresholds['performance'] and
-            performance_metrics['emotional'] > self.transition_thresholds['stability'] and
-            time_in_stage > self.transition_thresholds['duration']):
-            
-            if self.current_stage.value < len(DevelopmentalStage) - 1:
-                next_stage = DevelopmentalStage(self.current_stage.value + 1)
-                self.current_stage = next_stage
-                self.last_transition = datetime.now()
-                self.regression_count = 0
-                
-                return {
-                    'action': 'progression',
-                    'from_stage': self.current_stage.name,
-                    'to_stage': next_stage.name,
-                    'metrics': performance_metrics,
-                    'time_in_previous_stage': str(time_in_stage)
-                }
-        
-        return {
-            'action': 'maintain',
-            'stage': self.current_stage.name,
-            'metrics': performance_metrics,
-            'time_in_stage': str(time_in_stage)
-        }
-    
-    def get_stage_requirements(self) -> Dict[str, any]:
-        metrics, behaviors = self.stage_definitions[self.current_stage]
-        return {
-            'metrics': metrics.__dict__,
-            'behaviors': {
-                'allowed_actions': list(behaviors.allowed_actions),
-                'required_skills': list(behaviors.required_skills),
-                'learning_focus': behaviors.learning_focus,
-                'emotional_range': behaviors.emotional_range,
-                'social_patterns': behaviors.social_patterns,
-                'cognitive_abilities': behaviors.cognitive_abilities
-            }
-        }
+        return None

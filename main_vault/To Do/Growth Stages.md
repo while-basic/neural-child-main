@@ -1,0 +1,1 @@
+- Implement **growth stages**, where its personality matures over time based on accumulated interactions.

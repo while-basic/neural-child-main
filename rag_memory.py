@@ -28,41 +28,17 @@ class RAGMemorySystem:
     """Advanced RAG memory system using ChromaDB for storing and retrieving memories with emotional context"""
     
     def __init__(self, 
-                persist_dir: str = "rag_memories",
+                chat_interface,
                 sentence_transformer_model: str = "all-MiniLM-L6-v2"):
         """Initialize the RAG memory system"""
-        # Ensure persist directory exists
-        Path(persist_dir).mkdir(parents=True, exist_ok=True)
+        # Use existing ChromaDB client from chat interface
+        self.chroma_client = chat_interface.chroma_client
         
-        # Initialize ChromaDB with persistence
-        self.chroma_client = chromadb.PersistentClient(
-            path=persist_dir,
-            settings=Settings(
-                anonymized_telemetry=False,
-                allow_reset=True
-            )
-        )
+        # Use existing collections
+        self.emotional_collection = chat_interface.emotional_memory_collection
+        self.episodic_collection = chat_interface.episodic_memory_collection
+        self.semantic_collection = chat_interface.semantic_memory_collection
         
-        # Get or create collections for different memory types
-        try:
-            self.emotional_collection = self.chroma_client.get_or_create_collection(
-                name="emotional_memories",
-                metadata={"type": "emotional"}
-            )
-            
-            self.episodic_collection = self.chroma_client.get_or_create_collection(
-                name="episodic_memories",
-                metadata={"type": "episodic"}
-            )
-            
-            self.semantic_collection = self.chroma_client.get_or_create_collection(
-                name="semantic_memories",
-                metadata={"type": "semantic"}
-            )
-            
-        except Exception as e:
-            print(f"Error initializing collections: {str(e)}")
-            
         # Initialize sentence transformer
         self.sentence_transformer = SentenceTransformer(sentence_transformer_model)
         

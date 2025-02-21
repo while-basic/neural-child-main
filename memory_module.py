@@ -54,15 +54,16 @@ class MemoryStore:
         self._save_memories()
         return memory['id']
     
-    def store_episodic_memory(self, content, embedding, metadata=None):
-        """Store an episodic memory with its embedding"""
+    def store_episodic_memory(self, content, embedding, metadata=None, emotional_state=None):
+        """Store an episodic memory with its embedding and optional emotional state"""
         memory = {
             'id': len(self.memories['episodic']),
             'content': content,
             'embedding': embedding,
             'type': 'episodic',
             'timestamp': datetime.now().isoformat(),
-            'metadata': metadata or {}
+            'metadata': metadata or {},
+            'emotional_state': emotional_state or {}
         }
         self.memories['episodic'].append(memory)
         self._update_index(memory)
@@ -115,28 +116,33 @@ class MemoryStore:
         }
     
     def _update_index(self, memory):
-        """Update the memory index for faster retrieval"""
-        if 'metadata' in memory:
-            for key, value in memory['metadata'].items():
-                self.memory_index[f"{key}:{value}"].append(memory)
+        """Update memory index with new memory"""
+        words = memory['content'].lower().split()
+        for word in words:
+            self.memory_index[word].append(memory['id'])
     
     def _save_memories(self):
         """Save memories to disk"""
-        for memory_type, memories in self.memories.items():
-            filename = os.path.join(self.persist_directory, f"{memory_type}_memories.json")
-            with open(filename, 'w') as f:
-                json.dump(memories, f, indent=2)
+        try:
+            with open(os.path.join(self.persist_directory, 'memories.json'), 'w') as f:
+                json.dump(self.memories, f, indent=2)
+        except Exception as e:
+            print(f"Error saving memories: {str(e)}")
     
     def load_memories(self):
         """Load memories from disk"""
-        for memory_type in self.memories.keys():
-            filename = os.path.join(self.persist_directory, f"{memory_type}_memories.json")
-            if os.path.exists(filename):
-                with open(filename, 'r') as f:
-                    self.memories[memory_type] = json.load(f)
+        try:
+            memory_file = os.path.join(self.persist_directory, 'memories.json')
+            if os.path.exists(memory_file):
+                with open(memory_file, 'r') as f:
+                    self.memories = json.load(f)
                 # Rebuild index
-                for memory in self.memories[memory_type]:
-                    self._update_index(memory)
+                self.memory_index.clear()
+                for memory_type in self.memories.values():
+                    for memory in memory_type:
+                        self._update_index(memory)
+        except Exception as e:
+            print(f"Error loading memories: {str(e)}")
 
 class DifferentiableMemory:
     def __init__(self, device='cpu'):

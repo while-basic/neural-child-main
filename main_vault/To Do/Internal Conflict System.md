@@ -1,0 +1,1 @@
+- Create an **internal conflict system**, where the AI can weigh conflicting choices before responding, making it feel more human.

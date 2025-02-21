@@ -14,6 +14,8 @@ from visualization import (
 import os
 from torch import nn
 import sys
+from pathlib import Path
+import shutil
 
 class SimpleNeuralNetwork(nn.Module):
     """A simple neural network for testing visualization"""
@@ -132,6 +134,85 @@ def test_metrics_visualization():
     
     print("Metrics visualization tests completed!")
 
+def test_simple_network():
+    """Test visualization with a simple network"""
+    # Create a simple test network
+    class SimpleNetwork(nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.input_size = 384  # Match the expected input size
+            self.fc1 = nn.Linear(384, 256)
+            self.relu = nn.ReLU()
+            self.fc2 = nn.Linear(256, 128)
+            self.fc3 = nn.Linear(128, 64)
+            
+        def forward(self, x):
+            x = self.fc1(x)
+            x = self.relu(x)
+            x = self.fc2(x)
+            x = self.relu(x)
+            x = self.fc3(x)
+            return x
+    
+    # Create test directory
+    test_dir = Path("test_obsidian_vault")
+    if test_dir.exists():
+        shutil.rmtree(test_dir)
+    test_dir.mkdir(parents=True)
+    
+    try:
+        # Import visualization classes
+        from neural_network_obsidian import NeuralNetworkObsidianVisualizer
+        
+        # Create visualizer
+        visualizer = NeuralNetworkObsidianVisualizer(str(test_dir))
+        
+        # Create test network
+        network = SimpleNetwork()
+        
+        # Test visualization
+        print("Testing single network visualization...")
+        visualizer.create_network_note(
+            network,
+            "TestNetwork",
+            "A simple test network for visualization testing."
+        )
+        
+        # Verify files were created
+        network_dir = test_dir / "Network"
+        attachments_dir = network_dir / "attachments"
+        
+        assert network_dir.exists(), "Network directory was not created"
+        assert attachments_dir.exists(), "Attachments directory was not created"
+        assert (network_dir / "TestNetwork.md").exists(), "Network note was not created"
+        
+        # Check for visualization files
+        viz_files = list(attachments_dir.glob("TestNetwork_*.png"))
+        assert len(viz_files) > 0, "No visualization files were created"
+        
+        print("Basic visualization test passed!")
+        
+        # Test index creation
+        print("\nTesting index creation...")
+        networks = {
+            "TestNetwork1": network,
+            "TestNetwork2": network
+        }
+        
+        visualizer.create_network_index(networks)
+        assert (network_dir / "index.md").exists(), "Index file was not created"
+        
+        print("Index creation test passed!")
+        
+    except Exception as e:
+        print(f"Error during testing: {str(e)}")
+        raise
+    finally:
+        # Cleanup
+        if test_dir.exists():
+            shutil.rmtree(test_dir)
+            print("\nTest directory cleaned up")
+
 def main():
     """Run all visualization tests"""
     print("Starting visualization tests...")
@@ -143,6 +224,7 @@ def main():
     test_emotional_visualizer()
     test_neural_network_visualizer()
     test_metrics_visualization()
+    test_simple_network()
     
     print("\nAll visualization tests completed!")
     print("Test visualizations have been saved to the 'test_visualizations' directory.")

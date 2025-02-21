@@ -1,0 +1,3 @@
+Create a chat interface using the command line. The chat interface will be used to test responses generated from the q-learning networks. The response from the ai should be the output of the q learning network, which is initially influenced by using Ollama. 
+
+The idea is to use generated content from an LLM, pass it through the Q-Learning network, and generate a unique response not found in the training dataset. The responses are unique because they are influenced by all the relevant classes and methods found in the codebase.

@@ -6,18 +6,20 @@ import json
 from datetime import datetime
 from typing import Dict, Any, Optional
 import os
+from pathlib import Path
 
 class DevelopmentLogger:
     def __init__(self, log_dir: str = "logs"):
         """Initialize the development logger"""
-        self.log_dir = log_dir
-        os.makedirs(log_dir, exist_ok=True)
+        self.log_dir = Path(log_dir)
+        self.log_dir.mkdir(exist_ok=True)
         
         # Create log files
-        self.development_log = os.path.join(log_dir, "development.log")
-        self.interaction_log = os.path.join(log_dir, "interactions.log")
-        self.error_log = os.path.join(log_dir, "errors.log")
-        self.vision_log = os.path.join(log_dir, "vision.log")
+        self.development_log = self.log_dir / "development.log"
+        self.interaction_log = self.log_dir / "interactions.json"
+        self.error_log = self.log_dir / "errors.log"
+        self.vision_log = self.log_dir / "vision.log"
+        self.training_log = self.log_dir / "training.json"
         
     def log_development(self, data: Dict[str, Any]):
         """Log development-related events"""
@@ -27,13 +29,21 @@ class DevelopmentLogger:
             'data': data
         })
         
-    def log_interaction(self, data: Dict[str, Any]):
-        """Log interaction events"""
-        self._write_log(self.interaction_log, {
-            'timestamp': datetime.now().isoformat(),
-            'type': 'interaction',
-            'data': data
-        })
+    def log_interaction(self, interaction_data: Dict[str, Any], action: int, reward: float, state: Any) -> None:
+        """Log interaction data"""
+        timestamp = datetime.now().isoformat()
+        log_entry = {
+            'timestamp': timestamp,
+            'interaction_data': interaction_data,
+            'action': int(action),
+            'reward': float(reward),
+            'state': str(state)
+        }
+        
+        # Append to log file
+        with open(self.interaction_log, 'a') as f:
+            json.dump(log_entry, f)
+            f.write('\n')
         
     def log_error(self, error: str, context: Optional[Dict[str, Any]] = None):
         """Log error events"""
@@ -52,7 +62,20 @@ class DevelopmentLogger:
             'data': data
         })
         
-    def _write_log(self, log_file: str, data: Dict[str, Any]):
+    def log_training(self, metrics: Dict[str, float]) -> None:
+        """Log training metrics"""
+        timestamp = datetime.now().isoformat()
+        log_entry = {
+            'timestamp': timestamp,
+            'metrics': metrics
+        }
+        
+        # Append to log file
+        with open(self.training_log, 'a') as f:
+            json.dump(log_entry, f)
+            f.write('\n')
+        
+    def _write_log(self, log_file: Path, data: Dict[str, Any]):
         """Write log entry to file"""
         try:
             with open(log_file, 'a', encoding='utf-8') as f:
@@ -127,7 +150,8 @@ class DevelopmentLogger:
             self.development_log,
             self.interaction_log,
             self.error_log,
-            self.vision_log
+            self.vision_log,
+            self.training_log
         ]
         
         for log_file in log_files:

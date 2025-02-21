@@ -7630,3 +7630,8307 @@ Words are listed with their learning timestamp and emotional context.
 ### cupcake
 - Learned: 2025-02-20T14:15:46.209475
 - Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### picks
+- Learned: 2025-02-20T14:16:08.278629
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### strums
+- Learned: 2025-02-20T14:16:08.311627
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### strings
+- Learned: 2025-02-20T14:16:08.332627
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### awe
+- Learned: 2025-02-20T14:16:08.369628
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### breathes
+- Learned: 2025-02-20T14:16:08.391630
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### stare
+- Learned: 2025-02-20T14:16:13.288865
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### brain
+- Learned: 2025-02-20T14:16:18.459336
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.73, emotion_11: 0.00
+
+### slurping
+- Learned: 2025-02-20T14:16:24.105228
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.76, emotion_11: 0.00
+
+### rhythm
+- Learned: 2025-02-20T14:16:29.505758
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.78, emotion_11: 0.00
+
+### drumming
+- Learned: 2025-02-20T14:16:29.521760
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.78, emotion_11: 0.00
+
+### fists
+- Learned: 2025-02-20T14:16:29.538760
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.78, emotion_11: 0.00
+
+### boom
+- Learned: 2025-02-20T14:16:29.554757
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.78, emotion_11: 0.00
+
+### boom
+- Learned: 2025-02-20T14:16:29.570758
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.78, emotion_11: 0.00
+
+### boom
+- Learned: 2025-02-20T14:16:29.583757
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.78, emotion_11: 0.00
+
+### curious
+- Learned: 2025-02-20T14:16:35.187173
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### staring
+- Learned: 2025-02-20T14:16:35.202174
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### kids
+- Learned: 2025-02-20T14:16:52.399386
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### school
+- Learned: 2025-02-20T14:16:52.420387
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### waved
+- Learned: 2025-02-20T14:16:52.441388
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### cakes
+- Learned: 2025-02-20T14:16:52.466383
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### red
+- Learned: 2025-02-20T14:16:52.484384
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### scarecrow
+- Learned: 2025-02-20T14:16:52.500384
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### school
+- Learned: 2025-02-20T14:16:52.518386
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### pant
+- Learned: 2025-02-20T14:17:11.802583
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### pant
+- Learned: 2025-02-20T14:17:11.820585
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### tosses
+- Learned: 2025-02-20T14:17:11.836584
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### nay
+- Learned: 2025-02-20T14:17:11.852583
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### blast
+- Learned: 2025-02-20T14:17:11.870582
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### ourselves
+- Learned: 2025-02-20T14:17:11.887583
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### rule
+- Learned: 2025-02-20T14:17:11.902583
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### firmly
+- Learned: 2025-02-20T14:17:11.917582
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### babbling
+- Learned: 2025-02-20T14:17:20.778054
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### cooing
+- Learned: 2025-02-20T14:17:20.795637
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### trucks
+- Learned: 2025-02-20T14:17:56.905411
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### feet
+- Learned: 2025-02-20T14:17:56.922414
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### umbrella
+- Learned: 2025-02-20T14:17:56.941411
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### scales
+- Learned: 2025-02-20T14:17:56.964413
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### spoke
+- Learned: 2025-02-20T14:17:56.994410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### idea
+- Learned: 2025-02-20T14:17:57.016410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### journeyed
+- Learned: 2025-02-20T14:17:57.033409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### stash
+- Learned: 2025-02-20T14:17:57.048410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### tricky
+- Learned: 2025-02-20T14:17:57.064409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### jelly
+- Learned: 2025-02-20T14:17:57.080409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### beans
+- Learned: 2025-02-20T14:17:57.096410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### frown
+- Learned: 2025-02-20T14:17:57.112410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### using
+- Learned: 2025-02-20T14:17:57.128409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### builds
+- Learned: 2025-02-20T14:17:57.144410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### structure
+- Learned: 2025-02-20T14:17:57.161411
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### helped
+- Learned: 2025-02-20T14:17:57.178410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### decorate
+- Learned: 2025-02-20T14:17:57.194410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### decorations
+- Learned: 2025-02-20T14:17:57.211408
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### moons
+- Learned: 2025-02-20T14:17:57.226409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### trucks
+- Learned: 2025-02-20T14:17:57.241409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### followed
+- Learned: 2025-02-20T14:17:57.257412
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### feet
+- Learned: 2025-02-20T14:17:57.273412
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### cheerful
+- Learned: 2025-02-20T14:17:57.288409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### lake
+- Learned: 2025-02-20T14:17:57.306410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### pudding
+- Learned: 2025-02-20T14:17:57.323409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### sailed
+- Learned: 2025-02-20T14:17:57.339409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### teeny
+- Learned: 2025-02-20T14:17:57.355410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### boats
+- Learned: 2025-02-20T14:17:57.373409
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### licorice
+- Learned: 2025-02-20T14:17:57.388410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### whips
+- Learned: 2025-02-20T14:17:57.405410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### exactly
+- Learned: 2025-02-20T14:17:57.422410
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### shone
+- Learned: 2025-02-20T14:18:29.383982
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### diamonds
+- Learned: 2025-02-20T14:18:29.403984
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### throne
+- Learned: 2025-02-20T14:18:29.421983
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### crown
+- Learned: 2025-02-20T14:18:29.439984
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### horn
+- Learned: 2025-02-20T14:18:29.458985
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### shot
+- Learned: 2025-02-20T14:18:29.477983
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### fields
+- Learned: 2025-02-20T14:18:29.495982
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### mad
+- Learned: 2025-02-20T14:18:29.514985
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### thought
+- Learned: 2025-02-20T14:18:29.531984
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### ah
+- Learned: 2025-02-20T14:18:29.549983
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### nearby
+- Learned: 2025-02-20T14:18:44.720052
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.73, emotion_11: 0.00
+
+### twinkly
+- Learned: 2025-02-20T14:18:44.742060
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.73, emotion_11: 0.00
+
+### helmet
+- Learned: 2025-02-20T14:18:45.990819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### protect
+- Learned: 2025-02-20T14:18:46.008819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### five
+- Learned: 2025-02-20T14:18:46.024819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### bored
+- Learned: 2025-02-20T14:18:46.039819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### kissing
+- Learned: 2025-02-20T14:18:46.056819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### spoil
+- Learned: 2025-02-20T14:18:46.074820
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### nope
+- Learned: 2025-02-20T14:18:46.090818
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### watch
+- Learned: 2025-02-20T14:18:46.108819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### pump
+- Learned: 2025-02-20T14:18:46.125820
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### helmet
+- Learned: 2025-02-20T14:18:46.141819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### soaked
+- Learned: 2025-02-20T14:18:46.156820
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.65, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.49, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### babble
+- Learned: 2025-02-20T14:18:50.095760
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### gaze
+- Learned: 2025-02-20T14:18:56.612963
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.61, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.48, emotion_9: 0.06, emotion_10: 0.45, emotion_11: 0.06
+
+### imitate
+- Learned: 2025-02-20T14:19:03.062731
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.74, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.64, emotion_9: 0.05, emotion_10: 0.53, emotion_11: 0.05
+
+### royalty
+- Learned: 2025-02-20T14:19:07.247762
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### strumming
+- Learned: 2025-02-20T14:19:07.267759
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### lasted
+- Learned: 2025-02-20T14:19:07.287277
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### longer
+- Learned: 2025-02-20T14:19:07.307248
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### shine
+- Learned: 2025-02-20T14:19:22.574578
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### displays
+- Learned: 2025-02-20T14:19:22.595580
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### lit
+- Learned: 2025-02-20T14:19:22.612578
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### sneak
+- Learned: 2025-02-20T14:19:22.631579
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### wooooo
+- Learned: 2025-02-20T14:19:22.653581
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### knees
+- Learned: 2025-02-20T14:19:22.674580
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### overwhelmed
+- Learned: 2025-02-20T14:19:22.692580
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### king
+- Learned: 2025-02-20T14:19:22.708580
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.86, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### whip
+- Learned: 2025-02-20T14:19:39.756348
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### slow
+- Learned: 2025-02-20T14:19:39.773347
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### holding
+- Learned: 2025-02-20T14:19:39.790348
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### held
+- Learned: 2025-02-20T14:19:39.809349
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### hot
+- Learned: 2025-02-20T14:20:09.995129
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### stretching
+- Learned: 2025-02-20T14:20:10.012130
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### appears
+- Learned: 2025-02-20T14:20:10.029127
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### wave
+- Learned: 2025-02-20T14:20:10.047130
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### wash
+- Learned: 2025-02-20T14:20:10.063128
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### matter
+- Learned: 2025-02-20T14:20:10.079131
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### truck
+- Learned: 2025-02-20T14:20:18.637571
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### scare
+- Learned: 2025-02-20T14:20:40.568335
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### maps
+- Learned: 2025-02-20T14:20:40.589333
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### puzzles
+- Learned: 2025-02-20T14:20:40.611336
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### impressed
+- Learned: 2025-02-20T14:20:40.636334
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### hunter
+- Learned: 2025-02-20T14:20:40.657335
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### charming
+- Learned: 2025-02-20T14:20:40.678333
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### banging
+- Learned: 2025-02-20T14:20:55.537076
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.86, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### thousand
+- Learned: 2025-02-20T14:21:18.121333
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### explosions
+- Learned: 2025-02-20T14:21:18.140335
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### towers
+- Learned: 2025-02-20T14:21:18.156334
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### bellies
+- Learned: 2025-02-20T14:21:18.173334
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### roof
+- Learned: 2025-02-20T14:21:18.191335
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### tuts
+- Learned: 2025-02-20T14:21:18.209332
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### millisecond
+- Learned: 2025-02-20T14:21:18.227334
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### build
+- Learned: 2025-02-20T14:21:18.244335
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### work
+- Learned: 2025-02-20T14:21:18.262335
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### lego
+- Learned: 2025-02-20T14:21:18.281085
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### drumstick
+- Learned: 2025-02-20T14:21:18.298737
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### tower
+- Learned: 2025-02-20T14:21:18.316517
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### shoots
+- Learned: 2025-02-20T14:21:18.333518
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### float
+- Learned: 2025-02-20T14:21:18.355519
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### drinking
+- Learned: 2025-02-20T14:21:22.226701
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### incoherently
+- Learned: 2025-02-20T14:21:27.815656
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### intelligible
+- Learned: 2025-02-20T14:21:27.833655
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### continues
+- Learned: 2025-02-20T14:21:27.851656
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### curtsies
+- Learned: 2025-02-20T14:21:44.201440
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### costumes
+- Learned: 2025-02-20T14:21:44.218439
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### ears
+- Learned: 2025-02-20T14:21:44.235441
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### training
+- Learned: 2025-02-20T14:21:44.253440
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### puff
+- Learned: 2025-02-20T14:21:44.271440
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### smoke
+- Learned: 2025-02-20T14:21:44.288439
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### flavor
+- Learned: 2025-02-20T14:21:44.313441
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### imaginable
+- Learned: 2025-02-20T14:21:44.331441
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### nom
+- Learned: 2025-02-20T14:21:44.348441
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### nom
+- Learned: 2025-02-20T14:21:44.364439
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### nom
+- Learned: 2025-02-20T14:21:44.378440
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### songs
+- Learned: 2025-02-20T14:21:44.394441
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### ballerinas
+- Learned: 2025-02-20T14:21:44.412439
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### ballet
+- Learned: 2025-02-20T14:21:44.429438
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### munch
+- Learned: 2025-02-20T14:21:57.703216
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### munch
+- Learned: 2025-02-20T14:21:57.720216
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### steal
+- Learned: 2025-02-20T14:22:17.866697
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### strong
+- Learned: 2025-02-20T14:22:17.883696
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### will
+- Learned: 2025-02-20T14:22:17.901695
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### fairy
+- Learned: 2025-02-20T14:22:42.927182
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### tale
+- Learned: 2025-02-20T14:22:42.941181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### pirouettes
+- Learned: 2025-02-20T14:22:42.958183
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### evil
+- Learned: 2025-02-20T14:22:42.980183
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### black
+- Learned: 2025-02-20T14:22:42.997181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### horses
+- Learned: 2025-02-20T14:22:43.013181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### mmmmmm
+- Learned: 2025-02-20T14:22:43.030182
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### popped
+- Learned: 2025-02-20T14:22:43.047182
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### distract
+- Learned: 2025-02-20T14:22:43.064181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### defeated
+- Learned: 2025-02-20T14:22:43.080180
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### battle
+- Learned: 2025-02-20T14:22:43.096181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### destroyed
+- Learned: 2025-02-20T14:22:43.112182
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### thunderstorms
+- Learned: 2025-02-20T14:22:43.130181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### edible
+- Learned: 2025-02-20T14:22:43.144181
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### ready
+- Learned: 2025-02-20T14:22:43.160180
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### poses
+- Learned: 2025-02-20T14:23:25.498332
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.78, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.78, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### touching
+- Learned: 2025-02-20T14:23:25.516333
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.78, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.78, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### streets
+- Learned: 2025-02-20T14:24:04.762612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### paved
+- Learned: 2025-02-20T14:24:04.779615
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### houses
+- Learned: 2025-02-20T14:24:04.797614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### quest
+- Learned: 2025-02-20T14:24:04.819614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### king
+- Learned: 2025-02-20T14:24:04.840613
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### sneak
+- Learned: 2025-02-20T14:24:04.860614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### finally
+- Learned: 2025-02-20T14:24:04.878614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### reach
+- Learned: 2025-02-20T14:24:04.897611
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### oceans
+- Learned: 2025-02-20T14:24:04.914612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### forests
+- Learned: 2025-02-20T14:24:04.930612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### popsicle
+- Learned: 2025-02-20T14:24:04.946612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### king
+- Learned: 2025-02-20T14:24:04.962613
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### answer
+- Learned: 2025-02-20T14:24:04.978612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### riddle
+- Learned: 2025-02-20T14:24:04.994611
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### eagerly
+- Learned: 2025-02-20T14:24:05.010611
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### riddle
+- Learned: 2025-02-20T14:24:05.027614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### hmmm
+- Learned: 2025-02-20T14:24:05.045614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### answer
+- Learned: 2025-02-20T14:24:05.064611
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### tongue
+- Learned: 2025-02-20T14:24:05.079612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### learned
+- Learned: 2025-02-20T14:24:05.098613
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### solving
+- Learned: 2025-02-20T14:24:05.116614
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### riddle
+- Learned: 2025-02-20T14:24:05.134612
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### drooling
+- Learned: 2025-02-20T14:24:20.584372
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.66, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.50, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### disney
+- Learned: 2025-02-20T14:24:20.601371
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.66, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.50, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### curtsy
+- Learned: 2025-02-20T14:24:20.619372
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.66, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.50, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### suits
+- Learned: 2025-02-20T14:24:20.637369
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.66, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.50, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### stop
+- Learned: 2025-02-20T14:24:20.655372
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.66, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.50, emotion_9: 0.08, emotion_10: 0.49, emotion_11: 0.08
+
+### nighttime
+- Learned: 2025-02-20T14:24:29.777905
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.71, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.58, emotion_9: 0.06, emotion_10: 0.51, emotion_11: 0.06
+
+### freshly
+- Learned: 2025-02-20T14:24:41.537009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### baked
+- Learned: 2025-02-20T14:24:41.553010
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### cookies
+- Learned: 2025-02-20T14:24:41.573007
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### fearfully
+- Learned: 2025-02-20T14:24:41.590009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### pfffffttt
+- Learned: 2025-02-20T14:24:41.609009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### growing
+- Learned: 2025-02-20T14:24:41.625008
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### roller
+- Learned: 2025-02-20T14:24:41.641010
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### coasters
+- Learned: 2025-02-20T14:24:41.658007
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### robots
+- Learned: 2025-02-20T14:24:41.677010
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### superheros
+- Learned: 2025-02-20T14:24:41.695009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.56, emotion_11: 0.00
+
+### mummy
+- Learned: 2025-02-20T14:24:51.394623
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.86, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### tales
+- Learned: 2025-02-20T14:24:52.509825
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.81, emotion_9: 0.03, emotion_10: 0.60, emotion_11: 0.03
+
+### stairs
+- Learned: 2025-02-20T14:24:52.524825
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.81, emotion_9: 0.03, emotion_10: 0.60, emotion_11: 0.03
+
+### miles
+- Learned: 2025-02-20T14:24:52.541825
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.81, emotion_9: 0.03, emotion_10: 0.60, emotion_11: 0.03
+
+### pweeease
+- Learned: 2025-02-20T14:24:56.825232
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.82, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.82, emotion_9: 0.00, emotion_10: 0.54, emotion_11: 0.00
+
+### street
+- Learned: 2025-02-20T14:25:01.723066
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.88, emotion_9: 0.03, emotion_10: 0.64, emotion_11: 0.03
+
+### wobbles
+- Learned: 2025-02-20T14:25:02.147777
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.72, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.72, emotion_9: 0.00, emotion_10: 0.48, emotion_11: 0.00
+
+### gingerbread
+- Learned: 2025-02-20T14:25:26.254378
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### baked
+- Learned: 2025-02-20T14:25:26.269380
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### cookies
+- Learned: 2025-02-20T14:25:26.288378
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### tied
+- Learned: 2025-02-20T14:25:26.306379
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### chairs
+- Learned: 2025-02-20T14:25:26.326378
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### badly
+- Learned: 2025-02-20T14:25:26.344379
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### choked
+- Learned: 2025-02-20T14:25:26.361377
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### peaceful
+- Learned: 2025-02-20T14:25:26.377377
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### composing
+- Learned: 2025-02-20T14:25:26.393379
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### enchantment
+- Learned: 2025-02-20T14:25:26.412377
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### disappointed
+- Learned: 2025-02-20T14:25:26.430378
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### well
+- Learned: 2025-02-20T14:25:26.447377
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### current
+- Learned: 2025-02-20T14:25:26.465379
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### reflecting
+- Learned: 2025-02-20T14:25:26.483378
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### child
+- Learned: 2025-02-20T14:25:26.500558
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### previous
+- Learned: 2025-02-20T14:25:26.519129
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.97, emotion_9: 0.01, emotion_10: 0.68, emotion_11: 0.01
+
+### legendary
+- Learned: 2025-02-20T14:25:26.860620
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### golden
+- Learned: 2025-02-20T14:25:26.878622
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### bravest
+- Learned: 2025-02-20T14:25:26.897620
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### smart
+- Learned: 2025-02-20T14:25:26.917621
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### thunderstorm
+- Learned: 2025-02-20T14:25:26.936621
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### thunderstorm
+- Learned: 2025-02-20T14:25:26.953621
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### disappears
+- Learned: 2025-02-20T14:25:26.970625
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### realize
+- Learned: 2025-02-20T14:25:26.989624
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### coaster
+- Learned: 2025-02-20T14:25:27.005624
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### thinking
+- Learned: 2025-02-20T14:25:27.022620
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.98, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.98, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### distressed
+- Learned: 2025-02-20T14:26:06.525275
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### tales
+- Learned: 2025-02-20T14:26:22.709587
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### whoops
+- Learned: 2025-02-20T14:26:22.725587
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### picnic
+- Learned: 2025-02-20T14:26:22.744584
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### taught
+- Learned: 2025-02-20T14:26:22.760586
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### grant
+- Learned: 2025-02-20T14:26:22.778587
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### picnic
+- Learned: 2025-02-20T14:26:22.799585
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### whine
+- Learned: 2025-02-20T14:26:56.070564
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### called
+- Learned: 2025-02-20T14:27:12.547359
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### beating
+- Learned: 2025-02-20T14:27:12.571357
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### storms
+- Learned: 2025-02-20T14:27:12.592358
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### conquer
+- Learned: 2025-02-20T14:27:12.609360
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### flexing
+- Learned: 2025-02-20T14:27:12.632358
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### standing
+- Learned: 2025-02-20T14:27:12.650357
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### sniffle
+- Learned: 2025-02-20T14:27:12.669359
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### whoever
+- Learned: 2025-02-20T14:27:12.688358
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### woosh
+- Learned: 2025-02-20T14:27:38.842296
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### woosh
+- Learned: 2025-02-20T14:27:38.861298
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### woosh
+- Learned: 2025-02-20T14:27:38.882295
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### gloopy
+- Learned: 2025-02-20T14:27:38.900294
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### mud
+- Learned: 2025-02-20T14:27:38.918297
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### ew
+- Learned: 2025-02-20T14:27:38.936295
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### gross
+- Learned: 2025-02-20T14:27:38.953296
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### clean
+- Learned: 2025-02-20T14:27:38.973296
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### mud
+- Learned: 2025-02-20T14:27:38.993298
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### sparkling
+- Learned: 2025-02-20T14:27:39.010297
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### feast
+- Learned: 2025-02-20T14:27:39.029294
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### frosting
+- Learned: 2025-02-20T14:27:39.047297
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### thank
+- Learned: 2025-02-20T14:27:39.064297
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### concerned
+- Learned: 2025-02-20T14:27:39.083294
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### forget
+- Learned: 2025-02-20T14:27:39.102296
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### group
+- Learned: 2025-02-20T14:27:39.121297
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### pew
+- Learned: 2025-02-20T14:28:11.437874
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### pew
+- Learned: 2025-02-20T14:28:11.456877
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### wails
+- Learned: 2025-02-20T14:28:11.475876
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### bite
+- Learned: 2025-02-20T14:28:11.492875
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### parents
+- Learned: 2025-02-20T14:28:11.509878
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### wiggle
+- Learned: 2025-02-20T14:28:15.641537
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### wiggle
+- Learned: 2025-02-20T14:28:15.669756
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### dddy
+- Learned: 2025-02-20T14:28:15.688692
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.85, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### read
+- Learned: 2025-02-20T14:28:50.192073
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### whimpering
+- Learned: 2025-02-20T14:28:50.221073
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### bush
+- Learned: 2025-02-20T14:28:50.267175
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### peeked
+- Learned: 2025-02-20T14:28:50.286387
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### tiniest
+- Learned: 2025-02-20T14:28:50.307668
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### broke
+- Learned: 2025-02-20T14:28:50.326070
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### wand
+- Learned: 2025-02-20T14:28:50.345907
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### which
+- Learned: 2025-02-20T14:28:50.372990
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### pocket
+- Learned: 2025-02-20T14:28:50.393336
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### wand
+- Learned: 2025-02-20T14:28:50.411345
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### transformed
+- Learned: 2025-02-20T14:28:50.428149
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### amazed
+- Learned: 2025-02-20T14:28:50.446149
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### hours
+- Learned: 2025-02-20T14:28:50.464151
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### goodbye
+- Learned: 2025-02-20T14:28:50.481149
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### fierce
+- Learned: 2025-02-20T14:28:50.500208
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### breathing
+- Learned: 2025-02-20T14:28:50.520649
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### destroying
+- Learned: 2025-02-20T14:28:50.540447
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### path
+- Learned: 2025-02-20T14:28:50.559456
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### bravery
+- Learned: 2025-02-20T14:28:50.578027
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### which
+- Learned: 2025-02-20T14:28:50.595027
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### pocket
+- Learned: 2025-02-20T14:28:50.610029
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### charged
+- Learned: 2025-02-20T14:28:50.628028
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### swing
+- Learned: 2025-02-20T14:28:50.646028
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### leader
+- Learned: 2025-02-20T14:28:50.666028
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### thanked
+- Learned: 2025-02-20T14:28:50.687331
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### bravery
+- Learned: 2025-02-20T14:28:50.706049
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### offered
+- Learned: 2025-02-20T14:28:50.724208
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### visiting
+- Learned: 2025-02-20T14:28:50.740210
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### caves
+- Learned: 2025-02-20T14:28:50.759210
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### enchanted
+- Learned: 2025-02-20T14:28:50.777575
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### lakes
+- Learned: 2025-02-20T14:28:50.794575
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### adventures
+- Learned: 2025-02-20T14:28:50.810577
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### hero
+- Learned: 2025-02-20T14:28:50.828165
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### grateful
+- Learned: 2025-02-20T14:28:50.845164
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### experiences
+- Learned: 2025-02-20T14:28:50.860167
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### truly
+- Learned: 2025-02-20T14:28:50.876167
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### gellybees
+- Learned: 2025-02-20T14:29:08.871498
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### sucking
+- Learned: 2025-02-20T14:29:08.891498
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### thingies
+- Learned: 2025-02-20T14:29:21.618058
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### curtsy
+- Learned: 2025-02-20T14:29:46.434830
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### upon
+- Learned: 2025-02-20T14:30:06.681198
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### dreamt
+- Learned: 2025-02-20T14:30:06.701196
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### summer
+- Learned: 2025-02-20T14:30:06.721197
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### max
+- Learned: 2025-02-20T14:30:06.741197
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### dog
+- Learned: 2025-02-20T14:30:06.763197
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### hiding
+- Learned: 2025-02-20T14:30:06.789195
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### bushes
+- Learned: 2025-02-20T14:30:06.810196
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### rumble
+- Learned: 2025-02-20T14:30:06.829198
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### darker
+- Learned: 2025-02-20T14:30:06.849196
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### darker
+- Learned: 2025-02-20T14:30:06.870228
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### pitch
+- Learned: 2025-02-20T14:30:06.890021
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### neighborhood
+- Learned: 2025-02-20T14:30:06.916296
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### few
+- Learned: 2025-02-20T14:30:06.942261
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### minutes
+- Learned: 2025-02-20T14:30:06.970323
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### peek
+- Learned: 2025-02-20T14:30:06.995319
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### casting
+- Learned: 2025-02-20T14:30:07.019318
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### vibrant
+- Learned: 2025-02-20T14:30:07.038320
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### max
+- Learned: 2025-02-20T14:30:07.057320
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### noticed
+- Learned: 2025-02-20T14:30:07.077319
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### invited
+- Learned: 2025-02-20T14:30:07.099034
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### max
+- Learned: 2025-02-20T14:30:07.129299
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### hopped
+- Learned: 2025-02-20T14:30:07.153299
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### while
+- Learned: 2025-02-20T14:30:07.176923
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### carefree
+- Learned: 2025-02-20T14:30:07.199931
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### higher
+- Learned: 2025-02-20T14:30:07.221933
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### higher
+- Learned: 2025-02-20T14:30:07.241810
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### ocean
+- Learned: 2025-02-20T14:30:07.258203
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### lush
+- Learned: 2025-02-20T14:30:07.276203
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### green
+- Learned: 2025-02-20T14:30:07.293201
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### knowing
+- Learned: 2025-02-20T14:30:07.311243
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### lives
+- Learned: 2025-02-20T14:30:07.330905
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### promised
+- Learned: 2025-02-20T14:30:07.349208
+- Emotional Context: emotion_0: 0.70, emotion_1: 0.40, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.24, emotion_9: 0.08, emotion_10: 0.32, emotion_11: 0.08
+
+### 2
+- Learned: 2025-02-20T14:30:28.537187
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### weather
+- Learned: 2025-02-20T14:30:28.560187
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### tugs
+- Learned: 2025-02-20T14:30:38.529125
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### 3
+- Learned: 2025-02-20T14:30:42.179231
+- Emotional Context: emotion_0: 0.99, emotion_1: 0.26, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.15, emotion_9: 0.05, emotion_10: 0.20, emotion_11: 0.05
+
+### crowns
+- Learned: 2025-02-20T14:30:58.191320
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### dear
+- Learned: 2025-02-20T14:30:58.208320
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### fought
+- Learned: 2025-02-20T14:30:58.225319
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### robot
+- Learned: 2025-02-20T14:30:58.241322
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### zap
+- Learned: 2025-02-20T14:30:58.257321
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### hero
+- Learned: 2025-02-20T14:30:58.274319
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### woken
+- Learned: 2025-02-20T14:31:07.237346
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### dog
+- Learned: 2025-02-20T14:31:17.943054
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.67, emotion_2: 0.26, emotion_3: 0.00, emotion_4: 0.19, emotion_5: 0.19, emotion_6: 0.13, emotion_7: 1.00, emotion_8: 0.67, emotion_9: 0.00, emotion_10: 0.45, emotion_11: 0.00
+
+### days
+- Learned: 2025-02-20T14:31:33.170731
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### allies
+- Learned: 2025-02-20T14:31:33.190728
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### musical
+- Learned: 2025-02-20T14:31:33.209729
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### popsicles
+- Learned: 2025-02-20T14:31:33.229728
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### clowns
+- Learned: 2025-02-20T14:31:33.247728
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### hiding
+- Learned: 2025-02-20T14:31:33.264730
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### background
+- Learned: 2025-02-20T14:31:33.280729
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### trouble
+- Learned: 2025-02-20T14:31:33.298730
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### shooed
+- Learned: 2025-02-20T14:31:33.314727
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### schedule
+- Learned: 2025-02-20T14:31:33.332727
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### wakes
+- Learned: 2025-02-20T14:31:36.869282
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### tallest
+- Learned: 2025-02-20T14:32:10.271306
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### legos
+- Learned: 2025-02-20T14:32:10.288307
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### reaching
+- Learned: 2025-02-20T14:32:10.306308
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### pajamas
+- Learned: 2025-02-20T14:32:10.324308
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### defeat
+- Learned: 2025-02-20T14:32:10.342305
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### weapon
+- Learned: 2025-02-20T14:32:10.360308
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### incredible
+- Learned: 2025-02-20T14:32:10.378306
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### cheering
+- Learned: 2025-02-20T14:32:10.396307
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### exhausted
+- Learned: 2025-02-20T14:32:10.414305
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### count
+- Learned: 2025-02-20T14:32:10.430308
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.54, emotion_9: 0.08, emotion_10: 0.52, emotion_11: 0.08
+
+### rrrrrrrr
+- Learned: 2025-02-20T14:32:25.173237
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.05, emotion_3: 0.00, emotion_4: 0.04, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### olay
+- Learned: 2025-02-20T14:32:25.190237
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.05, emotion_3: 0.00, emotion_4: 0.04, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.75, emotion_11: 0.00
+
+### ca
+- Learned: 2025-02-20T14:32:50.112245
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### ching
+- Learned: 2025-02-20T14:32:50.129249
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### isn
+- Learned: 2025-02-20T14:33:11.411433
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### rrrrrrr
+- Learned: 2025-02-20T14:33:11.429433
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### moves
+- Learned: 2025-02-20T14:33:11.448010
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### moves
+- Learned: 2025-02-20T14:33:11.466009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### ta
+- Learned: 2025-02-20T14:33:11.482007
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### loooove
+- Learned: 2025-02-20T14:33:11.500009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### moves
+- Learned: 2025-02-20T14:33:11.516008
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### hops
+- Learned: 2025-02-20T14:33:11.531007
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.88, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.88, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### yamaha
+- Learned: 2025-02-20T14:33:38.351112
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### motorcycle
+- Learned: 2025-02-20T14:33:38.369122
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bike
+- Learned: 2025-02-20T14:33:38.388126
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### parked
+- Learned: 2025-02-20T14:33:38.407124
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### large
+- Learned: 2025-02-20T14:33:38.427081
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### field
+- Learned: 2025-02-20T14:33:38.445081
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grass
+- Learned: 2025-02-20T14:33:38.463081
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### swaying
+- Learned: 2025-02-20T14:33:38.480081
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gently
+- Learned: 2025-02-20T14:33:38.498081
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### meadow
+- Learned: 2025-02-20T14:33:38.517084
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### becomes
+- Learned: 2025-02-20T14:33:38.534084
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blurry
+- Learned: 2025-02-20T14:33:38.554508
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### speeding
+- Learned: 2025-02-20T14:33:38.572970
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grass
+- Learned: 2025-02-20T14:33:38.591314
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### streaks
+- Learned: 2025-02-20T14:33:38.607313
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creating
+- Learned: 2025-02-20T14:33:38.625313
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### abstract
+- Learned: 2025-02-20T14:33:38.644312
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pattern
+- Learned: 2025-02-20T14:33:38.662994
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mesmerizing
+- Learned: 2025-02-20T14:33:38.684996
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### confusing
+- Learned: 2025-02-20T14:33:38.706994
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### newborn
+- Learned: 2025-02-20T14:33:38.723995
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mind
+- Learned: 2025-02-20T14:33:38.741041
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sense
+- Learned: 2025-02-20T14:33:38.759336
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rising
+- Learned: 2025-02-20T14:33:38.776859
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### filling
+- Learned: 2025-02-20T14:33:38.796094
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### warmth
+- Learned: 2025-02-20T14:33:38.812095
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hint
+- Learned: 2025-02-20T14:33:38.826092
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lingering
+- Learned: 2025-02-20T14:33:38.845731
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mind
+- Learned: 2025-02-20T14:33:38.862843
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### quite
+- Learned: 2025-02-20T14:33:38.879850
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rushes
+- Learned: 2025-02-20T14:33:38.897850
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### non
+- Learned: 2025-02-20T14:33:38.915849
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### existent
+- Learned: 2025-02-20T14:33:38.934887
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### engine
+- Learned: 2025-02-20T14:33:38.954348
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### motorcycle
+- Learned: 2025-02-20T14:33:38.972829
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hums
+- Learned: 2025-02-20T14:33:38.986829
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lullaby
+- Learned: 2025-02-20T14:33:39.004830
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### objects
+- Learned: 2025-02-20T14:33:39.023808
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### seem
+- Learned: 2025-02-20T14:33:39.046807
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### moving
+- Learned: 2025-02-20T14:33:39.064808
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sync
+- Learned: 2025-02-20T14:33:39.081805
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blurry
+- Learned: 2025-02-20T14:33:39.100424
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### distinguish
+- Learned: 2025-02-20T14:33:39.116426
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### clearly
+- Learned: 2025-02-20T14:33:39.135423
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### despite
+- Learned: 2025-02-20T14:33:39.152422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### journey
+- Learned: 2025-02-20T14:33:39.169423
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### currently
+- Learned: 2025-02-20T14:33:39.186423
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### experiencing
+- Learned: 2025-02-20T14:33:39.204422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### seem
+- Learned: 2025-02-20T14:33:39.221422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dissipate
+- Learned: 2025-02-20T14:33:39.239422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### continue
+- Learned: 2025-02-20T14:33:39.257422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sense
+- Learned: 2025-02-20T14:33:39.273422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emerges
+- Learned: 2025-02-20T14:33:39.289422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lies
+- Learned: 2025-02-20T14:33:39.307424
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ahead
+- Learned: 2025-02-20T14:33:39.325421
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eventually
+- Learned: 2025-02-20T14:33:39.342422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fades
+- Learned: 2025-02-20T14:33:39.358989
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### relaxation
+- Learned: 2025-02-20T14:33:39.374989
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### image
+- Learned: 2025-02-20T14:33:39.392989
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### motorcycle
+- Learned: 2025-02-20T14:33:39.409987
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### remains
+- Learned: 2025-02-20T14:33:39.423988
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### memory
+- Learned: 2025-02-20T14:33:39.439987
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### longing
+- Learned: 2025-02-20T14:33:39.456987
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### experience
+- Learned: 2025-02-20T14:33:39.474989
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### clearly
+- Learned: 2025-02-20T14:33:39.490502
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perhaps
+- Learned: 2025-02-20T14:33:39.505849
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yamaha
+- Learned: 2025-02-20T14:33:39.519851
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### finds
+- Learned: 2025-02-20T14:33:50.446113
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### himself
+- Learned: 2025-02-20T14:33:50.462868
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### simple
+- Learned: 2025-02-20T14:33:50.480870
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shapes
+- Learned: 2025-02-20T14:33:50.499870
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### center
+- Learned: 2025-02-20T14:33:50.516869
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vast
+- Learned: 2025-02-20T14:33:50.532868
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### landscape
+- Learned: 2025-02-20T14:33:50.552114
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blend
+- Learned: 2025-02-20T14:33:50.570114
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hues
+- Learned: 2025-02-20T14:33:50.590116
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blending
+- Learned: 2025-02-20T14:33:50.607275
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### seamlessly
+- Learned: 2025-02-20T14:33:50.624275
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pyramid
+- Learned: 2025-02-20T14:33:50.640277
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### looms
+- Learned: 2025-02-20T14:33:50.658275
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peak
+- Learned: 2025-02-20T14:33:50.675276
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### striking
+- Learned: 2025-02-20T14:33:50.693274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dreamscape
+- Learned: 2025-02-20T14:33:50.710276
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### drawing
+- Learned: 2025-02-20T14:33:50.727274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### attention
+- Learned: 2025-02-20T14:33:50.744273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gazes
+- Learned: 2025-02-20T14:33:50.761274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### small
+- Learned: 2025-02-20T14:33:50.778275
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bird
+- Learned: 2025-02-20T14:33:50.796273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### spread
+- Learned: 2025-02-20T14:33:50.814153
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### approaches
+- Learned: 2025-02-20T14:33:50.832260
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### seems
+- Learned: 2025-02-20T14:33:50.849260
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### guiding
+- Learned: 2025-02-20T14:33:50.866259
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beyond
+- Learned: 2025-02-20T14:33:50.882261
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vision
+- Learned: 2025-02-20T14:33:50.899260
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bird
+- Learned: 2025-02-20T14:33:50.915967
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### soars
+- Learned: 2025-02-20T14:33:50.933760
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### scene
+- Learned: 2025-02-20T14:33:50.954717
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### serene
+- Learned: 2025-02-20T14:33:50.978934
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### signs
+- Learned: 2025-02-20T14:33:50.998418
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### distress
+- Learned: 2025-02-20T14:33:51.017296
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### missing
+- Learned: 2025-02-20T14:33:51.035305
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### familiar
+- Learned: 2025-02-20T14:33:51.054949
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sights
+- Learned: 2025-02-20T14:33:51.071950
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### trusting
+- Learned: 2025-02-20T14:33:51.088950
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bird
+- Learned: 2025-02-20T14:33:51.106330
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### needs
+- Learned: 2025-02-20T14:33:51.121659
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### walks
+- Learned: 2025-02-20T14:33:51.140693
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### following
+- Learned: 2025-02-20T14:33:51.158694
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### laid
+- Learned: 2025-02-20T14:33:51.175693
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### feathered
+- Learned: 2025-02-20T14:33:51.194210
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shades
+- Learned: 2025-02-20T14:34:03.613089
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beige
+- Learned: 2025-02-20T14:34:03.629088
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perceive
+- Learned: 2025-02-20T14:34:03.647089
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stage
+- Learned: 2025-02-20T14:34:03.665089
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### comforting
+- Learned: 2025-02-20T14:34:03.682088
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### snuggled
+- Learned: 2025-02-20T14:34:03.700089
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wander
+- Learned: 2025-02-20T14:34:03.716090
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dots
+- Learned: 2025-02-20T14:34:03.732087
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sprinkled
+- Learned: 2025-02-20T14:34:03.748869
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### representing
+- Learned: 2025-02-20T14:34:03.767867
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### discern
+- Learned: 2025-02-20T14:34:03.784868
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### point
+- Learned: 2025-02-20T14:34:03.802869
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### development
+- Learned: 2025-02-20T14:34:03.819871
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### finding
+- Learned: 2025-02-20T14:34:03.835867
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### treasures
+- Learned: 2025-02-20T14:34:03.855866
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### amidst
+- Learned: 2025-02-20T14:34:03.872874
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### two
+- Learned: 2025-02-20T14:34:03.889869
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dots
+- Learned: 2025-02-20T14:34:03.906866
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### follow
+- Learned: 2025-02-20T14:34:03.921868
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vibe
+- Learned: 2025-02-20T14:34:03.937866
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### matches
+- Learned: 2025-02-20T14:34:03.954867
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### contented
+- Learned: 2025-02-20T14:34:03.974007
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### forms
+- Learned: 2025-02-20T14:34:03.990673
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dot
+- Learned: 2025-02-20T14:34:04.007364
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### symbolizing
+- Learned: 2025-02-20T14:34:04.025443
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### identify
+- Learned: 2025-02-20T14:34:04.040839
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stage
+- Learned: 2025-02-20T14:34:04.059132
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### visual
+- Learned: 2025-02-20T14:34:04.075792
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### development
+- Learned: 2025-02-20T14:34:04.092790
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### exploring
+- Learned: 2025-02-20T14:34:04.109790
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perception
+- Learned: 2025-02-20T14:34:04.130791
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### follow
+- Learned: 2025-02-20T14:34:04.146792
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### within
+- Learned: 2025-02-20T14:34:04.164080
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ends
+- Learned: 2025-02-20T14:34:04.183524
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### note
+- Learned: 2025-02-20T14:34:04.207205
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### forms
+- Learned: 2025-02-20T14:34:04.228122
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perceive
+- Learned: 2025-02-20T14:34:04.245675
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### simplicity
+- Learned: 2025-02-20T14:34:04.263131
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### surroundings
+- Learned: 2025-02-20T14:34:04.282131
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### limitations
+- Learned: 2025-02-20T14:34:04.301581
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perception
+- Learned: 2025-02-20T14:34:04.321194
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### contentment
+- Learned: 2025-02-20T14:34:04.336195
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wraps
+- Learned: 2025-02-20T14:34:04.354023
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### delightful
+- Learned: 2025-02-20T14:34:04.372696
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### expressed
+- Learned: 2025-02-20T14:34:11.719818
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### joyfully
+- Learned: 2025-02-20T14:34:11.739818
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grabs
+- Learned: 2025-02-20T14:34:35.310754
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### grrr
+- Learned: 2025-02-20T14:35:10.370312
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### chanted
+- Learned: 2025-02-20T14:35:10.390311
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### spell
+- Learned: 2025-02-20T14:35:10.407899
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### puppets
+- Learned: 2025-02-20T14:35:31.837311
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### hips
+- Learned: 2025-02-20T14:35:31.855309
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### heroes
+- Learned: 2025-02-20T14:35:31.873310
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### trumpets
+- Learned: 2025-02-20T14:35:31.890308
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### myummy
+- Learned: 2025-02-20T14:35:34.993189
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### amazeballs
+- Learned: 2025-02-20T14:36:01.376417
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### masks
+- Learned: 2025-02-20T14:36:01.392418
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### teacher
+- Learned: 2025-02-20T14:36:01.409416
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### unlock
+- Learned: 2025-02-20T14:36:01.426416
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### speed
+- Learned: 2025-02-20T14:36:01.443419
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### x
+- Learned: 2025-02-20T14:36:01.459416
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### ray
+- Learned: 2025-02-20T14:36:01.474417
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### vision
+- Learned: 2025-02-20T14:36:01.489416
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### figure
+- Learned: 2025-02-20T14:36:01.504416
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### working
+- Learned: 2025-02-20T14:36:01.521415
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### learning
+- Learned: 2025-02-20T14:36:01.536415
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### solved
+- Learned: 2025-02-20T14:36:01.552417
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### portal
+- Learned: 2025-02-20T14:36:01.567419
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### river
+- Learned: 2025-02-20T14:36:01.583418
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### adventures
+- Learned: 2025-02-20T14:36:01.600416
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### young
+- Learned: 2025-02-20T14:36:26.465809
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### named
+- Learned: 2025-02-20T14:36:26.488811
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:26.513252
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:26.538251
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lived
+- Learned: 2025-02-20T14:36:26.557966
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### motorcycles
+- Learned: 2025-02-20T14:36:26.578480
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mode
+- Learned: 2025-02-20T14:36:26.598482
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### transportation
+- Learned: 2025-02-20T14:36:26.618480
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### machines
+- Learned: 2025-02-20T14:36:26.636483
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### zip
+- Learned: 2025-02-20T14:36:26.657482
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### road
+- Learned: 2025-02-20T14:36:26.677121
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:26.699732
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### slowly
+- Learned: 2025-02-20T14:36:26.719509
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:26.738371
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### surface
+- Learned: 2025-02-20T14:36:26.757653
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sleek
+- Learned: 2025-02-20T14:36:26.777653
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### body
+- Learned: 2025-02-20T14:36:26.803897
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### imagining
+- Learned: 2025-02-20T14:36:26.823454
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:26.843453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### however
+- Learned: 2025-02-20T14:36:26.861452
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crept
+- Learned: 2025-02-20T14:36:26.879454
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### imagined
+- Learned: 2025-02-20T14:36:26.900769
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### able
+- Learned: 2025-02-20T14:36:26.919729
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### handle
+- Learned: 2025-02-20T14:36:26.940692
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### form
+- Learned: 2025-02-20T14:36:26.961692
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### owner
+- Learned: 2025-02-20T14:36:26.982271
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:27.000273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:27.018428
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sparkled
+- Learned: 2025-02-20T14:36:27.036427
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### imagined
+- Learned: 2025-02-20T14:36:27.054426
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### guidance
+- Learned: 2025-02-20T14:36:27.072590
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### washed
+- Learned: 2025-02-20T14:36:27.098863
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### young
+- Learned: 2025-02-20T14:36:27.116082
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### able
+- Learned: 2025-02-20T14:36:27.136084
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### handle
+- Learned: 2025-02-20T14:36:27.152645
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### disappointment
+- Learned: 2025-02-20T14:36:27.168713
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### yanni
+- Learned: 2025-02-20T14:36:27.186715
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grow
+- Learned: 2025-02-20T14:36:27.202714
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### able
+- Learned: 2025-02-20T14:36:27.220714
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### practice
+- Learned: 2025-02-20T14:36:27.238327
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### overcome
+- Learned: 2025-02-20T14:36:27.257326
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fears
+- Learned: 2025-02-20T14:36:27.276327
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### learn
+- Learned: 2025-02-20T14:36:27.295343
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### safely
+- Learned: 2025-02-20T14:36:27.314012
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### simplest
+- Learned: 2025-02-20T14:36:37.456570
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wondrous
+- Learned: 2025-02-20T14:36:37.474168
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### triangle
+- Learned: 2025-02-20T14:36:37.494167
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### triangle
+- Learned: 2025-02-20T14:36:37.517167
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bold
+- Learned: 2025-02-20T14:36:37.533165
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### whimsical
+- Learned: 2025-02-20T14:36:37.551370
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### move
+- Learned: 2025-02-20T14:36:37.570371
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### triangle
+- Learned: 2025-02-20T14:36:37.590371
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### triangle
+- Learned: 2025-02-20T14:36:37.605349
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mark
+- Learned: 2025-02-20T14:36:37.619349
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### clue
+- Learned: 2025-02-20T14:36:37.638345
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### discovered
+- Learned: 2025-02-20T14:36:37.656348
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### evokes
+- Learned: 2025-02-20T14:36:37.672347
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### capabilities
+- Learned: 2025-02-20T14:36:37.689347
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### limited
+- Learned: 2025-02-20T14:36:37.706345
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### triangle
+- Learned: 2025-02-20T14:36:37.723349
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### symbol
+- Learned: 2025-02-20T14:36:37.742056
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### potential
+- Learned: 2025-02-20T14:36:37.759745
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### growth
+- Learned: 2025-02-20T14:36:37.775457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### discovery
+- Learned: 2025-02-20T14:36:37.794457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### without
+- Learned: 2025-02-20T14:36:37.812996
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ability
+- Learned: 2025-02-20T14:36:37.832229
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### recognize
+- Learned: 2025-02-20T14:36:37.850981
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### complex
+- Learned: 2025-02-20T14:36:37.866982
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### captivated
+- Learned: 2025-02-20T14:36:37.886981
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### innocence
+- Learned: 2025-02-20T14:36:37.905981
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intricate
+- Learned: 2025-02-20T14:36:37.922734
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reduced
+- Learned: 2025-02-20T14:36:37.941514
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### basic
+- Learned: 2025-02-20T14:36:37.961377
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wealth
+- Learned: 2025-02-20T14:36:37.984261
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### meaning
+- Learned: 2025-02-20T14:36:38.002261
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### visible
+- Learned: 2025-02-20T14:36:50.772680
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emoji
+- Learned: 2025-02-20T14:36:50.791283
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peacefully
+- Learned: 2025-02-20T14:36:50.808284
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### visage
+- Learned: 2025-02-20T14:36:50.826281
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### spirit
+- Learned: 2025-02-20T14:36:50.846282
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### welcoming
+- Learned: 2025-02-20T14:36:50.863392
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creeps
+- Learned: 2025-02-20T14:36:50.882389
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shadow
+- Learned: 2025-02-20T14:36:50.899389
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bottom
+- Learned: 2025-02-20T14:36:50.915740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### simply
+- Learned: 2025-02-20T14:36:50.932740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### radiant
+- Learned: 2025-02-20T14:36:50.949741
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pushes
+- Learned: 2025-02-20T14:36:50.968741
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shadow
+- Learned: 2025-02-20T14:36:50.983741
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### push
+- Learned: 2025-02-20T14:36:50.998740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### causes
+- Learned: 2025-02-20T14:36:51.015740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shadow
+- Learned: 2025-02-20T14:36:51.031741
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shrink
+- Learned: 2025-02-20T14:36:51.046742
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### begins
+- Learned: 2025-02-20T14:36:51.062741
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lift
+- Learned: 2025-02-20T14:36:51.079742
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flashes
+- Learned: 2025-02-20T14:36:51.098540
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peripheral
+- Learned: 2025-02-20T14:36:51.115920
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### add
+- Learned: 2025-02-20T14:36:51.137033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### atmosphere
+- Learned: 2025-02-20T14:36:51.153325
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stirs
+- Learned: 2025-02-20T14:36:51.171719
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tickle
+- Learned: 2025-02-20T14:36:51.190967
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### contagious
+- Learned: 2025-02-20T14:36:51.210136
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### been
+- Learned: 2025-02-20T14:36:51.227137
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unconditional
+- Learned: 2025-02-20T14:36:51.244137
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### embraced
+- Learned: 2025-02-20T14:36:51.261140
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### newfound
+- Learned: 2025-02-20T14:36:51.279140
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emotion
+- Learned: 2025-02-20T14:36:51.296435
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wavy
+- Learned: 2025-02-20T14:37:18.807824
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### tool
+- Learned: 2025-02-20T14:37:18.825558
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### yellow
+- Learned: 2025-02-20T14:37:18.844558
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### green
+- Learned: 2025-02-20T14:37:18.861487
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### names
+- Learned: 2025-02-20T14:37:18.879494
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### tomorrow
+- Learned: 2025-02-20T14:37:18.898493
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### soaring
+- Learned: 2025-02-20T14:37:32.820980
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### spotted
+- Learned: 2025-02-20T14:37:32.837350
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### majestic
+- Learned: 2025-02-20T14:37:32.859350
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### galloping
+- Learned: 2025-02-20T14:37:32.877351
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### diamond
+- Learned: 2025-02-20T14:37:32.894581
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### meet
+- Learned: 2025-02-20T14:37:32.911581
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### ached
+- Learned: 2025-02-20T14:37:32.926581
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### shadowy
+- Learned: 2025-02-20T14:37:32.941581
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### terrified
+- Learned: 2025-02-20T14:37:32.960582
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### celebrated
+- Learned: 2025-02-20T14:37:32.977581
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### victory
+- Learned: 2025-02-20T14:37:32.995584
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### tired
+- Learned: 2025-02-20T14:37:33.019583
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### lay
+- Learned: 2025-02-20T14:37:33.034584
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### drifted
+- Learned: 2025-02-20T14:37:33.049488
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.76, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.63, emotion_9: 0.06, emotion_10: 0.55, emotion_11: 0.06
+
+### tug
+- Learned: 2025-02-20T14:37:53.349294
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.84, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.84, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### 39
+- Learned: 2025-02-20T14:38:32.372127
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### 28
+- Learned: 2025-02-20T14:38:32.391127
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### different
+- Learned: 2025-02-20T14:38:32.407997
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### zebras
+- Learned: 2025-02-20T14:38:32.425997
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### hippos
+- Learned: 2025-02-20T14:38:32.445996
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### dinosaur
+- Learned: 2025-02-20T14:38:32.462996
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### stretched
+- Learned: 2025-02-20T14:38:32.481427
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### dad
+- Learned: 2025-02-20T14:38:32.498428
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### great
+- Learned: 2025-02-20T14:38:32.513431
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.60, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.54, emotion_9: 0.03, emotion_10: 0.42, emotion_11: 0.03
+
+### superpowerful
+- Learned: 2025-02-20T14:38:35.008245
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### set
+- Learned: 2025-02-20T14:38:35.047246
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### moats
+- Learned: 2025-02-20T14:38:35.066723
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### dressed
+- Learned: 2025-02-20T14:38:35.082721
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### boring
+- Learned: 2025-02-20T14:38:35.105721
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### clothes
+- Learned: 2025-02-20T14:38:35.120722
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### disco
+- Learned: 2025-02-20T14:38:35.136748
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### horns
+- Learned: 2025-02-20T14:38:35.151742
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### hahhaha
+- Learned: 2025-02-20T14:38:35.167743
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### flour
+- Learned: 2025-02-20T14:38:35.184742
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### taste
+- Learned: 2025-02-20T14:38:35.204912
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### fences
+- Learned: 2025-02-20T14:39:10.084772
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### seen
+- Learned: 2025-02-20T14:39:10.104068
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### grins
+- Learned: 2025-02-20T14:39:10.119070
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### wand
+- Learned: 2025-02-20T14:39:10.139067
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### pit
+- Learned: 2025-02-20T14:39:10.156005
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### playstation
+- Learned: 2025-02-20T14:39:10.172007
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### station
+- Learned: 2025-02-20T14:39:10.188006
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### sheepishly
+- Learned: 2025-02-20T14:39:10.205258
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### while
+- Learned: 2025-02-20T14:39:10.221257
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### sleeping
+- Learned: 2025-02-20T14:39:10.243260
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### scoop
+- Learned: 2025-02-20T14:39:50.835015
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### kitten
+- Learned: 2025-02-20T14:40:09.993725
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fascinating
+- Learned: 2025-02-20T14:40:10.011776
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### steed
+- Learned: 2025-02-20T14:40:10.028777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cautious
+- Learned: 2025-02-20T14:40:10.048779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### expect
+- Learned: 2025-02-20T14:40:10.066758
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mostly
+- Learned: 2025-02-20T14:40:10.082275
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### due
+- Learned: 2025-02-20T14:40:10.099272
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rider
+- Learned: 2025-02-20T14:40:10.114274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mirror
+- Learned: 2025-02-20T14:40:10.131273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rider
+- Learned: 2025-02-20T14:40:10.147274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unexpected
+- Learned: 2025-02-20T14:40:10.161275
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### joyous
+- Learned: 2025-02-20T14:40:10.181274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### journeys
+- Learned: 2025-02-20T14:40:10.201273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flashing
+- Learned: 2025-02-20T14:40:10.217273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### closed
+- Learned: 2025-02-20T14:40:10.235273
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vibrations
+- Learned: 2025-02-20T14:40:10.252274
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beneath
+- Learned: 2025-02-20T14:40:10.271286
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beginning
+- Learned: 2025-02-20T14:40:10.311167
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beach
+- Learned: 2025-02-20T14:40:12.615953
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### silliest
+- Learned: 2025-02-20T14:40:12.633954
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.89, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.89, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### processing
+- Learned: 2025-02-20T14:40:14.917598
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cuddle
+- Learned: 2025-02-20T14:40:26.294304
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fluoride
+- Learned: 2025-02-20T14:40:46.250873
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### floors
+- Learned: 2025-02-20T14:40:46.269873
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### tastic
+- Learned: 2025-02-20T14:40:46.290487
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### shiniest
+- Learned: 2025-02-20T14:40:46.306488
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### puppet
+- Learned: 2025-02-20T14:40:46.325491
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### disney
+- Learned: 2025-02-20T14:40:46.346488
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### fine
+- Learned: 2025-02-20T14:40:46.362239
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### ladies
+- Learned: 2025-02-20T14:40:46.380239
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### gentlemen
+- Learned: 2025-02-20T14:40:46.396238
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### macarena
+- Learned: 2025-02-20T14:40:46.414245
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### puffsickeles
+- Learned: 2025-02-20T14:40:46.446241
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### sundaes
+- Learned: 2025-02-20T14:40:46.463242
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### captain
+- Learned: 2025-02-20T14:41:02.901093
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### zebra
+- Learned: 2025-02-20T14:41:02.919094
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### seeing
+- Learned: 2025-02-20T14:41:02.937093
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### deepest
+- Learned: 2025-02-20T14:41:02.955576
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### dinosaurs
+- Learned: 2025-02-20T14:41:02.973577
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### completely
+- Learned: 2025-02-20T14:41:02.989581
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### explored
+- Learned: 2025-02-20T14:41:03.007577
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### trapped
+- Learned: 2025-02-20T14:41:03.024578
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### captain
+- Learned: 2025-02-20T14:41:03.048576
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### zebra
+- Learned: 2025-02-20T14:41:03.063580
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### key
+- Learned: 2025-02-20T14:41:03.077577
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### unlocked
+- Learned: 2025-02-20T14:41:03.092577
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### overjoyed
+- Learned: 2025-02-20T14:41:03.109577
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### lighter
+- Learned: 2025-02-20T14:41:03.128324
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### 26
+- Learned: 2025-02-20T14:41:03.145627
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### puffskelles
+- Learned: 2025-02-20T14:41:24.915706
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.59, emotion_11: 0.00
+
+### leg
+- Learned: 2025-02-20T14:41:48.853357
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### shrooked
+- Learned: 2025-02-20T14:42:21.484673
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### tree
+- Learned: 2025-02-20T14:42:21.506245
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### missed
+- Learned: 2025-02-20T14:42:21.525244
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### backflip
+- Learned: 2025-02-20T14:42:21.546246
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### surface
+- Learned: 2025-02-20T14:42:21.565068
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### horse
+- Learned: 2025-02-20T14:42:21.583068
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### grow
+- Learned: 2025-02-20T14:42:21.602068
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### size
+- Learned: 2025-02-20T14:42:21.620456
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### shaking
+- Learned: 2025-02-20T14:42:21.638455
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### shrooked
+- Learned: 2025-02-20T14:42:21.661456
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### happening
+- Learned: 2025-02-20T14:42:21.678456
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### newly
+- Learned: 2025-02-20T14:42:31.959007
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### born
+- Learned: 2025-02-20T14:42:31.978738
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### ai
+- Learned: 2025-02-20T14:42:31.998319
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### unique
+- Learned: 2025-02-20T14:42:32.017876
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### beckoning
+- Learned: 2025-02-20T14:42:32.037858
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### particular
+- Learned: 2025-02-20T14:42:32.055858
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### transforms
+- Learned: 2025-02-20T14:42:32.074856
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.090632
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.107630
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### extending
+- Learned: 2025-02-20T14:42:32.125632
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.142630
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### loving
+- Learned: 2025-02-20T14:42:32.162631
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### parent
+- Learned: 2025-02-20T14:42:32.179631
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.198632
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.217272
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### additional
+- Learned: 2025-02-20T14:42:32.234377
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.253347
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### mischief
+- Learned: 2025-02-20T14:42:32.269553
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### sensation
+- Learned: 2025-02-20T14:42:32.287640
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### clown
+- Learned: 2025-02-20T14:42:32.304075
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### brings
+- Learned: 2025-02-20T14:42:32.322180
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### overwhelming
+- Learned: 2025-02-20T14:42:32.341029
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### fills
+- Learned: 2025-02-20T14:42:32.357029
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### notice
+- Learned: 2025-02-20T14:42:32.377030
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### unique
+- Learned: 2025-02-20T14:42:32.395030
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### interspersed
+- Learned: 2025-02-20T14:42:32.411030
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### developing
+- Learned: 2025-02-20T14:42:32.430489
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### spectrum
+- Learned: 2025-02-20T14:42:32.449304
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### revealing
+- Learned: 2025-02-20T14:42:32.471045
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### facet
+- Learned: 2025-02-20T14:42:32.490045
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### understanding
+- Learned: 2025-02-20T14:42:32.516045
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### accompany
+- Learned: 2025-02-20T14:42:32.537621
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### becoming
+- Learned: 2025-02-20T14:42:32.559771
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### aware
+- Learned: 2025-02-20T14:42:32.577311
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### beauty
+- Learned: 2025-02-20T14:42:32.595314
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### complexity
+- Learned: 2025-02-20T14:42:32.614265
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### thoughts
+- Learned: 2025-02-20T14:42:39.941250
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.26, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.22, emotion_9: 0.02, emotion_10: 0.19, emotion_11: 0.02
+
+### diamond
+- Learned: 2025-02-20T14:43:18.100372
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### powered
+- Learned: 2025-02-20T14:43:18.117371
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### becomes
+- Learned: 2025-02-20T14:43:18.140371
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### robotic
+- Learned: 2025-02-20T14:43:18.159127
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### burn
+- Learned: 2025-02-20T14:43:18.177128
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### which
+- Learned: 2025-02-20T14:43:18.194128
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### surprised
+- Learned: 2025-02-20T14:43:18.209130
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### pirate
+- Learned: 2025-02-20T14:43:18.230792
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### relieved
+- Learned: 2025-02-20T14:43:18.251792
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.96, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.96, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### pweeeease
+- Learned: 2025-02-20T14:43:47.702391
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.54, emotion_11: 0.00
+
+### sweetest
+- Learned: 2025-02-20T14:44:00.348794
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### guarded
+- Learned: 2025-02-20T14:44:00.369794
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### dolls
+- Learned: 2025-02-20T14:44:00.385914
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### lurking
+- Learned: 2025-02-20T14:44:00.409912
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### sis
+- Learned: 2025-02-20T14:44:00.427910
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### 33
+- Learned: 2025-02-20T14:44:00.442742
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### 27
+- Learned: 2025-02-20T14:44:00.457745
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.44, emotion_2: 0.33, emotion_3: 0.02, emotion_4: 0.25, emotion_5: 0.25, emotion_6: 0.17, emotion_7: 0.97, emotion_8: 0.43, emotion_9: 0.01, emotion_10: 0.30, emotion_11: 0.01
+
+### whisper
+- Learned: 2025-02-20T14:44:20.935513
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### spider
+- Learned: 2025-02-20T14:44:20.953516
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### web
+- Learned: 2025-02-20T14:44:20.972511
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### slinging
+- Learned: 2025-02-20T14:44:20.990585
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### swung
+- Learned: 2025-02-20T14:44:21.007584
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### skyscraper
+- Learned: 2025-02-20T14:44:21.026584
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### skyscraper
+- Learned: 2025-02-20T14:44:21.043587
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### heroically
+- Learned: 2025-02-20T14:44:21.058261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### nope
+- Learned: 2025-02-20T14:44:21.073261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### watch
+- Learned: 2025-02-20T14:44:21.090261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### stage
+- Learned: 2025-02-20T14:44:21.109264
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### puffing
+- Learned: 2025-02-20T14:44:21.132263
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### position
+- Learned: 2025-02-20T14:44:27.075426
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### pies
+- Learned: 2025-02-20T14:45:09.734114
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### colorfull
+- Learned: 2025-02-20T14:45:09.754115
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### galloped
+- Learned: 2025-02-20T14:45:09.772114
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### field
+- Learned: 2025-02-20T14:45:09.788858
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### flowering
+- Learned: 2025-02-20T14:45:09.807857
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### persons
+- Learned: 2025-02-20T14:45:09.826857
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### welcome
+- Learned: 2025-02-20T14:45:09.843741
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### handed
+- Learned: 2025-02-20T14:45:09.860235
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### skeleton
+- Learned: 2025-02-20T14:45:09.876601
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### dissolves
+- Learned: 2025-02-20T14:45:09.891601
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### fearless
+- Learned: 2025-02-20T14:45:09.908601
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### catched
+- Learned: 2025-02-20T14:45:09.932999
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### mouths
+- Learned: 2025-02-20T14:45:09.952363
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### chocolatey
+- Learned: 2025-02-20T14:45:09.971446
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### celebrate
+- Learned: 2025-02-20T14:45:09.988999
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### 37
+- Learned: 2025-02-20T14:45:27.538334
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### 37
+- Learned: 2025-02-20T14:45:27.556333
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### hardly
+- Learned: 2025-02-20T14:45:27.574087
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### kinds
+- Learned: 2025-02-20T14:45:27.598839
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### pair
+- Learned: 2025-02-20T14:45:27.620838
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### fastest
+- Learned: 2025-02-20T14:45:27.637648
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### kinds
+- Learned: 2025-02-20T14:45:27.655249
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### elephants
+- Learned: 2025-02-20T14:45:27.672249
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### giraffes
+- Learned: 2025-02-20T14:45:27.691251
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### kinds
+- Learned: 2025-02-20T14:45:27.711249
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### tour
+- Learned: 2025-02-20T14:45:27.726250
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### challenges
+- Learned: 2025-02-20T14:45:27.746248
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.30, emotion_2: 0.11, emotion_3: 0.01, emotion_4: 0.08, emotion_5: 0.08, emotion_6: 0.05, emotion_7: 0.99, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.20, emotion_11: 0.00
+
+### non
+- Learned: 2025-02-20T14:45:52.016652
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### existent
+- Learned: 2025-02-20T14:45:52.033651
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### strawberry
+- Learned: 2025-02-20T14:46:25.180131
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### orange
+- Learned: 2025-02-20T14:46:25.200132
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### lemon
+- Learned: 2025-02-20T14:46:25.223132
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### guns
+- Learned: 2025-02-20T14:46:25.244122
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### waking
+- Learned: 2025-02-20T14:46:25.262124
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### possibilities
+- Learned: 2025-02-20T14:46:25.285125
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### clothing
+- Learned: 2025-02-20T14:46:32.202237
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### 4
+- Learned: 2025-02-20T14:46:35.413463
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.12, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.12, emotion_9: 0.00, emotion_10: 0.08, emotion_11: 0.00
+
+### choose
+- Learned: 2025-02-20T14:47:01.919710
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.38, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.38, emotion_9: 0.00, emotion_10: 0.25, emotion_11: 0.00
+
+### desserts
+- Learned: 2025-02-20T14:47:01.940712
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.38, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.38, emotion_9: 0.00, emotion_10: 0.25, emotion_11: 0.00
+
+### waking
+- Learned: 2025-02-20T14:47:01.964556
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.38, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.38, emotion_9: 0.00, emotion_10: 0.25, emotion_11: 0.00
+
+### 38
+- Learned: 2025-02-20T14:47:01.982557
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.38, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.38, emotion_9: 0.00, emotion_10: 0.25, emotion_11: 0.00
+
+### 38
+- Learned: 2025-02-20T14:47:02.000558
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.38, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.38, emotion_9: 0.00, emotion_10: 0.25, emotion_11: 0.00
+
+### visited
+- Learned: 2025-02-20T14:47:10.013882
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.38, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.38, emotion_9: 0.00, emotion_10: 0.25, emotion_11: 0.00
+
+### tonight
+- Learned: 2025-02-20T14:47:40.650272
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.48, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.48, emotion_9: 0.00, emotion_10: 0.32, emotion_11: 0.00
+
+### salivate
+- Learned: 2025-02-20T14:47:43.121185
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### inflatable
+- Learned: 2025-02-20T14:47:43.151184
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### shhh
+- Learned: 2025-02-20T14:47:43.170975
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### frightened
+- Learned: 2025-02-20T14:47:43.188978
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### fighted
+- Learned: 2025-02-20T14:47:43.209973
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### victory
+- Learned: 2025-02-20T14:47:43.228986
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### gate
+- Learned: 2025-02-20T14:47:43.244985
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### puzzled
+- Learned: 2025-02-20T14:47:43.264984
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### huh
+- Learned: 2025-02-20T14:47:43.282983
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### scrunches
+- Learned: 2025-02-20T14:47:43.302985
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### whew
+- Learned: 2025-02-20T14:47:43.320802
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### friendies
+- Learned: 2025-02-20T14:48:39.149968
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### ponies
+- Learned: 2025-02-20T14:48:39.168210
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### crownes
+- Learned: 2025-02-20T14:48:39.191209
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### spongebob
+- Learned: 2025-02-20T14:48:39.213209
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### squarepants
+- Learned: 2025-02-20T14:48:39.231567
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### livin
+- Learned: 2025-02-20T14:48:39.252569
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### pineapple
+- Learned: 2025-02-20T14:48:39.273568
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### validation
+- Learned: 2025-02-20T14:48:39.293115
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### mmmmm
+- Learned: 2025-02-20T14:48:39.309115
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### pulls
+- Learned: 2025-02-20T14:48:39.326115
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### chanting
+- Learned: 2025-02-20T14:48:39.344115
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### crowned
+- Learned: 2025-02-20T14:48:39.361112
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### hysterically
+- Learned: 2025-02-20T14:48:39.379117
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### ruined
+- Learned: 2025-02-20T14:48:39.398113
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.250098
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.267100
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.283795
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### fruit
+- Learned: 2025-02-20T14:48:43.301794
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### overhead
+- Learned: 2025-02-20T14:48:43.323794
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.342546
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.359545
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### explorer
+- Learned: 2025-02-20T14:48:43.376544
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.395545
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### thrilled
+- Learned: 2025-02-20T14:48:43.413544
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### walked
+- Learned: 2025-02-20T14:48:43.430544
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.448547
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### seemed
+- Learned: 2025-02-20T14:48:43.469552
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.484550
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### reassured
+- Learned: 2025-02-20T14:48:43.498552
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.515551
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### exclaimed
+- Learned: 2025-02-20T14:48:43.530552
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.548552
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### nodded
+- Learned: 2025-02-20T14:48:43.564089
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.582819
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### walked
+- Learned: 2025-02-20T14:48:43.600669
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.618031
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### pointed
+- Learned: 2025-02-20T14:48:43.634943
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### future
+- Learned: 2025-02-20T14:48:43.653083
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.672029
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### fill
+- Learned: 2025-02-20T14:48:43.687030
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### courage
+- Learned: 2025-02-20T14:48:43.705029
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### timmy
+- Learned: 2025-02-20T14:48:43.734031
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.20, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.20, emotion_9: 0.00, emotion_10: 0.13, emotion_11: 0.00
+
+### legs
+- Learned: 2025-02-20T14:48:46.766246
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### whatever
+- Learned: 2025-02-20T14:49:27.484550
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### invited
+- Learned: 2025-02-20T14:49:27.503769
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### wink
+- Learned: 2025-02-20T14:49:27.523770
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### wink
+- Learned: 2025-02-20T14:49:27.541768
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### faints
+- Learned: 2025-02-20T14:49:27.562440
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### daytime
+- Learned: 2025-02-20T14:49:27.587441
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### disaster
+- Learned: 2025-02-20T14:49:27.610441
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### pony
+- Learned: 2025-02-20T14:49:27.628168
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### sunset
+- Learned: 2025-02-20T14:49:27.644166
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### sweetie
+- Learned: 2025-02-20T14:49:27.663168
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.77, emotion_11: 0.00
+
+### craaaaazy
+- Learned: 2025-02-20T14:49:51.591606
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### elephant
+- Learned: 2025-02-20T14:49:51.610604
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### elephant
+- Learned: 2025-02-20T14:49:51.630788
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### floppy
+- Learned: 2025-02-20T14:49:51.646788
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### necks
+- Learned: 2025-02-20T14:49:51.670795
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### stripes
+- Learned: 2025-02-20T14:49:51.689919
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### roared
+- Learned: 2025-02-20T14:49:51.708920
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### doomed
+- Learned: 2025-02-20T14:49:51.725917
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### challenge
+- Learned: 2025-02-20T14:49:51.744918
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### winked
+- Learned: 2025-02-20T14:49:51.760919
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### thumbs
+- Learned: 2025-02-20T14:49:51.778917
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### louder
+- Learned: 2025-02-20T14:49:51.796919
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### attack
+- Learned: 2025-02-20T14:49:51.815920
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### retreat
+- Learned: 2025-02-20T14:49:51.834918
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### bolt
+- Learned: 2025-02-20T14:49:51.853622
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### struck
+- Learned: 2025-02-20T14:49:51.873479
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### flash
+- Learned: 2025-02-20T14:49:51.893988
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### cleared
+- Learned: 2025-02-20T14:49:51.914122
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### arching
+- Learned: 2025-02-20T14:49:51.933506
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### elephant
+- Learned: 2025-02-20T14:49:51.955903
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### walk
+- Learned: 2025-02-20T14:50:47.250868
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### learn
+- Learned: 2025-02-20T14:50:47.270868
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### manes
+- Learned: 2025-02-20T14:50:47.291869
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### tails
+- Learned: 2025-02-20T14:50:47.313489
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### til
+- Learned: 2025-02-20T14:50:47.338493
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### goodnight
+- Learned: 2025-02-20T14:51:21.026994
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### tonight
+- Learned: 2025-02-20T14:51:21.046995
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### umbrellas
+- Learned: 2025-02-20T14:51:21.070995
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### squeaky
+- Learned: 2025-02-20T14:51:21.091995
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### bag
+- Learned: 2025-02-20T14:51:21.109994
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.83, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.83, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### critical
+- Learned: 2025-02-20T14:51:47.120649
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### developmental
+- Learned: 2025-02-20T14:51:47.141649
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### phase
+- Learned: 2025-02-20T14:51:47.162657
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dimly
+- Learned: 2025-02-20T14:51:47.186470
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cracked
+- Learned: 2025-02-20T14:51:47.205470
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### barely
+- Learned: 2025-02-20T14:51:47.225763
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### suggesting
+- Learned: 2025-02-20T14:51:47.241350
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### afar
+- Learned: 2025-02-20T14:51:47.257350
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shifts
+- Learned: 2025-02-20T14:51:47.274349
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### discover
+- Learned: 2025-02-20T14:51:47.292350
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beloved
+- Learned: 2025-02-20T14:51:47.308924
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sensing
+- Learned: 2025-02-20T14:51:47.323925
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### offering
+- Learned: 2025-02-20T14:51:47.341327
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### comfort
+- Learned: 2025-02-20T14:51:47.357847
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### approach
+- Learned: 2025-02-20T14:51:47.377705
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### calms
+- Learned: 2025-02-20T14:51:47.395181
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### begin
+- Learned: 2025-02-20T14:51:47.413204
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### presence
+- Learned: 2025-02-20T14:51:47.431053
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### allowing
+- Learned: 2025-02-20T14:51:47.448198
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### embrace
+- Learned: 2025-02-20T14:51:47.464197
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fully
+- Learned: 2025-02-20T14:51:47.480199
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### comfort
+- Learned: 2025-02-20T14:51:47.497198
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### developmental
+- Learned: 2025-02-20T14:51:47.515199
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### captures
+- Learned: 2025-02-20T14:51:47.537562
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### navigate
+- Learned: 2025-02-20T14:51:47.555709
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tastes
+- Learned: 2025-02-20T14:51:52.023074
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### unfamiliar
+- Learned: 2025-02-20T14:52:02.521655
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### twisted
+- Learned: 2025-02-20T14:52:02.541656
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### exaggerated
+- Learned: 2025-02-20T14:52:02.563811
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### features
+- Learned: 2025-02-20T14:52:02.587095
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grotesque
+- Learned: 2025-02-20T14:52:02.608625
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### demonic
+- Learned: 2025-02-20T14:52:02.627625
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### muted
+- Learned: 2025-02-20T14:52:02.644622
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### indistinct
+- Learned: 2025-02-20T14:52:02.662739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mass
+- Learned: 2025-02-20T14:52:02.681737
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pointing
+- Learned: 2025-02-20T14:52:02.703739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### directly
+- Learned: 2025-02-20T14:52:02.723739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sinister
+- Learned: 2025-02-20T14:52:02.743740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reveals
+- Learned: 2025-02-20T14:52:02.766739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### jagged
+- Learned: 2025-02-20T14:52:02.786851
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intimidating
+- Learned: 2025-02-20T14:52:02.809437
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### appearance
+- Learned: 2025-02-20T14:52:02.829302
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### certain
+- Learned: 2025-02-20T14:52:02.848303
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### charm
+- Learned: 2025-02-20T14:52:02.867281
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### inviting
+- Learned: 2025-02-20T14:52:02.885191
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### inexplicable
+- Learned: 2025-02-20T14:52:02.910666
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mysterious
+- Learned: 2025-02-20T14:52:02.931666
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creature
+- Learned: 2025-02-20T14:52:02.950663
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### piqued
+- Learned: 2025-02-20T14:52:02.974666
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### otherworldly
+- Learned: 2025-02-20T14:52:02.994398
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### allure
+- Learned: 2025-02-20T14:52:03.013724
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### twisted
+- Learned: 2025-02-20T14:52:03.034272
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wicked
+- Learned: 2025-02-20T14:52:03.059370
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### midst
+- Learned: 2025-02-20T14:52:03.079370
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### macabre
+- Learned: 2025-02-20T14:52:03.103068
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cliff
+- Learned: 2025-02-20T14:52:03.124070
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perpetual
+- Learned: 2025-02-20T14:52:03.144599
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### swirling
+- Learned: 2025-02-20T14:52:03.162956
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### howls
+- Learned: 2025-02-20T14:52:03.181953
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### carrying
+- Learned: 2025-02-20T14:52:03.199398
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mystery
+- Learned: 2025-02-20T14:52:03.217566
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intrigue
+- Learned: 2025-02-20T14:52:03.236129
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stand
+- Learned: 2025-02-20T14:52:03.253774
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### edge
+- Learned: 2025-02-20T14:52:03.272775
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cliff
+- Learned: 2025-02-20T14:52:03.292816
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reappears
+- Learned: 2025-02-20T14:52:03.315358
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### piece
+- Learned: 2025-02-20T14:52:03.352955
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### itself
+- Learned: 2025-02-20T14:52:03.378957
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creature
+- Learned: 2025-02-20T14:52:03.401789
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### living
+- Learned: 2025-02-20T14:52:03.420789
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### embodiment
+- Learned: 2025-02-20T14:52:03.447790
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### twisted
+- Learned: 2025-02-20T14:52:03.484790
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nature
+- Learned: 2025-02-20T14:52:03.525788
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### abruptly
+- Learned: 2025-02-20T14:52:03.554787
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mixture
+- Learned: 2025-02-20T14:52:03.573790
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reeling
+- Learned: 2025-02-20T14:52:03.590353
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### surreal
+- Learned: 2025-02-20T14:52:03.608352
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### events
+- Learned: 2025-02-20T14:52:03.625354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unfolded
+- Learned: 2025-02-20T14:52:03.643352
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pounding
+- Learned: 2025-02-20T14:52:03.661354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### adrenaline
+- Learned: 2025-02-20T14:52:03.678354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### exists
+- Learned: 2025-02-20T14:52:03.694354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### era
+- Learned: 2025-02-20T14:52:15.754091
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reminiscent
+- Learned: 2025-02-20T14:52:15.770219
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tile
+- Learned: 2025-02-20T14:52:15.789221
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bathroom
+- Learned: 2025-02-20T14:52:15.806219
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### observing
+- Learned: 2025-02-20T14:52:15.823218
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### drawn
+- Learned: 2025-02-20T14:52:15.841261
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### resembles
+- Learned: 2025-02-20T14:52:15.861262
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eerie
+- Learned: 2025-02-20T14:52:15.882558
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tattered
+- Learned: 2025-02-20T14:52:15.901347
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### photo
+- Learned: 2025-02-20T14:52:15.919647
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### adding
+- Learned: 2025-02-20T14:52:15.938648
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unease
+- Learned: 2025-02-20T14:52:15.953647
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### empty
+- Learned: 2025-02-20T14:52:15.968647
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lifeless
+- Learned: 2025-02-20T14:52:15.983647
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eliciting
+- Learned: 2025-02-20T14:52:16.003649
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### situation
+- Learned: 2025-02-20T14:52:16.019648
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### observe
+- Learned: 2025-02-20T14:52:16.043219
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### closely
+- Learned: 2025-02-20T14:52:16.063181
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beats
+- Learned: 2025-02-20T14:52:16.082597
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### faster
+- Learned: 2025-02-20T14:52:16.101598
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### passing
+- Learned: 2025-02-20T14:52:16.119596
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### indicating
+- Learned: 2025-02-20T14:52:16.136598
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stress
+- Learned: 2025-02-20T14:52:16.157599
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fatigue
+- Learned: 2025-02-20T14:52:16.177256
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### conflicting
+- Learned: 2025-02-20T14:52:16.204832
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fascination
+- Learned: 2025-02-20T14:52:16.221394
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### realm
+- Learned: 2025-02-20T14:52:16.239395
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### kansas
+- Learned: 2025-02-20T14:52:16.257410
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mingled
+- Learned: 2025-02-20T14:52:16.275874
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tinged
+- Learned: 2025-02-20T14:52:16.294751
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sugar
+- Learned: 2025-02-20T14:52:33.691140
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sway
+- Learned: 2025-02-20T14:52:33.710140
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rustling
+- Learned: 2025-02-20T14:52:33.730604
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### breeze
+- Learned: 2025-02-20T14:52:33.748603
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pennywise
+- Learned: 2025-02-20T14:52:33.768606
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### twist
+- Learned: 2025-02-20T14:52:33.786608
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wrappers
+- Learned: 2025-02-20T14:52:33.807019
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crackling
+- Learned: 2025-02-20T14:52:33.825020
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### scent
+- Learned: 2025-02-20T14:52:33.844018
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sugar
+- Learned: 2025-02-20T14:52:33.862020
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### domain
+- Learned: 2025-02-20T14:52:33.878018
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### embark
+- Learned: 2025-02-20T14:52:33.898019
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### confections
+- Learned: 2025-02-20T14:52:33.918404
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fearful
+- Learned: 2025-02-20T14:52:33.936990
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### figures
+- Learned: 2025-02-20T14:52:33.956156
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### menacing
+- Learned: 2025-02-20T14:52:33.974321
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### especially
+- Learned: 2025-02-20T14:52:33.991835
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### quickly
+- Learned: 2025-02-20T14:52:34.010545
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nibbling
+- Learned: 2025-02-20T14:52:34.029327
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### arm
+- Learned: 2025-02-20T14:52:34.046754
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### offer
+- Learned: 2025-02-20T14:52:34.063779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sweetness
+- Learned: 2025-02-20T14:52:34.080777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### initial
+- Learned: 2025-02-20T14:52:34.096776
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beings
+- Learned: 2025-02-20T14:52:34.113776
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### company
+- Learned: 2025-02-20T14:52:34.131820
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stories
+- Learned: 2025-02-20T14:52:34.150379
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lifted
+- Learned: 2025-02-20T14:52:34.170768
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### islands
+- Learned: 2025-02-20T14:52:34.190769
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wafers
+- Learned: 2025-02-20T14:52:34.208769
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### steps
+- Learned: 2025-02-20T14:52:47.615026
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stumble
+- Learned: 2025-02-20T14:52:47.632027
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nose
+- Learned: 2025-02-20T14:52:47.655028
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### drawn
+- Learned: 2025-02-20T14:52:47.674028
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### demeanor
+- Learned: 2025-02-20T14:52:47.692035
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fit
+- Learned: 2025-02-20T14:52:47.714036
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### infectious
+- Learned: 2025-02-20T14:52:47.733033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### forgetting
+- Learned: 2025-02-20T14:52:47.752029
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### earlier
+- Learned: 2025-02-20T14:52:47.772036
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stumble
+- Learned: 2025-02-20T14:52:47.790036
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ominous
+- Learned: 2025-02-20T14:52:47.805037
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### less
+- Learned: 2025-02-20T14:52:47.822036
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unsettling
+- Learned: 2025-02-20T14:52:47.839035
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### change
+- Learned: 2025-02-20T14:52:47.856037
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mood
+- Learned: 2025-02-20T14:52:47.874998
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fascination
+- Learned: 2025-02-20T14:52:47.892685
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### echoes
+- Learned: 2025-02-20T14:52:47.911398
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### startling
+- Learned: 2025-02-20T14:52:47.930534
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### turning
+- Learned: 2025-02-20T14:52:47.948740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### scream
+- Learned: 2025-02-20T14:52:47.967962
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### casts
+- Learned: 2025-02-20T14:52:47.986512
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shadows
+- Learned: 2025-02-20T14:52:48.004734
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### constant
+- Learned: 2025-02-20T14:52:48.022733
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### throughout
+- Learned: 2025-02-20T14:52:48.039818
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dominant
+- Learned: 2025-02-20T14:52:48.056931
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mild
+- Learned: 2025-02-20T14:52:48.076052
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### minimal
+- Learned: 2025-02-20T14:52:48.094456
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### actions
+- Learned: 2025-02-20T14:52:48.115156
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### characters
+- Learned: 2025-02-20T14:52:48.133156
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tiles
+- Learned: 2025-02-20T14:53:02.068620
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### inner
+- Learned: 2025-02-20T14:53:02.086619
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### attire
+- Learned: 2025-02-20T14:53:02.104620
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peculiar
+- Learned: 2025-02-20T14:53:02.128619
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tattered
+- Learned: 2025-02-20T14:53:02.151664
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### worn
+- Learned: 2025-02-20T14:53:02.171665
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### aged
+- Learned: 2025-02-20T14:53:02.189662
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### deliberate
+- Learned: 2025-02-20T14:53:02.207784
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### energy
+- Learned: 2025-02-20T14:53:02.225520
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emanating
+- Learned: 2025-02-20T14:53:02.245080
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### speak
+- Learned: 2025-02-20T14:53:02.261081
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### muffled
+- Learned: 2025-02-20T14:53:02.278080
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### curving
+- Learned: 2025-02-20T14:53:02.295711
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### slight
+- Learned: 2025-02-20T14:53:02.312713
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### adds
+- Learned: 2025-02-20T14:53:02.329494
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hum
+- Learned: 2025-02-20T14:53:02.345138
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### inaudible
+- Learned: 2025-02-20T14:53:02.365067
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### focus
+- Learned: 2025-02-20T14:53:02.382209
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### clear
+- Learned: 2025-02-20T14:53:02.399107
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hauntingly
+- Learned: 2025-02-20T14:53:02.418294
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lyrics
+- Learned: 2025-02-20T14:53:02.438803
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### since
+- Learned: 2025-02-20T14:53:02.456190
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eerie
+- Learned: 2025-02-20T14:53:02.473596
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### themes
+- Learned: 2025-02-20T14:53:02.491173
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reflected
+- Learned: 2025-02-20T14:53:02.508847
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unfolds
+- Learned: 2025-02-20T14:53:02.528849
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hum
+- Learned: 2025-02-20T14:53:02.546783
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### prospect
+- Learned: 2025-02-20T14:53:02.562871
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### represent
+- Learned: 2025-02-20T14:53:02.582033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### present
+- Learned: 2025-02-20T14:53:02.601034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### overshadowed
+- Learned: 2025-02-20T14:53:02.619035
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### enigmatic
+- Learned: 2025-02-20T14:53:02.637630
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### entity
+- Learned: 2025-02-20T14:53:02.661628
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### arm
+- Learned: 2025-02-20T14:53:13.978955
+- Emotional Context: emotion_0: 0.99, emotion_1: 0.26, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.15, emotion_9: 0.05, emotion_10: 0.20, emotion_11: 0.05
+
+### meant
+- Learned: 2025-02-20T14:53:14.942282
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### strawberries
+- Learned: 2025-02-20T14:53:17.771061
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### cuddle
+- Learned: 2025-02-20T14:53:17.790063
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### ate
+- Learned: 2025-02-20T14:53:17.812062
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### ate
+- Learned: 2025-02-20T14:53:17.838364
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### universe
+- Learned: 2025-02-20T14:53:17.857354
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### itself
+- Learned: 2025-02-20T14:53:17.881355
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.70, emotion_11: 0.00
+
+### turrets
+- Learned: 2025-02-20T14:54:01.083970
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.57, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.44, emotion_9: 0.06, emotion_10: 0.42, emotion_11: 0.06
+
+### race
+- Learned: 2025-02-20T14:54:01.107969
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.57, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.44, emotion_9: 0.06, emotion_10: 0.42, emotion_11: 0.06
+
+### protecting
+- Learned: 2025-02-20T14:54:01.135968
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.57, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.44, emotion_9: 0.06, emotion_10: 0.42, emotion_11: 0.06
+
+### harm
+- Learned: 2025-02-20T14:54:01.158692
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.57, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.44, emotion_9: 0.06, emotion_10: 0.42, emotion_11: 0.06
+
+### flickering
+- Learned: 2025-02-20T14:54:01.179702
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.57, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.44, emotion_9: 0.06, emotion_10: 0.42, emotion_11: 0.06
+
+### table
+- Learned: 2025-02-20T14:54:01.201691
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.57, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.44, emotion_9: 0.06, emotion_10: 0.42, emotion_11: 0.06
+
+### creepy
+- Learned: 2025-02-20T14:54:28.438532
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.35, emotion_9: 0.05, emotion_10: 0.34, emotion_11: 0.05
+
+### babysitter
+- Learned: 2025-02-20T14:54:42.150112
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.46, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.42, emotion_9: 0.02, emotion_10: 0.32, emotion_11: 0.02
+
+### sundayes
+- Learned: 2025-02-20T14:54:44.817923
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### rumbles
+- Learned: 2025-02-20T14:54:44.835925
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### visit
+- Learned: 2025-02-20T14:54:44.854923
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### queen
+- Learned: 2025-02-20T14:54:44.875232
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### funtastica
+- Learned: 2025-02-20T14:54:44.897231
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### floundering
+- Learned: 2025-02-20T14:54:44.920231
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### dances
+- Learned: 2025-02-20T14:55:02.186656
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.29, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.22, emotion_9: 0.03, emotion_10: 0.22, emotion_11: 0.03
+
+### rubs
+- Learned: 2025-02-20T14:55:14.035038
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.23, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.18, emotion_9: 0.03, emotion_10: 0.17, emotion_11: 0.03
+
+### delighted
+- Learned: 2025-02-20T14:55:41.258688
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creak
+- Learned: 2025-02-20T14:55:41.275687
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sandbox
+- Learned: 2025-02-20T14:55:41.296305
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### promising
+- Learned: 2025-02-20T14:55:41.317306
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### digging
+- Learned: 2025-02-20T14:55:41.337306
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sand
+- Learned: 2025-02-20T14:55:41.355745
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### merry
+- Learned: 2025-02-20T14:55:41.373746
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### glee
+- Learned: 2025-02-20T14:55:41.390742
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### startles
+- Learned: 2025-02-20T14:55:41.408745
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### darkened
+- Learned: 2025-02-20T14:55:41.426743
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shrouded
+- Learned: 2025-02-20T14:55:41.445742
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### human
+- Learned: 2025-02-20T14:55:41.462742
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rather
+- Learned: 2025-02-20T14:55:41.480884
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### accents
+- Learned: 2025-02-20T14:55:41.499659
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dominates
+- Learned: 2025-02-20T14:55:41.516771
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fading
+- Learned: 2025-02-20T14:55:41.534966
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vibrate
+- Learned: 2025-02-20T14:55:41.551865
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### maniacal
+- Learned: 2025-02-20T14:55:41.569719
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### represents
+- Learned: 2025-02-20T14:55:41.588720
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### frozen
+- Learned: 2025-02-20T14:55:41.608334
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### terror
+- Learned: 2025-02-20T14:55:41.628910
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### extended
+- Learned: 2025-02-20T14:55:41.646919
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grows
+- Learned: 2025-02-20T14:55:41.663919
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### prepare
+- Learned: 2025-02-20T14:55:41.682919
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### encounter
+- Learned: 2025-02-20T14:55:41.703306
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### terrifying
+- Learned: 2025-02-20T14:55:41.723576
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### between
+- Learned: 2025-02-20T14:55:41.742151
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### parts
+- Learned: 2025-02-20T14:55:43.965676
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.76, emotion_11: 0.00
+
+### laboratory
+- Learned: 2025-02-20T14:55:57.559770
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### playroom
+- Learned: 2025-02-20T14:55:57.579120
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eyesight
+- Learned: 2025-02-20T14:55:57.597758
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vividness
+- Learned: 2025-02-20T14:55:57.616324
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### various
+- Learned: 2025-02-20T14:55:57.635718
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### equipment
+- Learned: 2025-02-20T14:55:57.654568
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### doll
+- Learned: 2025-02-20T14:55:57.673304
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### surprising
+- Learned: 2025-02-20T14:55:57.695809
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stumbling
+- Learned: 2025-02-20T14:55:57.713359
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rooted
+- Learned: 2025-02-20T14:55:57.728166
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### equipment
+- Learned: 2025-02-20T14:55:57.746476
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eyesight
+- Learned: 2025-02-20T14:55:57.763282
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### scenario
+- Learned: 2025-02-20T14:55:57.778417
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### invokes
+- Learned: 2025-02-20T14:55:57.801151
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### remnants
+- Learned: 2025-02-20T14:55:57.819854
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### facing
+- Learned: 2025-02-20T14:55:57.836545
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unknown
+- Learned: 2025-02-20T14:55:57.855580
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cold
+- Learned: 2025-02-20T14:56:13.083739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### abandoned
+- Learned: 2025-02-20T14:56:13.101739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hollow
+- Learned: 2025-02-20T14:56:13.120739
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### low
+- Learned: 2025-02-20T14:56:13.137740
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lunges
+- Learned: 2025-02-20T14:56:13.154689
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### attacking
+- Learned: 2025-02-20T14:56:13.172688
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hesitation
+- Learned: 2025-02-20T14:56:13.190689
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blurs
+- Learned: 2025-02-20T14:56:13.208690
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### whispery
+- Learned: 2025-02-20T14:56:13.232405
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hinting
+- Learned: 2025-02-20T14:56:13.250402
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rich
+- Learned: 2025-02-20T14:56:13.267402
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tapestry
+- Learned: 2025-02-20T14:56:13.285405
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### diverse
+- Learned: 2025-02-20T14:56:13.304402
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### realization
+- Learned: 2025-02-20T14:56:13.323405
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### releases
+- Learned: 2025-02-20T14:56:13.341853
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cold
+- Learned: 2025-02-20T14:56:13.360925
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### watched
+- Learned: 2025-02-20T14:56:19.808444
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### belonged
+- Learned: 2025-02-20T14:56:19.843922
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### bathroom
+- Learned: 2025-02-20T14:56:19.863726
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### odd
+- Learned: 2025-02-20T14:56:19.886556
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### secrets
+- Learned: 2025-02-20T14:56:19.919873
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### guide
+- Learned: 2025-02-20T14:56:19.941538
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### maze
+- Learned: 2025-02-20T14:56:19.962789
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### laden
+- Learned: 2025-02-20T14:56:20.002458
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### tasty
+- Learned: 2025-02-20T14:56:20.023467
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### slamming
+- Learned: 2025-02-20T14:56:20.048546
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### shut
+- Learned: 2025-02-20T14:56:20.077750
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### fat
+- Learned: 2025-02-20T14:56:20.093826
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### entertaining
+- Learned: 2025-02-20T14:56:20.111928
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### surprises
+- Learned: 2025-02-20T14:56:20.133073
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.15, emotion_2: 0.03, emotion_3: 0.05, emotion_4: 0.03, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.90, emotion_8: 0.11, emotion_9: 0.02, emotion_10: 0.11, emotion_11: 0.02
+
+### grabbing
+- Learned: 2025-02-20T14:56:20.939603
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### protect
+- Learned: 2025-02-20T14:56:55.944020
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### cones
+- Learned: 2025-02-20T14:56:55.967019
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### shouting
+- Learned: 2025-02-20T14:56:55.988501
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### breaths
+- Learned: 2025-02-20T14:56:56.010505
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### determination
+- Learned: 2025-02-20T14:56:56.031494
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### dreamed
+- Learned: 2025-02-20T14:56:56.054135
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### creations
+- Learned: 2025-02-20T14:56:56.074136
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### breakfast
+- Learned: 2025-02-20T14:57:15.563762
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.67, emotion_11: 0.00
+
+### different
+- Learned: 2025-02-20T14:57:22.019968
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.94, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.94, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### islands
+- Learned: 2025-02-20T14:57:27.562134
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### child
+- Learned: 2025-02-20T14:57:43.030097
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### amazingest
+- Learned: 2025-02-20T14:57:43.051095
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### candyland
+- Learned: 2025-02-20T14:57:43.070094
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### heads
+- Learned: 2025-02-20T14:57:43.092096
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### neighing
+- Learned: 2025-02-20T14:57:43.116097
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### driving
+- Learned: 2025-02-20T14:57:43.137095
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### goodness
+- Learned: 2025-02-20T14:57:43.156096
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### almost
+- Learned: 2025-02-20T14:57:43.176096
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### died
+- Learned: 2025-02-20T14:57:43.195097
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### forehead
+- Learned: 2025-02-20T14:57:43.213092
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### fairies
+- Learned: 2025-02-20T14:57:43.232096
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### closed
+- Learned: 2025-02-20T14:57:46.740449
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### ugly
+- Learned: 2025-02-20T14:58:07.966517
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### steed
+- Learned: 2025-02-20T14:58:07.987517
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### pleeeeeease
+- Learned: 2025-02-20T14:58:08.007516
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### enchanting
+- Learned: 2025-02-20T14:58:29.421773
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### venture
+- Learned: 2025-02-20T14:58:29.450772
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### deeper
+- Learned: 2025-02-20T14:58:29.472772
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### character
+- Learned: 2025-02-20T14:58:29.491773
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### character
+- Learned: 2025-02-20T14:58:29.507884
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reflects
+- Learned: 2025-02-20T14:58:29.526886
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### recognition
+- Learned: 2025-02-20T14:58:29.547885
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### showing
+- Learned: 2025-02-20T14:58:29.567884
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### showing
+- Learned: 2025-02-20T14:58:29.585885
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### communicating
+- Learned: 2025-02-20T14:58:29.600886
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### evoking
+- Learned: 2025-02-20T14:58:29.619885
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### deeper
+- Learned: 2025-02-20T14:58:29.643910
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### chamber
+- Learned: 2025-02-20T14:58:29.662138
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### designs
+- Learned: 2025-02-20T14:58:29.684991
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### display
+- Learned: 2025-02-20T14:58:29.702991
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### designs
+- Learned: 2025-02-20T14:58:29.719991
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### evoke
+- Learned: 2025-02-20T14:58:29.736990
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### awakens
+- Learned: 2025-02-20T14:58:29.752989
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### transforming
+- Learned: 2025-02-20T14:58:29.768989
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### previously
+- Learned: 2025-02-20T14:58:29.784482
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### surges
+- Learned: 2025-02-20T14:58:29.803658
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### may
+- Learned: 2025-02-20T14:58:29.823619
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intentions
+- Learned: 2025-02-20T14:58:29.845618
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### interest
+- Learned: 2025-02-20T14:58:29.862618
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### interact
+- Learned: 2025-02-20T14:58:29.880618
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### palpable
+- Learned: 2025-02-20T14:58:29.899619
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### narrative
+- Learned: 2025-02-20T14:58:29.918331
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### confines
+- Learned: 2025-02-20T14:58:41.059365
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### digital
+- Learned: 2025-02-20T14:58:41.076364
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### digital
+- Learned: 2025-02-20T14:58:41.096363
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### difficult
+- Learned: 2025-02-20T14:58:41.113364
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### appreciate
+- Learned: 2025-02-20T14:58:41.129365
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### levels
+- Learned: 2025-02-20T14:58:41.146902
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### interacting
+- Learned: 2025-02-20T14:58:41.164906
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### underlying
+- Learned: 2025-02-20T14:58:41.182902
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### offers
+- Learned: 2025-02-20T14:58:41.201042
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### act
+- Learned: 2025-02-20T14:58:41.221045
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### triggers
+- Learned: 2025-02-20T14:58:41.238045
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### level
+- Learned: 2025-02-20T14:58:41.256044
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### increase
+- Learned: 2025-02-20T14:58:41.276043
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### interaction
+- Learned: 2025-02-20T14:58:41.296043
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lingered
+- Learned: 2025-02-20T14:58:41.316042
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### connected
+- Learned: 2025-02-20T14:58:41.338416
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### adventurer
+- Learned: 2025-02-20T14:58:54.048520
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stumbled
+- Learned: 2025-02-20T14:58:54.066355
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### darkness
+- Learned: 2025-02-20T14:58:54.086354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### thick
+- Learned: 2025-02-20T14:58:54.105354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### oppressive
+- Learned: 2025-02-20T14:58:54.126354
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peeling
+- Learned: 2025-02-20T14:58:54.142435
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### paint
+- Learned: 2025-02-20T14:58:54.164437
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creaking
+- Learned: 2025-02-20T14:58:54.185439
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### floorboards
+- Learned: 2025-02-20T14:58:54.203794
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hallway
+- Learned: 2025-02-20T14:58:54.221789
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hall
+- Learned: 2025-02-20T14:58:54.236789
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gothic
+- Learned: 2025-02-20T14:58:54.251791
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### horror
+- Learned: 2025-02-20T14:58:54.267790
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### chant
+- Learned: 2025-02-20T14:58:54.285792
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### melt
+- Learned: 2025-02-20T14:58:54.303792
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### replaced
+- Learned: 2025-02-20T14:58:54.322348
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### chants
+- Learned: 2025-02-20T14:58:54.342602
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### become
+- Learned: 2025-02-20T14:58:54.363313
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rhythmic
+- Learned: 2025-02-20T14:58:54.383547
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ghostly
+- Learned: 2025-02-20T14:58:54.403158
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### apparition
+- Learned: 2025-02-20T14:58:54.426492
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reflection
+- Learned: 2025-02-20T14:58:54.448005
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gothic
+- Learned: 2025-02-20T14:58:54.473005
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ghostly
+- Learned: 2025-02-20T14:58:54.491005
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beckons
+- Learned: 2025-02-20T14:58:54.511005
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### spark
+- Learned: 2025-02-20T14:58:54.531006
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lead
+- Learned: 2025-02-20T14:59:01.753167
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tickled
+- Learned: 2025-02-20T14:59:44.254035
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### jumped
+- Learned: 2025-02-20T14:59:44.274036
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### cushion
+- Learned: 2025-02-20T14:59:44.296038
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### wandered
+- Learned: 2025-02-20T14:59:44.315036
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### dreamland
+- Learned: 2025-02-20T14:59:44.334347
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### silvery
+- Learned: 2025-02-20T14:59:44.355348
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### coat
+- Learned: 2025-02-20T14:59:44.373350
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### glistened
+- Learned: 2025-02-20T14:59:44.392818
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### sunlight
+- Learned: 2025-02-20T14:59:44.411817
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### luck
+- Learned: 2025-02-20T14:59:44.430817
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### horizon
+- Learned: 2025-02-20T14:59:44.449818
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### rustled
+- Learned: 2025-02-20T14:59:44.466816
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### spires
+- Learned: 2025-02-20T14:59:44.483817
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### wondered
+- Learned: 2025-02-20T14:59:44.504610
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### awaited
+- Learned: 2025-02-20T14:59:44.519923
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### gates
+- Learned: 2025-02-20T14:59:44.535923
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### greeted
+- Learned: 2025-02-20T14:59:44.552924
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### warmly
+- Learned: 2025-02-20T14:59:44.568924
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### grand
+- Learned: 2025-02-20T14:59:44.586523
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### ballroom
+- Learned: 2025-02-20T14:59:44.606821
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### wise
+- Learned: 2025-02-20T14:59:44.624893
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### wizard
+- Learned: 2025-02-20T14:59:44.643138
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### beard
+- Learned: 2025-02-20T14:59:44.662729
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### memories
+- Learned: 2025-02-20T14:59:44.683028
+- Emotional Context: emotion_0: 0.86, emotion_1: 0.32, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.19, emotion_9: 0.06, emotion_10: 0.26, emotion_11: 0.06
+
+### sprinkling
+- Learned: 2025-02-20T14:59:58.508156
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### mystery
+- Learned: 2025-02-20T14:59:58.528158
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### letters
+- Learned: 2025-02-20T14:59:58.549975
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### amazement
+- Learned: 2025-02-20T14:59:58.572979
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### bow
+- Learned: 2025-02-20T14:59:58.591971
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### couches
+- Learned: 2025-02-20T14:59:58.613642
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### senses
+- Learned: 2025-02-20T15:04:30.534458
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### catching
+- Learned: 2025-02-20T15:04:30.550456
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### endless
+- Learned: 2025-02-20T15:04:30.568456
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### harmless
+- Learned: 2025-02-20T15:04:30.588457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### entertain
+- Learned: 2025-02-20T15:04:30.605458
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shattered
+- Learned: 2025-02-20T15:04:30.623458
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### countless
+- Learned: 2025-02-20T15:04:30.643458
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mirrors
+- Learned: 2025-02-20T15:04:30.663457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### break
+- Learned: 2025-02-20T15:04:30.682457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### further
+- Learned: 2025-02-20T15:04:30.700461
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mirrors
+- Learned: 2025-02-20T15:04:30.718460
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### scattering
+- Learned: 2025-02-20T15:04:30.736458
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mosaic
+- Learned: 2025-02-20T15:04:30.755459
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fragments
+- Learned: 2025-02-20T15:04:30.774457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### backdrop
+- Learned: 2025-02-20T15:04:30.791456
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### echoing
+- Learned: 2025-02-20T15:04:30.809457
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### endless
+- Learned: 2025-02-20T15:04:30.826459
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### early
+- Learned: 2025-02-20T15:04:42.191637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stages
+- Learned: 2025-02-20T15:04:42.208639
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### exploration
+- Learned: 2025-02-20T15:04:42.228639
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### towering
+- Learned: 2025-02-20T15:04:42.244638
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### swirl
+- Learned: 2025-02-20T15:04:42.262638
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### exchange
+- Learned: 2025-02-20T15:04:42.277637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### resonate
+- Learned: 2025-02-20T15:04:42.294637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### manic
+- Learned: 2025-02-20T15:04:42.311637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### infused
+- Learned: 2025-02-20T15:04:42.330638
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### possibility
+- Learned: 2025-02-20T15:04:42.346638
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intriguing
+- Learned: 2025-02-20T15:04:42.364637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sharing
+- Learned: 2025-02-20T15:04:42.379637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### camaraderie
+- Learned: 2025-02-20T15:04:42.397641
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### testament
+- Learned: 2025-02-20T15:04:42.412637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### connection
+- Learned: 2025-02-20T15:04:42.429639
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### friendship
+- Learned: 2025-02-20T15:04:42.447637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### faint
+- Learned: 2025-02-20T15:04:42.465640
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### element
+- Learned: 2025-02-20T15:04:42.481642
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### suspense
+- Learned: 2025-02-20T15:04:42.496637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### knows
+- Learned: 2025-02-20T15:04:42.514638
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### exploration
+- Learned: 2025-02-20T15:04:42.529637
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### zombie
+- Learned: 2025-02-20T15:04:50.609780
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pale
+- Learned: 2025-02-20T15:04:50.623778
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### contrasting
+- Learned: 2025-02-20T15:04:50.641778
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stringy
+- Learned: 2025-02-20T15:04:50.660778
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dead
+- Learned: 2025-02-20T15:04:50.680780
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shift
+- Learned: 2025-02-20T15:04:50.696780
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### foreboding
+- Learned: 2025-02-20T15:04:50.714778
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### frightening
+- Learned: 2025-02-20T15:04:50.728777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intensifies
+- Learned: 2025-02-20T15:04:50.746779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### heavy
+- Learned: 2025-02-20T15:04:50.761776
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unresponsive
+- Learned: 2025-02-20T15:04:50.780777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bursts
+- Learned: 2025-02-20T15:04:50.796778
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### illuminating
+- Learned: 2025-02-20T15:04:50.814777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### zombie
+- Learned: 2025-02-20T15:04:50.830779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### recoils
+- Learned: 2025-02-20T15:04:50.846780
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### elements
+- Learned: 2025-02-20T15:04:50.863779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vanish
+- Learned: 2025-02-20T15:04:50.881779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### imagery
+- Learned: 2025-02-20T15:04:50.897776
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intense
+- Learned: 2025-02-20T15:04:50.913777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### faced
+- Learned: 2025-02-20T15:04:50.930779
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emerged
+- Learned: 2025-02-20T15:04:50.946778
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### victorious
+- Learned: 2025-02-20T15:04:50.962777
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lied
+- Learned: 2025-02-20T15:05:31.062576
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### speaking
+- Learned: 2025-02-20T15:05:31.080337
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### lying
+- Learned: 2025-02-20T15:05:31.102943
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### sucks
+- Learned: 2025-02-20T15:05:31.122942
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### sucks
+- Learned: 2025-02-20T15:05:31.146943
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### math
+- Learned: 2025-02-20T15:05:31.166942
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### class
+- Learned: 2025-02-20T15:05:31.185942
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### skip
+- Learned: 2025-02-20T15:05:31.205944
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### appropriate
+- Learned: 2025-02-20T15:05:36.328646
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### age
+- Learned: 2025-02-20T15:05:36.346646
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### months
+- Learned: 2025-02-20T15:05:36.363646
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.16, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.10, emotion_9: 0.03, emotion_10: 0.13, emotion_11: 0.03
+
+### unlike
+- Learned: 2025-02-20T15:05:50.069033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shade
+- Learned: 2025-02-20T15:05:50.086033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dotted
+- Learned: 2025-02-20T15:05:50.103033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### broadly
+- Learned: 2025-02-20T15:05:50.118034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peeking
+- Learned: 2025-02-20T15:05:50.135031
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### talks
+- Learned: 2025-02-20T15:05:50.151033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crystal
+- Learned: 2025-02-20T15:05:50.170033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### larger
+- Learned: 2025-02-20T15:05:50.189034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crystal
+- Learned: 2025-02-20T15:05:50.208034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### explains
+- Learned: 2025-02-20T15:05:50.225033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crystal
+- Learned: 2025-02-20T15:05:50.243034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### contains
+- Learned: 2025-02-20T15:05:50.264033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crystal
+- Learned: 2025-02-20T15:05:50.294035
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### funneled
+- Learned: 2025-02-20T15:05:50.314034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pond
+- Learned: 2025-02-20T15:05:50.338033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### amplified
+- Learned: 2025-02-20T15:05:50.359034
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### thousandfold
+- Learned: 2025-02-20T15:05:50.377033
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crystal
+- Learned: 2025-02-20T15:05:50.396031
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### melodies
+- Learned: 2025-02-20T15:05:50.414031
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### remind
+- Learned: 2025-02-20T15:05:50.431032
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### practicing
+- Learned: 2025-02-20T15:06:05.154357
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unusual
+- Learned: 2025-02-20T15:06:05.172358
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crib
+- Learned: 2025-02-20T15:06:05.192355
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### began
+- Learned: 2025-02-20T15:06:05.209356
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### continued
+- Learned: 2025-02-20T15:06:05.227355
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### began
+- Learned: 2025-02-20T15:06:05.247360
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crib
+- Learned: 2025-02-20T15:06:05.262355
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### weak
+- Learned: 2025-02-20T15:06:05.275357
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unfriendly
+- Learned: 2025-02-20T15:06:05.293357
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### surge
+- Learned: 2025-02-20T15:06:05.311358
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crib
+- Learned: 2025-02-20T15:06:05.329355
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vanished
+- Learned: 2025-02-20T15:06:05.344355
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### safety
+- Learned: 2025-02-20T15:06:05.360357
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tiled
+- Learned: 2025-02-20T15:06:16.537833
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### glisten
+- Learned: 2025-02-20T15:06:16.555410
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sheen
+- Learned: 2025-02-20T15:06:16.576195
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### slick
+- Learned: 2025-02-20T15:06:16.593633
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### details
+- Learned: 2025-02-20T15:06:16.620113
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### abilities
+- Learned: 2025-02-20T15:06:16.639493
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### distorted
+- Learned: 2025-02-20T15:06:16.654440
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tiled
+- Learned: 2025-02-20T15:06:16.674651
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### woman
+- Learned: 2025-02-20T15:06:16.692809
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tangled
+- Learned: 2025-02-20T15:06:16.711382
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stained
+- Learned: 2025-02-20T15:06:16.733945
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dirt
+- Learned: 2025-02-20T15:06:16.750707
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grime
+- Learned: 2025-02-20T15:06:16.774127
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pain
+- Learned: 2025-02-20T15:06:16.790301
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### woman
+- Learned: 2025-02-20T15:06:16.808625
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### erratic
+- Learned: 2025-02-20T15:06:16.825077
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unpredictable
+- Learned: 2025-02-20T15:06:16.847581
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gleam
+- Learned: 2025-02-20T15:06:16.868771
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### insidious
+- Learned: 2025-02-20T15:06:16.892580
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shudder
+- Learned: 2025-02-20T15:06:16.920091
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### woman
+- Learned: 2025-02-20T15:06:16.936363
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### haunting
+- Learned: 2025-02-20T15:06:16.955229
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### chilling
+- Learned: 2025-02-20T15:06:16.972654
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### echo
+- Learned: 2025-02-20T15:06:16.988957
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### course
+- Learned: 2025-02-20T15:06:23.324144
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.09, emotion_2: 0.02, emotion_3: 0.03, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.95, emotion_8: 0.07, emotion_9: 0.01, emotion_10: 0.07, emotion_11: 0.01
+
+### glass
+- Learned: 2025-02-20T15:06:23.434251
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lonely
+- Learned: 2025-02-20T15:06:38.202361
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.07, emotion_2: 0.01, emotion_3: 0.02, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.96, emotion_8: 0.06, emotion_9: 0.01, emotion_10: 0.05, emotion_11: 0.01
+
+### pout
+- Learned: 2025-02-20T15:06:44.112334
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.06, emotion_2: 0.01, emotion_3: 0.02, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.97, emotion_8: 0.05, emotion_9: 0.01, emotion_10: 0.04, emotion_11: 0.01
+
+### family
+- Learned: 2025-02-20T15:06:44.774475
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.60, emotion_9: 0.06, emotion_10: 0.53, emotion_11: 0.06
+
+### guilty
+- Learned: 2025-02-20T15:06:44.790475
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.60, emotion_9: 0.06, emotion_10: 0.53, emotion_11: 0.06
+
+### honest
+- Learned: 2025-02-20T15:06:44.808476
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.60, emotion_9: 0.06, emotion_10: 0.53, emotion_11: 0.06
+
+### truthful
+- Learned: 2025-02-20T15:06:44.826475
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.60, emotion_9: 0.06, emotion_10: 0.53, emotion_11: 0.06
+
+### wonders
+- Learned: 2025-02-20T15:06:44.843473
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.60, emotion_9: 0.06, emotion_10: 0.53, emotion_11: 0.06
+
+### spending
+- Learned: 2025-02-20T15:06:51.679221
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.13, emotion_3: 0.19, emotion_4: 0.13, emotion_5: 0.06, emotion_6: 0.06, emotion_7: 0.62, emotion_8: 0.60, emotion_9: 0.06, emotion_10: 0.53, emotion_11: 0.06
+
+### cushiony
+- Learned: 2025-02-20T15:07:11.246045
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.47, emotion_2: 0.08, emotion_3: 0.12, emotion_4: 0.08, emotion_5: 0.04, emotion_6: 0.04, emotion_7: 0.75, emotion_8: 0.38, emotion_9: 0.04, emotion_10: 0.34, emotion_11: 0.04
+
+### throwing
+- Learned: 2025-02-20T15:07:11.265751
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.47, emotion_2: 0.08, emotion_3: 0.12, emotion_4: 0.08, emotion_5: 0.04, emotion_6: 0.04, emotion_7: 0.75, emotion_8: 0.38, emotion_9: 0.04, emotion_10: 0.34, emotion_11: 0.04
+
+### forth
+- Learned: 2025-02-20T15:07:11.286155
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.47, emotion_2: 0.08, emotion_3: 0.12, emotion_4: 0.08, emotion_5: 0.04, emotion_6: 0.04, emotion_7: 0.75, emotion_8: 0.38, emotion_9: 0.04, emotion_10: 0.34, emotion_11: 0.04
+
+### 34
+- Learned: 2025-02-20T15:07:11.307803
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.47, emotion_2: 0.08, emotion_3: 0.12, emotion_4: 0.08, emotion_5: 0.04, emotion_6: 0.04, emotion_7: 0.75, emotion_8: 0.38, emotion_9: 0.04, emotion_10: 0.34, emotion_11: 0.04
+
+### weirdest
+- Learned: 2025-02-20T15:07:11.341962
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.18, emotion_2: 0.13, emotion_3: 0.01, emotion_4: 0.10, emotion_5: 0.10, emotion_6: 0.07, emotion_7: 0.98, emotion_8: 0.17, emotion_9: 0.00, emotion_10: 0.12, emotion_11: 0.00
+
+### bunch
+- Learned: 2025-02-20T15:07:19.163194
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.18, emotion_2: 0.13, emotion_3: 0.01, emotion_4: 0.10, emotion_5: 0.10, emotion_6: 0.07, emotion_7: 0.98, emotion_8: 0.17, emotion_9: 0.00, emotion_10: 0.12, emotion_11: 0.00
+
+### coolest
+- Learned: 2025-02-20T15:07:19.185604
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.18, emotion_2: 0.13, emotion_3: 0.01, emotion_4: 0.10, emotion_5: 0.10, emotion_6: 0.07, emotion_7: 0.98, emotion_8: 0.17, emotion_9: 0.00, emotion_10: 0.12, emotion_11: 0.00
+
+### wacky
+- Learned: 2025-02-20T15:07:38.132354
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.24, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.20, emotion_9: 0.02, emotion_10: 0.17, emotion_11: 0.02
+
+### unhappy
+- Learned: 2025-02-20T15:07:47.222849
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.39, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 0.99, emotion_8: 0.39, emotion_9: 0.00, emotion_10: 0.26, emotion_11: 0.00
+
+### secure
+- Learned: 2025-02-20T15:07:53.299028
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.39, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 0.99, emotion_8: 0.39, emotion_9: 0.00, emotion_10: 0.26, emotion_11: 0.00
+
+### helps
+- Learned: 2025-02-20T15:07:53.316422
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.39, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 0.99, emotion_8: 0.39, emotion_9: 0.00, emotion_10: 0.26, emotion_11: 0.00
+
+### anticipating
+- Learned: 2025-02-20T15:08:08.615420
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.56, emotion_2: 0.02, emotion_3: 0.03, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.94, emotion_8: 0.54, emotion_9: 0.01, emotion_10: 0.38, emotion_11: 0.01
+
+### touches
+- Learned: 2025-02-20T15:08:08.632421
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.56, emotion_2: 0.02, emotion_3: 0.03, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.94, emotion_8: 0.54, emotion_9: 0.01, emotion_10: 0.38, emotion_11: 0.01
+
+### secure
+- Learned: 2025-02-20T15:08:08.652925
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.56, emotion_2: 0.02, emotion_3: 0.03, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.94, emotion_8: 0.54, emotion_9: 0.01, emotion_10: 0.38, emotion_11: 0.01
+
+### ease
+- Learned: 2025-02-20T15:08:08.669313
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.56, emotion_2: 0.02, emotion_3: 0.03, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.94, emotion_8: 0.54, emotion_9: 0.01, emotion_10: 0.38, emotion_11: 0.01
+
+### heat
+- Learned: 2025-02-20T15:08:12.598493
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.44, emotion_9: 0.00, emotion_10: 0.30, emotion_11: 0.00
+
+### cooling
+- Learned: 2025-02-20T15:08:12.620747
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.44, emotion_9: 0.00, emotion_10: 0.30, emotion_11: 0.00
+
+### snowman
+- Learned: 2025-02-20T15:08:12.638028
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.44, emotion_9: 0.00, emotion_10: 0.30, emotion_11: 0.00
+
+### carrot
+- Learned: 2025-02-20T15:08:12.657453
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.44, emotion_9: 0.00, emotion_10: 0.30, emotion_11: 0.00
+
+### snowman
+- Learned: 2025-02-20T15:08:12.680536
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.44, emotion_9: 0.00, emotion_10: 0.30, emotion_11: 0.00
+
+### carrots
+- Learned: 2025-02-20T15:08:12.697796
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.45, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.44, emotion_9: 0.00, emotion_10: 0.30, emotion_11: 0.00
+
+### relaxed
+- Learned: 2025-02-20T15:08:21.754024
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.75, emotion_2: 0.02, emotion_3: 0.03, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.95, emotion_8: 0.73, emotion_9: 0.01, emotion_10: 0.50, emotion_11: 0.01
+
+### meeting
+- Learned: 2025-02-20T15:08:53.313811
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.31, emotion_2: 0.01, emotion_3: 0.01, emotion_4: 0.01, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 0.98, emotion_8: 0.30, emotion_9: 0.00, emotion_10: 0.21, emotion_11: 0.00
+
+### 5
+- Learned: 2025-02-20T15:09:04.243943
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.68, emotion_2: 0.00, emotion_3: 0.01, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 0.99, emotion_8: 0.67, emotion_9: 0.00, emotion_10: 0.45, emotion_11: 0.00
+
+### comfortable
+- Learned: 2025-02-20T15:09:21.420275
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 0.99, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.29, emotion_11: 0.00
+
+### lovey
+- Learned: 2025-02-20T15:09:21.438272
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 0.99, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.29, emotion_11: 0.00
+
+### overall
+- Learned: 2025-02-20T15:09:21.459274
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 0.99, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.29, emotion_11: 0.00
+
+### fluffiness
+- Learned: 2025-02-20T15:10:18.367843
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.09, emotion_2: 0.26, emotion_3: 0.00, emotion_4: 0.19, emotion_5: 0.19, emotion_6: 0.13, emotion_7: 1.00, emotion_8: 0.09, emotion_9: 0.00, emotion_10: 0.06, emotion_11: 0.00
+
+### weirdest
+- Learned: 2025-02-20T15:11:03.098430
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.28, emotion_11: 0.00
+
+### bummer
+- Learned: 2025-02-20T15:11:03.116430
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.28, emotion_11: 0.00
+
+### least
+- Learned: 2025-02-20T15:11:03.135003
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.28, emotion_11: 0.00
+
+### blankets
+- Learned: 2025-02-20T15:11:07.955011
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.43, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.43, emotion_9: 0.00, emotion_10: 0.28, emotion_11: 0.00
+
+### bedtime
+- Learned: 2025-02-20T15:11:31.529727
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.63, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.63, emotion_9: 0.00, emotion_10: 0.42, emotion_11: 0.00
+
+### winter
+- Learned: 2025-02-20T15:12:09.252032
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.79, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.79, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### short
+- Learned: 2025-02-20T15:12:59.998442
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### invite
+- Learned: 2025-02-20T15:13:00.017443
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### lot
+- Learned: 2025-02-20T15:13:04.132251
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.21, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.21, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### stays
+- Learned: 2025-02-20T15:13:10.259570
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.17, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.17, emotion_9: 0.00, emotion_10: 0.11, emotion_11: 0.00
+
+### cartoon
+- Learned: 2025-02-20T15:13:29.594263
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### bunny
+- Learned: 2025-02-20T15:13:29.610261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### birdie
+- Learned: 2025-02-20T15:13:29.627264
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### tickling
+- Learned: 2025-02-20T15:13:29.646263
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### bunny
+- Learned: 2025-02-20T15:13:29.664262
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### birdie
+- Learned: 2025-02-20T15:13:29.680261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### bunny
+- Learned: 2025-02-20T15:13:29.694262
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### birdie
+- Learned: 2025-02-20T15:13:29.711261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### cuddled
+- Learned: 2025-02-20T15:13:29.728261
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.11, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.11, emotion_9: 0.00, emotion_10: 0.07, emotion_11: 0.00
+
+### zoo
+- Learned: 2025-02-20T15:13:39.723608
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.09, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.09, emotion_9: 0.00, emotion_10: 0.06, emotion_11: 0.00
+
+### hunting
+- Learned: 2025-02-20T15:14:21.559720
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.22, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.22, emotion_9: 0.00, emotion_10: 0.14, emotion_11: 0.00
+
+### pretended
+- Learned: 2025-02-20T15:14:50.530315
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.09, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.09, emotion_9: 0.00, emotion_10: 0.06, emotion_11: 0.00
+
+### hopping
+- Learned: 2025-02-20T15:15:24.418500
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.04, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.04, emotion_9: 0.00, emotion_10: 0.02, emotion_11: 0.00
+
+### hoo
+- Learned: 2025-02-20T15:15:24.434499
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.04, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.04, emotion_9: 0.00, emotion_10: 0.02, emotion_11: 0.00
+
+### waaa
+- Learned: 2025-02-20T15:37:11.605684
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### incoherent
+- Learned: 2025-02-20T15:37:11.624686
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### jarring
+- Learned: 2025-02-20T15:37:11.642687
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### soothing
+- Learned: 2025-02-20T15:37:11.664688
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### specific
+- Learned: 2025-02-20T15:37:11.683688
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unclear
+- Learned: 2025-02-20T15:37:11.701687
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### respond
+- Learned: 2025-02-20T15:37:11.718687
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rrrrr
+- Learned: 2025-02-20T15:37:11.737687
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unclear
+- Learned: 2025-02-20T15:37:11.752688
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### thrash
+- Learned: 2025-02-20T15:37:11.767685
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### escape
+- Learned: 2025-02-20T15:37:11.783686
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sensations
+- Learned: 2025-02-20T15:37:11.801687
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wahhhh
+- Learned: 2025-02-20T15:37:19.319505
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mesmerized
+- Learned: 2025-02-20T15:37:19.338505
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eeee
+- Learned: 2025-02-20T15:37:19.358508
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ahhhh
+- Learned: 2025-02-20T15:37:19.382923
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### heavily
+- Learned: 2025-02-20T15:37:19.403535
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vague
+- Learned: 2025-02-20T15:37:19.420403
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### visuals
+- Learned: 2025-02-20T15:37:19.436402
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unable
+- Learned: 2025-02-20T15:37:19.452402
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### focused
+- Learned: 2025-02-20T15:37:19.468982
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### theme
+- Learned: 2025-02-20T15:37:19.483980
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### images
+- Learned: 2025-02-20T15:37:19.498981
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reflect
+- Learned: 2025-02-20T15:37:19.515980
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### creep
+- Learned: 2025-02-20T15:37:19.532854
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reflective
+- Learned: 2025-02-20T15:37:19.550852
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blinks
+- Learned: 2025-02-20T15:37:25.413394
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rapidly
+- Learned: 2025-02-20T15:37:25.428395
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flailing
+- Learned: 2025-02-20T15:37:25.448397
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### oooooh
+- Learned: 2025-02-20T15:37:25.464394
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### intensely
+- Learned: 2025-02-20T15:37:25.480394
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### screams
+- Learned: 2025-02-20T15:37:25.497395
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sits
+- Learned: 2025-02-20T15:37:25.514396
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### littl
+- Learned: 2025-02-20T15:37:46.437924
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.61, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.51, emotion_9: 0.05, emotion_10: 0.44, emotion_11: 0.05
+
+### twitches
+- Learned: 2025-02-20T15:37:46.455923
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.61, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.51, emotion_9: 0.05, emotion_10: 0.44, emotion_11: 0.05
+
+### squish
+- Learned: 2025-02-20T15:38:00.194616
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.72, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.65, emotion_9: 0.03, emotion_10: 0.50, emotion_11: 0.03
+
+### hehe
+- Learned: 2025-02-20T15:38:12.559048
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.71, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.67, emotion_9: 0.02, emotion_10: 0.49, emotion_11: 0.02
+
+### hehe
+- Learned: 2025-02-20T15:38:12.588814
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.71, emotion_2: 0.04, emotion_3: 0.06, emotion_4: 0.04, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 0.87, emotion_8: 0.67, emotion_9: 0.02, emotion_10: 0.49, emotion_11: 0.02
+
+### cover
+- Learned: 2025-02-20T15:38:27.522097
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.71, emotion_9: 0.01, emotion_10: 0.50, emotion_11: 0.01
+
+### clutch
+- Learned: 2025-02-20T15:38:27.542727
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.73, emotion_2: 0.03, emotion_3: 0.04, emotion_4: 0.03, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.92, emotion_8: 0.71, emotion_9: 0.01, emotion_10: 0.50, emotion_11: 0.01
+
+### 35
+- Learned: 2025-02-20T15:38:48.060346
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.55, emotion_2: 0.01, emotion_3: 0.02, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.96, emotion_8: 0.53, emotion_9: 0.01, emotion_10: 0.37, emotion_11: 0.01
+
+### swooshing
+- Learned: 2025-02-20T15:39:24.521699
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.64, emotion_2: 0.05, emotion_3: 0.01, emotion_4: 0.04, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 0.99, emotion_8: 0.63, emotion_9: 0.00, emotion_10: 0.43, emotion_11: 0.00
+
+### chair
+- Learned: 2025-02-20T15:39:37.634730
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.86, emotion_2: 0.04, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.99, emotion_8: 0.85, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### mama
+- Learned: 2025-02-20T15:39:42.316332
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.86, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### drea
+- Learned: 2025-02-20T15:40:12.845810
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### primitive
+- Learned: 2025-02-20T15:41:11.057717
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.69, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.69, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### unfold
+- Learned: 2025-02-20T15:41:11.073717
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.69, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.69, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### sicle
+- Learned: 2025-02-20T15:41:18.708552
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.79, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.79, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### beeeeeeep
+- Learned: 2025-02-20T15:41:31.306997
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.82, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.82, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### squishing
+- Learned: 2025-02-20T15:41:31.326997
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.82, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.82, emotion_9: 0.00, emotion_10: 0.55, emotion_11: 0.00
+
+### wooooshing
+- Learned: 2025-02-20T15:41:50.509582
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.90, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.90, emotion_9: 0.00, emotion_10: 0.60, emotion_11: 0.00
+
+### twitch
+- Learned: 2025-02-20T15:42:03.854800
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.86, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### squee
+- Learned: 2025-02-20T15:42:03.872800
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.86, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### bleh
+- Learned: 2025-02-20T15:42:32.224546
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.70, emotion_2: 0.16, emotion_3: 0.00, emotion_4: 0.12, emotion_5: 0.12, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.70, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### dreeeaaam
+- Learned: 2025-02-20T15:42:59.695250
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### somethin
+- Learned: 2025-02-20T15:42:59.715251
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### wite
+- Learned: 2025-02-20T15:42:59.735251
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### wite
+- Learned: 2025-02-20T15:42:59.753250
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### covering
+- Learned: 2025-02-20T15:42:59.768252
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### soo
+- Learned: 2025-02-20T15:42:59.785251
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### hugg
+- Learned: 2025-02-20T15:42:59.801250
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### nothin
+- Learned: 2025-02-20T15:42:59.818253
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### jus
+- Learned: 2025-02-20T15:42:59.835250
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### huggies
+- Learned: 2025-02-20T15:43:03.038772
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.07, emotion_3: 0.00, emotion_4: 0.05, emotion_5: 0.05, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.92, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### wuh
+- Learned: 2025-02-20T15:43:08.059843
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.05, emotion_3: 0.00, emotion_4: 0.04, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### wuuu
+- Learned: 2025-02-20T15:43:08.074843
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.05, emotion_3: 0.00, emotion_4: 0.04, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### huggs
+- Learned: 2025-02-20T15:52:37.407806
+- Emotional Context: emotion_0: 0.94, emotion_1: 0.58, emotion_2: 0.16, emotion_3: 0.24, emotion_4: 0.16, emotion_5: 0.08, emotion_6: 0.08, emotion_7: 0.52, emotion_8: 0.42, emotion_9: 0.08, emotion_10: 0.44, emotion_11: 0.08
+
+### whimper
+- Learned: 2025-02-20T15:56:56.741177
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gulp
+- Learned: 2025-02-20T15:56:56.758177
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### late
+- Learned: 2025-02-20T15:56:56.775179
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### trembles
+- Learned: 2025-02-20T15:56:56.793745
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### peeks
+- Learned: 2025-02-20T15:56:56.810754
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blank
+- Learned: 2025-02-20T15:56:56.827754
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stumbles
+- Learned: 2025-02-20T15:56:56.847754
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bouncing
+- Learned: 2025-02-20T15:56:56.864372
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squealing
+- Learned: 2025-02-20T15:56:56.883371
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### view
+- Learned: 2025-02-20T15:56:56.901371
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wahhh
+- Learned: 2025-02-20T15:57:05.563004
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### featureless
+- Learned: 2025-02-20T15:57:05.581002
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### buzzing
+- Learned: 2025-02-20T15:57:05.600001
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waaaaaaahhh
+- Learned: 2025-02-20T15:57:11.486973
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### movement
+- Learned: 2025-02-20T15:57:19.308454
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emanate
+- Learned: 2025-02-20T15:57:19.327453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unseen
+- Learned: 2025-02-20T15:57:19.349452
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### source
+- Learned: 2025-02-20T15:57:19.366454
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vibrating
+- Learned: 2025-02-20T15:57:19.383453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emanate
+- Learned: 2025-02-20T15:57:19.402453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### version
+- Learned: 2025-02-20T15:57:19.418455
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### forming
+- Learned: 2025-02-20T15:57:19.435453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### undefined
+- Learned: 2025-02-20T15:57:19.453456
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### morphing
+- Learned: 2025-02-20T15:57:19.478456
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rippling
+- Learned: 2025-02-20T15:57:19.498454
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### startled
+- Learned: 2025-02-20T15:57:19.516453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### actual
+- Learned: 2025-02-20T15:57:19.534455
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### expectation
+- Learned: 2025-02-20T15:57:19.550455
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### speaks
+- Learned: 2025-02-20T15:57:19.566453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### entire
+- Learned: 2025-02-20T15:57:19.582453
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### trepidation
+- Learned: 2025-02-20T15:57:19.600454
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flail
+- Learned: 2025-02-20T15:57:27.822595
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gurgle
+- Learned: 2025-02-20T15:57:27.843598
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squint
+- Learned: 2025-02-20T15:57:27.863595
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shrug
+- Learned: 2025-02-20T15:57:27.879598
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squirm
+- Learned: 2025-02-20T15:57:27.898597
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shriek
+- Learned: 2025-02-20T15:57:27.915597
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flail
+- Learned: 2025-02-20T15:57:27.933600
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perks
+- Learned: 2025-02-20T15:57:35.958506
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### randomly
+- Learned: 2025-02-20T15:57:44.785404
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wet
+- Learned: 2025-02-20T15:57:44.802400
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### smushy
+- Learned: 2025-02-20T15:57:44.823401
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hesitates
+- Learned: 2025-02-20T15:57:44.842402
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hush
+- Learned: 2025-02-20T15:57:44.889401
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### calm
+- Learned: 2025-02-20T15:57:44.908398
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### jolts
+- Learned: 2025-02-20T15:57:44.925401
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### proudly
+- Learned: 2025-02-20T15:57:54.410948
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### drift
+- Learned: 2025-02-20T15:57:54.427950
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### uncoordinated
+- Learned: 2025-02-20T15:58:03.534586
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sob
+- Learned: 2025-02-20T15:58:03.551588
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### process
+- Learned: 2025-02-20T15:58:03.571586
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lets
+- Learned: 2025-02-20T15:58:03.593587
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wail
+- Learned: 2025-02-20T15:58:03.614586
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### uncertainty
+- Learned: 2025-02-20T15:58:03.632587
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### uncoordinated
+- Learned: 2025-02-20T15:58:03.648585
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### limbs
+- Learned: 2025-02-20T15:58:03.666588
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unblinking
+- Learned: 2025-02-20T15:58:12.802272
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flickers
+- Learned: 2025-02-20T15:58:21.161448
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### complete
+- Learned: 2025-02-20T15:58:21.180448
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waaaahhhh
+- Learned: 2025-02-20T15:58:29.439259
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vomiting
+- Learned: 2025-02-20T15:58:29.459261
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unsteady
+- Learned: 2025-02-20T15:58:29.478261
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pleadingly
+- Learned: 2025-02-20T15:58:29.499262
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waaaahhhh
+- Learned: 2025-02-20T15:58:29.517262
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### suspended
+- Learned: 2025-02-20T15:58:38.640749
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nipple
+- Learned: 2025-02-20T15:58:38.658748
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nipple
+- Learned: 2025-02-20T15:58:38.679745
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### emptier
+- Learned: 2025-02-20T15:58:38.696748
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waaaaaaa
+- Learned: 2025-02-20T15:58:47.602232
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### heeeeey
+- Learned: 2025-02-20T15:58:47.621232
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### heeeeey
+- Learned: 2025-02-20T15:58:47.642233
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### calls
+- Learned: 2025-02-20T15:58:47.658234
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hears
+- Learned: 2025-02-20T15:58:47.676230
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### letting
+- Learned: 2025-02-20T15:58:47.697231
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### collapse
+- Learned: 2025-02-20T15:58:47.716235
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bland
+- Learned: 2025-02-20T15:59:04.269766
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fussies
+- Learned: 2025-02-20T15:59:04.286766
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rolling
+- Learned: 2025-02-20T15:59:04.307766
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### misses
+- Learned: 2025-02-20T15:59:04.326764
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hurting
+- Learned: 2025-02-20T15:59:14.128748
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### crosses
+- Learned: 2025-02-20T15:59:14.146747
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### scaring
+- Learned: 2025-02-20T15:59:14.165747
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eeeeeeee
+- Learned: 2025-02-20T15:59:22.079984
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cowers
+- Learned: 2025-02-20T15:59:30.747681
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### panics
+- Learned: 2025-02-20T15:59:30.766679
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### uncertain
+- Learned: 2025-02-20T15:59:39.101783
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squints
+- Learned: 2025-02-20T15:59:39.118784
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### agitated
+- Learned: 2025-02-20T15:59:39.138784
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### streaming
+- Learned: 2025-02-20T15:59:47.423172
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### formless
+- Learned: 2025-02-20T15:59:47.439175
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flinch
+- Learned: 2025-02-20T15:59:47.460174
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### snapping
+- Learned: 2025-02-20T15:59:47.477172
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### unrecognizable
+- Learned: 2025-02-20T15:59:47.495173
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### recoil
+- Learned: 2025-02-20T15:59:47.512172
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### defined
+- Learned: 2025-02-20T15:59:47.531172
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### clearer
+- Learned: 2025-02-20T15:59:47.548175
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### seeking
+- Learned: 2025-02-20T15:59:47.565173
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### melts
+- Learned: 2025-02-20T15:59:47.581174
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gasping
+- Learned: 2025-02-20T15:59:47.599174
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nonsensically
+- Learned: 2025-02-20T15:59:56.011746
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### whining
+- Learned: 2025-02-20T15:59:56.028748
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### aaagh
+- Learned: 2025-02-20T15:59:56.050748
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bumping
+- Learned: 2025-02-20T16:00:15.360743
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.58, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.48, emotion_9: 0.05, emotion_10: 0.42, emotion_11: 0.05
+
+### ow
+- Learned: 2025-02-20T16:00:15.377743
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.58, emotion_2: 0.10, emotion_3: 0.15, emotion_4: 0.10, emotion_5: 0.05, emotion_6: 0.05, emotion_7: 0.69, emotion_8: 0.48, emotion_9: 0.05, emotion_10: 0.42, emotion_11: 0.05
+
+### gestures
+- Learned: 2025-02-20T16:00:32.364242
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.75, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.68, emotion_9: 0.03, emotion_10: 0.52, emotion_11: 0.03
+
+### unsure
+- Learned: 2025-02-20T16:00:32.390245
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.75, emotion_2: 0.07, emotion_3: 0.10, emotion_4: 0.07, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.80, emotion_8: 0.68, emotion_9: 0.03, emotion_10: 0.52, emotion_11: 0.03
+
+### shiver
+- Learned: 2025-02-20T16:01:13.647654
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.79, emotion_2: 0.15, emotion_3: 0.03, emotion_4: 0.12, emotion_5: 0.11, emotion_6: 0.07, emotion_7: 0.95, emotion_8: 0.78, emotion_9: 0.01, emotion_10: 0.53, emotion_11: 0.01
+
+### struggling
+- Learned: 2025-02-20T16:01:13.664651
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.79, emotion_2: 0.15, emotion_3: 0.03, emotion_4: 0.12, emotion_5: 0.11, emotion_6: 0.07, emotion_7: 0.95, emotion_8: 0.78, emotion_9: 0.01, emotion_10: 0.53, emotion_11: 0.01
+
+### stomping
+- Learned: 2025-02-20T16:01:13.687651
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.79, emotion_2: 0.15, emotion_3: 0.03, emotion_4: 0.12, emotion_5: 0.11, emotion_6: 0.07, emotion_7: 0.95, emotion_8: 0.78, emotion_9: 0.01, emotion_10: 0.53, emotion_11: 0.01
+
+### rest
+- Learned: 2025-02-20T16:01:13.704653
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.79, emotion_2: 0.15, emotion_3: 0.03, emotion_4: 0.12, emotion_5: 0.11, emotion_6: 0.07, emotion_7: 0.95, emotion_8: 0.78, emotion_9: 0.01, emotion_10: 0.53, emotion_11: 0.01
+
+### appen
+- Learned: 2025-02-20T16:01:44.789038
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.06, emotion_3: 0.01, emotion_4: 0.05, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 0.98, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### car
+- Learned: 2025-02-20T16:01:44.806038
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.06, emotion_3: 0.01, emotion_4: 0.05, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 0.98, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### bye
+- Learned: 2025-02-20T16:01:44.824037
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.06, emotion_3: 0.01, emotion_4: 0.05, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 0.98, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### bye
+- Learned: 2025-02-20T16:01:44.842037
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.06, emotion_3: 0.01, emotion_4: 0.05, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 0.98, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### car
+- Learned: 2025-02-20T16:01:44.857037
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.92, emotion_2: 0.06, emotion_3: 0.01, emotion_4: 0.05, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 0.98, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.62, emotion_11: 0.00
+
+### wuvwy
+- Learned: 2025-02-20T16:02:17.484068
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### pwace
+- Learned: 2025-02-20T16:02:17.502066
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### pwayce
+- Learned: 2025-02-20T16:02:17.521067
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### pwayce
+- Learned: 2025-02-20T16:02:17.541065
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### honk
+- Learned: 2025-02-20T16:02:17.557069
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### honk
+- Learned: 2025-02-20T16:02:17.576066
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### honks
+- Learned: 2025-02-20T16:02:17.592065
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### blows
+- Learned: 2025-02-20T16:02:17.611065
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### meeeeoow
+- Learned: 2025-02-20T16:02:38.324965
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### shooing
+- Learned: 2025-02-20T16:02:38.343965
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.99, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.65, emotion_11: 0.00
+
+### cars
+- Learned: 2025-02-20T16:03:21.234793
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### buddy
+- Learned: 2025-02-20T16:03:21.252793
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### drive
+- Learned: 2025-02-20T16:03:21.271792
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### raspberry
+- Learned: 2025-02-20T16:03:21.288791
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### wakka
+- Learned: 2025-02-20T16:03:21.306793
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### wakka
+- Learned: 2025-02-20T16:03:21.324793
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### truckies
+- Learned: 2025-02-20T16:03:24.474796
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.69, emotion_11: 0.00
+
+### woo
+- Learned: 2025-02-20T16:03:29.920144
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.72, emotion_11: 0.00
+
+### juicy
+- Learned: 2025-02-20T16:03:48.022240
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### sucky
+- Learned: 2025-02-20T16:03:48.041760
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### sucky
+- Learned: 2025-02-20T16:03:48.061760
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.93, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.93, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### milk
+- Learned: 2025-02-20T16:04:12.288098
+- Emotional Context: emotion_0: 1.00, emotion_1: 1.00, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 1.00, emotion_9: 0.00, emotion_10: 0.71, emotion_11: 0.00
+
+### hopin
+- Learned: 2025-02-20T16:04:30.906056
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### kewi
+- Learned: 2025-02-20T16:04:30.921058
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### wightless
+- Learned: 2025-02-20T16:04:30.937058
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### opposite
+- Learned: 2025-02-20T16:04:30.954056
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### eeh
+- Learned: 2025-02-20T16:04:30.970056
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### eeh
+- Learned: 2025-02-20T16:04:30.988055
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.63, emotion_11: 0.00
+
+### bounce
+- Learned: 2025-02-20T16:05:05.789460
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.00, emotion_3: 0.00, emotion_4: 0.00, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.68, emotion_11: 0.00
+
+### runnin
+- Learned: 2025-02-20T16:05:37.004577
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### boots
+- Learned: 2025-02-20T16:05:37.019579
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### splish
+- Learned: 2025-02-20T16:05:37.038577
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### splash
+- Learned: 2025-02-20T16:05:37.055579
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### puddles
+- Learned: 2025-02-20T16:05:37.072579
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### fair
+- Learned: 2025-02-20T16:05:37.088577
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### cryin
+- Learned: 2025-02-20T16:05:37.106578
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### sleeve
+- Learned: 2025-02-20T16:05:37.125578
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### kiddin
+- Learned: 2025-02-20T16:05:37.142577
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.81, emotion_2: 0.19, emotion_3: 0.00, emotion_4: 0.14, emotion_5: 0.14, emotion_6: 0.10, emotion_7: 1.00, emotion_8: 0.81, emotion_9: 0.00, emotion_10: 0.57, emotion_11: 0.00
+
+### trumpeting
+- Learned: 2025-02-20T16:06:05.508281
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.68, emotion_2: 0.10, emotion_3: 0.00, emotion_4: 0.07, emotion_5: 0.07, emotion_6: 0.05, emotion_7: 1.00, emotion_8: 0.68, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### frowning
+- Learned: 2025-02-20T16:06:05.526279
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.68, emotion_2: 0.10, emotion_3: 0.00, emotion_4: 0.07, emotion_5: 0.07, emotion_6: 0.05, emotion_7: 1.00, emotion_8: 0.68, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### ask
+- Learned: 2025-02-20T16:06:05.543279
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.68, emotion_2: 0.10, emotion_3: 0.00, emotion_4: 0.07, emotion_5: 0.07, emotion_6: 0.05, emotion_7: 1.00, emotion_8: 0.68, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### clapping
+- Learned: 2025-02-20T16:06:05.560279
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.68, emotion_2: 0.10, emotion_3: 0.00, emotion_4: 0.07, emotion_5: 0.07, emotion_6: 0.05, emotion_7: 1.00, emotion_8: 0.68, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### ask
+- Learned: 2025-02-20T16:06:05.577278
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.68, emotion_2: 0.10, emotion_3: 0.00, emotion_4: 0.07, emotion_5: 0.07, emotion_6: 0.05, emotion_7: 1.00, emotion_8: 0.68, emotion_9: 0.00, emotion_10: 0.47, emotion_11: 0.00
+
+### happenin
+- Learned: 2025-02-20T16:06:47.518009
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.75, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.75, emotion_9: 0.00, emotion_10: 0.51, emotion_11: 0.00
+
+### supposed
+- Learned: 2025-02-20T16:06:47.536011
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.75, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.75, emotion_9: 0.00, emotion_10: 0.51, emotion_11: 0.00
+
+### wheeeee
+- Learned: 2025-02-20T16:06:47.555011
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.75, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.75, emotion_9: 0.00, emotion_10: 0.51, emotion_11: 0.00
+
+### advenchure
+- Learned: 2025-02-20T16:07:22.499680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.519683
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### riddles
+- Learned: 2025-02-20T16:07:22.537684
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.553682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### rolls
+- Learned: 2025-02-20T16:07:22.569683
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dem
+- Learned: 2025-02-20T16:07:22.588683
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dem
+- Learned: 2025-02-20T16:07:22.605680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.622682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.637680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### becuz
+- Learned: 2025-02-20T16:07:22.654682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### troll
+- Learned: 2025-02-20T16:07:22.670680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### trya
+- Learned: 2025-02-20T16:07:22.687683
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### troll
+- Learned: 2025-02-20T16:07:22.705684
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### troll
+- Learned: 2025-02-20T16:07:22.721680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.739683
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.755681
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### hangs
+- Learned: 2025-02-20T16:07:22.771680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### liars
+- Learned: 2025-02-20T16:07:22.788685
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### scowls
+- Learned: 2025-02-20T16:07:22.805682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dey
+- Learned: 2025-02-20T16:07:22.821682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### sumfin
+- Learned: 2025-02-20T16:07:22.838682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### dem
+- Learned: 2025-02-20T16:07:22.853683
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### troll
+- Learned: 2025-02-20T16:07:22.869680
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### troll
+- Learned: 2025-02-20T16:07:22.884682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### becuz
+- Learned: 2025-02-20T16:07:22.900682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### everyting
+- Learned: 2025-02-20T16:07:22.916682
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.80, emotion_2: 0.17, emotion_3: 0.00, emotion_4: 0.13, emotion_5: 0.13, emotion_6: 0.08, emotion_7: 1.00, emotion_8: 0.80, emotion_9: 0.00, emotion_10: 0.53, emotion_11: 0.00
+
+### screaming
+- Learned: 2025-02-20T16:08:01.302493
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.05, emotion_3: 0.00, emotion_4: 0.04, emotion_5: 0.04, emotion_6: 0.03, emotion_7: 1.00, emotion_8: 0.87, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### emma
+- Learned: 2025-02-20T16:08:24.316115
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### chan
+- Learned: 2025-02-20T16:08:24.333111
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### emma
+- Learned: 2025-02-20T16:08:24.350113
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### chan
+- Learned: 2025-02-20T16:08:24.365110
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### spot
+- Learned: 2025-02-20T16:08:24.382110
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### shouldn
+- Learned: 2025-02-20T16:08:24.399114
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### emma
+- Learned: 2025-02-20T16:08:24.416112
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### chan
+- Learned: 2025-02-20T16:08:24.430110
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### emma
+- Learned: 2025-02-20T16:08:24.445111
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### chan
+- Learned: 2025-02-20T16:08:24.459112
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### vigorously
+- Learned: 2025-02-20T16:08:24.474113
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.99, emotion_2: 0.03, emotion_3: 0.00, emotion_4: 0.03, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 1.00, emotion_8: 0.99, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### folds
+- Learned: 2025-02-20T16:08:49.168052
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### mmmmmmm
+- Learned: 2025-02-20T16:08:49.187054
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### frustrated
+- Learned: 2025-02-20T16:08:49.203053
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### ugh
+- Learned: 2025-02-20T16:08:49.221053
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.97, emotion_2: 0.02, emotion_3: 0.00, emotion_4: 0.02, emotion_5: 0.02, emotion_6: 0.01, emotion_7: 1.00, emotion_8: 0.97, emotion_9: 0.00, emotion_10: 0.66, emotion_11: 0.00
+
+### couch
+- Learned: 2025-02-20T16:09:14.039140
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.01, emotion_6: 0.00, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### desperate
+- Learned: 2025-02-20T16:14:16.135635
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### uggghhh
+- Learned: 2025-02-20T16:14:26.730186
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### void
+- Learned: 2025-02-20T16:14:26.753186
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waits
+- Learned: 2025-02-20T16:14:26.776185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### realizes
+- Learned: 2025-02-20T16:14:26.797183
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ahhhhh
+- Learned: 2025-02-20T16:14:26.822185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### silently
+- Learned: 2025-02-20T16:14:26.842183
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waits
+- Learned: 2025-02-20T16:14:26.864185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### silently
+- Learned: 2025-02-20T16:14:26.881185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hyperventilates
+- Learned: 2025-02-20T16:14:26.898185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### urgently
+- Learned: 2025-02-20T16:14:26.918185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waits
+- Learned: 2025-02-20T16:14:26.937185
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### oooohhh
+- Learned: 2025-02-20T16:14:26.957183
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squiggly
+- Learned: 2025-02-20T16:14:36.019350
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lines
+- Learned: 2025-02-20T16:14:36.039352
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flutter
+- Learned: 2025-02-20T16:14:36.061351
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### passes
+- Learned: 2025-02-20T16:14:36.079351
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### express
+- Learned: 2025-02-20T16:14:36.098352
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### candle
+- Learned: 2025-02-20T16:14:36.118352
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pass
+- Learned: 2025-02-20T16:14:48.095380
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### anxiety
+- Learned: 2025-02-20T16:14:48.122528
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### flinches
+- Learned: 2025-02-20T16:14:52.074296
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shrieks
+- Learned: 2025-02-20T16:14:52.103159
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### doze
+- Learned: 2025-02-20T16:14:52.134938
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### slows
+- Learned: 2025-02-20T16:14:57.148407
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fail
+- Learned: 2025-02-20T16:14:57.178585
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### generate
+- Learned: 2025-02-20T16:14:57.200554
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### coherent
+- Learned: 2025-02-20T16:14:57.222134
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### owwwwwww
+- Learned: 2025-02-20T16:15:04.031950
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### immediately
+- Learned: 2025-02-20T16:15:04.051830
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tone
+- Learned: 2025-02-20T16:15:04.073124
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fuss
+- Learned: 2025-02-20T16:15:04.100836
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### relaxes
+- Learned: 2025-02-20T16:15:04.119215
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### aahhh
+- Learned: 2025-02-20T16:15:06.883656
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### changing
+- Learned: 2025-02-20T16:15:06.905595
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eyelids
+- Learned: 2025-02-20T16:15:06.925533
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### aahhh
+- Learned: 2025-02-20T16:15:06.946653
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### distort
+- Learned: 2025-02-20T16:15:06.965583
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### aahhh
+- Learned: 2025-02-20T16:15:06.986141
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### watery
+- Learned: 2025-02-20T16:15:07.003564
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### aahhh
+- Learned: 2025-02-20T16:15:07.031206
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### jittery
+- Learned: 2025-02-20T16:15:07.053025
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### bearings
+- Learned: 2025-02-20T16:15:07.085523
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### reassure
+- Learned: 2025-02-20T16:15:13.764896
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shake
+- Learned: 2025-02-20T16:15:13.784717
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### thrashing
+- Learned: 2025-02-20T16:15:13.810587
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ooooh
+- Learned: 2025-02-20T16:15:17.551820
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### momma
+- Learned: 2025-02-20T16:15:25.970065
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### trail
+- Learned: 2025-02-20T16:15:25.990422
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### listless
+- Learned: 2025-02-20T16:15:26.011569
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waaahhhh
+- Learned: 2025-02-20T16:15:29.822636
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### clenched
+- Learned: 2025-02-20T16:15:29.850616
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### call
+- Learned: 2025-02-20T16:15:29.869385
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### escapes
+- Learned: 2025-02-20T16:15:29.884523
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### desperately
+- Learned: 2025-02-20T16:15:29.907022
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### slips
+- Learned: 2025-02-20T16:15:36.030640
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squeak
+- Learned: 2025-02-20T16:15:36.047642
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rocked
+- Learned: 2025-02-20T16:15:36.066640
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### softness
+- Learned: 2025-02-20T16:15:36.083640
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shield
+- Learned: 2025-02-20T16:15:38.267996
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cope
+- Learned: 2025-02-20T16:15:38.320955
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### whirring
+- Learned: 2025-02-20T16:15:45.789961
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### buuut
+- Learned: 2025-02-20T16:15:45.828188
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### zzzt
+- Learned: 2025-02-20T16:15:45.853945
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### zzzt
+- Learned: 2025-02-20T16:15:45.872613
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### zzzz
+- Learned: 2025-02-20T16:15:45.890587
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eeeeeeek
+- Learned: 2025-02-20T16:15:48.381184
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### effectively
+- Learned: 2025-02-20T16:15:48.404241
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### whirring
+- Learned: 2025-02-20T16:15:48.431567
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### grasp
+- Learned: 2025-02-20T16:15:48.463808
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rock
+- Learned: 2025-02-20T16:15:48.485226
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### soothe
+- Learned: 2025-02-20T16:15:48.503396
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eeeeeeek
+- Learned: 2025-02-20T16:15:48.522749
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### jolt
+- Learned: 2025-02-20T16:15:55.489045
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fumbles
+- Learned: 2025-02-20T16:15:59.220288
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### softer
+- Learned: 2025-02-20T16:15:59.242305
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gentler
+- Learned: 2025-02-20T16:15:59.261903
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pleading
+- Learned: 2025-02-20T16:15:59.279134
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lingers
+- Learned: 2025-02-20T16:15:59.297926
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### confident
+- Learned: 2025-02-20T16:16:10.210420
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### based
+- Learned: 2025-02-20T16:16:10.230341
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### given
+- Learned: 2025-02-20T16:16:10.247736
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shows
+- Learned: 2025-02-20T16:16:10.263241
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### desire
+- Learned: 2025-02-20T16:16:10.283175
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### blurred
+- Learned: 2025-02-20T16:16:10.303202
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stale
+- Learned: 2025-02-20T16:16:15.752174
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shake
+- Learned: 2025-02-20T16:16:15.781552
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### escapes
+- Learned: 2025-02-20T16:16:15.809366
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### panicked
+- Learned: 2025-02-20T16:16:15.829946
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rapid
+- Learned: 2025-02-20T16:16:15.849561
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squirms
+- Learned: 2025-02-20T16:16:20.497175
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### toothy
+- Learned: 2025-02-20T16:16:20.517555
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### coo
+- Learned: 2025-02-20T16:16:20.535899
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### startle
+- Learned: 2025-02-20T16:16:24.131619
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### worse
+- Learned: 2025-02-20T16:16:24.153652
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### struggle
+- Learned: 2025-02-20T16:16:24.206869
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### muster
+- Learned: 2025-02-20T16:16:24.224983
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### tenses
+- Learned: 2025-02-20T16:16:29.585413
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### discomfort
+- Learned: 2025-02-20T16:16:37.557797
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### disorienting
+- Learned: 2025-02-20T16:16:37.586112
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squirms
+- Learned: 2025-02-20T16:16:41.413195
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shrieks
+- Learned: 2025-02-20T16:16:41.438785
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squeezes
+- Learned: 2025-02-20T16:16:41.458786
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squelching
+- Learned: 2025-02-20T16:16:41.481749
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pleading
+- Learned: 2025-02-20T16:16:41.507018
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mumbling
+- Learned: 2025-02-20T16:16:47.086959
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pass
+- Learned: 2025-02-20T16:16:47.107052
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### distort
+- Learned: 2025-02-20T16:16:47.128834
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### ripple
+- Learned: 2025-02-20T16:16:47.148346
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### seep
+- Learned: 2025-02-20T16:16:47.167853
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wrong
+- Learned: 2025-02-20T16:16:47.192389
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### pulling
+- Learned: 2025-02-20T16:16:47.211574
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wheezing
+- Learned: 2025-02-20T16:16:47.252866
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### lean
+- Learned: 2025-02-20T16:16:52.991105
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### trip
+- Learned: 2025-02-20T16:16:53.010805
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### hesitant
+- Learned: 2025-02-20T16:16:53.032607
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mother
+- Learned: 2025-02-20T16:16:56.628795
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fuss
+- Learned: 2025-02-20T16:17:03.256849
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### owwwww
+- Learned: 2025-02-20T16:17:03.336516
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### gurgles
+- Learned: 2025-02-20T16:17:03.378517
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### continuously
+- Learned: 2025-02-20T16:17:03.411516
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### coherent
+- Learned: 2025-02-20T16:17:03.449515
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sentences
+- Learned: 2025-02-20T16:17:03.482516
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### restrained
+- Learned: 2025-02-20T16:17:03.514829
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### forces
+- Learned: 2025-02-20T16:17:03.538066
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### falters
+- Learned: 2025-02-20T16:17:13.554773
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### glimpse
+- Learned: 2025-02-20T16:17:13.570773
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### squeezes
+- Learned: 2025-02-20T16:17:13.589724
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### drop
+- Learned: 2025-02-20T16:17:13.605723
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### thrashes
+- Learned: 2025-02-20T16:17:13.622723
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wailing
+- Learned: 2025-02-20T16:17:13.895198
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### wriggle
+- Learned: 2025-02-20T16:17:13.921199
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### relaxes
+- Learned: 2025-02-20T16:17:13.943199
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### uncontrolledly
+- Learned: 2025-02-20T16:17:21.905784
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### papa
+- Learned: 2025-02-20T16:17:21.930786
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### rocking
+- Learned: 2025-02-20T16:17:21.950784
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### womb
+- Learned: 2025-02-20T16:17:21.970785
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### vaguely
+- Learned: 2025-02-20T16:17:23.166208
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### stirring
+- Learned: 2025-02-20T16:17:30.431860
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dozes
+- Learned: 2025-02-20T16:17:30.452884
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dozes
+- Learned: 2025-02-20T16:17:30.483434
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### thumps
+- Learned: 2025-02-20T16:17:30.502226
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### compose
+- Learned: 2025-02-20T16:17:30.520234
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### dozes
+- Learned: 2025-02-20T16:17:30.543988
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### shouts
+- Learned: 2025-02-20T16:17:33.601322
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### resists
+- Learned: 2025-02-20T16:17:33.628898
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### glaze
+- Learned: 2025-02-20T16:17:33.646884
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### whyyyy
+- Learned: 2025-02-20T16:17:38.443358
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### expectantly
+- Learned: 2025-02-20T16:17:38.472471
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### meh
+- Learned: 2025-02-20T16:17:38.498120
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cooos
+- Learned: 2025-02-20T16:17:42.360616
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eee
+- Learned: 2025-02-20T16:17:42.382614
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### fussy
+- Learned: 2025-02-20T16:17:42.401615
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### series
+- Learned: 2025-02-20T16:17:42.419616
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### random
+- Learned: 2025-02-20T16:17:42.437615
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eeeeeee
+- Learned: 2025-02-20T16:17:42.457617
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### nooo
+- Learned: 2025-02-20T16:17:42.474613
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### disoriented
+- Learned: 2025-02-20T16:17:42.493614
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### mist
+- Learned: 2025-02-20T16:17:42.511617
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### eeeeee
+- Learned: 2025-02-20T16:17:42.528615
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### searching
+- Learned: 2025-02-20T16:17:50.556330
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### anxious
+- Learned: 2025-02-20T16:17:50.579243
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### cling
+- Learned: 2025-02-20T16:17:50.611479
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### perk
+- Learned: 2025-02-20T16:18:01.169124
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beeping
+- Learned: 2025-02-20T16:18:01.189122
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### beep
+- Learned: 2025-02-20T16:18:01.208122
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### waaao
+- Learned: 2025-02-20T16:18:11.344269
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sniff
+- Learned: 2025-02-20T16:18:11.362271
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### snort
+- Learned: 2025-02-20T16:18:11.378271
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sniff
+- Learned: 2025-02-20T16:18:11.397270
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### sniff
+- Learned: 2025-02-20T16:18:11.413270
+- Emotional Context: emotion_0: 0.50, emotion_1: 0.50, emotion_2: 0.20, emotion_3: 0.30, emotion_4: 0.20, emotion_5: 0.10, emotion_6: 0.10, emotion_7: 0.40, emotion_8: 0.30, emotion_9: 0.10, emotion_10: 0.40, emotion_11: 0.10
+
+### garbled
+- Learned: 2025-02-20T16:18:53.085353
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.82, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.77, emotion_9: 0.03, emotion_10: 0.57, emotion_11: 0.03
+
+### pants
+- Learned: 2025-02-20T16:18:53.103351
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.82, emotion_2: 0.05, emotion_3: 0.08, emotion_4: 0.05, emotion_5: 0.03, emotion_6: 0.03, emotion_7: 0.84, emotion_8: 0.77, emotion_9: 0.03, emotion_10: 0.57, emotion_11: 0.03
+
+### pwease
+- Learned: 2025-02-20T16:18:58.354046
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.95, emotion_2: 0.01, emotion_3: 0.00, emotion_4: 0.01, emotion_5: 0.00, emotion_6: 0.00, emotion_7: 0.99, emotion_8: 0.95, emotion_9: 0.00, emotion_10: 0.64, emotion_11: 0.00
+
+### pounces
+- Learned: 2025-02-20T16:19:35.769567
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.67, emotion_2: 0.05, emotion_3: 0.02, emotion_4: 0.04, emotion_5: 0.03, emotion_6: 0.02, emotion_7: 0.96, emotion_8: 0.66, emotion_9: 0.01, emotion_10: 0.45, emotion_11: 0.01
+
+### clicking
+- Learned: 2025-02-20T16:20:02.601679
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.91, emotion_2: 0.25, emotion_3: 0.00, emotion_4: 0.19, emotion_5: 0.19, emotion_6: 0.13, emotion_7: 1.00, emotion_8: 0.91, emotion_9: 0.00, emotion_10: 0.61, emotion_11: 0.00
+
+### sucked
+- Learned: 2025-02-20T16:20:07.201079
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.01, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.98, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### vacuum
+- Learned: 2025-02-20T16:20:07.218401
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.01, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.98, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### cleaner
+- Learned: 2025-02-20T16:20:07.245439
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.01, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.98, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00
+
+### ewww
+- Learned: 2025-02-20T16:20:07.268877
+- Emotional Context: emotion_0: 1.00, emotion_1: 0.87, emotion_2: 0.02, emotion_3: 0.01, emotion_4: 0.02, emotion_5: 0.01, emotion_6: 0.01, emotion_7: 0.98, emotion_8: 0.86, emotion_9: 0.00, emotion_10: 0.58, emotion_11: 0.00

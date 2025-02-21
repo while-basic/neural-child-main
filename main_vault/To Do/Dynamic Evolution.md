@@ -1,0 +1,1 @@
+- Let the AI **set its own goals**, adapting based on user needs or independent learning paths.

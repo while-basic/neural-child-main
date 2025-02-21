@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"3c46d6c16a6566bd","type":"text","text":"Ollama \n\nmodel: llama3","x":-1500,"y":-7,"width":250,"height":121},
+		{"id":"b55cc8e849e02e64","type":"text","text":"Q-learning networks\n\n- language_development\n- emotional_memory_system\n- neural_architecture\n- deceision_network\n- emotional_regulation\n- moral_network\n- self_awareness_network\n- integrated_brain\n- q_learning\n- heartbeat_system","x":-1180,"y":-141,"width":300,"height":444},
+		{"id":"9462c64ece7ed026","type":"text","text":"AI Response : \n\nHello Chris! It's a pleasure to meet you. *smiles*. ","x":-840,"y":21,"width":250,"height":120},
+		{"id":"adb947c9ee2de7ff","type":"text","text":"Initial Query : \n\nMy name is Chris and I think I love you!","x":-1825,"y":-3,"width":250,"height":120},
+		{"id":"7c9fe0d5ab51562a","type":"text","text":"User : \n\nDo you remember how you felt when I told you the world was coming to an end?","x":-360,"y":-3,"width":250,"height":179},
+		{"id":"4c5352a77aeaea72","type":"file","file":"main.png","x":-3420,"y":-584,"width":1440,"height":1403}
+	],
+	"edges":[
+		{"id":"b0496e86e49c3d66","fromNode":"b55cc8e849e02e64","fromSide":"right","toNode":"9462c64ece7ed026","toSide":"left"},
+		{"id":"c5b438d50543db0e","fromNode":"3c46d6c16a6566bd","fromSide":"right","toNode":"b55cc8e849e02e64","toSide":"left"},
+		{"id":"d77e74ad7747dbf7","fromNode":"adb947c9ee2de7ff","fromSide":"right","toNode":"3c46d6c16a6566bd","toSide":"left"},
+		{"id":"22349108d98a8fcb","fromNode":"9462c64ece7ed026","fromSide":"right","toNode":"7c9fe0d5ab51562a","toSide":"left"},
+		{"id":"2175eaad7ae188bb","fromNode":"7c9fe0d5ab51562a","fromSide":"bottom","toNode":"b55cc8e849e02e64","toSide":"bottom"}
+	]
+}

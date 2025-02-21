@@ -5,7 +5,7 @@
 import torch
 import torch.nn as nn
 from typing import Dict, List, Optional, Any, Tuple
-from datetime import datetime
+from datetime import datetime, timedelta
 import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
@@ -108,41 +108,20 @@ class EmotionalMemoryProcessor(nn.Module):
 class EmotionalMemorySystem:
     """Advanced emotional memory system using ChromaDB"""
     def __init__(self, 
-                persist_dir: str = "emotional_memories",
+                chat_interface,
                 sentence_transformer_model: str = "all-MiniLM-L6-v2"):
-        # Ensure persist directory exists
-        Path(persist_dir).mkdir(parents=True, exist_ok=True)
+        """Initialize the emotional memory system"""
+        # Store brain reference
+        self.brain = chat_interface
         
-        # Initialize ChromaDB with persistence
-        self.chroma_client = chromadb.PersistentClient(
-            path=persist_dir,
-            settings=Settings(
-                anonymized_telemetry=False,
-                allow_reset=True
-            )
-        )
+        # Use existing ChromaDB client from chat interface
+        self.chroma_client = chat_interface.chroma_client
         
-        # Get or create collections for different memory types
-        try:
-            self.emotional_collection = self.chroma_client.get_or_create_collection(
-                name="emotional_memories",
-                metadata={"type": "emotional"}
-            )
-            
-            self.episodic_collection = self.chroma_client.get_or_create_collection(
-                name="episodic_memories",
-                metadata={"type": "episodic"}
-            )
-            
-            self.semantic_collection = self.chroma_client.get_or_create_collection(
-                name="semantic_memories",
-                metadata={"type": "semantic"}
-            )
-            
-            print("Using existing memory collections")
-        except Exception as e:
-            print(f"Creating new memory collections: {str(e)}")
-            
+        # Use existing collections
+        self.emotional_collection = chat_interface.emotional_memory_collection
+        self.episodic_collection = chat_interface.episodic_memory_collection
+        self.semantic_collection = chat_interface.semantic_memory_collection
+        
         # Initialize sentence transformer
         self.sentence_transformer = SentenceTransformer(sentence_transformer_model)
         
@@ -205,6 +184,7 @@ class EmotionalMemorySystem:
             flattened_metadata = {
                 'type': 'emotional',  # Store type directly in metadata
                 'timestamp': memory.timestamp.isoformat(),
+                'timestamp_unix': memory.timestamp.timestamp(),  # Add Unix timestamp for comparison
                 'appropriate': True,
                 
                 # Emotional state
@@ -422,48 +402,217 @@ class EmotionalMemorySystem:
             return []
     
     def _calculate_emotional_association(self, memory: EmotionalMemoryEntry) -> EmotionalAssociation:
-        """Calculate the emotional association type for a memory"""
+        """Calculate the emotional association type for a memory.
+        
+        Args:
+            memory (EmotionalMemoryEntry): The memory to analyze
+            
+        Returns:
+            EmotionalAssociation: The type of emotional association
+        """
         # Extract emotional values
-        joy = memory.emotional_state.get('joy', 0)
-        trust = memory.emotional_state.get('trust', 0)
-        fear = memory.emotional_state.get('fear', 0)
-        surprise = memory.emotional_state.get('surprise', 0)
+        joy = memory.emotional_state.get('joy', 0.0)
+        trust = memory.emotional_state.get('trust', 0.0)
+        fear = memory.emotional_state.get('fear', 0.0)
+        surprise = memory.emotional_state.get('surprise', 0.0)
         
         # Calculate emotional metrics
-        positive_emotions = (joy + trust) / 2
-        negative_emotions = (fear + max(0, surprise - 0.5)) / 2
-        emotional_intensity = max(fear, surprise, memory.intensity)
+        positive_affect = (joy + trust) / 2
+        negative_affect = fear
+        emotional_complexity = abs(positive_affect - negative_affect)
         
-        # Determine association type with adjusted thresholds
-        if fear > 0.7 and emotional_intensity > 0.8:  # Higher threshold for traumatic
+        # Determine association type
+        if fear > 0.7 and memory.intensity > 0.8:
             return EmotionalAssociation.TRAUMATIC
-        elif positive_emotions > 0.5 and negative_emotions < 0.3:  # Lower threshold for positive
+        elif positive_affect > 0.5 and fear < 0.3:
             return EmotionalAssociation.POSITIVE
-        elif negative_emotions > 0.5:  # Adjusted negative threshold
+        elif fear > 0.5:
             return EmotionalAssociation.NEGATIVE
-        elif abs(positive_emotions - negative_emotions) < 0.2:
+        elif emotional_complexity < 0.2:
             return EmotionalAssociation.NEUTRAL
         else:
             return EmotionalAssociation.COMPLEX
             
-    def _update_association_stats(self, association: EmotionalAssociation):
-        """Update memory statistics based on association type"""
-        if association == EmotionalAssociation.POSITIVE:
-            self.stats['positive_memories'] += 1
-        elif association == EmotionalAssociation.NEGATIVE:
-            self.stats['negative_memories'] += 1
-        elif association == EmotionalAssociation.NEUTRAL:
-            self.stats['neutral_memories'] += 1
-        elif association == EmotionalAssociation.COMPLEX:
-            self.stats['complex_memories'] += 1
-        elif association == EmotionalAssociation.TRAUMATIC:
-            self.stats['traumatic_memories'] += 1
+    def _analyze_emotional_patterns(self, history: List[Dict]) -> Dict[str, Any]:
+        """Analyze emotional patterns from heartbeat history.
+        
+        Args:
+            history (List[Dict]): List of heartbeat history entries
             
-    def _emotional_state_matches(self, state1: Dict[str, float], state2: Dict[str, float], threshold: float = 0.3) -> bool:
-        """Check if two emotional states are similar"""
-        return all(abs(state1.get(k, 0) - state2.get(k, 0)) <= threshold 
-                  for k in ['joy', 'trust', 'fear', 'surprise'])
-                  
+        Returns:
+            Dict containing pattern analysis
+        """
+        if not history:
+            return {'status': 'No history available'}
+            
+        # Calculate statistics
+        rates = [entry['rate'] for entry in history]
+        states = [entry['state'] for entry in history]
+        
+        # Calculate emotional stability
+        rate_stability = 1.0 - (np.std(rates) / np.mean(rates)) if rates else 0.0
+        
+        # Calculate state transitions
+        transitions = len([i for i in range(1, len(states)) if states[i] != states[i-1]])
+        transition_rate = transitions / len(states) if states else 0.0
+        
+        # Identify dominant states
+        state_counts = {}
+        for state in states:
+            state_counts[state] = state_counts.get(state, 0) + 1
+            
+        dominant_state = max(state_counts.items(), key=lambda x: x[1])[0] if state_counts else None
+        
+        # Calculate emotional resilience (ability to return to baseline)
+        baseline_returns = len([i for i in range(1, len(states)) 
+                              if states[i] == 'RESTING' and states[i-1] != 'RESTING'])
+        resilience = baseline_returns / transitions if transitions > 0 else 0.0
+        
+        analysis = {
+            'average_rate': np.mean(rates) if rates else 0.0,
+            'rate_variance': np.var(rates) if rates else 0.0,
+            'rate_stability': rate_stability,
+            'dominant_state': dominant_state,
+            'state_transitions': transitions,
+            'transition_rate': transition_rate,
+            'emotional_resilience': resilience,
+            'period_analyzed': f"{len(history)} entries",
+            'state_distribution': state_counts
+        }
+        
+        return analysis
+        
+    def consolidate_memories(self) -> Dict[str, Any]:
+        """Consolidate recent memories and update emotional patterns.
+        
+        Returns:
+            Dict containing consolidation results
+        """
+        try:
+            # Get recent memories
+            cutoff_time = (datetime.now() - timedelta(hours=24)).timestamp()
+            recent_memories = self.emotional_collection.get(
+                where={"timestamp_unix": {"$gt": cutoff_time}}
+            )
+            
+            if not recent_memories or 'documents' not in recent_memories:
+                return {'status': 'No recent memories to consolidate'}
+                
+            # Group memories by emotional association
+            memory_groups = {
+                'positive': [],
+                'negative': [],
+                'neutral': [],
+                'complex': [],
+                'traumatic': []
+            }
+            
+            for doc, metadata in zip(recent_memories['documents'], recent_memories['metadatas']):
+                # Reconstruct emotional state
+                emotional_state = {
+                    'joy': metadata.get('emotional_joy', 0.0),
+                    'trust': metadata.get('emotional_trust', 0.0),
+                    'fear': metadata.get('emotional_fear', 0.0),
+                    'surprise': metadata.get('emotional_surprise', 0.0)
+                }
+                
+                # Create memory entry
+                memory = EmotionalMemoryEntry(
+                    content=doc,
+                    emotional_state=emotional_state,
+                    context=metadata.get('context', ''),
+                    intensity=metadata.get('intensity', 0.0),
+                    valence=metadata.get('valence', 0.0),
+                    arousal=metadata.get('arousal', 0.0),
+                    timestamp=datetime.fromtimestamp(metadata.get('timestamp_unix', datetime.now().timestamp())),
+                    metadata=metadata
+                )
+                
+                # Determine association and group
+                association = self._calculate_emotional_association(memory)
+                memory_groups[association.name.lower()].append(memory)
+                
+            # Calculate consolidation metrics
+            total_memories = len(recent_memories['documents'])
+            consolidation_metrics = {
+                'total_memories': total_memories,
+                'positive_ratio': len(memory_groups['positive']) / total_memories if total_memories > 0 else 0.0,
+                'negative_ratio': len(memory_groups['negative']) / total_memories if total_memories > 0 else 0.0,
+                'emotional_complexity': len(memory_groups['complex']) / total_memories if total_memories > 0 else 0.0,
+                'trauma_exposure': len(memory_groups['traumatic']) / total_memories if total_memories > 0 else 0.0
+            }
+            
+            # Update brain's emotional state based on consolidated memories
+            self._update_emotional_state_from_consolidation(memory_groups, consolidation_metrics)
+            
+            return {
+                'status': 'Memory consolidation complete',
+                'metrics': consolidation_metrics,
+                'memory_distribution': {k: len(v) for k, v in memory_groups.items()}
+            }
+            
+        except Exception as e:
+            print(f"Error during memory consolidation: {str(e)}")
+            return {'status': 'Error during consolidation', 'error': str(e)}
+            
+    def _update_emotional_state_from_consolidation(self, 
+                                                 memory_groups: Dict[str, List[EmotionalMemoryEntry]],
+                                                 metrics: Dict[str, float]):
+        """Update brain's emotional state based on consolidated memories.
+        
+        Args:
+            memory_groups (Dict[str, List[EmotionalMemoryEntry]]): Grouped memories
+            metrics (Dict[str, float]): Consolidation metrics
+        """
+        try:
+            # Calculate base emotional adjustments
+            joy_adjustment = metrics['positive_ratio'] - metrics['negative_ratio']
+            trust_adjustment = max(0, 0.5 - metrics['trauma_exposure']) * 0.5
+            fear_adjustment = metrics['trauma_exposure'] * 0.3
+            surprise_adjustment = metrics['emotional_complexity'] * 0.2
+            
+            # Get current heartbeat info
+            heartbeat_info = self.brain.heartbeat.get_current_heartbeat()
+            current_rate = heartbeat_info.get('rate', 80)
+            
+            # Calculate heartbeat adjustments
+            if current_rate > 100:  # Elevated heart rate
+                joy_adjustment *= 0.8  # Reduce positive emotions
+                fear_adjustment *= 1.2  # Increase fear
+            elif current_rate < 70:  # Low heart rate
+                trust_adjustment *= 1.2  # Increase trust
+                fear_adjustment *= 0.8  # Reduce fear
+                
+            # Update brain's emotional state with smoothing
+            self.brain.brain_state.emotional_valence = max(-1.0, min(1.0,
+                self.brain.brain_state.emotional_valence * 0.7 +  # 70% previous state
+                (joy_adjustment - fear_adjustment) * 0.3  # 30% new adjustment
+            ))
+            
+            self.brain.brain_state.arousal = max(0.0, min(1.0,
+                self.brain.brain_state.arousal * 0.7 +
+                (surprise_adjustment + fear_adjustment) * 0.3
+            ))
+            
+            # Update neurotransmitter levels
+            self.brain.brain_state.neurotransmitters['dopamine'] = max(0.1, min(1.0,
+                self.brain.brain_state.neurotransmitters['dopamine'] * 0.8 +
+                joy_adjustment * 0.2
+            ))
+            
+            self.brain.brain_state.neurotransmitters['serotonin'] = max(0.1, min(1.0,
+                self.brain.brain_state.neurotransmitters['serotonin'] * 0.8 +
+                trust_adjustment * 0.2
+            ))
+            
+            self.brain.brain_state.neurotransmitters['norepinephrine'] = max(0.1, min(1.0,
+                self.brain.brain_state.neurotransmitters['norepinephrine'] * 0.8 +
+                (fear_adjustment + surprise_adjustment) * 0.2
+            ))
+            
+        except Exception as e:
+            print(f"Error updating emotional state from consolidation: {str(e)}")
+            
     def get_memory_stats(self) -> Dict[str, Any]:
         """Get current memory statistics"""
         # Ensure stats are loaded

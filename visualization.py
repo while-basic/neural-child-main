@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
 import numpy as np
-from torchviz import make_dot
 import networkx as nx
 from matplotlib.animation import FuncAnimation
 import plotly.graph_objects as go
@@ -118,18 +117,52 @@ class NeuralNetworkVisualizer:
     def __init__(self, model):
         self.model = model
     
-    def visualize_architecture(self, input_size=(1, 384), save_path=None):
-        x = torch.randn(input_size).to(next(self.model.parameters()).device)
-        y = self.model(x)
+    def visualize_architecture(self, save_path=None):
+        """Visualize network architecture using matplotlib instead of Graphviz"""
+        G = nx.DiGraph()
         
-        dot = make_dot(y, params=dict(self.model.named_parameters()))
-        dot.attr(rankdir='LR')
+        # Add nodes for each layer
+        layer_sizes = []
+        layer_names = []
+        
+        # Extract layer information
+        for name, module in self.model.named_modules():
+            if isinstance(module, torch.nn.Linear):
+                layer_sizes.append(module.in_features)
+                layer_names.append(f"{name}\n({module.in_features}→{module.out_features})")
+                if len(layer_sizes) == 1:  # First layer
+                    G.add_node(0, name=layer_names[-1], size=module.in_features)
+                G.add_node(len(layer_sizes), name=f"{name}_out\n({module.out_features})", size=module.out_features)
+                G.add_edge(len(layer_sizes)-1, len(layer_sizes))
+        
+        # Create the plot
+        plt.figure(figsize=(12, 8))
+        pos = nx.spring_layout(G)
+        
+        # Draw nodes
+        nx.draw_networkx_nodes(G, pos, 
+                             node_color='lightblue',
+                             node_size=[1000 + size*10 for size in [G.nodes[node]['size'] for node in G.nodes]],
+                             alpha=0.7)
+        
+        # Draw edges
+        nx.draw_networkx_edges(G, pos, edge_color='gray', arrows=True, arrowsize=20)
+        
+        # Add labels
+        labels = {node: G.nodes[node]['name'] for node in G.nodes}
+        nx.draw_networkx_labels(G, pos, labels, font_size=10)
+        
+        plt.title("Neural Network Architecture", pad=20)
+        plt.axis('off')
         
         if save_path:
-            dot.render(save_path, format='png', cleanup=True)
-        return dot
+            plt.savefig(save_path + '.png', bbox_inches='tight', dpi=300)
+            plt.close()
+        else:
+            plt.show()
     
     def plot_weight_distributions(self, save_path=None):
+        """Plot weight distributions for each layer"""
         plt.figure(figsize=(15, 10))
         num_layers = len(list(self.model.named_parameters()))
         current_plot = 1
@@ -146,10 +179,13 @@ class NeuralNetworkVisualizer:
         
         plt.tight_layout()
         if save_path:
-            plt.savefig(save_path)
-        plt.show()
+            plt.savefig(save_path, bbox_inches='tight', dpi=300)
+            plt.close()
+        else:
+            plt.show()
     
     def create_activation_heatmap(self, input_data, save_path=None):
+        """Create activation heatmap for each layer"""
         self.model.eval()
         activations = {}
         
@@ -182,8 +218,10 @@ class NeuralNetworkVisualizer:
         
         plt.tight_layout()
         if save_path:
-            plt.savefig(save_path)
-        plt.show()
+            plt.savefig(save_path, bbox_inches='tight', dpi=300)
+            plt.close()
+        else:
+            plt.show()
 
 def plot_learning_metrics(telemetry, save_path=None):
     metrics = ['loss', 'emotional_stability', 'conversation_quality']

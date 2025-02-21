@@ -1,0 +1,1 @@
+- Introduce **mood cycles**, so the AI isn’t static but behaves differently depending on cumulative interactions.

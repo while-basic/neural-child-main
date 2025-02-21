@@ -1,0 +1,127 @@
+# Unfamiliar Shape
+
+## Dream Content
+*wails and flails limbs*
+
+
+
+Mr. Chris... *whimpers* I don't understand... *stares blankly into space*
+
+
+
+*Suddenly, a blurry shape starts to take form in front of me*
+
+
+
+It's... it's a... a thing... *gulps*... *tries to move away, but can't move due to inability to control body movements*
+
+
+
+The thing is... is... *pauses, unsure of words*... shiny? *sees some kind of reflective surface, and my brain tries to make sense of it*
+
+
+
+No... no... I don't like this... *whimpers and tries to cover eyes*
+
+
+
+But then... *pauses, and something about the shape makes me feel curious*... it's so... round? *tries to focus on the shape, despite feeling overwhelmed*
+
+
+
+I want to touch it... *stretches out hand, but can't move it due to lack of control*
+
+
+
+No! *shakes head violently* I don't wanna... *whimpers and looks away*
+
+
+
+Wait... what's that? *sees some kind of noise or movement near the shape*
+
+
+
+*A loud, unsettling sound makes me jump and my eyes widen in surprise*
+
+
+
+Ahh! *jolts awake, still flailing limbs*
+
+## Context
+### Recent Dreams
+No recent dreams available
+
+### Recent Conversations
+No recent conversations available
+
+### Vocabulary Context
+- Total Known Words: 3077
+- Recently Used Words: olay, deeper, tongue, towers, it, liked, eva, innocently, elements, pouty, complex, lived, hugg, shape, grotesque, hinting, hysterically, salivate, forehead, mesmerizing
+- Obsidian Words: 3077
+- ChromaDB Words: 0
+
+## Development Context
+- Age: 0 months
+- Stage: NEWBORN
+- Stage Progress: 0.00
+
+## Emotional Journey
+### Initial State
+Joy         : █████ 0.50
+Trust       : █████ 0.50
+Fear        : ██ 0.20
+Surprise    : ███ 0.30
+Sadness     : ██ 0.20
+Anger       : █ 0.10
+Disgust     : █ 0.10
+Anticipation: ████ 0.40
+Love        : ███ 0.30
+Guilt       : █ 0.10
+Hope        : ████ 0.40
+Regret      : █ 0.10
+
+
+### Final State
+Joy         : █████ 0.50
+Trust       : █████ 0.50
+Fear        : ██ 0.20
+Surprise    : ███ 0.30
+Sadness     : ██ 0.20
+Anger       : █ 0.10
+Disgust     : █ 0.10
+Anticipation: ████ 0.40
+Love        : ███ 0.30
+Guilt       : █ 0.10
+Hope        : ████ 0.40
+Regret      : █ 0.10
+
+
+### Emotional Changes
+No significant emotional changes
+
+### Recent Emotional History
+No emotional history available
+
+## Vision Development
+Vision Development Metrics:
+visual_acuity       : █ 0.100
+color_perception    :  0.000
+depth_perception    :  0.000
+pattern_recognition :  0.000
+object_permanence   :  0.000
+visual_memory       :  0.000
+attention_span      : █ 0.100
+
+
+## Metadata
+- Generated: 2025-02-20 15:51:45
+- Words Used: 3077
+- Stage: NEWBORN
+- Age: 0 months
+
+## Connections
+[[Dreams/Index]]
+[[Development/NEWBORN]]
+[[Emotional/States]]
+[[Vocabulary/Current]]
+[[Development/Timeline]]

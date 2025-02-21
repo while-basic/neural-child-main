@@ -1,5 +1,5 @@
 # language_development.py
-# Description: Language development system for neural child
+# Description: Language development module for neural child development
 # Created by: Christopher Celaya
 
 import torch
@@ -14,26 +14,27 @@ from datetime import datetime
 import spacy
 from transformers import pipeline
 from llm_module import chat_completion
+from developmental_stages import DevelopmentalStage
 
 class LanguageStage(Enum):
     """Language development stages"""
-    PRELINGUISTIC = auto()  # 0-12 months
-    HOLOPHRASTIC = auto()   # 12-18 months
-    TELEGRAPHIC = auto()    # 18-24 months
-    MULTIWORD = auto()      # 2-3 years
-    COMPLEX = auto()        # 3-5 years
-    ADVANCED = auto()       # 5+ years
-    MASTERY = auto()        # Adult level
+    PRELINGUISTIC = auto()    # 0-12 months
+    HOLOPHRASTIC = auto()     # 12-18 months
+    TELEGRAPHIC = auto()      # 18-24 months
+    FUNCTIONAL = auto()         # 2-3 years
+    FLUENT = auto()           # 7+ years
+    ADVANCED = auto()          # 5-7 years
 
 class WordCategory(Enum):
-    NOUN = auto()
-    VERB = auto()
-    ADJECTIVE = auto()
-    PRONOUN = auto()
-    PREPOSITION = auto()
-    ARTICLE = auto()
-    ADVERB = auto()
-    INTERJECTION = auto()
+    """Categories for vocabulary tracking"""
+    NOUNS = auto()
+    VERBS = auto()
+    ADJECTIVES = auto()
+    PRONOUNS = auto()
+    PREPOSITIONS = auto()
+    ARTICLES = auto()
+    CONJUNCTIONS = auto()
+    ADVERBS = auto()
 
 class LanguageDevelopment(nn.Module):
     def __init__(self, device='cpu'):
@@ -55,7 +56,10 @@ class LanguageDevelopment(nn.Module):
             'verbs': set(),
             'adjectives': set(),
             'social': set(),  # Greetings, social phrases
-            'emotions': set() # Emotion words
+            'emotions': set(), # Emotion words
+            'understood': set(),  # Words the child understands
+            'spoken': set(),      # Words the child can speak
+            'complex': set()      # Complex words/phrases
         }
         
         # Track known words
@@ -69,14 +73,13 @@ class LanguageDevelopment(nn.Module):
         
         # Stage-specific utterance patterns
         self.utterance_patterns = {
-            LanguageStage.PRELINGUISTIC: ["OOH!", "AAH!", "WAAH!", "BAH!", "MAH!"],
             LanguageStage.HOLOPHRASTIC: ["MAMA!", "DADA!", "BALL!", "UP!", "NO!"],
             LanguageStage.TELEGRAPHIC: ["WANT MILK", "MORE PLAY", "BIG BALL", "DADDY GO"],
-            LanguageStage.MULTIWORD: ["I WANT MILK", "PLAY WITH ME", "MOMMY READ BOOK"],
-            LanguageStage.COMPLEX: ["Can I have milk please?", "I want to play with my toys."],
+            LanguageStage.FUNCTIONAL: ["I WANT MILK", "PLAY WITH ME", "MOMMY READ BOOK"],
+            LanguageStage.FLUENT: ["Can I have milk please?", "I want to play with my toys."],
             LanguageStage.ADVANCED: ["I would appreciate if you could help me with this task.", 
                                    "The metaphorical implications of this story are fascinating."],
-            LanguageStage.MASTERY: ["The intricate interplay between syntax and semantics reveals deeper linguistic patterns.",
+            LanguageStage.FLUENT: ["The intricate interplay between syntax and semantics reveals deeper linguistic patterns.",
                                    "Let's analyze the sociolinguistic implications of this discourse."]
         }
         
@@ -88,7 +91,13 @@ class LanguageDevelopment(nn.Module):
             'vocabulary_size': 0,
             'grammar_complexity': 0.0,
             'comprehension_level': 0.0,
-            'expression_level': 0.0
+            'expression_level': 0.0,
+            'utterance_length': 0.0,  # Average length of utterances
+            'pronunciation_accuracy': 0.3,  # Start with basic pronunciation accuracy
+            'total_interactions': 0,
+            'unique_words_used': 0,
+            'complex_sentences': 0,
+            'grammar_score': 0.0
         }
         
         # Initialize phoneme mastery
@@ -131,42 +140,72 @@ class LanguageDevelopment(nn.Module):
         # Initialize basic vocabulary
         self._initialize_basic_vocabulary()
         
+        # Initialize stage mapping
+        self.stage_to_language = {
+            DevelopmentalStage.NEWBORN: LanguageStage.HOLOPHRASTIC,
+            DevelopmentalStage.INFANT: LanguageStage.HOLOPHRASTIC,
+            DevelopmentalStage.EARLY_TODDLER: LanguageStage.TELEGRAPHIC,
+            DevelopmentalStage.LATE_TODDLER: LanguageStage.TELEGRAPHIC,
+            DevelopmentalStage.EARLY_PRESCHOOL: LanguageStage.FUNCTIONAL,
+            DevelopmentalStage.LATE_PRESCHOOL: LanguageStage.FUNCTIONAL,
+            DevelopmentalStage.EARLY_CHILDHOOD: LanguageStage.FLUENT,
+            DevelopmentalStage.MIDDLE_CHILDHOOD: LanguageStage.ADVANCED,
+            DevelopmentalStage.LATE_CHILDHOOD: LanguageStage.FLUENT,
+            DevelopmentalStage.PRE_ADOLESCENT: LanguageStage.ADVANCED,
+            DevelopmentalStage.EARLY_TEEN: LanguageStage.FLUENT,
+            DevelopmentalStage.MID_TEEN: LanguageStage.FLUENT,
+            DevelopmentalStage.LATE_TEEN: LanguageStage.FLUENT,
+            DevelopmentalStage.YOUNG_ADULT: LanguageStage.FLUENT,
+            DevelopmentalStage.EARLY_TWENTIES: LanguageStage.FLUENT,
+            DevelopmentalStage.LATE_TWENTIES: LanguageStage.FLUENT
+        }
+        
+        # Initialize stage requirements
+        self.stage_requirements = {
+            LanguageStage.PRELINGUISTIC: {
+                'vocab_size': 0,
+                'interaction_count': 10
+            },
+            LanguageStage.HOLOPHRASTIC: {
+                'vocab_size': 10,
+                'interaction_count': 50
+            },
+            LanguageStage.TELEGRAPHIC: {
+                'vocab_size': 50,
+                'interaction_count': 100
+            },
+            LanguageStage.FUNCTIONAL: {
+                'vocab_size': 200,
+                'interaction_count': 500
+            },
+            LanguageStage.FLUENT: {
+                'vocab_size': 1000,
+                'interaction_count': 1000
+            },
+            LanguageStage.ADVANCED: {
+                'vocab_size': 5000,
+                'interaction_count': 2000
+            }
+        }
+        
     def initialize_stage_patterns(self):
         """Initialize language patterns for each developmental stage"""
         self.stage_patterns = {
-            LanguageStage.PRELINGUISTIC: {
-                'sounds': ['aa', 'oo', 'ee', 'ma', 'ba', 'da'],
-                'patterns': ['CV', 'CVCV'],  # C=consonant, V=vowel
-                'intonations': ['rising', 'falling', 'flat']
-            },
             LanguageStage.HOLOPHRASTIC: {
-                'word_types': ['mama', 'dada', 'no', 'more', 'up'],
-                'contexts': ['needs', 'wants', 'observations'],
-                'gestures': ['pointing', 'reaching', 'showing']
+                'sounds': ['mama', 'dada', 'no', 'more', 'up'],
+                'patterns': ['CV'],  # C=consonant, V=vowel
+                'intonations': ['rising', 'falling', 'flat']
             },
             LanguageStage.TELEGRAPHIC: {
                 'combinations': ['noun+verb', 'adjective+noun', 'verb+object'],
                 'meanings': ['action', 'possession', 'location', 'description']
             },
-            LanguageStage.MULTIWORD: {
+            LanguageStage.FUNCTIONAL: {
                 'sentence_patterns': ['subject-verb-object', 'subject-verb'],
                 'question_forms': ['what', 'where', 'who'],
                 'tenses': ['present']
             },
-            LanguageStage.COMPLEX: {
-                'sentence_types': ['compound', 'complex'],
-                'tenses': ['present', 'past', 'future'],
-                'modalities': ['can', 'should', 'might']
-            },
-            LanguageStage.ADVANCED: {
-                'sentence_types': ['compound', 'complex', 'compound-complex'],
-                'tenses': ['present', 'past', 'future', 'perfect', 'progressive'],
-                'modalities': ['can', 'should', 'might', 'must', 'would', 'could'],
-                'rhetoric': ['metaphor', 'simile', 'personification'],
-                'discourse': ['argumentation', 'exposition', 'narrative'],
-                'registers': ['formal', 'informal', 'academic', 'colloquial']
-            },
-            LanguageStage.MASTERY: {
+            LanguageStage.FLUENT: {
                 'sentence_types': ['all'],
                 'tenses': ['all'],
                 'modalities': ['all'],
@@ -176,28 +215,36 @@ class LanguageDevelopment(nn.Module):
                 'metalinguistic': ['language analysis', 'linguistic theory'],
                 'creativity': ['neologisms', 'wordplay', 'poetry'],
                 'expertise': ['technical', 'academic', 'professional']
+            },
+            LanguageStage.ADVANCED: {
+                'sentence_types': ['compound', 'complex', 'compound-complex'],
+                'tenses': ['present', 'past', 'future', 'perfect', 'progressive'],
+                'modalities': ['can', 'should', 'might', 'must', 'would', 'could'],
+                'rhetoric': ['metaphor', 'simile', 'personification'],
+                'discourse': ['argumentation', 'exposition', 'narrative'],
+                'registers': ['formal', 'informal', 'academic', 'colloquial']
             }
         }
     
     def _initialize_linguistic_rules(self):
         """Initialize linguistic rules for word categorization"""
         self.linguistic_rules = {
-            WordCategory.NOUN: {
+            WordCategory.NOUNS: {
                 'suffixes': ['ness', 'ment', 'ship', 'dom', 'er', 'or', 'ist'],
                 'prefixes': ['super', 'sub', 'inter', 'trans'],
                 'patterns': [r'^[A-Z][a-z]+$']  # Proper nouns
             },
-            WordCategory.VERB: {
+            WordCategory.VERBS: {
                 'suffixes': ['ate', 'ize', 'ify', 'en', 'ed', 'ing'],
                 'prefixes': ['re', 'un', 'dis', 'mis'],
                 'patterns': [r'[a-z]+(?:ed|ing|s)$']
             },
-            WordCategory.ADJECTIVE: {
+            WordCategory.ADJECTIVES: {
                 'suffixes': ['ful', 'ous', 'able', 'ible', 'al', 'ive', 'less', 'ish'],
                 'prefixes': ['un', 'in', 'im', 'il', 'ir'],
                 'patterns': [r'[a-z]+(?:er|est)$']
             },
-            WordCategory.ADVERB: {
+            WordCategory.ADVERBS: {
                 'suffixes': ['ly', 'ward', 'wise'],
                 'patterns': [r'[a-z]+ly$']
             }
@@ -205,10 +252,11 @@ class LanguageDevelopment(nn.Module):
         
         # Common words by category
         self.common_words = {
-            WordCategory.PRONOUN: {'i', 'me', 'you', 'he', 'she', 'it', 'we', 'they', 'my', 'your'},
-            WordCategory.PREPOSITION: {'in', 'on', 'at', 'by', 'for', 'with', 'to', 'from', 'of'},
-            WordCategory.ARTICLE: {'a', 'an', 'the'},
-            WordCategory.INTERJECTION: {'oh', 'wow', 'oops', 'yay', 'hey', 'hi', 'hello', 'bye'}
+            WordCategory.PRONOUNS: {'i', 'me', 'you', 'he', 'she', 'it', 'we', 'they', 'my', 'your'},
+            WordCategory.PREPOSITIONS: {'in', 'on', 'at', 'by', 'for', 'with', 'to', 'from', 'of'},
+            WordCategory.ARTICLES: {'a', 'an', 'the'},
+            WordCategory.CONJUNCTIONS: {'and', 'but', 'because'},
+            WordCategory.ADVERBS: {'now', 'more'}
         }
     
     def _categorize_word(self, word: str) -> WordCategory:
@@ -226,14 +274,14 @@ class LanguageDevelopment(nn.Module):
         
         # Map spaCy POS tags to WordCategory
         pos_mapping = {
-            'NOUN': WordCategory.NOUN,
-            'VERB': WordCategory.VERB,
-            'ADJ': WordCategory.ADJECTIVE,
-            'ADV': WordCategory.ADVERB,
-            'PRON': WordCategory.PRONOUN,
-            'ADP': WordCategory.PREPOSITION,
-            'DET': WordCategory.ARTICLE,
-            'INTJ': WordCategory.INTERJECTION
+            'NOUN': WordCategory.NOUNS,
+            'VERB': WordCategory.VERBS,
+            'ADJ': WordCategory.ADJECTIVES,
+            'ADV': WordCategory.ADVERBS,
+            'PRON': WordCategory.PRONOUNS,
+            'ADP': WordCategory.PREPOSITIONS,
+            'DET': WordCategory.ARTICLES,
+            'CONJ': WordCategory.CONJUNCTIONS
         }
         
         if pos_tag in pos_mapping:
@@ -257,7 +305,7 @@ class LanguageDevelopment(nn.Module):
                     return category
         
         # Default to NOUN if no other category is determined
-        return WordCategory.NOUN
+        return WordCategory.NOUNS
     
     def learn_from_interaction(self, utterance: str, emotional_state: torch.Tensor, 
                              developmental_stage: str) -> Dict[str, Any]:
@@ -279,11 +327,7 @@ class LanguageDevelopment(nn.Module):
         """
         
         try:
-            enriched_data = chat_completion(
-                system_prompt="You are a language development expert helping a child learn new words.",
-                user_prompt=enrichment_prompt,
-                structured_output=True
-            )
+            enriched_data = chat_completion(enrichment_prompt, structured_output=True)
             
             if enriched_data and isinstance(enriched_data, dict):
                 # Process core words
@@ -339,14 +383,12 @@ class LanguageDevelopment(nn.Module):
         
         # Update language stage based on progress
         if self.stage_progress >= 0.8:
-            if self.current_stage == LanguageStage.PRELINGUISTIC:
-                self.current_stage = LanguageStage.HOLOPHRASTIC
-            elif self.current_stage == LanguageStage.HOLOPHRASTIC:
+            if self.current_stage == LanguageStage.HOLOPHRASTIC:
                 self.current_stage = LanguageStage.TELEGRAPHIC
             elif self.current_stage == LanguageStage.TELEGRAPHIC:
-                self.current_stage = LanguageStage.MULTIWORD
-            elif self.current_stage == LanguageStage.MULTIWORD:
-                self.current_stage = LanguageStage.COMPLEX
+                self.current_stage = LanguageStage.FUNCTIONAL
+            elif self.current_stage == LanguageStage.FUNCTIONAL:
+                self.current_stage = LanguageStage.FLUENT
         
         return {
             'current_stage': self.current_stage.value,
@@ -354,23 +396,23 @@ class LanguageDevelopment(nn.Module):
             'new_words': list(new_words),
             'metrics': {
                 'vocabulary_size': total_vocab_size,
-                'nouns': len(self.vocabulary[WordCategory.NOUN]),
-                'verbs': len(self.vocabulary[WordCategory.VERB]),
-                'adjectives': len(self.vocabulary[WordCategory.ADJECTIVE])
+                'nouns': len(self.vocabulary[WordCategory.NOUNS]),
+                'verbs': len(self.vocabulary[WordCategory.VERBS]),
+                'adjectives': len(self.vocabulary[WordCategory.ADJECTIVES])
             }
         }
     
     def _map_category(self, category_str: str) -> Optional[WordCategory]:
         """Map string category to WordCategory enum"""
         category_map = {
-            'noun': WordCategory.NOUN,
-            'verb': WordCategory.VERB,
-            'adjective': WordCategory.ADJECTIVE,
-            'adverb': WordCategory.ADVERB,
-            'pronoun': WordCategory.PRONOUN,
-            'preposition': WordCategory.PREPOSITION,
-            'article': WordCategory.ARTICLE,
-            'interjection': WordCategory.INTERJECTION
+            'noun': WordCategory.NOUNS,
+            'verb': WordCategory.VERBS,
+            'adjective': WordCategory.ADJECTIVES,
+            'adverb': WordCategory.ADVERBS,
+            'pronoun': WordCategory.PRONOUNS,
+            'preposition': WordCategory.PREPOSITIONS,
+            'article': WordCategory.ARTICLES,
+            'conjunction': WordCategory.CONJUNCTIONS
         }
         return category_map.get(category_str.lower())
     
@@ -386,23 +428,13 @@ class LanguageDevelopment(nn.Module):
         # Modify selection based on emotional state
         joy, trust, fear, surprise = emotional_state.cpu().numpy()
         
-        if self.current_stage == LanguageStage.PRELINGUISTIC:
+        if self.current_stage == LanguageStage.HOLOPHRASTIC:
             if joy > 0.7 or trust > 0.7:
-                return np.random.choice(['OOH!', 'AAH!'])
+                return np.random.choice(['MAMA!', 'DADA!'])
             elif fear > 0.7:
-                return 'WAAH!'
+                return 'NO!'
             elif surprise > 0.7:
-                return np.random.choice(['OOH!', 'BAH!'])
-            else:
-                return np.random.choice(patterns)
-        
-        elif self.current_stage == LanguageStage.HOLOPHRASTIC:
-            if 'milk' in context.lower() or 'hungry' in context.lower():
-                return 'MILK!'
-            elif 'play' in context.lower():
-                return 'PLAY!'
-            elif any(word in context.lower() for word in ['sleep', 'nap', 'tired']):
-                return 'SLEEP!'
+                return np.random.choice(['MAMA!', 'BALL!'])
             else:
                 return np.random.choice(patterns)
         
@@ -416,17 +448,7 @@ class LanguageDevelopment(nn.Module):
             else:
                 return np.random.choice(patterns)
         
-        elif self.current_stage == LanguageStage.MULTIWORD:
-            if is_positive and (joy > 0.6 or trust > 0.6):
-                return 'I VERY HAPPY'
-            elif fear > 0.6:
-                return 'I FEEL SCARED'
-            elif 'play' in context.lower():
-                return 'I WANT PLAY NOW'
-            else:
-                return np.random.choice(patterns)
-        
-        elif self.current_stage == LanguageStage.COMPLEX:
+        elif self.current_stage == LanguageStage.FUNCTIONAL:
             if is_positive and (joy > 0.6 or trust > 0.6):
                 return "I'm feeling very happy!"
             elif fear > 0.6:
@@ -435,9 +457,9 @@ class LanguageDevelopment(nn.Module):
                 return "Can we play together?"
             else:
                 return np.random.choice(patterns)
-                
-        elif self.current_stage == LanguageStage.ADVANCED:
-            # Advanced stage responses based on context
+        
+        elif self.current_stage == LanguageStage.FLUENT:
+            # Mastery stage responses with high sophistication
             context_responses = {
                 'philosophy': [
                     "The philosophical implications of that perspective are fascinating.",
@@ -467,8 +489,8 @@ class LanguageDevelopment(nn.Module):
                     return np.random.choice(responses)
             
             return np.random.choice(self.utterance_patterns[LanguageStage.ADVANCED])
-            
-        else:  # MASTERY stage
+        
+        else:  # ADVANCED stage
             # Mastery stage responses with high sophistication
             context_responses = {
                 'philosophy': [
@@ -494,11 +516,11 @@ class LanguageDevelopment(nn.Module):
                 if key in context.lower():
                     return np.random.choice(responses)
             
-            return np.random.choice(self.utterance_patterns[LanguageStage.MASTERY])
+            return np.random.choice(self.utterance_patterns[LanguageStage.FLUENT])
     
     def _generate_prelinguistic(self) -> str:
         """Generate prelinguistic sounds (crying, cooing, babbling)"""
-        patterns = self.stage_patterns[LanguageStage.PRELINGUISTIC]
+        patterns = self.stage_patterns[LanguageStage.HOLOPHRASTIC]
         
         if self.stage_progress < 0.3:  # Early stage - crying and basic sounds
             sounds = ['waah', 'aah', 'ooh']
@@ -521,7 +543,7 @@ class LanguageDevelopment(nn.Module):
                 suitable_words.append(word)
         
         if not suitable_words:  # Fallback to stage patterns
-            suitable_words = self.stage_patterns[LanguageStage.HOLOPHRASTIC]['word_types']
+            suitable_words = self.stage_patterns[LanguageStage.HOLOPHRASTIC]['sounds']
         
         word = np.random.choice(suitable_words)
         
@@ -539,30 +561,30 @@ class LanguageDevelopment(nn.Module):
         pattern = np.random.choice(patterns)
         
         if pattern == 'noun+verb':
-            noun = self._get_suitable_word(WordCategory.NOUN, emotional_state)
-            verb = self._get_suitable_word(WordCategory.VERB, emotional_state)
+            noun = self._get_suitable_word(WordCategory.NOUNS, emotional_state)
+            verb = self._get_suitable_word(WordCategory.VERBS, emotional_state)
             return f"{noun} {verb}"
         elif pattern == 'adjective+noun':
-            adj = self._get_suitable_word(WordCategory.ADJECTIVE, emotional_state)
-            noun = self._get_suitable_word(WordCategory.NOUN, emotional_state)
+            adj = self._get_suitable_word(WordCategory.ADJECTIVES, emotional_state)
+            noun = self._get_suitable_word(WordCategory.NOUNS, emotional_state)
             return f"{adj} {noun}"
         else:  # verb+object
-            verb = self._get_suitable_word(WordCategory.VERB, emotional_state)
-            obj = self._get_suitable_word(WordCategory.NOUN, emotional_state)
+            verb = self._get_suitable_word(WordCategory.VERBS, emotional_state)
+            obj = self._get_suitable_word(WordCategory.NOUNS, emotional_state)
             return f"{verb} {obj}"
     
     def _generate_multiword(self, context: str, emotional_state: torch.Tensor) -> str:
         """Generate simple sentences"""
-        pattern = np.random.choice(self.stage_patterns[LanguageStage.MULTIWORD]['sentence_patterns'])
+        pattern = np.random.choice(self.stage_patterns[LanguageStage.FUNCTIONAL]['sentence_patterns'])
         
         if pattern == 'subject-verb-object':
-            subj = self._get_suitable_word(WordCategory.NOUN, emotional_state)
-            verb = self._get_suitable_word(WordCategory.VERB, emotional_state)
-            obj = self._get_suitable_word(WordCategory.NOUN, emotional_state)
+            subj = self._get_suitable_word(WordCategory.NOUNS, emotional_state)
+            verb = self._get_suitable_word(WordCategory.VERBS, emotional_state)
+            obj = self._get_suitable_word(WordCategory.NOUNS, emotional_state)
             return f"{subj} {verb} {obj}"
         else:  # subject-verb
-            subj = self._get_suitable_word(WordCategory.NOUN, emotional_state)
-            verb = self._get_suitable_word(WordCategory.VERB, emotional_state)
+            subj = self._get_suitable_word(WordCategory.NOUNS, emotional_state)
+            verb = self._get_suitable_word(WordCategory.VERBS, emotional_state)
             return f"{subj} {verb}"
     
     def _generate_complex(self, context: str, emotional_state: torch.Tensor) -> str:
@@ -581,14 +603,14 @@ class LanguageDevelopment(nn.Module):
         if not suitable_words:
             # Fallback words for each category
             fallbacks = {
-                WordCategory.NOUN: ['mama', 'dada', 'baby'],
-                WordCategory.VERB: ['want', 'see', 'go'],
-                WordCategory.ADJECTIVE: ['good', 'bad', 'big'],
-                WordCategory.PRONOUN: ['me', 'you', 'it'],
-                WordCategory.PREPOSITION: ['up', 'in', 'on'],
-                WordCategory.ARTICLE: ['a', 'the'],
-                WordCategory.ADVERB: ['now', 'more'],
-                WordCategory.INTERJECTION: ['oh', 'wow', 'yay']
+                WordCategory.NOUNS: ['mama', 'dada', 'baby'],
+                WordCategory.VERBS: ['want', 'see', 'go'],
+                WordCategory.ADJECTIVES: ['good', 'bad', 'big'],
+                WordCategory.PRONOUNS: ['me', 'you', 'it'],
+                WordCategory.PREPOSITIONS: ['up', 'in', 'on'],
+                WordCategory.ARTICLES: ['a', 'the'],
+                WordCategory.CONJUNCTIONS: ['and', 'but', 'because'],
+                WordCategory.ADVERBS: ['now', 'more']
             }
             return np.random.choice(fallbacks[category])
         
@@ -710,11 +732,7 @@ class LanguageDevelopment(nn.Module):
         """
         
         try:
-            enriched_data = chat_completion(
-                system_prompt="You are a language development expert helping expand a child's vocabulary.",
-                user_prompt=enrichment_prompt,
-                structured_output=True
-            )
+            enriched_data = chat_completion(enrichment_prompt, structured_output=True)
             
             new_words = set()
             if enriched_data and isinstance(enriched_data, dict):
@@ -787,11 +805,7 @@ class LanguageDevelopment(nn.Module):
         """
         
         try:
-            response = chat_completion(
-                system_prompt="You are a child development expert identifying learning concepts.",
-                user_prompt=concept_prompt,
-                structured_output=True
-            )
+            response = chat_completion(concept_prompt, structured_output=True)
             
             if isinstance(response, dict) and "concepts" in response:
                 return response["concepts"]
@@ -853,7 +867,7 @@ class LanguageDevelopment(nn.Module):
         if self.current_stage == LanguageStage.TELEGRAPHIC:
             return len(words) <= 3
             
-        if self.current_stage == LanguageStage.MULTIWORD:
+        if self.current_stage == LanguageStage.FUNCTIONAL:
             return len(words) <= 5
             
         return True
@@ -916,3 +930,240 @@ class LanguageDevelopment(nn.Module):
         basic_adjectives = ['big', 'small', 'good', 'bad']
         for word in basic_adjectives:
             self.learn_word(word, 'adjectives') 
+
+    def process_input(self, text: str, emotional_state: Optional[torch.Tensor] = None) -> Dict[str, Any]:
+        """Process input text and generate appropriate response based on current stage"""
+        try:
+            # Clean and normalize input
+            text = text.strip()
+            
+            # Extract new words and concepts
+            new_words = self.identify_new_words(text)
+            new_concepts = self.identify_new_concepts(text)
+            
+            # Update word frequencies
+            self.update_word_frequency(text)
+            
+            # Calculate comprehension level
+            comprehension = self.can_understand(text)
+            
+            # Generate stage-appropriate response
+            if self.current_stage == LanguageStage.PRELINGUISTIC:
+                response = self._generate_prelinguistic()
+            elif self.current_stage == LanguageStage.HOLOPHRASTIC:
+                response = self._generate_holophrastic(emotional_state if emotional_state is not None 
+                                                     else torch.tensor([0.5, 0.5, 0.2, 0.3]))
+            elif self.current_stage == LanguageStage.TELEGRAPHIC:
+                response = self._generate_telegraphic(text, emotional_state if emotional_state is not None 
+                                                    else torch.tensor([0.5, 0.5, 0.2, 0.3]))
+            elif self.current_stage == LanguageStage.FUNCTIONAL:
+                response = self._generate_multiword(text, emotional_state if emotional_state is not None 
+                                                  else torch.tensor([0.5, 0.5, 0.2, 0.3]))
+            else:  # FLUENT, ADVANCED
+                response = self._generate_complex(text, emotional_state if emotional_state is not None 
+                                               else torch.tensor([0.5, 0.5, 0.2, 0.3]))
+            
+            # Update metrics
+            self._update_metrics(response)
+            
+            # Store response in recent utterances
+            self.recent_utterances.append(response)
+            if len(self.recent_utterances) > 10:
+                self.recent_utterances.pop(0)
+            
+            return {
+                'response': response,
+                'new_words': new_words,
+                'new_concepts': new_concepts,
+                'comprehension': comprehension,
+                'stage': self.current_stage.name,
+                'stage_progress': self.stage_progress,
+                'metrics': self.metrics
+            }
+            
+        except Exception as e:
+            print(f"Error processing input: {str(e)}")
+            return {
+                'response': "...",  # Default response based on stage
+                'error': str(e)
+            } 
+
+    def update_stage(self, developmental_stage: DevelopmentalStage):
+        """Update language stage based on developmental stage"""
+        if developmental_stage in self.stage_to_language:
+            self.current_stage = self.stage_to_language[developmental_stage] 
+
+    def process_interaction(self, text: str) -> Dict:
+        """Process a language interaction"""
+        # Update interaction count
+        self.metrics['total_interactions'] += 1
+        
+        # Extract words and update vocabulary
+        words = set(text.lower().split())
+        self.vocabulary['understood'].update(words)
+        self.metrics['unique_words_used'] = len(self.vocabulary['understood'])
+        
+        # Calculate progress
+        self._update_progress()
+        
+        return {
+            'new_words': len(words - self.vocabulary['understood']),
+            'vocab_size': len(self.vocabulary['understood']),
+            'stage': self.current_stage,
+            'progress': self.stage_progress
+        }
+        
+    def _update_progress(self) -> None:
+        """Update language development progress"""
+        current_reqs = self.stage_requirements[self.current_stage]
+        
+        # Calculate progress based on vocabulary and interactions
+        vocab_progress = min(1.0, len(self.vocabulary['understood']) / current_reqs['vocab_size']) if current_reqs['vocab_size'] > 0 else 1.0
+        interaction_progress = min(1.0, self.metrics['total_interactions'] / current_reqs['interaction_count'])
+        
+        # Update stage progress
+        self.stage_progress = (vocab_progress + interaction_progress) / 2.0
+        
+        # Check for stage advancement
+        if self.stage_progress >= 1.0:
+            self._advance_stage()
+            
+    def _advance_stage(self) -> None:
+        """Advance to the next language stage if available"""
+        stages = list(LanguageStage)
+        current_index = stages.index(self.current_stage)
+        
+        if current_index < len(stages) - 1:
+            self.current_stage = stages[current_index + 1]
+            self.stage_progress = 0.0
+            
+    def get_metrics(self) -> Dict:
+        """Get current language development metrics"""
+        return {
+            'stage': self.current_stage,
+            'progress': self.stage_progress,
+            'vocabulary_size': len(self.vocabulary['understood']),
+            'total_interactions': self.metrics['total_interactions'],
+            'grammar_score': self.metrics['grammar_score']
+        } 
+
+    def update_metrics(self, text: str):
+        """Update metrics based on generated text"""
+        # Update total interactions
+        self.metrics['total_interactions'] += 1
+        
+        # Update unique words
+        words = set(text.lower().split())
+        self.metrics['unique_words_used'] = len(words)
+        
+        # Update complex sentences
+        sentences = text.split('.')
+        complex_count = sum(1 for s in sentences if len(s.split()) > 10)
+        self.metrics['complex_sentences'] = complex_count
+        
+        # Calculate grammar score
+        doc = self.nlp(text)
+        pos_tags = [token.pos_ for token in doc]
+        unique_pos = len(set(pos_tags))
+        self.metrics['grammar_score'] = min(1.0, unique_pos / 10)  # Normalize by expected max of 10 POS tags 
+
+    def learn_new_word(self, word: str) -> bool:
+        """
+        Learn a new word and add it to vocabulary
+        
+        Args:
+            word (str): Word to learn
+            
+        Returns:
+            bool: Whether word was successfully learned
+        """
+        try:
+            prompt = f"""
+            Help a child learn the following word by providing a simple definition and example:
+            
+            Word: {word}
+            
+            Response format:
+            Definition: <simple definition>
+            Example: <example sentence>
+            """
+            
+            response = chat_completion(prompt)
+            
+            if response:
+                self.vocabulary.add(word.lower())
+                return True
+                
+            return False
+            
+        except Exception as e:
+            print(f"Error learning word: {e}")
+            return False
+
+    def expand_vocabulary(self, text: str) -> List[str]:
+        """
+        Extract new words from text to expand vocabulary
+        
+        Args:
+            text (str): Input text to analyze
+            
+        Returns:
+            List[str]: List of new words learned
+        """
+        try:
+            prompt = f"""
+            Identify 3-5 key words from the following text that would be good for a child to learn:
+            
+            Text: {text}
+            
+            Response format:
+            word1, word2, word3
+            """
+            
+            response = chat_completion(prompt)
+            
+            if response:
+                new_words = []
+                for word in response.split(','):
+                    word = word.strip().lower()
+                    if word not in self.vocabulary:
+                        if self.learn_new_word(word):
+                            new_words.append(word)
+                return new_words
+                
+            return []
+            
+        except Exception as e:
+            print(f"Error expanding vocabulary: {e}")
+            return []
+
+    def identify_learning_concepts(self, text: str) -> List[str]:
+        """
+        Identify key learning concepts from text
+        
+        Args:
+            text (str): Input text to analyze
+            
+        Returns:
+            List[str]: List of identified learning concepts
+        """
+        try:
+            prompt = f"""
+            Identify key learning concepts from the following text that would be valuable for child development:
+            
+            Text: {text}
+            
+            Response format:
+            concept1, concept2, concept3
+            """
+            
+            response = chat_completion(prompt)
+            
+            if response:
+                return [c.strip() for c in response.split(',')]
+                
+            return []
+            
+        except Exception as e:
+            print(f"Error identifying concepts: {e}")
+            return [] 
